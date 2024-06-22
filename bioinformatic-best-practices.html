@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Matt Krantz">
-<meta name="dcterms.date" content="2024-06-22">
 
-<title>Translational Bioinformatics for Immunogenomics</title>
+<title>Translational Bioinformatics for Immunogenomics - 6&nbsp; Bioinformatic Best Practices</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
+<link href="./presenting-your-medical-research.html" rel="next">
+<link href="./genotype-imputation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Translational Bioinformatics for Immunogenomics</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bioinformatic Best Practices</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -96,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Welcome</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -131,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bioinformatic-best-practices.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bioinformatic Best Practices</span></a>
+  <a href="./bioinformatic-best-practices.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bioinformatic Best Practices</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -153,7 +152,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#project-organization" id="toc-project-organization" class="nav-link active" data-scroll-target="#project-organization"><span class="toc-section-number">6.1</span>  Project Organization</a></li>
+  <li><a href="#version-control-with-git" id="toc-version-control-with-git" class="nav-link" data-scroll-target="#version-control-with-git"><span class="toc-section-number">6.2</span>  Version Control with Git</a></li>
+  <li><a href="#file-naming-conventions" id="toc-file-naming-conventions" class="nav-link" data-scroll-target="#file-naming-conventions"><span class="toc-section-number">6.3</span>  File Naming Conventions</a></li>
+  <li><a href="#application-containers-with-docker" id="toc-application-containers-with-docker" class="nav-link" data-scroll-target="#application-containers-with-docker"><span class="toc-section-number">6.4</span>  Application Containers with Docker</a></li>
   </ul>
 </nav>
     </div>
@@ -162,35 +164,98 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Translational Bioinformatics for Immunogenomics</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bioinformatic Best Practices</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Matt Krantz </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 22, 2024</p>
-    </div>
-  </div>
     
   </div>
   
 
 </header>
 
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome</h1>
-<p>A few key web sources include the <a href="https://www.ebi.ac.uk/ipd/">Immuno Polymorphism Database</a> and <a href="https://www.allelefrequencies.net/">Allele Frequency Net Database</a>.</p>
+<p>I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (Peikert &amp; Brandmaier, 2021).</p>
+<section id="project-organization" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="project-organization"><span class="header-section-number">6.1</span> Project Organization</h2>
+<p><strong>Bash Commands to Create Folder Directory Structure for Your R Project</strong></p>
+<pre class="{bash}"><code>cd &lt;/path/to/parent/directory&gt;
+mkdir &lt;your-r-project-folder&gt;
+cd &lt;your-r-project-folder&gt;
+touch README.md
+mkdir data doc src bin outputs</code></pre>
+<p>Once you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: <code>chmod u-w -R data/</code></p>
+</section>
+<section id="version-control-with-git" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="version-control-with-git"><span class="header-section-number">6.2</span> Version Control with Git</h2>
+<p>I recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.</p>
+<p><strong>Verify Git Installation and Version</strong></p>
+<pre class="{bash}"><code>which git # request path to your Git executable
+git --version # check your Git version</code></pre>
+<p><strong>Introduce Yourself to Git</strong></p>
+<pre class="{bash}"><code>git config --global user.name "&lt;username&gt;"
+git config --global user.email "&lt;email&gt;"</code></pre>
+<p><strong>Create a New Repository on GitHub</strong></p>
+<p>Go to GitHub to create your new repository, then initialize your repository from the command line.</p>
+<pre class="{bash}"><code>cd &lt;/path/to/your-r-project-folder&gt;
+echo "# your-r-project-folder" &gt;&gt; README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/&lt;user.name&gt;/&lt;your-repository&gt;.git
+git push -u origin main</code></pre>
+<p><strong>Add, Commit, and Push Files to Remote Repository</strong></p>
+<pre class="{bash}"><code>git add &lt;file-name&gt;
+git commit -m "description"
+git push</code></pre>
+</section>
+<section id="file-naming-conventions" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="file-naming-conventions"><span class="header-section-number">6.3</span> File Naming Conventions</h2>
+<p>In your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the File Naming Conventions Worksheet (Briney, 2020) to develop your file naming conventions.</p>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 51%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Metadata</strong></th>
+<th style="text-align: center;"><strong>Separator</strong></th>
+<th style="text-align: center;"><strong>Version</strong> <strong>Tracking</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">3 to 5 pieces max<br>
+(e.g.&nbsp;sample ID, date in<br>
+ISO 8601 format such as<br>
+YYYY-MM-DD)</td>
+<td style="text-align: center;">Dashes (-), underscore (_), or camel case (i.e., capitalize each word without spaces)</td>
+<td style="text-align: center;">Numeric (e.g., v01) or Status (e.g., raw, processed)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Example
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>My naming convention for R Markdown analysis files is: “analysis-YYYY-MM-DD-version.Rmd” where version starts with “v01.” This is my first analysis file, “analysis-YYYY-MM-DD-v01.Rmd”</p>
+</div>
+</div>
+</section>
+<section id="application-containers-with-docker" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="application-containers-with-docker"><span class="header-section-number">6.4</span> Application Containers with Docker</h2>
 
 
 </section>
@@ -296,10 +361,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./genotype-imputation.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genotype Imputation</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text">Introduction</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./presenting-your-medical-research.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Presenting Your Medical Research</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

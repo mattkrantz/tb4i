@@ -60,35 +60,35 @@
     "href": "kir.html#kir-locus",
     "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "2.2 KIR Locus",
-    "text": "2.2 KIR Locus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene\n\n\n\n\n3DL3\n\n\n\n\n2DS2\n\n\n\n\n2DL2/3\n\n\n\n\n2DL5B\n\n\n\n\n2DS3\n\n\n\n\n2DL1\n\n\n\n\n2DL4\n\n\n\n\n3DL1\n\n\n\n\n3DS1\n\n\n\n\n2DL5A\n\n\n\n\n2DS5\n\n\n\n\n2DS4\n\n\n\n\n2DS1\n\n\n\n\n3DL2\n\n\n\n\n\n\n\n\nFunc.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nActiv.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\n\n\nAlleles\n\n\n\n\n228\n\n\n\n\n65\n\n\n\n\n98\n\n\n\n\n47\n\n\n\n\n71\n\n\n\n\n173\n\n\n\n\n112\n\n\n\n\n184\n\n\n\n\n39\n\n\n\n\n44\n\n\n\n\n88\n\n\n\n\n39\n\n\n\n\n33\n\n\n\n\n166\n\n\n\n\n\n\nAllo-types\n\n\n\n\n112\n\n\n\n\n22\n\n\n\n\n50\n\n\n\n\n21\n\n\n\n\n23\n\n\n\n\n65\n\n\n\n\n58\n\n\n\n\n92\n\n\n\n\n22\n\n\n\n\n19\n\n\n\n\n38\n\n\n\n\n20\n\n\n\n\n12\n\n\n\n\n115\n\n\n\n\n\n\nHLA Class I Ligand Motifs\n\n\n\n\nB7H7\n\n\n\n\nA*11 C1\n\n\n\n\nB46:01 B73:01 C1 C2\n\n\n\n\nPVR\n\n\n\n\n?\n\n\n\n\nC2\n\n\n\n\nHLA-G\n\n\n\n\nBw4+ HLA-A and Bw4+ HLA-B\n\n\n\n\nBw4+ HLA-B and HLA-F\n\n\n\n\nPVR\n\n\n\n\nC2\n\n\n\n\nA*11 HLA-C\n\n\n\n\nC2\n\n\n\n\nA3 A11"
+    "text": "2.2 KIR Locus\n\n\n\nAdapted from Pollock, Harrison, and Norman. JACI: In Practice. 2022.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene\n\n\n\n\n3DL3\n\n\n\n\n2DS2\n\n\n\n\n2DL2/3\n\n\n\n\n2DL5B\n\n\n\n\n2DS3\n\n\n\n\n2DL1\n\n\n\n\n2DL4\n\n\n\n\n3DL1\n\n\n\n\n3DS1\n\n\n\n\n2DL5A\n\n\n\n\n2DS5\n\n\n\n\n2DS4\n\n\n\n\n2DS1\n\n\n\n\n3DL2\n\n\n\n\n\n\n\n\nFunc.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nActiv.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\n\n\nAlleles\n\n\n\n\n228\n\n\n\n\n65\n\n\n\n\n98\n\n\n\n\n47\n\n\n\n\n71\n\n\n\n\n173\n\n\n\n\n112\n\n\n\n\n184\n\n\n\n\n39\n\n\n\n\n44\n\n\n\n\n88\n\n\n\n\n39\n\n\n\n\n33\n\n\n\n\n166\n\n\n\n\n\n\nAllo-types\n\n\n\n\n112\n\n\n\n\n22\n\n\n\n\n50\n\n\n\n\n21\n\n\n\n\n23\n\n\n\n\n65\n\n\n\n\n58\n\n\n\n\n92\n\n\n\n\n22\n\n\n\n\n19\n\n\n\n\n38\n\n\n\n\n20\n\n\n\n\n12\n\n\n\n\n115\n\n\n\n\n\n\nHLA Class I Ligand Motifs\n\n\n\n\nB7H7\n\n\n\n\nA*11 C1\n\n\n\n\nB46:01 B73:01 C1 C2\n\n\n\n\nPVR\n\n\n\n\n?\n\n\n\n\nC2\n\n\n\n\nHLA-G\n\n\n\n\nBw4+ HLA-A and Bw4+ HLA-B\n\n\n\n\nBw4+ HLA-B and HLA-F\n\n\n\n\nPVR\n\n\n\n\nC2\n\n\n\n\nA*11 HLA-C\n\n\n\n\nC2\n\n\n\n\nA3 A11\n\n\n\n\n\n\n: Adapted from Pollock, Harrison, and Norman. JACI: In Practice. 2022."
   },
   {
     "objectID": "kir.html#kir-diversity",
     "href": "kir.html#kir-diversity",
     "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "2.3 KIR Diversity",
-    "text": "2.3 KIR Diversity\nKIR diversity is influenced by gene content variation and sequence variation. Distinct DNA sequences of KIR genes are called “alleles.” Distinct polypeptide sequences of KIR genes are called “allotypes.” Because different DNA sequences of KIR gene can lead to the same polypeptide, there are more alleles than allotypes for a given KIR gene."
+    "text": "2.3 KIR Diversity\nKIR diversity is influenced by gene content variation and sequence variation. Distinct DNA sequences of KIR genes are called “alleles.” Distinct polypeptide sequences of KIR genes are called “allotypes.” Because different DNA sequences of KIR gene can lead to the same polypeptide, there are more alleles than allotypes for a given KIR gene.\n\n\n\n\n\n\n\nKIR Diversity Concept\nDefinition\n\n\n\n\nGene Content Variation\nPresence/absence, fusion, duplication\n\n\nSequence Variation\nMay alter ligand affinity or specificity, signal transduction ability, or surface expression (e.g., promoter activity, translation, intracellular trafficking)\n\n\nAllele\nDistinct DNA sequence\n\n\nAllotype\nDistinct polypeptide sequence"
   },
   {
     "objectID": "kir.html#nk-cell-education",
     "href": "kir.html#nk-cell-education",
     "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "2.4 NK Cell Education",
-    "text": "2.4 NK Cell Education"
+    "text": "2.4 NK Cell Education\n\n\n\n\n\n\n\n\nNK Cell Education\n(i.e., Arming, Licensing)\nCorresponding Pairs of KIR and HLA Class I Ligands\nCytotoxicity and other Effector Abilities\n\n\n\n\nStrong\nMany\nMore\n\n\nWeak\nFew\nLess"
   },
   {
     "objectID": "kir.html#kir-nomenclature",
     "href": "kir.html#kir-nomenclature",
     "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "2.5 KIR Nomenclature",
-    "text": "2.5 KIR Nomenclature\n\n2.5.1 Inhibitory KIR\nThe main role of inhibitory KIR is to prevent cytotoxic NK and T cells from killing tissue cells–unless their HLA class I expression is lost or altered by infection or mutagenesis.\n\n\n2.5.2 Activating KIR\nActivating KIR help identify diseased cells for destruction by cytoxic NK and T cells. Binding of foreign peptides by HLA class I molecules retained by infected cells may be most critical for activating KIR.\n\n\n2.5.3 Broad KIR Haplotypes"
+    "text": "2.5 KIR Nomenclature\n\n2.5.1 Inhibitory KIR\nThe main role of inhibitory KIR is to prevent cytotoxic NK and T cells from killing tissue cells–unless their HLA class I expression is lost or altered by infection or mutagenesis.\n\n\n2.5.2 Activating KIR\nActivating KIR help identify diseased cells for destruction by cytoxic NK and T cells. Binding of foreign peptides by HLA class I molecules retained by infected cells may be most critical for activating KIR.\n\n\n2.5.3 Broad KIR Haplotypes\n\n\n\n\n\n\n\n\n\nBroad KIR Haplotype\nKIR Copy Number Variation\nKIR Gene Organization\nActivating KIR\n\n\n\n\nA\nRelatively stable\nGenerally\nnon-variable\nLess\n\n\nB\nExtensive\nHighly variable\nMore"
   },
   {
     "objectID": "kir.html#kir-ligand-motifs",
     "href": "kir.html#kir-ligand-motifs",
     "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "2.6 KIR Ligand Motifs",
-    "text": "2.6 KIR Ligand Motifs"
+    "text": "2.6 KIR Ligand Motifs\n\nAdapted from Pollock, Harrison, and Norman. JACI: In Practice. 2022.\n\n\n\n\n\n\n\n\nKIR Ligand Motif\nHLA-A Allotypes\nHLA-B Allotypes\nHLA-C Allotypes\n\n\n\n\nA3/A11\nA*03, A*11\n\n\n\n\nBw4\nA*23, A*24, A*32\nB*07:27, B*08:02, B*08:03, (B13), B*15:13, B*15:16, B*15:17, B*15:23, B*15:24, B*15:36, B*15:43, B*15:67, B*27:01, B*27:02, B*27:03, B*27:04, B*27:05,\nB*27:07, B*37, B*38, B*40:13, B*40:19, B*44, B*47, B*49, B*51, B*52, B*53, B*56:07, B*57, B*58, B*59\n\n\n\nC1\nC*01, C*03, C*07, C*08, C*12:02, C*12:03, C*12:06, C*12:08, C*13, C*14, C*16\nB*46, B*73\n\n\n\nC2\nC*02, C*03:07, C*04, C*05, C*06, C*12:04, C*12:05, C*12:07, C*14:04, C*15, C*16:02, C*17, C*18"
   },
   {
     "objectID": "kir.html#kir3dl1-and-kir3ds1",
@@ -102,6 +102,132 @@
     "href": "kir.html#kir-allele-imputation-programs",
     "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "2.8 KIR Allele Imputation Programs",
-    "text": "2.8 KIR Allele Imputation Programs"
+    "text": "2.8 KIR Allele Imputation Programs\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nPONG\nR\nPLINK binary format\nKIR3DL1/S1 alleles (Global Model includes 51 alleles)\nHarrison, 2022\n\n\nKIR*IMP\nOnline portal\nHAPS/SAMPLE format\n19 KIR types: 17 loci (presence/absence and copy number) plus 2 extended haplotype classifications ( A and B haplotypes)\nVukcevic, 2015"
+  },
+  {
+    "objectID": "erap.html",
+    "href": "erap.html",
+    "title": "3  ERAP",
+    "section": "",
+    "text": "ERAP is located on chromsome 5."
+  },
+  {
+    "objectID": "epistasis.html",
+    "href": "epistasis.html",
+    "title": "4  Epistatic Interactions",
+    "section": "",
+    "text": "Epistatic interactions between KIR and HLA are associated with ankylosing spondylitis (Hanson, 2020)"
+  },
+  {
+    "objectID": "genotype-imputation.html",
+    "href": "genotype-imputation.html",
+    "title": "5  Genotype Imputation",
+    "section": "",
+    "text": "The Michigan Imputation Server is a free next-generation genotype imputation platform. You can learn more about the Michigan Imputation Server by visiting their Getting Started documentation. The 1000 Genomes Phase 3 (Version 5) Reference Panel is available on the Michigan Imputation Server."
+  },
+  {
+    "objectID": "genotype-imputation.html#topmed-imputation-server",
+    "href": "genotype-imputation.html#topmed-imputation-server",
+    "title": "5  Genotype Imputation",
+    "section": "5.2 TOPMed Imputation Server",
+    "text": "5.2 TOPMed Imputation Server\nThe TOPMed Imputation Server is another free next-generation genotype imputation platform developed by the University of Michigan and powered by data from the TOPMed Program investigators. You can learn more about the TOPMed Imputation Server by visiting their Getting Started documentation. The TOPMed Version 3 Reference panel was released in December 2023."
+  },
+  {
+    "objectID": "genotype-imputation.html#reference-panels",
+    "href": "genotype-imputation.html#reference-panels",
+    "title": "5  Genotype Imputation",
+    "section": "5.3 Reference Panels",
+    "text": "5.3 Reference Panels\n\n\n\nReference Panel\nGenome Assembly\nNo. of Samples\nSites\n(chr1-22)\nChr.\nImputation Server\n\n\n\n\n1000 Genomes Phase 3 (Version 5)\nGRCh37/hg19\n2,504\n49,143,605\n1-22, X\nMichigan Imputation Server\n\n\nTOPMed (Version 3)\nGRCh38/hg38\n133,597\n445,600,184\n1-22, X\nTOPMed Imputation Server"
+  },
+  {
+    "objectID": "genotype-imputation.html#genome-assemblies",
+    "href": "genotype-imputation.html#genome-assemblies",
+    "title": "5  Genotype Imputation",
+    "section": "5.4 Genome Assemblies",
+    "text": "5.4 Genome Assemblies\nThe Genome Reference Consortium (GRC) is the main source of human genome assembly data. The most recent human genome assembly version is GRCh38, released in 2013. The “h” in “GRCh” stands for “human.” The GRC also maintains genome assembly data for rat (r), mouse (m), zebrafish (z), and chicken (g for gallus). Major updates, called “versions”, are released every few years. Minor updates are called “patches” and are released more frequently.\nGRCh38 is referred to as “hg38” in the University of California Santa Cruz (UCSC) Genome Browser. The “hg” stands for “human genome.” Before the GRCh38 genome assembly, the version numbers of the GRC and UCSC Genome Browser genome assemblies did not match. For example, when the GRCh37 genome assembly was released in 2009, the UCSC Genome Browser version was “hg19.” Therefore, to minimize confusion, starting with the GRCh38 genome assembly, the UCSC Genome Browser version number was matched as “hg38.”\n\n\n\n\n\n\n\n\n\n\nGRC Version\nUCSC Version\nYear Released\nGenome\nCoverage\nAlternate Haplotypes\n\n\n\n\nGRCh37\nhg19\n2009\n~92.5%\n3 regions with 9 alternate loci\n\n\nGRCh38\nhg38\n2013\n95%\n178 regions with 261 alternate loci"
+  },
+  {
+    "objectID": "genotype-imputation.html#section",
+    "href": "genotype-imputation.html#section",
+    "title": "5  Genotype Imputation",
+    "section": "5.5 ",
+    "text": "5.5"
+  },
+  {
+    "objectID": "bioinformatic-best-practices.html",
+    "href": "bioinformatic-best-practices.html",
+    "title": "6  Bioinformatic Best Practices",
+    "section": "",
+    "text": "I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (Peikert & Brandmaier, 2021)."
+  },
+  {
+    "objectID": "bioinformatic-best-practices.html#project-organization",
+    "href": "bioinformatic-best-practices.html#project-organization",
+    "title": "6  Bioinformatic Best Practices",
+    "section": "6.1 Project Organization",
+    "text": "6.1 Project Organization\nBash Commands to Create Folder Directory Structure for Your R Project\ncd </path/to/parent/directory>\nmkdir <your-r-project-folder>\ncd <your-r-project-folder>\ntouch README.md\nmkdir data doc src bin outputs\nOnce you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: chmod u-w -R data/"
+  },
+  {
+    "objectID": "bioinformatic-best-practices.html#version-control-with-git",
+    "href": "bioinformatic-best-practices.html#version-control-with-git",
+    "title": "6  Bioinformatic Best Practices",
+    "section": "6.2 Version Control with Git",
+    "text": "6.2 Version Control with Git\nI recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.\nVerify Git Installation and Version\nwhich git # request path to your Git executable\ngit --version # check your Git version\nIntroduce Yourself to Git\ngit config --global user.name \"<username>\"\ngit config --global user.email \"<email>\"\nCreate a New Repository on GitHub\nGo to GitHub to create your new repository, then initialize your repository from the command line.\ncd </path/to/your-r-project-folder>\necho \"# your-r-project-folder\" >> README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/<user.name>/<your-repository>.git\ngit push -u origin main\nAdd, Commit, and Push Files to Remote Repository\ngit add <file-name>\ngit commit -m \"description\"\ngit push"
+  },
+  {
+    "objectID": "bioinformatic-best-practices.html#file-naming-conventions",
+    "href": "bioinformatic-best-practices.html#file-naming-conventions",
+    "title": "6  Bioinformatic Best Practices",
+    "section": "6.3 File Naming Conventions",
+    "text": "6.3 File Naming Conventions\nIn your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the File Naming Conventions Worksheet (Briney, 2020) to develop your file naming conventions.\n\n\n\n\n\n\n\n\nMetadata\nSeparator\nVersion Tracking\n\n\n\n\n3 to 5 pieces max\n(e.g. sample ID, date in\nISO 8601 format such as\nYYYY-MM-DD)\nDashes (-), underscore (_), or camel case (i.e., capitalize each word without spaces)\nNumeric (e.g., v01) or Status (e.g., raw, processed)\n\n\n\n\n\n\n\n\n\nExample\n\n\n\nMy naming convention for R Markdown analysis files is: “analysis-YYYY-MM-DD-version.Rmd” where version starts with “v01.” This is my first analysis file, “analysis-YYYY-MM-DD-v01.Rmd”"
+  },
+  {
+    "objectID": "bioinformatic-best-practices.html#application-containers-with-docker",
+    "href": "bioinformatic-best-practices.html#application-containers-with-docker",
+    "title": "6  Bioinformatic Best Practices",
+    "section": "6.4 Application Containers with Docker",
+    "text": "6.4 Application Containers with Docker"
+  },
+  {
+    "objectID": "presenting-your-medical-research.html",
+    "href": "presenting-your-medical-research.html",
+    "title": "7  Presenting Your Medical Research",
+    "section": "",
+    "text": "You should use a sans-serif font like Arial to maximize readability. “Serifs” are extending features at the end of letters. Times New Roman is a serif font.\n\n\n\n\n\n\n\nSlide Section\nFont Size\n\n\n\n\nTitle\n36 – 44\n\n\nText\n(e.g., Bullets, Figures, Tables)\n24 – 28\n\n\nReferences\n20 – 24"
+  },
+  {
+    "objectID": "presenting-your-medical-research.html#word-count",
+    "href": "presenting-your-medical-research.html#word-count",
+    "title": "7  Presenting Your Medical Research",
+    "section": "7.2 Word Count",
+    "text": "7.2 Word Count\nThe fewer words, the better. A rule to follow is the 7×7 rule: no more than 7 lines and no more than 7 words per line."
+  },
+  {
+    "objectID": "presenting-your-medical-research.html#timing",
+    "href": "presenting-your-medical-research.html#timing",
+    "title": "7  Presenting Your Medical Research",
+    "section": "7.3 Timing",
+    "text": "7.3 Timing\nYou should estimate approximately 1 minute per slide."
+  },
+  {
+    "objectID": "presenting-your-medical-research.html#figures",
+    "href": "presenting-your-medical-research.html#figures",
+    "title": "7  Presenting Your Medical Research",
+    "section": "7.4 Figures",
+    "text": "7.4 Figures\nI recommend creating your figures in Microsoft PowerPoint and saving them as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG). In Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”"
+  },
+  {
+    "objectID": "presenting-your-medical-research.html#references",
+    "href": "presenting-your-medical-research.html#references",
+    "title": "7  Presenting Your Medical Research",
+    "section": "7.5 References",
+    "text": "7.5 References\nCite references at the bottom of your slides as you present information.\nFormat: Last Name. Journal Abbreviation. Year."
+  },
+  {
+    "objectID": "on-being-a-physician-scientist.html",
+    "href": "on-being-a-physician-scientist.html",
+    "title": "8  On Being a Physician-Scientist",
+    "section": "",
+    "text": "The Burroughs Wellcome Fund provides a comprehensive list of offer letter components in their article, “Academic Tenure-Track Offer Letters.”"
   }
 ]

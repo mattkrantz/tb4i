@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Matt Krantz">
-<meta name="dcterms.date" content="2024-06-22">
 
-<title>Translational Bioinformatics for Immunogenomics</title>
+<title>Translational Bioinformatics for Immunogenomics - 5&nbsp; Genotype Imputation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
+<link href="./bioinformatic-best-practices.html" rel="next">
+<link href="./epistasis.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Translational Bioinformatics for Immunogenomics</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genotype Imputation</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -96,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Welcome</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -126,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./genotype-imputation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genotype Imputation</span></a>
+  <a href="./genotype-imputation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genotype Imputation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -153,7 +152,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#michigan-imputation-server" id="toc-michigan-imputation-server" class="nav-link active" data-scroll-target="#michigan-imputation-server"><span class="toc-section-number">5.1</span>  Michigan Imputation Server</a></li>
+  <li><a href="#topmed-imputation-server" id="toc-topmed-imputation-server" class="nav-link" data-scroll-target="#topmed-imputation-server"><span class="toc-section-number">5.2</span>  TOPMed Imputation Server</a></li>
+  <li><a href="#reference-panels" id="toc-reference-panels" class="nav-link" data-scroll-target="#reference-panels"><span class="toc-section-number">5.3</span>  Reference Panels</a></li>
+  <li><a href="#genome-assemblies" id="toc-genome-assemblies" class="nav-link" data-scroll-target="#genome-assemblies"><span class="toc-section-number">5.4</span>  Genome Assemblies</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="toc-section-number">5.5</span>  </a></li>
   </ul>
 </nav>
     </div>
@@ -162,35 +165,104 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Translational Bioinformatics for Immunogenomics</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genotype Imputation</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Matt Krantz </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 22, 2024</p>
-    </div>
-  </div>
     
   </div>
   
 
 </header>
 
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome</h1>
-<p>A few key web sources include the <a href="https://www.ebi.ac.uk/ipd/">Immuno Polymorphism Database</a> and <a href="https://www.allelefrequencies.net/">Allele Frequency Net Database</a>.</p>
+<section id="michigan-imputation-server" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="michigan-imputation-server"><span class="header-section-number">5.1</span> Michigan Imputation Server</h2>
+<p>The Michigan Imputation Server is a free next-generation genotype imputation platform. You can learn more about the Michigan Imputation Server by visiting their Getting Started documentation. The 1000 Genomes Phase 3 (Version 5) Reference Panel is available on the Michigan Imputation Server.</p>
+</section>
+<section id="topmed-imputation-server" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="topmed-imputation-server"><span class="header-section-number">5.2</span> TOPMed Imputation Server</h2>
+<p>The TOPMed Imputation Server is another free next-generation genotype imputation platform developed by the University of Michigan and powered by data from the TOPMed Program investigators. You can learn more about the TOPMed Imputation Server by visiting their Getting Started documentation. The TOPMed Version 3 Reference panel was released in December 2023.</p>
+</section>
+<section id="reference-panels" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="reference-panels"><span class="header-section-number">5.3</span> Reference Panels</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Reference Panel</th>
+<th>Genome Assembly</th>
+<th style="text-align: center;">No.&nbsp;of Samples</th>
+<th style="text-align: center;">Sites<br>
+(chr1-22)</th>
+<th style="text-align: center;">Chr.</th>
+<th>Imputation Server</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="http://www.internationalgenome.org/">1000 Genomes Phase 3 (Version 5)</a></td>
+<td>GRCh37/hg19</td>
+<td style="text-align: center;">2,504</td>
+<td style="text-align: center;">49,143,605</td>
+<td style="text-align: center;">1-22, X</td>
+<td><a href="https://imputationserver.sph.umich.edu/index.html#!">Michigan Imputation Server</a></td>
+</tr>
+<tr class="even">
+<td><a href="https://www.nhlbiwgs.org/">TOPMed (Version 3)</a></td>
+<td>GRCh38/hg38</td>
+<td style="text-align: center;">133,597</td>
+<td style="text-align: center;">445,600,184</td>
+<td style="text-align: center;">1-22, X</td>
+<td><a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed Imputation Server</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="genome-assemblies" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="genome-assemblies"><span class="header-section-number">5.4</span> Genome Assemblies</h2>
+<p>The Genome Reference Consortium (GRC) is the main source of human genome assembly data. The most recent human genome assembly version is GRCh38, released in 2013. The “h” in “GRCh” stands for “human.” The GRC also maintains genome assembly data for rat (r), mouse (m), zebrafish (z), and chicken (g for gallus). Major updates, called “versions”, are released every few years. Minor updates are called “patches” and are released more frequently.</p>
+<p>GRCh38 is referred to as “hg38” in the University of California Santa Cruz (UCSC) Genome Browser. The “hg” stands for “human genome.” Before the GRCh38 genome assembly, the version numbers of the GRC and UCSC Genome Browser genome assemblies did not match. For example, when the GRCh37 genome assembly was released in 2009, the UCSC Genome Browser version was “hg19.” Therefore, to minimize confusion, starting with the GRCh38 genome assembly, the UCSC Genome Browser version number was matched as “hg38.”</p>
+<table class="table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">GRC Version</th>
+<th style="text-align: center;">UCSC Version</th>
+<th style="text-align: center;">Year Released</th>
+<th style="text-align: center;">Genome<br>
+Coverage</th>
+<th style="text-align: center;">Alternate Haplotypes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">GRCh37</td>
+<td style="text-align: center;">hg19</td>
+<td style="text-align: center;">2009</td>
+<td style="text-align: center;">~92.5%</td>
+<td style="text-align: center;">3 regions with 9 alternate loci</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">GRCh38</td>
+<td style="text-align: center;">hg38</td>
+<td style="text-align: center;">2013</td>
+<td style="text-align: center;">95%</td>
+<td style="text-align: center;">178 regions with 261 alternate loci</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="section" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="section"><span class="header-section-number">5.5</span> </h2>
 
 
 </section>
@@ -296,10 +368,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./epistasis.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Epistatic Interactions</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text">Introduction</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./bioinformatic-best-practices.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bioinformatic Best Practices</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
