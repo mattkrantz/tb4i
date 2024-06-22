@@ -7,10 +7,101 @@
     "text": "A few key web sources include the Immuno Polymorphism Database and Allele Frequency Net Database."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Welcome",
+    "objectID": "hla.html",
+    "href": "hla.html",
+    "title": "1  Human Leukocyte Antigens",
     "section": "",
-    "text": "A few key web sources include the Immuno Polymorphism Database and Allele Frequency Net Database."
+    "text": "HLA is located on chromosome 6 in the Major Histocompatibility Complex (MHC)."
+  },
+  {
+    "objectID": "hla.html#hla-class-i",
+    "href": "hla.html#hla-class-i",
+    "title": "1  Human Leukocyte Antigens",
+    "section": "1.2 HLA Class I",
+    "text": "1.2 HLA Class I\nHLA class I molecules are expressed by healthy nucleated cells."
+  },
+  {
+    "objectID": "hla.html#hla-class-ii",
+    "href": "hla.html#hla-class-ii",
+    "title": "1  Human Leukocyte Antigens",
+    "section": "1.3 HLA Class II",
+    "text": "1.3 HLA Class II\nHLA class II molecules are expressed by professional antigen-presenting cells (APC)–dendritic cells, macrophages, and B cells."
+  },
+  {
+    "objectID": "hla.html#hla-nomenclature",
+    "href": "hla.html#hla-nomenclature",
+    "title": "1  Human Leukocyte Antigens",
+    "section": "1.4 HLA Nomenclature",
+    "text": "1.4 HLA Nomenclature"
+  },
+  {
+    "objectID": "hla.html#functional-divergence",
+    "href": "hla.html#functional-divergence",
+    "title": "1  Human Leukocyte Antigens",
+    "section": "1.5 Functional Divergence",
+    "text": "1.5 Functional Divergence\nHeterozygosity of HLA class I genes is associated with better outcomes after HIV infection. This is thought to be due to a greater repertoire of HIV peptides presented and cytotoxic T cell response. However, looking at HLA class I allotype alone does not take into account differences in actual peptide repertoire. Viard and O’hUigin developed a metric to measure this difference, termed “functional divergence.” Functional divergence predicts the peptide repertoire as a continuum. They showed that greater functional divergence was associated with better HIV outcomes. Functional divergence may be relevant to other diseases where HLA heterozygosity confers advantage, such as infection, vaccination, and immunotherapy.\nYou can download functional divergence estimates for pairwise combinations of HLA-A, HLA-B, and HLA-C alleles from their article’s Supplementary Materials. The functional divergence measure ranges from 0 (i.e., smallest functional divergence) to 1 (i.e., greatest functional divergence)."
+  },
+  {
+    "objectID": "hla.html#hla-imputation-programs",
+    "href": "hla.html#hla-imputation-programs",
+    "title": "1  Human Leukocyte Antigens",
+    "section": "1.6 HLA Imputation Programs",
+    "text": "1.6 HLA Imputation Programs\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nSNP2HLA\nCommand line interface\nPLINK binary format\nHLA class I and II alleles\nJia, 2013\n\n\nHIBAG\nR\nPlink binary format\nHLA class I and II alleles\nZheng, 2014"
+  },
+  {
+    "objectID": "kir.html",
+    "href": "kir.html",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
+    "section": "",
+    "text": "KIR is located on chromosome 19 (19q13.4) in the Leukocyte Receptor Complex (LRC). KIR is expressed on the surface of Natural Killer (NK) cells and some T cells. KIR do not undergo somatic rearrangement–a key difference from T-cell receptors. KIR interacts with HLA class I–their cognate ligand–to recognize and destroy unhealthy tissue cells while preventing the same from occurring to healthy cells. Therefore, NK cells play a role in fighting infections, resisting some cancers, pregnancy, and preventing autoimmunity. For further reading and references, I highly recommend the review article by Pollock, Harrison, and Norman on the immunogenetics and co-evolution of KIR and HLA class I."
+  },
+  {
+    "objectID": "kir.html#kir-locus",
+    "href": "kir.html#kir-locus",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
+    "section": "2.2 KIR Locus",
+    "text": "2.2 KIR Locus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene\n\n\n\n\n3DL3\n\n\n\n\n2DS2\n\n\n\n\n2DL2/3\n\n\n\n\n2DL5B\n\n\n\n\n2DS3\n\n\n\n\n2DL1\n\n\n\n\n2DL4\n\n\n\n\n3DL1\n\n\n\n\n3DS1\n\n\n\n\n2DL5A\n\n\n\n\n2DS5\n\n\n\n\n2DS4\n\n\n\n\n2DS1\n\n\n\n\n3DL2\n\n\n\n\n\n\n\n\nFunc.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nActiv.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\n\n\nAlleles\n\n\n\n\n228\n\n\n\n\n65\n\n\n\n\n98\n\n\n\n\n47\n\n\n\n\n71\n\n\n\n\n173\n\n\n\n\n112\n\n\n\n\n184\n\n\n\n\n39\n\n\n\n\n44\n\n\n\n\n88\n\n\n\n\n39\n\n\n\n\n33\n\n\n\n\n166\n\n\n\n\n\n\nAllo-types\n\n\n\n\n112\n\n\n\n\n22\n\n\n\n\n50\n\n\n\n\n21\n\n\n\n\n23\n\n\n\n\n65\n\n\n\n\n58\n\n\n\n\n92\n\n\n\n\n22\n\n\n\n\n19\n\n\n\n\n38\n\n\n\n\n20\n\n\n\n\n12\n\n\n\n\n115\n\n\n\n\n\n\nHLA Class I Ligand Motifs\n\n\n\n\nB7H7\n\n\n\n\nA*11 C1\n\n\n\n\nB46:01 B73:01 C1 C2\n\n\n\n\nPVR\n\n\n\n\n?\n\n\n\n\nC2\n\n\n\n\nHLA-G\n\n\n\n\nBw4+ HLA-A and Bw4+ HLA-B\n\n\n\n\nBw4+ HLA-B and HLA-F\n\n\n\n\nPVR\n\n\n\n\nC2\n\n\n\n\nA*11 HLA-C\n\n\n\n\nC2\n\n\n\n\nA3 A11"
+  },
+  {
+    "objectID": "kir.html#kir-diversity",
+    "href": "kir.html#kir-diversity",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
+    "section": "2.3 KIR Diversity",
+    "text": "2.3 KIR Diversity\nKIR diversity is influenced by gene content variation and sequence variation. Distinct DNA sequences of KIR genes are called “alleles.” Distinct polypeptide sequences of KIR genes are called “allotypes.” Because different DNA sequences of KIR gene can lead to the same polypeptide, there are more alleles than allotypes for a given KIR gene."
+  },
+  {
+    "objectID": "kir.html#nk-cell-education",
+    "href": "kir.html#nk-cell-education",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
+    "section": "2.4 NK Cell Education",
+    "text": "2.4 NK Cell Education"
+  },
+  {
+    "objectID": "kir.html#kir-nomenclature",
+    "href": "kir.html#kir-nomenclature",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
+    "section": "2.5 KIR Nomenclature",
+    "text": "2.5 KIR Nomenclature\n\n2.5.1 Inhibitory KIR\nThe main role of inhibitory KIR is to prevent cytotoxic NK and T cells from killing tissue cells–unless their HLA class I expression is lost or altered by infection or mutagenesis.\n\n\n2.5.2 Activating KIR\nActivating KIR help identify diseased cells for destruction by cytoxic NK and T cells. Binding of foreign peptides by HLA class I molecules retained by infected cells may be most critical for activating KIR.\n\n\n2.5.3 Broad KIR Haplotypes"
+  },
+  {
+    "objectID": "kir.html#kir-ligand-motifs",
+    "href": "kir.html#kir-ligand-motifs",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
+    "section": "2.6 KIR Ligand Motifs",
+    "text": "2.6 KIR Ligand Motifs"
+  },
+  {
+    "objectID": "kir.html#kir3dl1-and-kir3ds1",
+    "href": "kir.html#kir3dl1-and-kir3ds1",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
+    "section": "2.7 KIR3DL1 and KIR3DS1",
+    "text": "2.7 KIR3DL1 and KIR3DS1\nBecause of significant non-allelic recombination in the KIR region, the distinction between KIR genes and alleles can be confusing. Specifically, KIR3DL1 and KIR3DS1 are alleles of the same gene. Of the KIR3DS1 allotypes–3DS1013 and 014–are observed with the greatest frequency in any population."
+  },
+  {
+    "objectID": "kir.html#kir-allele-imputation-programs",
+    "href": "kir.html#kir-allele-imputation-programs",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
+    "section": "2.8 KIR Allele Imputation Programs",
+    "text": "2.8 KIR Allele Imputation Programs"
   }
 ]
