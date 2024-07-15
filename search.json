@@ -46,7 +46,7 @@
     "href": "hla.html#hla-imputation-programs",
     "title": "1  Human Leukocyte Antigens",
     "section": "1.6 HLA Imputation Programs",
-    "text": "1.6 HLA Imputation Programs\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nSNP2HLA\nCommand line interface\nPLINK binary format\nHLA class I and II alleles\nJia, 2013\n\n\nHIBAG\nR\nPlink binary format\nHLA class I and II alleles\nZheng, 2014"
+    "text": "1.6 HLA Imputation Programs\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nSNP2HLA\nCommand line interface\nPLINK binary format\nHLA class I and II alleles\n(Jia et al. 2013)\n\n\nHIBAG\nR\nPlink binary format\nHLA class I and II alleles\n(Zheng et al. 2014)\n\n\n\n\n\n\n\nJia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J. Concannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. De Bakker. 2013. “Imputing Amino Acid Polymorphisms in Human Leukocyte Antigens.” Edited by Jianming Tang. PLoS ONE 8 (6): e64683. https://doi.org/10.1371/journal.pone.0064683.\n\n\nZheng, X, J Shen, C Cox, J C Wakefield, M G Ehm, M R Nelson, and B S Weir. 2014. “HIBAG—HLA Genotype Imputation with Attribute Bagging.” The Pharmacogenomics Journal 14 (2): 192–200. https://doi.org/10.1038/tpj.2013.18."
   },
   {
     "objectID": "kir.html",
@@ -243,5 +243,12 @@
     "title": "8  On Being a Physician-Scientist",
     "section": "",
     "text": "The Burroughs Wellcome Fund provides a comprehensive list of offer letter components in their article, “Academic Tenure-Track Offer Letters.”"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Jia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J.\nConcannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. De\nBakker. 2013. “Imputing Amino Acid\nPolymorphisms in Human Leukocyte\nAntigens.” Edited by Jianming Tang. PLoS\nONE 8 (6): e64683. https://doi.org/10.1371/journal.pone.0064683.\n\n\nZheng, X, J Shen, C Cox, J C Wakefield, M G Ehm, M R Nelson, and B S\nWeir. 2014. “HIBAG—HLA Genotype\nImputation with Attribute Bagging.” The Pharmacogenomics\nJournal 14 (2): 192–200. https://doi.org/10.1038/tpj.2013.18."
   }
 ]
