@@ -214,14 +214,14 @@
     "href": "presenting-your-medical-research.html#figures",
     "title": "7  Presenting Your Medical Research",
     "section": "7.4 Figures",
-    "text": "7.4 Figures\nI recommend creating your figures in Microsoft PowerPoint and saving them as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG). In Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”"
+    "text": "7.4 Figures\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nTools that you can use to get started creating SVG include Microsoft PowerPoint, draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscapeis better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes >1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”"
   },
   {
     "objectID": "presenting-your-medical-research.html#references",
     "href": "presenting-your-medical-research.html#references",
     "title": "7  Presenting Your Medical Research",
     "section": "7.5 References",
-    "text": "7.5 References\nCite references at the bottom of your slides as you present information.\nFormat: Last Name. Journal Abbreviation. Year."
+    "text": "7.5 References\nCite references at the bottom of your slides as you present information.\n\n\n\n\n\n\nFormat\n\n\n\nLast Name. Journal Abbreviation. Year."
   },
   {
     "objectID": "on-being-a-physician-scientist.html",
