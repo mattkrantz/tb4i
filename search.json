@@ -214,7 +214,7 @@
     "href": "presenting-your-medical-research.html#figures",
     "title": "7  Presenting Your Medical Research",
     "section": "7.4 Figures",
-    "text": "7.4 Figures\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nTools that you can use to get started creating SVG include Microsoft PowerPoint, draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscapeis better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes >1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”"
+    "text": "7.4 Figures\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nSome tools that you can use to get started creating SVG include Microsoft PowerPoint (subscription), Adobe Illustrator (subscription), draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscape is better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes >1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”"
   },
   {
     "objectID": "presenting-your-medical-research.html#references",
@@ -222,6 +222,13 @@
     "title": "7  Presenting Your Medical Research",
     "section": "7.5 References",
     "text": "7.5 References\nCite references at the bottom of your slides as you present information.\n\n\n\n\n\n\nFormat\n\n\n\nLast Name. Journal Abbreviation. Year."
+  },
+  {
+    "objectID": "presenting-your-medical-research.html#equipment",
+    "href": "presenting-your-medical-research.html#equipment",
+    "title": "7  Presenting Your Medical Research",
+    "section": "7.6 Equipment",
+    "text": "7.6 Equipment\n\n7.6.1 Laptop\nBring your own laptop to presentations in case there isn’t a desktop computer for you to use, or it is not functioning, reliable or frustratingly slow.\n\n\n7.6.2 Hub\nWhat is worse than not being able to connect your laptop to the correct cable? While a good host for a presentation should have a hub (or dongle if that’s your preferred terminology), you can come prepared with your own too–particularly important if you have a laptop with only USB-C ports and no HDMI port.\nThere are lots of options for hubs. If you are looking for a recommendation, I’ve found that Anker usually has a selection of high-quality and affordable hubs.\n\n\n7.6.3 USB Drive\nDo you want the entire audience to see your most recent emails when you login to download the PowerPoint you emailed yourself? No. Me either. To avoid this, bring your presentation loaded onto a USB Drive, which should ideally have both USB-A and USB-C ports. Or, you can also avoid this by using your own laptop where the presentation should already be downloaded.\n\n\n7.6.4 Presentation Remote\nI don’t feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive–I think one more piece of equipment to consider bringing is a presentation remote. This helps keep you from being tethered to and white knuckling the podium during your talk.\nOne option to consider is the Logitech Spotlight Presentation Remote–which includes features such as magnification, vibration alerts for time management (e.g., 5 minutes left), 3 hours use from 1 minute of charging, and connect by USB receiver or Bluetooth–in addition to slide advancement."
   },
   {
     "objectID": "on-being-a-physician-scientist.html",
