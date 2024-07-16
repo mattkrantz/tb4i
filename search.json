@@ -119,130 +119,207 @@
     "text": "Epistatic interactions between KIR and HLA are associated with ankylosing spondylitis (Hanson, 2020)"
   },
   {
+    "objectID": "drugallergy.html#buproprion",
+    "href": "drugallergy.html#buproprion",
+    "title": "5  Drug Allergy",
+    "section": "5.2 Buproprion",
+    "text": "5.2 Buproprion"
+  },
+  {
+    "objectID": "drugallergy.html#fluoroquinolones",
+    "href": "drugallergy.html#fluoroquinolones",
+    "title": "5  Drug Allergy",
+    "section": "5.3 Fluoroquinolones",
+    "text": "5.3 Fluoroquinolones"
+  },
+  {
+    "objectID": "drugallergy.html#iron",
+    "href": "drugallergy.html#iron",
+    "title": "5  Drug Allergy",
+    "section": "5.4 Iron",
+    "text": "5.4 Iron"
+  },
+  {
+    "objectID": "drugallergy.html#local-anesthetics",
+    "href": "drugallergy.html#local-anesthetics",
+    "title": "5  Drug Allergy",
+    "section": "5.5 Local Anesthetics",
+    "text": "5.5 Local Anesthetics"
+  },
+  {
+    "objectID": "drugallergy.html#penicillins",
+    "href": "drugallergy.html#penicillins",
+    "title": "5  Drug Allergy",
+    "section": "5.6 Penicillins",
+    "text": "5.6 Penicillins"
+  },
+  {
+    "objectID": "drugallergy.html#radiocontrast",
+    "href": "drugallergy.html#radiocontrast",
+    "title": "5  Drug Allergy",
+    "section": "5.7 Radiocontrast",
+    "text": "5.7 Radiocontrast"
+  },
+  {
+    "objectID": "drugallergy.html#sulfa-antibiotics",
+    "href": "drugallergy.html#sulfa-antibiotics",
+    "title": "5  Drug Allergy",
+    "section": "5.8 Sulfa Antibiotics",
+    "text": "5.8 Sulfa Antibiotics"
+  },
+  {
     "objectID": "genotype-imputation.html",
     "href": "genotype-imputation.html",
-    "title": "5  Genotype Imputation",
+    "title": "6  Genotype Imputation",
     "section": "",
     "text": "The Michigan Imputation Server is a free next-generation genotype imputation platform. You can learn more about the Michigan Imputation Server by visiting their Getting Started documentation. The 1000 Genomes Phase 3 (Version 5) Reference Panel is available on the Michigan Imputation Server."
   },
   {
     "objectID": "genotype-imputation.html#topmed-imputation-server",
     "href": "genotype-imputation.html#topmed-imputation-server",
-    "title": "5  Genotype Imputation",
-    "section": "5.2 TOPMed Imputation Server",
-    "text": "5.2 TOPMed Imputation Server\nThe TOPMed Imputation Server is another free next-generation genotype imputation platform developed by the University of Michigan and powered by data from the TOPMed Program investigators. You can learn more about the TOPMed Imputation Server by visiting their Getting Started documentation. The TOPMed Version 3 Reference Panel was released in December 2023."
+    "title": "6  Genotype Imputation",
+    "section": "6.2 TOPMed Imputation Server",
+    "text": "6.2 TOPMed Imputation Server\nThe TOPMed Imputation Server is another free next-generation genotype imputation platform developed by the University of Michigan and powered by data from the TOPMed Program investigators. You can learn more about the TOPMed Imputation Server by visiting their Getting Started documentation. The TOPMed Version 3 Reference Panel was released in December 2023."
   },
   {
     "objectID": "genotype-imputation.html#reference-panels",
     "href": "genotype-imputation.html#reference-panels",
-    "title": "5  Genotype Imputation",
-    "section": "5.3 Reference Panels",
-    "text": "5.3 Reference Panels\n\n\n\nReference Panel\nGenome Assembly\nNo. of Samples\nSites\n(chr1-22)\nChr.\nImputation Server\n\n\n\n\n1000 Genomes Phase 3 (Version 5)\nGRCh37/hg19\n2,504\n49,143,605\n1-22, X\nMichigan Imputation Server\n\n\nTOPMed (Version 3)\nGRCh38/hg38\n133,597\n445,600,184\n1-22, X\nTOPMed Imputation Server"
+    "title": "6  Genotype Imputation",
+    "section": "6.3 Reference Panels",
+    "text": "6.3 Reference Panels\n\n\n\nReference Panel\nGenome Assembly\nNo. of Samples\nSites\n(chr1-22)\nChr.\nImputation Server\n\n\n\n\n1000 Genomes Phase 3 (Version 5)\nGRCh37/hg19\n2,504\n49,143,605\n1-22, X\nMichigan Imputation Server\n\n\nTOPMed (Version 3)\nGRCh38/hg38\n133,597\n445,600,184\n1-22, X\nTOPMed Imputation Server"
   },
   {
     "objectID": "genotype-imputation.html#genome-assemblies",
     "href": "genotype-imputation.html#genome-assemblies",
-    "title": "5  Genotype Imputation",
-    "section": "5.4 Genome Assemblies",
-    "text": "5.4 Genome Assemblies\nThe Genome Reference Consortium (GRC) is the main source of human genome assembly data. The most recent human genome assembly version is GRCh38, released in 2013. The “h” in “GRCh” stands for “human.” The GRC also maintains genome assembly data for rat (r), mouse (m), zebrafish (z), and chicken (g for gallus). Major updates, called “versions”, are released every few years. Minor updates are called “patches” and are released more frequently.\nGRCh38 is referred to as “hg38” in the University of California Santa Cruz (UCSC) Genome Browser. The “hg” stands for “human genome.” Before the GRCh38 genome assembly, the version numbers of the GRC and UCSC Genome Browser genome assemblies did not match. For example, when the GRCh37 genome assembly was released in 2009, the UCSC Genome Browser version was “hg19.” Therefore, to minimize confusion, starting with the GRCh38 genome assembly, the UCSC Genome Browser version number was matched as “hg38.”\n\n\n\n\n\n\n\n\n\n\nGRC Version\nUCSC Version\nYear Released\nGenome\nCoverage\nAlternate Haplotypes\n\n\n\n\nGRCh37\nhg19\n2009\n~92.5%\n3 regions with 9 alternate loci\n\n\nGRCh38\nhg38\n2013\n95%\n178 regions with 261 alternate loci"
+    "title": "6  Genotype Imputation",
+    "section": "6.4 Genome Assemblies",
+    "text": "6.4 Genome Assemblies\nThe Genome Reference Consortium (GRC) is the main source of human genome assembly data. The most recent human genome assembly version is GRCh38, released in 2013. The “h” in “GRCh” stands for “human.” The GRC also maintains genome assembly data for rat (r), mouse (m), zebrafish (z), and chicken (g for gallus). Major updates, called “versions”, are released every few years. Minor updates are called “patches” and are released more frequently.\nGRCh38 is referred to as “hg38” in the University of California Santa Cruz (UCSC) Genome Browser. The “hg” stands for “human genome.” Before the GRCh38 genome assembly, the version numbers of the GRC and UCSC Genome Browser genome assemblies did not match. For example, when the GRCh37 genome assembly was released in 2009, the UCSC Genome Browser version was “hg19.” Therefore, to minimize confusion, starting with the GRCh38 genome assembly, the UCSC Genome Browser version number was matched as “hg38.”\n\n\n\n\n\n\n\n\n\n\nGRC Version\nUCSC Version\nYear Released\nGenome\nCoverage\nAlternate Haplotypes\n\n\n\n\nGRCh37\nhg19\n2009\n~92.5%\n3 regions with 9 alternate loci\n\n\nGRCh38\nhg38\n2013\n95%\n178 regions with 261 alternate loci"
   },
   {
     "objectID": "genotype-imputation.html#section",
     "href": "genotype-imputation.html#section",
-    "title": "5  Genotype Imputation",
-    "section": "5.5 ",
-    "text": "5.5"
+    "title": "6  Genotype Imputation",
+    "section": "6.5 ",
+    "text": "6.5"
   },
   {
     "objectID": "bioinformatic-best-practices.html",
     "href": "bioinformatic-best-practices.html",
-    "title": "6  Bioinformatic Best Practices",
+    "title": "7  Bioinformatic Best Practices",
     "section": "",
     "text": "I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (Peikert & Brandmaier, 2021)."
   },
   {
     "objectID": "bioinformatic-best-practices.html#project-organization",
     "href": "bioinformatic-best-practices.html#project-organization",
-    "title": "6  Bioinformatic Best Practices",
-    "section": "6.1 Project Organization",
-    "text": "6.1 Project Organization\nBash Commands to Create Folder Directory Structure for Your R Project\ncd </path/to/parent/directory>\nmkdir <your-r-project-folder>\ncd <your-r-project-folder>\ntouch README.md\nmkdir data doc src bin outputs\nOnce you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: chmod u-w -R data/"
+    "title": "7  Bioinformatic Best Practices",
+    "section": "7.1 Project Organization",
+    "text": "7.1 Project Organization\nBash Commands to Create Folder Directory Structure for Your R Project\ncd </path/to/parent/directory>\nmkdir <your-r-project-folder>\ncd <your-r-project-folder>\ntouch README.md\nmkdir data doc src bin outputs\nOnce you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: chmod u-w -R data/"
   },
   {
     "objectID": "bioinformatic-best-practices.html#version-control-with-git",
     "href": "bioinformatic-best-practices.html#version-control-with-git",
-    "title": "6  Bioinformatic Best Practices",
-    "section": "6.2 Version Control with Git",
-    "text": "6.2 Version Control with Git\nI recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.\nVerify Git Installation and Version\nwhich git # request path to your Git executable\ngit --version # check your Git version\nIntroduce Yourself to Git\ngit config --global user.name \"<username>\"\ngit config --global user.email \"<email>\"\nCreate a New Repository on GitHub\nGo to GitHub to create your new repository, then initialize your repository from the command line.\ncd </path/to/your-r-project-folder>\necho \"# your-r-project-folder\" >> README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/<user.name>/<your-repository>.git\ngit push -u origin main\nAdd, Commit, and Push Files to Remote Repository\ngit add <file-name>\ngit commit -m \"description\"\ngit push"
+    "title": "7  Bioinformatic Best Practices",
+    "section": "7.2 Version Control with Git",
+    "text": "7.2 Version Control with Git\nI recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.\nVerify Git Installation and Version\nwhich git # request path to your Git executable\ngit --version # check your Git version\nIntroduce Yourself to Git\ngit config --global user.name \"<username>\"\ngit config --global user.email \"<email>\"\nCreate a New Repository on GitHub\nGo to GitHub to create your new repository, then initialize your repository from the command line.\ncd </path/to/your-r-project-folder>\necho \"# your-r-project-folder\" >> README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/<user.name>/<your-repository>.git\ngit push -u origin main\nAdd, Commit, and Push Files to Remote Repository\ngit add <file-name>\ngit commit -m \"description\"\ngit push"
   },
   {
     "objectID": "bioinformatic-best-practices.html#file-naming-conventions",
     "href": "bioinformatic-best-practices.html#file-naming-conventions",
-    "title": "6  Bioinformatic Best Practices",
-    "section": "6.3 File Naming Conventions",
-    "text": "6.3 File Naming Conventions\nIn your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the File Naming Conventions Worksheet (Briney, 2020) to develop your file naming conventions.\n\n\n\n\n\n\n\n\nMetadata\nSeparator\nVersion Tracking\n\n\n\n\n3 to 5 pieces max\n(e.g. sample ID, date in\nISO 8601 format such as\nYYYY-MM-DD)\nDashes (-), underscore (_), or camel case (i.e., capitalize each word without spaces)\nNumeric (e.g., v01) or Status (e.g., raw, processed)\n\n\n\n\n\n\n\n\n\nExample\n\n\n\nMy naming convention for R Markdown analysis files is: “analysis-YYYY-MM-DD-version.Rmd” where version starts with “v01.” This is my first analysis file, “analysis-YYYY-MM-DD-v01.Rmd”"
+    "title": "7  Bioinformatic Best Practices",
+    "section": "7.3 File Naming Conventions",
+    "text": "7.3 File Naming Conventions\nIn your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the File Naming Conventions Worksheet (Briney, 2020) to develop your file naming conventions.\n\n\n\n\n\n\n\n\nMetadata\nSeparator\nVersion Tracking\n\n\n\n\n3 to 5 pieces max\n(e.g. sample ID, date in\nISO 8601 format such as\nYYYY-MM-DD)\nDashes (-), underscore (_), or camel case (i.e., capitalize each word without spaces)\nNumeric (e.g., v01) or Status (e.g., raw, processed)\n\n\n\n\n\n\n\n\n\nExample\n\n\n\nMy naming convention for R Markdown analysis files is: “analysis-YYYY-MM-DD-version.Rmd” where version starts with “v01.” This is my first analysis file, “analysis-YYYY-MM-DD-v01.Rmd”"
   },
   {
     "objectID": "bioinformatic-best-practices.html#application-containers-with-docker",
     "href": "bioinformatic-best-practices.html#application-containers-with-docker",
-    "title": "6  Bioinformatic Best Practices",
-    "section": "6.4 Application Containers with Docker",
-    "text": "6.4 Application Containers with Docker"
+    "title": "7  Bioinformatic Best Practices",
+    "section": "7.4 Application Containers with Docker",
+    "text": "7.4 Application Containers with Docker"
   },
   {
     "objectID": "presenting-your-medical-research.html",
     "href": "presenting-your-medical-research.html",
-    "title": "7  Presenting Your Medical Research",
+    "title": "8  Presenting Your Medical Research",
     "section": "",
-    "text": "You should use a sans-serif font like Arial to maximize readability. “Serifs” are extending features at the end of letters. Times New Roman is a serif font.\n\nSans-serif versus serif fonts1\n\n\n\n\n\n\n\nFont\nIllustration\nExamples\n\n\nSans-serif font\n\nArial, Calibri, Helvetica\n\n\nSerif font\n\nTimes New Roman, Georgia, Garamond\n\n\nSerifs (colored in red)\n\n–"
+    "text": "You should use a sans-serif font like Arial to maximize readability. “Serifs” are extending features at the end of letters. Times New Roman is a serif font.\n\nSans-serif versus serif fonts1\n\n\n\n\n\n\n\nFont\nIllustration\nExamples\n\n\n\n\nSans-serif font\n\nArial, Calibri, Helvetica\n\n\nSerif font\n\nTimes New Roman, Georgia, Garamond\n\n\nSerifs (colored in red)\n\n–"
   },
   {
     "objectID": "presenting-your-medical-research.html#font-size",
     "href": "presenting-your-medical-research.html#font-size",
-    "title": "7  Presenting Your Medical Research",
-    "section": "7.2 Font Size",
-    "text": "7.2 Font Size\n\n\n\n\n\n\n\nSlide Section\nFont Size\n\n\n\n\nTitle\n36 – 44\n\n\nText\n(e.g., Bullets, Figures, Tables)\n24 – 28\n\n\nReferences\n20 – 24"
+    "title": "8  Presenting Your Medical Research",
+    "section": "8.2 Font Size",
+    "text": "8.2 Font Size\n\n\n\n\n\n\n\nSlide Section\nFont Size\n\n\n\n\nTitle\n36 – 44\n\n\nText\n(e.g., Bullets, Figures, Tables)\n24 – 28\n\n\nReferences\n20 – 24"
   },
   {
     "objectID": "presenting-your-medical-research.html#word-count",
     "href": "presenting-your-medical-research.html#word-count",
-    "title": "7  Presenting Your Medical Research",
-    "section": "7.3 Word Count",
-    "text": "7.3 Word Count\nThe fewer words, the better. A rule to follow is the 7×7 rule: no more than 7 lines and no more than 7 words per line."
+    "title": "8  Presenting Your Medical Research",
+    "section": "8.3 Word Count",
+    "text": "8.3 Word Count\nThe fewer words, the better. A rule to follow is the 7×7 rule: no more than 7 lines and no more than 7 words per line."
   },
   {
     "objectID": "presenting-your-medical-research.html#timing",
     "href": "presenting-your-medical-research.html#timing",
-    "title": "7  Presenting Your Medical Research",
-    "section": "7.4 Timing",
-    "text": "7.4 Timing\nYou should estimate approximately 1 minute per slide."
+    "title": "8  Presenting Your Medical Research",
+    "section": "8.4 Timing",
+    "text": "8.4 Timing\nYou should estimate approximately 1 minute per slide."
   },
   {
     "objectID": "presenting-your-medical-research.html#figures",
     "href": "presenting-your-medical-research.html#figures",
-    "title": "7  Presenting Your Medical Research",
-    "section": "7.5 Figures",
-    "text": "7.5 Figures\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nSome tools that you can use to get started creating SVG include Microsoft PowerPoint (subscription), Adobe Illustrator (subscription), draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscape is better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes >1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”"
+    "title": "8  Presenting Your Medical Research",
+    "section": "8.5 Figures",
+    "text": "8.5 Figures\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nSome tools that you can use to get started creating SVG include Microsoft PowerPoint (subscription), Adobe Illustrator (subscription), draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscape is better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes >1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”"
   },
   {
     "objectID": "presenting-your-medical-research.html#references",
     "href": "presenting-your-medical-research.html#references",
-    "title": "7  Presenting Your Medical Research",
-    "section": "7.6 References",
-    "text": "7.6 References\nCite references at the bottom of your slides as you present information.\n\n\n\n\n\n\nFormat\n\n\n\nLast Name. Journal Abbreviation. Year."
+    "title": "8  Presenting Your Medical Research",
+    "section": "8.6 References",
+    "text": "8.6 References\nCite references at the bottom of your slides as you present information.\n\n\n\n\n\n\nFormat\n\n\n\nLast Name. Journal Abbreviation. Year."
   },
   {
     "objectID": "presenting-your-medical-research.html#equipment",
     "href": "presenting-your-medical-research.html#equipment",
-    "title": "7  Presenting Your Medical Research",
-    "section": "7.7 Equipment",
-    "text": "7.7 Equipment\n\n7.7.1 Laptop\nBring your own laptop to presentations in case there isn’t a desktop computer for you to use, or it is not functioning, reliable or frustratingly slow.\n\n\n7.7.2 Hub\nWhat is worse than not being able to connect your laptop to the correct cable? While a good host for a presentation should have a hub (or dongle if that’s your preferred terminology), you can come prepared with your own too–particularly important if you have a laptop with only USB-C ports and no HDMI port.\nThere are lots of options for hubs. If you are looking for a recommendation, I’ve found that Anker usually has a selection of high-quality and affordable hubs.\n\n\n7.7.3 USB Drive\nDo you want the entire audience to see your most recent emails when you login to download the PowerPoint you emailed yourself? No. Me either. To avoid this, bring your presentation loaded onto a USB drive, which should ideally have both USB-A and USB-C ports. Or, you can also avoid this by using your own laptop—where the presentation should already be downloaded.\n\n\n7.7.4 Presentation Remote\nI don’t feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive–but I think it is another piece of equipment to consider. This helps keep you from being tethered to and white knuckling the podium during your talk.\nOne option to consider is the Logitech Spotlight Presentation Remote–which includes features such as magnification, vibration alerts for time management (e.g., 5 minutes left), 3 hours use from 1 minute of charging, and connection by USB receiver or Bluetooth–in addition to slide advancement."
+    "title": "8  Presenting Your Medical Research",
+    "section": "8.7 Equipment",
+    "text": "8.7 Equipment\n\n8.7.1 Laptop\nBring your own laptop to presentations in case there isn’t a desktop computer for you to use, or it is not functioning, reliable or frustratingly slow.\n\n\n8.7.2 Hub\nWhat is worse than not being able to connect your laptop to the correct cable? While a good host for a presentation should have a hub (or dongle if that’s your preferred terminology), you can come prepared with your own too–particularly important if you have a laptop with only USB-C ports and no HDMI port.\nThere are lots of options for hubs. If you are looking for a recommendation, I’ve found that Anker usually has a selection of high-quality and affordable hubs.\n\n\n8.7.3 USB Drive\nDo you want the entire audience to see your most recent emails when you login to download the PowerPoint you emailed yourself? No. Me either. To avoid this, bring your presentation loaded onto a USB drive, which should ideally have both USB-A and USB-C ports. Or, you can also avoid this by using your own laptop—where the presentation should already be downloaded.\n\n\n8.7.4 Presentation Remote\nI don’t feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive–but I think it is another piece of equipment to consider. This helps keep you from being tethered to and white knuckling the podium during your talk.\nOne option to consider is the Logitech Spotlight Presentation Remote–which includes features such as magnification, vibration alerts for time management (e.g., 5 minutes left), 3 hours use from 1 minute of charging, and connection by USB receiver or Bluetooth–in addition to slide advancement."
   },
   {
     "objectID": "on-being-a-physician-scientist.html",
     "href": "on-being-a-physician-scientist.html",
-    "title": "8  On Being a Physician-Scientist",
+    "title": "9  On Being a Physician-Scientist",
     "section": "",
-    "text": "The Burroughs Wellcome Fund provides a comprehensive list of offer letter components in their article, “Academic Tenure-Track Offer Letters.”"
+    "text": "Looking to get an idea of academic faculty salaries? The annual AAMC Faculty Salary Report compiles academic faculty salaries by rank, degree, department/specialty, medical school type, region, and more. This is often available for free through your university library. Get to know your librarian!\n\n\n\nWhat goes into a tenure-track offer letter? The Burroughs Wellcome Fund provides a comprehensive list of offer letter components in their article, “Academic Tenure-Track Offer Letters.”"
+  },
+  {
+    "objectID": "on-being-a-physician-scientist.html#nih-loan-repayment-program",
+    "href": "on-being-a-physician-scientist.html#nih-loan-repayment-program",
+    "title": "9  On Being a Physician-Scientist",
+    "section": "9.2 NIH Loan Repayment Program",
+    "text": "9.2 NIH Loan Repayment Program\nNIH Loan Repayment Program"
+  },
+  {
+    "objectID": "on-being-a-physician-scientist.html#online-resources",
+    "href": "on-being-a-physician-scientist.html#online-resources",
+    "title": "9  On Being a Physician-Scientist",
+    "section": "9.3 Online Resources",
+    "text": "9.3 Online Resources\n\n9.3.1 Edge for Scholars\nEdge for Scholars\n\n\n9.3.2 NCFDD\nNCFDD"
+  },
+  {
+    "objectID": "on-being-a-physician-scientist.html#professional-organizations",
+    "href": "on-being-a-physician-scientist.html#professional-organizations",
+    "title": "9  On Being a Physician-Scientist",
+    "section": "9.4 Professional Organizations",
+    "text": "9.4 Professional Organizations\nAmerican Physician Scientists Association"
+  },
+  {
+    "objectID": "on-being-a-physician-scientist.html#suggested-readings",
+    "href": "on-being-a-physician-scientist.html#suggested-readings",
+    "title": "9  On Being a Physician-Scientist",
+    "section": "9.5 Suggested Readings",
+    "text": "9.5 Suggested Readings\n\n9.5.1 Not Discussed\nNot Discussed by Michael Stein\n\n\n9.5.2 Publishing Your Medical Research\nPublishing Your Medical Research by Daniel W. Byrne"
   },
   {
     "objectID": "references.html",
