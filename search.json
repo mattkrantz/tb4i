@@ -119,53 +119,18 @@
     "text": "Epistatic interactions between KIR and HLA are associated with ankylosing spondylitis (Hanson, 2020)"
   },
   {
-    "objectID": "drugallergy.html#buproprion",
-    "href": "drugallergy.html#buproprion",
+    "objectID": "drugallergy.html#delayed-drug-allergy",
+    "href": "drugallergy.html#delayed-drug-allergy",
     "title": "5  Drug Allergy",
-    "section": "5.2 Buproprion",
-    "text": "5.2 Buproprion"
+    "section": "5.2 Delayed Drug Allergy",
+    "text": "5.2 Delayed Drug Allergy\n\n5.2.1 Skin Testing\n\nUtility of patch and intradermal skin testing for delayed drug allergy reaction types\n\n\n\n\n\n\n\nReaction\nPatch Testing\nIntradermal Testing\n\n\n\n\nMaculopapular exanthem (MPE)\nUseful if positive\nUseful if positive\n\n\nAcute generalized exanthematous pustulosis (AGEP)\nUseful if positive\nUseful if positive\n\n\nStevens-Johnson Syndrome/Toxic epidermal necrolysis (SJS/TEN)\nLow sensitivity but potentially useful if positive\nContraindicated due to concern for potential reactivation\n\n\nDrug reaction with eosinophilia and systemic symptoms (DRESS)\nUseful if positive\nUseful if positive\n\n\nFixed drug eruption\nUseful if applied to the site of reaction\nNot useful\n\n\nDrug-induced organ injury (e.g., kidney, liver)\nNot useful\nNot useful\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNo delayed skin testing method has 100% negative predictive value.\n\n\n\nShared characteristics of patch and intradermal testing\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTiming\nPerform at least 6 to 8 weeks after reaction; and 6 months or later after DRESS\n\n\nConcomitant medications\nMost medications okay to continue, including anti-histamines and beta-blockers. Should be off of steroids for ≥ 1 month or prednisone equivalent dose ≤ 10 mg/day\n\n\n\n\n5.2.1.1 Intradermal Testing\n\nCharacteristics of intradermal testing\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTesting site\nVolar forearm or extensor upper arm\n\n\nTesting reagents\nMust be sterile; often higher concentrations than those used for immediate skin testing\n\n\nControls\n+ None\n- Saline\n\n\nTest interpretation\n+ Papule present\n- Negative\n\n\n\n\n\n5.2.1.2 Patch Testing\n\nCharacteristics of patch testing\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTesting site\nBack of upper arm (needs to be hairless)\n\n\nTesting reagents\n1% and 10% of reagent grade product; 10% and 30% of trade product; most commonly used vehicle is petrolatum\n\n\nControls\n+ None\n- Petrolatum\n\n\nShelf-life of patch test mixes\nMost antibiotics at room temperature are stable for 1 to 3 months; check with USP Pharmacopeia for verification\n\n\nPatches\nFinn chambers (can be aluminum or molded plastic)\n\n\nTape\nUse hypoallergenic paper tape\n\n\nReading\nAt 48 hours (85% of drugs-if will be positive-are positive by this point); 72 hours; 96 hours; and 1 week\n\n\nTest interpretation\n- Negative\n? Doubtful reaction\n+ Weak reaction, erythema\n++ Strong reaction, erythema, papules, or vesicles\n+++ Extreme, bullous, ulcerative"
   },
   {
-    "objectID": "drugallergy.html#fluoroquinolones",
-    "href": "drugallergy.html#fluoroquinolones",
+    "objectID": "drugallergy.html#specific-drugs",
+    "href": "drugallergy.html#specific-drugs",
     "title": "5  Drug Allergy",
-    "section": "5.3 Fluoroquinolones",
-    "text": "5.3 Fluoroquinolones"
-  },
-  {
-    "objectID": "drugallergy.html#iron",
-    "href": "drugallergy.html#iron",
-    "title": "5  Drug Allergy",
-    "section": "5.4 Iron",
-    "text": "5.4 Iron"
-  },
-  {
-    "objectID": "drugallergy.html#local-anesthetics",
-    "href": "drugallergy.html#local-anesthetics",
-    "title": "5  Drug Allergy",
-    "section": "5.5 Local Anesthetics",
-    "text": "5.5 Local Anesthetics"
-  },
-  {
-    "objectID": "drugallergy.html#penicillins",
-    "href": "drugallergy.html#penicillins",
-    "title": "5  Drug Allergy",
-    "section": "5.6 Penicillins",
-    "text": "5.6 Penicillins"
-  },
-  {
-    "objectID": "drugallergy.html#radiocontrast",
-    "href": "drugallergy.html#radiocontrast",
-    "title": "5  Drug Allergy",
-    "section": "5.7 Radiocontrast",
-    "text": "5.7 Radiocontrast"
-  },
-  {
-    "objectID": "drugallergy.html#sulfa-antibiotics",
-    "href": "drugallergy.html#sulfa-antibiotics",
-    "title": "5  Drug Allergy",
-    "section": "5.8 Sulfa Antibiotics",
-    "text": "5.8 Sulfa Antibiotics"
+    "section": "5.3 Specific Drugs",
+    "text": "5.3 Specific Drugs\n\n5.3.1 Antibiotics\n\n5.3.1.1 Cephalosporings\n\n\n5.3.1.2 Fluoroquinolones\n\n\n5.3.1.3 Penicillins\n\n\n5.3.1.4 Sulfa Antibiotics\n\n\n5.3.1.5 Vancomycin\n\n\n\n5.3.2 Buproprion\n\n\n5.3.3 Iron\n\n\n5.3.4 Local Anesthetics\n\n\n5.3.5 Radiocontrast"
   },
   {
     "objectID": "genotype-imputation.html",
