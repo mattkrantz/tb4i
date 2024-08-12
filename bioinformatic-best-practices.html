@@ -259,17 +259,43 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (<a href="https://doi.org/10.5964/qcmb.3763">Peikert &amp; Brandmaier, 2021</a>).</p>
 <section id="project-organization" class="level2">
 <h2 class="anchored" data-anchor-id="project-organization">Project Organization</h2>
+<p>If you would like a video overview of how to organize a project using R Studio, I recommend <a href="https://tommytang.bio.link">Ming “Tommy” Tang</a>’s tutorial on YouTube, “<a href="https://www.youtube.com/watch?v=wXXhp9sXqao">How to Organize a Computational Biology Project</a>”. In his tutorial he references an excellent reference on project organization, “<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1000424">A Quick Guide to Organizing Computational Biology Projects</a>” by William Noble.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In RStudio, you should create a “New Project,” which creates both a project folder and a .Rproj file (which sets the path for your project working directory). You should use the <a href="https://here.r-lib.org"><code>here</code></a> package to easily build paths to files in a more reliable fashion than using <a href="https://rdrr.io/r/base/getwd.html">setwd()</a>.</p>
+</div>
+</div>
 <p><strong>Bash Commands to Create Folder Directory Structure for Your R Project</strong></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="op">&lt;</span>/path/to/parent/directory<span class="op">&gt;</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="op">&lt;</span>your-r-project-folder<span class="op">&gt;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="op">&lt;</span>your-r-project-folder<span class="op">&gt;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> README.md</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> data doc src bin outputs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Once you have created your New Project in RStudio and are in <code>your-r-project-folder</code> in the Terminal. You can create your <code>README.md</code> file and your sub-folder directory structure.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> README.md</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> data doc scripts bin outputs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Once you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: <code>chmod u-w -R data/</code></p>
 </section>
 <section id="version-control-with-git" class="level2">
 <h2 class="anchored" data-anchor-id="version-control-with-git">Version Control with Git</h2>
+<p>You should version control your scripts with Git.</p>
 <p>I recommend the <a href="https://rstudio.github.io/cheatsheets/git-github.pdf">Using Git and GitHub with RStudio Cheatsheet</a> for additional helpful commands.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>As long as you have your raw data backed up and your scripts version controlled, you can reproduce your results!</p>
+</div>
+</div>
 <p><strong>Verify Git Installation and Version</strong></p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span> git <span class="co"># request path to your Git executable</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span> <span class="co"># check your Git version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
