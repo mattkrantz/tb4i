@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Translational Bioinformatics for Immunogenomics - Genotype Imputation</title>
+<title>Translational Bioinformatics for Immunogenomics - Delayed Drug Allergy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./bioinformatic-best-practices.html" rel="next">
-<link href="./specific-drugs.html" rel="prev">
+<link href="./specific-drugs.html" rel="next">
+<link href="./immediate-drug-allergy.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +90,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./genotype-imputation.html"><span class="chapter-title">Genotype Imputation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./drug-allergy.html">Drug Allergy</a></li><li class="breadcrumb-item"><a href="./delayed-drug-allergy.html"><span class="chapter-title">Delayed Drug Allergy</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -169,7 +169,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./delayed-drug-allergy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Delayed Drug Allergy</span></a>
+  <a href="./delayed-drug-allergy.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Delayed Drug Allergy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -181,7 +181,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./genotype-imputation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Genotype Imputation</span></a>
+  <a href="./genotype-imputation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Genotype Imputation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -215,20 +215,26 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#michigan-imputation-server" id="toc-michigan-imputation-server" class="nav-link active" data-scroll-target="#michigan-imputation-server">Michigan Imputation Server</a></li>
-  <li><a href="#topmed-imputation-server" id="toc-topmed-imputation-server" class="nav-link" data-scroll-target="#topmed-imputation-server">TOPMed Imputation Server</a></li>
-  <li><a href="#reference-panels" id="toc-reference-panels" class="nav-link" data-scroll-target="#reference-panels">Reference Panels</a></li>
-  <li><a href="#genome-assemblies" id="toc-genome-assemblies" class="nav-link" data-scroll-target="#genome-assemblies">Genome Assemblies</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#phenotypes" id="toc-phenotypes" class="nav-link active" data-scroll-target="#phenotypes">Phenotypes</a>
+  <ul>
+  <li><a href="#allergic-contact-dermatitis" id="toc-allergic-contact-dermatitis" class="nav-link" data-scroll-target="#allergic-contact-dermatitis">Allergic Contact Dermatitis</a></li>
+  </ul></li>
+  <li><a href="#skin-testing" id="toc-skin-testing" class="nav-link" data-scroll-target="#skin-testing">Skin Testing</a>
+  <ul>
+  <li><a href="#intradermal-testing" id="toc-intradermal-testing" class="nav-link" data-scroll-target="#intradermal-testing">Intradermal Testing</a></li>
+  <li><a href="#patch-testing" id="toc-patch-testing" class="nav-link" data-scroll-target="#patch-testing">Patch Testing</a></li>
+  </ul></li>
+  <li><a href="#human-leukocyte-antigen-testing" id="toc-human-leukocyte-antigen-testing" class="nav-link" data-scroll-target="#human-leukocyte-antigen-testing">Human Leukocyte Antigen Testing</a></li>
+  <li><a href="#enzyme-linked-immunospot-testing" id="toc-enzyme-linked-immunospot-testing" class="nav-link" data-scroll-target="#enzyme-linked-immunospot-testing">Enzyme-linked Immunospot Testing</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./drug-allergy.html">Drug Allergy</a></li><li class="breadcrumb-item"><a href="./delayed-drug-allergy.html"><span class="chapter-title">Delayed Drug Allergy</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Genotype Imputation</span></h1>
+<h1 class="title"><span class="chapter-title">Delayed Drug Allergy</span></h1>
 </div>
 
 
@@ -245,90 +251,257 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 </header>
 
 
-<section id="michigan-imputation-server" class="level2">
-<h2 class="anchored" data-anchor-id="michigan-imputation-server">Michigan Imputation Server</h2>
-<p>The <a href="https://imputationserver.sph.umich.edu/index.html#!pages/home">Michigan Imputation Server</a> is a free next-generation genotype imputation platform. You can learn more about the Michigan Imputation Server by visiting their <a href="https://imputationserver.readthedocs.io/en/latest/getting-started/">Getting Started</a> documentation. The <a href="http://www.internationalgenome.org/">1000 Genomes Phase 3 (Version 5)</a> Reference Panel is available on the Michigan Imputation Server.</p>
+<section id="phenotypes" class="level2">
+<h2 class="anchored" data-anchor-id="phenotypes">Phenotypes</h2>
+<section id="allergic-contact-dermatitis" class="level3">
+<h3 class="anchored" data-anchor-id="allergic-contact-dermatitis">Allergic Contact Dermatitis</h3>
+<p>Allergic contact dermatitis (ACD) secondary to topical medications is characterized by an eczematous eruption–which typically localized to sites of direct exposure. Depending on the severity and chronicity of ACD, eczematous eruptions can range from localized erythema and edema to vesicularization, crusting and weeping. However, ACD can become generalized to non-exposed sites, referred to as “autoeczematization” or “id reaction.”</p>
+<p>The differential diagnosis for ACD also includes irritant contact dermatitis as well as other chronic eczematous dermatoses (e.g., atopic dermatitis, psoriasis).</p>
+<p>The top 4 drug category causes of ACD are: antibiotics, local anesthetics, corticosteroids, and propylene glycol (techically an excipient).</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Antibiotics (e.g., neomycin, bacitracin, polymyxin B) are the most common cause of ACD. Therefore, it is recommended to use petrolatum or other bland emolients for wound care because have equally low infection rate as bacitracin and other topical antibiotics without the risk of ACD.</p>
+</div>
+</div>
+<p>Co-sensitization—when sensitized to ≥ 2 structurally distinct allergens—often occurs in patients who experience ACD. Therefore, when possible, it is important to test to individual components of a culprit topical drug.</p>
 </section>
-<section id="topmed-imputation-server" class="level2">
-<h2 class="anchored" data-anchor-id="topmed-imputation-server">TOPMed Imputation Server</h2>
-<p>The <a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed Imputation Server</a> is another free next-generation genotype imputation platform developed by the <a href="https://imputationserver.sph.umich.edu/index.html#!">University of Michigan</a> and powered by data from the <a href="https://topmed.nhlbi.nih.gov/">TOPMed Program</a> investigators. You can learn more about the TOPMed Imputation Server by visiting their <a href="https://topmedimpute.readthedocs.io/en/latest/getting-started/">Getting Started</a> documentation. The <a href="https://www.nhlbiwgs.org/">TOPMed Version 3</a> Reference Panel was released in December 2023.</p>
 </section>
-<section id="reference-panels" class="level2">
-<h2 class="anchored" data-anchor-id="reference-panels">Reference Panels</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Reference Panel</th>
-<th>Genome Assembly</th>
-<th style="text-align: center;">No.&nbsp;of Samples</th>
-<th style="text-align: center;">Sites<br>
-(chr1-22)</th>
-<th style="text-align: center;">Chr.</th>
-<th>Imputation Server</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="http://www.internationalgenome.org/">1000 Genomes Phase 3 (Version 5)</a></td>
-<td>GRCh37/hg19</td>
-<td style="text-align: center;">2,504</td>
-<td style="text-align: center;">49,143,605</td>
-<td style="text-align: center;">1-22, X</td>
-<td><a href="https://imputationserver.sph.umich.edu/index.html#!">Michigan Imputation Server</a></td>
-</tr>
-<tr class="even">
-<td><a href="https://www.nhlbiwgs.org/">TOPMed (Version 3)</a></td>
-<td>GRCh38/hg38</td>
-<td style="text-align: center;">133,597</td>
-<td style="text-align: center;">445,600,184</td>
-<td style="text-align: center;">1-22, X</td>
-<td><a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed Imputation Server</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="genome-assemblies" class="level2">
-<h2 class="anchored" data-anchor-id="genome-assemblies">Genome Assemblies</h2>
-<p>The <a href="https://www.ncbi.nlm.nih.gov/grc">Genome Reference Consortium</a> (GRC) is the main source of human genome assembly data. The most recent human genome assembly version is GRCh38, released in 2013. The “h” in “GRCh” stands for “human.” The GRC also maintains genome assembly data for rat (r), mouse (m), zebrafish (z), and chicken (g for gallus). Major updates, called “versions”, are released every few years. Minor updates are called “patches” and are released more frequently.</p>
-<p>GRCh38 is referred to as “hg38” in the <a href="https://genome.ucsc.edu/">University of California Santa Cruz (UCSC) Genome Browser</a>. The “hg” stands for “human genome.” Before the GRCh38 genome assembly, the version numbers of the GRC and UCSC Genome Browser genome assemblies did not match. For example, when the GRCh37 genome assembly was released in 2009, the UCSC Genome Browser version was “hg19.” Therefore, to minimize confusion, starting with the GRCh38 genome assembly, the <a href="https://genome.ucsc.edu/">UCSC Genome Browser</a> version number was matched as “hg38.”</p>
+<section id="skin-testing" class="level2">
+<h2 class="anchored" data-anchor-id="skin-testing">Skin Testing</h2>
+<div id="tbl-delayed-skin-testing" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-delayed-skin-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.1: Utility of patch and intradermal skin testing for delayed drug allergy reaction types
+</figcaption>
+<div aria-describedby="tbl-delayed-skin-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 14%">
-<col style="width: 15%">
-<col style="width: 16%">
-<col style="width: 12%">
-<col style="width: 38%">
+<col style="width: 39%">
+<col style="width: 28%">
+<col style="width: 31%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">GRC Version</th>
-<th style="text-align: center;">UCSC Version</th>
-<th style="text-align: center;">Year Released</th>
-<th style="text-align: center;">Genome<br>
-Coverage</th>
-<th style="text-align: center;">Alternate Haplotypes</th>
+<th>Reaction</th>
+<th>Patch Testing</th>
+<th>Intradermal Testing</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">GRCh37</td>
-<td style="text-align: center;">hg19</td>
-<td style="text-align: center;">2009</td>
-<td style="text-align: center;">~92.5%</td>
-<td style="text-align: center;">3 regions with 9 alternate loci</td>
+<td>Maculopapular exanthem (MPE)</td>
+<td>Useful if positive</td>
+<td>Useful if positive</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">GRCh38</td>
-<td style="text-align: center;">hg38</td>
-<td style="text-align: center;">2013</td>
-<td style="text-align: center;">95%</td>
-<td style="text-align: center;">178 regions with 261 alternate loci</td>
+<td>Acute generalized exanthematous pustulosis (AGEP)</td>
+<td>Useful if positive</td>
+<td>Useful if positive</td>
+</tr>
+<tr class="odd">
+<td>Stevens-Johnson Syndrome/Toxic epidermal necrolysis (SJS/TEN)</td>
+<td>Low sensitivity but potentially useful if positive</td>
+<td>Contraindicated due to concern for potential reactivation</td>
+</tr>
+<tr class="even">
+<td>Drug reaction with eosinophilia and systemic symptoms (DRESS)</td>
+<td>Useful if positive</td>
+<td>Useful if positive</td>
+</tr>
+<tr class="odd">
+<td>Fixed drug eruption</td>
+<td>Useful if applied to the site of reaction</td>
+<td>Not useful</td>
+</tr>
+<tr class="even">
+<td>Allergic contact dermatitis</td>
+<td>Useful if positive</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Symmetrical drug-related intertrigenous and flexural exanthema (SDRIFE)</td>
+<td></td>
+<td>Useful if positive</td>
+</tr>
+<tr class="even">
+<td>Drug-induced organ injury (e.g., kidney, liver)</td>
+<td>Not useful</td>
+<td>Not useful</td>
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>No delayed skin testing method has 100% negative predictive value.</p>
+</div>
+</div>
+<div id="tbl-delayed-skin-shared" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-delayed-skin-shared-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.2: Shared characteristics of patch and intradermal testing
+</figcaption>
+<div aria-describedby="tbl-delayed-skin-shared-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 86%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Characteristic</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Timing</td>
+<td>Perform at least 6 to 8 weeks after reaction; and 6 months or later after DRESS</td>
+</tr>
+<tr class="even">
+<td>Concomitant medications</td>
+<td>Most medications okay to continue, including anti-histamines and beta-blockers. Should be off of steroids for ≥ 1 month or prednisone equivalent dose ≤ 10 mg/day</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<section id="intradermal-testing" class="level3">
+<h3 class="anchored" data-anchor-id="intradermal-testing">Intradermal Testing</h3>
+<div id="tbl-intradermal-testing" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-intradermal-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.3: Characteristics of intradermal testing
+</figcaption>
+<div aria-describedby="tbl-intradermal-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Characteristic</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Testing site</td>
+<td>Volar forearm or extensor upper arm</td>
+</tr>
+<tr class="even">
+<td>Testing reagents</td>
+<td>Must be sterile; often higher concentrations than those used for immediate skin testing</td>
+</tr>
+<tr class="odd">
+<td>Reading</td>
+<td>At 24 hours</td>
+</tr>
+<tr class="even">
+<td>Controls</td>
+<td><p>+ None</p>
+<p>- Saline</p></td>
+</tr>
+<tr class="odd">
+<td>Test interpretation</td>
+<td><p>+ Papule present</p>
+<p>- Negative</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="patch-testing" class="level3">
+<h3 class="anchored" data-anchor-id="patch-testing">Patch Testing</h3>
+<div id="tbl-patch-testing" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-patch-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.4: Characteristics of patch testing
+</figcaption>
+<div aria-describedby="tbl-patch-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Characteristic</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Testing site</td>
+<td>Back or upper arm (needs to be hairless)</td>
+</tr>
+<tr class="even">
+<td>Testing reagents</td>
+<td>1% and 10% of reagent grade product; 10% and 30% of trade product; most commonly used vehicle is petrolatum</td>
+</tr>
+<tr class="odd">
+<td>Controls</td>
+<td><p>+ None</p>
+<p>- Petrolatum</p></td>
+</tr>
+<tr class="even">
+<td>Shelf-life of patch test mixes</td>
+<td>Most antibiotics at room temperature are stable for 1 to 3 months; check with USP Pharmacopeia for verification</td>
+</tr>
+<tr class="odd">
+<td>Patches</td>
+<td>Finn chambers (can be aluminum or molded plastic)</td>
+</tr>
+<tr class="even">
+<td>Tape</td>
+<td>Use hypoallergenic paper tape</td>
+</tr>
+<tr class="odd">
+<td>Reading</td>
+<td>At 48 hours (85% of drugs-if will be positive-are positive by this point); 72 hours; 96 hours; and 1 week</td>
+</tr>
+<tr class="even">
+<td>Test interpretation</td>
+<td><p>- Negative</p>
+<p>? Doubtful reaction</p>
+<p>+ Weak reaction, erythema</p>
+<p>++ Strong reaction, erythema, papules, or vesicles</p>
+<p>+++ Extreme, bullous, ulcerative</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="human-leukocyte-antigen-testing" class="level2">
+<h2 class="anchored" data-anchor-id="human-leukocyte-antigen-testing">Human Leukocyte Antigen Testing</h2>
+</section>
+<section id="enzyme-linked-immunospot-testing" class="level2">
+<h2 class="anchored" data-anchor-id="enzyme-linked-immunospot-testing">Enzyme-linked Immunospot Testing</h2>
 
 
 </section>
@@ -745,13 +918,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./specific-drugs.html" class="pagination-link" aria-label="Specific Drugs">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Specific Drugs</span></span>
+      <a href="./immediate-drug-allergy.html" class="pagination-link" aria-label="Immediate Drug Allergy">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Immediate Drug Allergy</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./bioinformatic-best-practices.html" class="pagination-link" aria-label="Bioinformatic Best Practices">
-        <span class="nav-page-text"><span class="chapter-title">Bioinformatic Best Practices</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./specific-drugs.html" class="pagination-link" aria-label="Specific Drugs">
+        <span class="nav-page-text"><span class="chapter-title">Specific Drugs</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
