@@ -12,7 +12,7 @@
   {
     "objectID": "hla.html",
     "href": "hla.html",
-    "title": "Human Leukocyte Antigens",
+    "title": "1  Human Leukocyte Antigens",
     "section": "",
     "text": "Background\nHLA is located on chromosome 6 in the Major Histocompatibility Complex (MHC).",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "hla.html#hla-class-i",
     "href": "hla.html#hla-class-i",
-    "title": "Human Leukocyte Antigens",
+    "title": "1  Human Leukocyte Antigens",
     "section": "HLA Class I",
     "text": "HLA Class I\nHLA class I molecules are expressed by healthy nucleated cells.",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "hla.html#hla-class-ii",
     "href": "hla.html#hla-class-ii",
-    "title": "Human Leukocyte Antigens",
+    "title": "1  Human Leukocyte Antigens",
     "section": "HLA Class II",
     "text": "HLA Class II\nHLA class II molecules are expressed by professional antigen-presenting cells (APC)–dendritic cells, macrophages, and B cells.",
     "crumbs": [
@@ -42,7 +42,7 @@
   {
     "objectID": "hla.html#hla-nomenclature",
     "href": "hla.html#hla-nomenclature",
-    "title": "Human Leukocyte Antigens",
+    "title": "1  Human Leukocyte Antigens",
     "section": "HLA Nomenclature",
     "text": "HLA Nomenclature",
     "crumbs": [
@@ -52,7 +52,7 @@
   {
     "objectID": "hla.html#functional-divergence",
     "href": "hla.html#functional-divergence",
-    "title": "Human Leukocyte Antigens",
+    "title": "1  Human Leukocyte Antigens",
     "section": "Functional Divergence",
     "text": "Functional Divergence\nHeterozygosity of HLA class I genes is associated with better outcomes after HIV infection. This is thought to be due to a greater repertoire of HIV peptides presented and cytotoxic T cell response. However, looking at HLA class I allotype alone does not take into account differences in actual peptide repertoire. Viard et al. (2024) developed a metric to measure this difference, termed “functional divergence.” Functional divergence predicts the peptide repertoire as a continuum. They showed that greater functional divergence was associated with better HIV outcomes. Functional divergence may be relevant to other diseases where HLA heterozygosity confers advantage, such as infection, vaccination, and immunotherapy.\nYou can download functional divergence estimates for pairwise combinations of HLA-A, HLA-B, and HLA-C alleles from their article’s Supplementary Materials. The functional divergence measure ranges from 0 (i.e., smallest functional divergence) to 1 (i.e., greatest functional divergence).",
     "crumbs": [
@@ -62,7 +62,7 @@
   {
     "objectID": "hla.html#hla-imputation-programs",
     "href": "hla.html#hla-imputation-programs",
-    "title": "Human Leukocyte Antigens",
+    "title": "1  Human Leukocyte Antigens",
     "section": "HLA Imputation Programs",
     "text": "HLA Imputation Programs\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nSNP2HLA\nCommand line interface\nPLINK binary format\nHLA class I and II alleles\nJia et al. (2013)\n\n\nHIBAG\nR\nPlink binary format\nHLA class I and II alleles\nZheng et al. (2014)\n\n\n\n\n\n\n\nJia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J. Concannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. De Bakker. 2013. “Imputing Amino Acid Polymorphisms in Human Leukocyte Antigens.” Edited by Jianming Tang. PLoS ONE 8 (6): e64683. https://doi.org/10.1371/journal.pone.0064683.\n\n\nViard, Mathias, Colm O’hUigin, Yuko Yuki, Arman A. Bashirova, David R. Collins, Jonathan M. Urbach, Steven Wolinsky, et al. 2024. “Impact of HLA Class I Functional Divergence on HIV Control.” Science 383 (6680): 319–25. https://doi.org/10.1126/science.adk0777.\n\n\nZheng, X, J Shen, C Cox, J C Wakefield, M G Ehm, M R Nelson, and B S Weir. 2014. “HIBAG—HLA Genotype Imputation with Attribute Bagging.” The Pharmacogenomics Journal 14 (2): 192–200. https://doi.org/10.1038/tpj.2013.18.",
     "crumbs": [
@@ -72,7 +72,7 @@
   {
     "objectID": "kir.html",
     "href": "kir.html",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "",
     "text": "Background\nKIR is located on chromosome 19 (19q13.4) in the Leukocyte Receptor Complex (LRC). KIR is expressed on the surface of Natural Killer (NK) cells and some T cells. KIR do not undergo somatic rearrangement–a key difference from T-cell receptors. KIR interacts with HLA class I–their cognate ligand–to recognize and destroy unhealthy tissue cells while preventing the same from occurring to healthy cells. Therefore, NK cells play a role in fighting infections, resisting some cancers, pregnancy, and preventing autoimmunity. For further reading and references, I highly recommend the review article by Pollock, Harrison, and Norman on the immunogenetics and co-evolution of KIR and HLA class I.",
     "crumbs": [
@@ -82,7 +82,7 @@
   {
     "objectID": "kir.html#kir-locus",
     "href": "kir.html#kir-locus",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "KIR Locus",
     "text": "KIR Locus\n\n\nAdapted from Pollock, Harrison, and Norman. JACI: In Practice. 2022.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene\n\n\n\n\n3DL3\n\n\n\n\n2DS2\n\n\n\n\n2DL2/3\n\n\n\n\n2DL5B\n\n\n\n\n2DS3\n\n\n\n\n2DL1\n\n\n\n\n2DL4\n\n\n\n\n3DL1\n\n\n\n\n3DS1\n\n\n\n\n2DL5A\n\n\n\n\n2DS5\n\n\n\n\n2DS4\n\n\n\n\n2DS1\n\n\n\n\n3DL2\n\n\n\n\n\n\n\n\nFunction\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\nActiv.\n\n\n\n\nActiv.\n\n\n\n\nActiv.\n\n\n\n\nInhibit.\n\n\n\n\n\n\nAlleles\n\n\n\n\n228\n\n\n\n\n65\n\n\n\n\n98\n\n\n\n\n47\n\n\n\n\n71\n\n\n\n\n173\n\n\n\n\n112\n\n\n\n\n184\n\n\n\n\n39\n\n\n\n\n44\n\n\n\n\n88\n\n\n\n\n39\n\n\n\n\n33\n\n\n\n\n166\n\n\n\n\n\n\nAllotypes\n\n\n\n\n112\n\n\n\n\n22\n\n\n\n\n50\n\n\n\n\n21\n\n\n\n\n23\n\n\n\n\n65\n\n\n\n\n58\n\n\n\n\n92\n\n\n\n\n22\n\n\n\n\n19\n\n\n\n\n38\n\n\n\n\n20\n\n\n\n\n12\n\n\n\n\n115\n\n\n\n\n\n\nHLA Class I Ligand Motifs\n\n\n\n\nB7H7\n\n\n\n\nA*11 C1\n\n\n\n\nB46:01 B73:01 C1 C2\n\n\n\n\nPVR\n\n\n\n\n?\n\n\n\n\nC2\n\n\n\n\nHLA-G\n\n\n\n\nBw4+ HLA-A and Bw4+ HLA-B\n\n\n\n\nBw4+ HLA-B and HLA-F\n\n\n\n\nPVR\n\n\n\n\nC2\n\n\n\n\nA*11 HLA-C\n\n\n\n\nC2\n\n\n\n\nA3 A11\n\n\n\n\n\n: Adapted from Pollock, Harrison, and Norman. JACI: In Practice. 2022.",
     "crumbs": [
@@ -92,7 +92,7 @@
   {
     "objectID": "kir.html#kir-diversity",
     "href": "kir.html#kir-diversity",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "KIR Diversity",
     "text": "KIR Diversity\nKIR diversity is influenced by gene content variation and sequence variation. Distinct DNA sequences of KIR genes are called “alleles.” Distinct polypeptide sequences of KIR genes are called “allotypes.” Because different DNA sequences of KIR gene can lead to the same polypeptide, there are more alleles than allotypes for a given KIR gene.\n\n\n\n\n\n\n\nKIR Diversity Concept\nDefinition\n\n\n\n\nGene Content Variation\nPresence/absence, fusion, duplication\n\n\nSequence Variation\nMay alter ligand affinity or specificity, signal transduction ability, or surface expression (e.g., promoter activity, translation, intracellular trafficking)\n\n\nAllele\nDistinct DNA sequence\n\n\nAllotype\nDistinct polypeptide sequence",
     "crumbs": [
@@ -102,7 +102,7 @@
   {
     "objectID": "kir.html#nk-cell-education",
     "href": "kir.html#nk-cell-education",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "NK Cell Education",
     "text": "NK Cell Education\n\n\n\n\n\n\n\n\nNK Cell Education\n(i.e., Arming, Licensing)\nCorresponding Pairs of KIR and HLA Class I Ligands\nCytotoxicity and other Effector Abilities\n\n\n\n\nStrong\nMany\nMore\n\n\nWeak\nFew\nLess",
     "crumbs": [
@@ -112,7 +112,7 @@
   {
     "objectID": "kir.html#kir-nomenclature",
     "href": "kir.html#kir-nomenclature",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "KIR Nomenclature",
     "text": "KIR Nomenclature\n\nInhibitory KIR\nThe main role of inhibitory KIR is to prevent cytotoxic NK and T cells from killing tissue cells–unless their HLA class I expression is lost or altered by infection or mutagenesis.\n\n\nActivating KIR\nActivating KIR help identify diseased cells for destruction by cytoxic NK and T cells. Binding of foreign peptides by HLA class I molecules retained by infected cells may be most critical for activating KIR.\n\n\nBroad KIR Haplotypes\n\n\n\n\n\n\n\n\n\nBroad KIR Haplotype\nKIR Copy Number Variation\nKIR Gene Organization\nActivating KIR\n\n\n\n\nA\nRelatively stable\nGenerally\nnon-variable\nLess\n\n\nB\nExtensive\nHighly variable\nMore",
     "crumbs": [
@@ -122,7 +122,7 @@
   {
     "objectID": "kir.html#kir-ligand-motifs",
     "href": "kir.html#kir-ligand-motifs",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "KIR Ligand Motifs",
     "text": "KIR Ligand Motifs\n\nAdapted from Pollock, Harrison, and Norman. JACI: In Practice. 2022.\n\n\nKIR Ligand Motif\nHLA-A Allotypes\nHLA-B Allotypes\nHLA-C Allotypes\n\n\n\n\nA3/A11\nA*03, A*11\n\n\n\n\nBw4\nA*23, A*24, A*32\nB*07:27, B*08:02, B*08:03, (B13), B*15:13, B*15:16, B*15:17, B*15:23, B*15:24, B*15:36, B*15:43, B*15:67, B*27:01, B*27:02, B*27:03, B*27:04, B*27:05,\nB*27:07, B*37, B*38, B*40:13, B*40:19, B*44, B*47, B*49, B*51, B*52, B*53, B*56:07, B*57, B*58, B*59\n\n\n\nC1\nC*01, C*03, C*07, C*08, C*12:02, C*12:03, C*12:06, C*12:08, C*13, C*14, C*16\nB*46, B*73\n\n\n\nC2\nC*02, C*03:07, C*04, C*05, C*06, C*12:04, C*12:05, C*12:07, C*14:04, C*15, C*16:02, C*17, C*18",
     "crumbs": [
@@ -132,7 +132,7 @@
   {
     "objectID": "kir.html#kir3dl1-and-kir3ds1",
     "href": "kir.html#kir3dl1-and-kir3ds1",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "KIR3DL1 and KIR3DS1",
     "text": "KIR3DL1 and KIR3DS1\nBecause of significant non-allelic recombination in the KIR region, the distinction between KIR genes and alleles can be confusing. Specifically, KIR3DL1 and KIR3DS1 are alleles of the same gene. Of the KIR3DS1 allotypes–3DS1013 and 014–are observed with the greatest frequency in any population.",
     "crumbs": [
@@ -142,7 +142,7 @@
   {
     "objectID": "kir.html#kir-allele-imputation-programs",
     "href": "kir.html#kir-allele-imputation-programs",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
+    "title": "2  Killer Cell Immunoglobulin-like Receptors",
     "section": "KIR Allele Imputation Programs",
     "text": "KIR Allele Imputation Programs\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nPONG\nR\nPLINK binary format\nKIR3DL1/S1 alleles (Global Model includes 51 alleles)\nHarrison, 2022\n\n\nKIR*IMP\nOnline portal\nHAPS/SAMPLE format\n19 KIR types: 17 loci (presence/absence and copy number) plus 2 extended haplotype classifications ( A and B haplotypes)\nVukcevic, 2015",
     "crumbs": [
@@ -152,7 +152,7 @@
   {
     "objectID": "erap.html",
     "href": "erap.html",
-    "title": "ERAP",
+    "title": "3  ERAP",
     "section": "",
     "text": "ERAP is located on chromsome 5.",
     "crumbs": [
@@ -162,7 +162,7 @@
   {
     "objectID": "epistasis.html",
     "href": "epistasis.html",
-    "title": "Epistatic Interactions",
+    "title": "4  Epistatic Interactions",
     "section": "",
     "text": "KIR-HLA\nEpistatic interactions between KIR and HLA are associated with ankylosing spondylitis (Hanson, 2020)",
     "crumbs": [
@@ -172,7 +172,7 @@
   {
     "objectID": "immediate-drug-allergy.html",
     "href": "immediate-drug-allergy.html",
-    "title": "Immediate Drug Allergy",
+    "title": "5  Immediate Drug Allergy",
     "section": "",
     "text": "Skin Testing\nConcentrations typically employed for drug skin testing are 1:10, 1:100, and full strength.",
     "crumbs": [
@@ -183,7 +183,7 @@
   {
     "objectID": "immediate-drug-allergy.html#skin-testing",
     "href": "immediate-drug-allergy.html#skin-testing",
-    "title": "Immediate Drug Allergy",
+    "title": "5  Immediate Drug Allergy",
     "section": "",
     "text": "Skin Prick Testing\n\n\nIntradermal Testing",
     "crumbs": [
@@ -194,7 +194,7 @@
   {
     "objectID": "delayed-drug-allergy.html",
     "href": "delayed-drug-allergy.html",
-    "title": "Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "",
     "text": "Phenotypes",
     "crumbs": [
@@ -205,7 +205,7 @@
   {
     "objectID": "delayed-drug-allergy.html#phenotypes",
     "href": "delayed-drug-allergy.html#phenotypes",
-    "title": "Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "",
     "text": "Allergic Contact Dermatitis\nAllergic contact dermatitis (ACD) secondary to topical medications is characterized by an eczematous eruption–which typically localized to sites of direct exposure. Depending on the severity and chronicity of ACD, eczematous eruptions can range from localized erythema and edema to vesicularization, crusting and weeping. However, ACD can become generalized to non-exposed sites, referred to as “autoeczematization” or “id reaction.”\nThe differential diagnosis for ACD also includes irritant contact dermatitis as well as other chronic eczematous dermatoses (e.g., atopic dermatitis, psoriasis).\nThe top 4 drug category causes of ACD are: antibiotics, local anesthetics, corticosteroids, and propylene glycol (techically an excipient).\n\n\n\n\n\n\nImportant\n\n\n\nAntibiotics (e.g., neomycin, bacitracin, polymyxin B) are the most common cause of ACD. Therefore, it is recommended to use petrolatum or other bland emolients for wound care because have equally low infection rate as bacitracin and other topical antibiotics without the risk of ACD.\n\n\nCo-sensitization—when sensitized to ≥ 2 structurally distinct allergens—often occurs in patients who experience ACD. Therefore, when possible, it is important to test to individual components of a culprit topical drug.",
     "crumbs": [
@@ -216,7 +216,7 @@
   {
     "objectID": "delayed-drug-allergy.html#skin-testing",
     "href": "delayed-drug-allergy.html#skin-testing",
-    "title": "Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "Skin Testing",
     "text": "Skin Testing\n\n\n\nTable 6.1: Utility of patch and intradermal skin testing for delayed drug allergy reaction types\n\n\n\n\n\n\n\n\n\n\nReaction\nPatch Testing\nIntradermal Testing\n\n\n\n\nMaculopapular exanthem (MPE)\nUseful if positive\nUseful if positive\n\n\nAcute generalized exanthematous pustulosis (AGEP)\nUseful if positive\nUseful if positive\n\n\nStevens-Johnson Syndrome/Toxic epidermal necrolysis (SJS/TEN)\nLow sensitivity but potentially useful if positive\nContraindicated due to concern for potential reactivation\n\n\nDrug reaction with eosinophilia and systemic symptoms (DRESS)\nUseful if positive\nUseful if positive\n\n\nFixed drug eruption\nUseful if applied to the site of reaction\nNot useful\n\n\nAllergic contact dermatitis\nUseful if positive\n\n\n\nSymmetrical drug-related intertrigenous and flexural exanthema (SDRIFE)\n\nUseful if positive\n\n\nDrug-induced organ injury (e.g., kidney, liver)\nNot useful\nNot useful\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNo delayed skin testing method has 100% negative predictive value.\n\n\n\n\n\nTable 6.2: Shared characteristics of patch and intradermal testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTiming\nPerform at least 6 to 8 weeks after reaction; and 6 months or later after DRESS\n\n\nConcomitant medications\nMost medications okay to continue, including anti-histamines and beta-blockers. Should be off of steroids for ≥ 1 month or prednisone equivalent dose ≤ 10 mg/day\n\n\n\n\n\n\n\nIntradermal Testing\n\n\n\nTable 6.3: Characteristics of intradermal testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTesting site\nVolar forearm or extensor upper arm\n\n\nTesting reagents\nMust be sterile; often higher concentrations than those used for immediate skin testing\n\n\nReading\nAt 24 hours\n\n\nControls\n+ None\n- Saline\n\n\nTest interpretation\n+ Papule present\n- Negative\n\n\n\n\n\n\n\n\nPatch Testing\n\n\n\nTable 6.4: Characteristics of patch testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTesting site\nBack or upper arm (needs to be hairless)\n\n\nTesting reagents\n1% and 10% of reagent grade product; 10% and 30% of trade product; most commonly used vehicle is petrolatum\n\n\nControls\n+ None\n- Petrolatum\n\n\nShelf-life of patch test mixes\nMost antibiotics at room temperature are stable for 1 to 3 months; check with USP Pharmacopeia for verification\n\n\nPatches\nFinn chambers (can be aluminum or molded plastic)\n\n\nTape\nUse hypoallergenic paper tape\n\n\nReading\nAt 48 hours (85% of drugs-if will be positive-are positive by this point); 72 hours; 96 hours; and 1 week\n\n\nTest interpretation\n- Negative\n? Doubtful reaction\n+ Weak reaction, erythema\n++ Strong reaction, erythema, papules, or vesicles\n+++ Extreme, bullous, ulcerative",
     "crumbs": [
@@ -227,7 +227,7 @@
   {
     "objectID": "delayed-drug-allergy.html#human-leukocyte-antigen-testing",
     "href": "delayed-drug-allergy.html#human-leukocyte-antigen-testing",
-    "title": "Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "Human Leukocyte Antigen Testing",
     "text": "Human Leukocyte Antigen Testing",
     "crumbs": [
@@ -238,7 +238,7 @@
   {
     "objectID": "delayed-drug-allergy.html#enzyme-linked-immunospot-testing",
     "href": "delayed-drug-allergy.html#enzyme-linked-immunospot-testing",
-    "title": "Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "Enzyme-linked Immunospot Testing",
     "text": "Enzyme-linked Immunospot Testing",
     "crumbs": [
@@ -249,7 +249,7 @@
   {
     "objectID": "specific-drugs.html",
     "href": "specific-drugs.html",
-    "title": "Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "",
     "text": "Antibiotics",
     "crumbs": [
@@ -260,7 +260,7 @@
   {
     "objectID": "specific-drugs.html#antibiotics",
     "href": "specific-drugs.html#antibiotics",
-    "title": "Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "",
     "text": "Cephalosporins\n\n\nFluoroquinolones\n\n\nMacrolides\n\nBackground\nWhat is the chemical structure of macrolides?\nMacrolides are defined by a large lactone ring, which varies from 12 to 16 carbons, with 1 or more attached sugar chains. Eyrthromycin and clarithromycin have 14 carbons in their lactone rings while azithromycin has 15.\nWhat is the mechanism of action of macrolides?\nAs 50S ribosomal subunit inhibitors, macrolides exert their bacteriostatic effect by inhibiting protein synthesis.\nWhat is the cross-reactivity pattern macrolide antibiotics?\nWhile not extensively studied, macrolide antibiotics with a different number of carbon atoms in their lactone ring are tolerated by most patients. Macrolide antibiotics are also unlikely to cross-react with macrolide immunosuppressants (e.g., tacrolimus, sirolimus).\nWhat are some infections that use macrolides as first-line therapy?\nClarithyromycin is used as part of combination treatment for H. pylori. Azithromycin is a part of the first-line combination therapy for Mycobacterium avium complex.\n\n\nNon-Hypersensitivity Reactions\nGI Side Effects\nBecause macrolides are also agonists for the motilin receptor–stimulating gastric and small intestine motility–they can cause nausea, vomiting, diarrhea, and abdmoninal cramping. Accordingly, erythromycin can be used as a treatment for gastroparesis.\nSensorineural Otoxicity\nMacrolides can cause usually, transient sensorineural ototoxicity.\nQT Interval Prolongation\nMacrolides are associated with QT interval prolongation.\n\n\nSkin Testing\nSkin testing for macrolide immediate hypersensitivity has not been shown to be reliable.\n\n\nOral Challenge\nFor patients with a history of immediate hypersensitivity reaction to a macrolide, graded azithromycin challenge can be performed, starting with azithromycin 25 mg followed by 1 hour observation then 250 mg followed by 2 hour observation.\nFor patients with a history of non-severe delayed hypersensitivity reaction to a macrolide, single dose azithromycin 250 mg challenge with 2 hour observation can be performed. Patients should be instructed to report any other delayed symptoms, which may occur up to 24 to 48 hours after the challenge dose.\n\n\n\nPenicillins\n\nSkin Testing\nWhat is the NPV of penicillin skin testing?\nThe NPV of penicillin skin testing is &gt; 95% when performed with only PPL plus penicillin G or with PPL plus full panel of minor derterminants.\n\n\n\n\n\n\n\nReagent\nDescription\n\n\n\n\nPenicilloyl polylysine (PPL, PrePen®)\n\nMajor antigenic determinant (what 95% of penicillin degrades into); PPL is penicilloyl complexed with polyltysine to constitute a multivalent skin test reagent. Polylysine acts like the carrier for the penicilloyl hapten in vivo.\n\n\n\nMinor derterminant mixture (MDM)\n\nPenicillin itself, penicilloate, penilloate\nNo commercially available expect in South America and Spain\n\n\n\nPenicillin G\n\n\n\nAmpicillin\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSelective IgE-mediated reactions to aminopenicillins are rare in North America (e.g. 3-5% in the United States) versus 25-50% of skin test positive patients in Europe.\n\n\nReferences:\nChapter 77 Middleton’s Drug Allergy\n\n\n\nSulfa Antibiotics\n\n\nVancomycin",
     "crumbs": [
@@ -271,7 +271,7 @@
   {
     "objectID": "specific-drugs.html#antiepileptic-drugs",
     "href": "specific-drugs.html#antiepileptic-drugs",
-    "title": "Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Antiepileptic Drugs",
     "text": "Antiepileptic Drugs\n\nBackground\nHow are antiepileptic drugs (AEDs) broadly categorized?\nAEDs can be broadly categorized by their structure: aromatic or non-aromatic.\nWhat defines an “aromatic” versus a “non-aromatic” AED?\nHistorically, compounds were labeled as aromatic based on their distinctive aromas.\nToday, aromatic compounds and AEDs are defined by containing a benzene ring or other benzene-like properties.\nBenzene has a sweet odor and is found naturally (e.g., crude oil) and produced as an intermediate for use in plastics, resins, nylons, synthetic fibers.\n\n\n\n\n\n\nFigure 7.1: 2D skeletal representation of benzene from Wikimedia\n\n\n\nWhich class of AEDs are associated with the greatest risk of rash and other cutaneous ADRs?\nAromatic AEDs are associated with the greatest occurence of rash and other cutaneous ADRs. In addition, there is greater cross-reactivity amongst aromatic AEDs than non-aromatic AEDs.",
     "crumbs": [
@@ -282,7 +282,7 @@
   {
     "objectID": "specific-drugs.html#buproprion",
     "href": "specific-drugs.html#buproprion",
-    "title": "Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Buproprion",
     "text": "Buproprion",
     "crumbs": [
@@ -293,7 +293,7 @@
   {
     "objectID": "specific-drugs.html#iron",
     "href": "specific-drugs.html#iron",
-    "title": "Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Iron",
     "text": "Iron\n\nBackground\nWhy is intravenous (IV) iron used?\nIV iron is used for the treatment of iron deficiency anemia when oral iron is effective or not tolerated.\nWhat IV iron formulations are available in the United States?\nFormulations available in the United States include low-molecular-weight iron dextran (LWMID), ferric gluconate, iron sucrose, ferumoxytol, iron isomaltoside, and ferric carboxymaltose.\n\n\n\n\n\n\nNote\n\n\n\nHigh-molecular weight iron dextrans were discontinued in the United States due to having a higher rate of hypersensitivity reactions.\n\n\n\n\n\nTable 7.1: Characteristics of iron formulations available in the United States\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneric name\nIron gluconate\nIron Sucrose\nLMWID\nFerric carboxymaltose\nIron isomaltoside\nFerumoxytol\n\n\n\n\nBrand name\nFerrlecit\nVenofer\nINFeD\nInjectafer\nMonofer\nFeraHeme\n\n\nMolecular weight (kD)\n289-440\n30-60\n165\n150\n150\n750\n\n\nLabile iron (% injected dose)\n3.3\n3.5\n2\n0.6\n1\n0.8\n\n\n\n\n\n\n\n\nImmediate Hypersensitivity Reactions\nWhat is the incidence of anaphylactic reactions with IV iron?\nAnaphylactic reactions—when high-molecular weight dextrans are excluded—occur with an incidence of &lt; 1 in 200,000.\nSignificant differences in reaction risk have not been shown among low-molecular weight iron dextran, iron sucrose, ferric gluconate, and ferric carboxymaltose.\nWhat is mechanism of most IV iron immediate hypersensitivity reactions?\nMost IV iron immediate hypersensitivity reactions are mediated through complement-activation related pseudoallergy (CARPA). Rarely, hypersensitivity reactions are IgE-mediated.\n\n\nMinor Infusion Reactions\nWhat are the symptoms of minor infusion reactions to IV iron?\nSymptoms of minor infusion reactions to IV iron include—flushing, chest/back tightness, myalgias—and, importantly, do not have any features of anaphylaxis.\nWhat is considered to be the main driver of minor infusion reactions to IV iron?\nLabile, or also called “free,” iron is associated with minor infusion reactions to IV iron.\n\n\nSkin Testing\nWhat is the utility of immediate skin testing for IV iron hypersensitivity reactions?\nAs most hypersensitivity reactions are non-IgE-mediated—rather via CARPA—skin testing has limited utility for evaluating IV iron hypersensitivity reactions; however, it may help detect the rare patients with IgE-mediated hypersensitivity.\n\n\nManagement\nWhat are some approaches to subsequent IV iron administration in patients with previous IV iron reactions?\nApproaches for patients with history of mild to moderate IV iron reactions include: switching to an alternative IV iron formulation, slowing the infusion rate (e.g., 10% of recommended rate during the first 10 to 15 minutes), and/or pre-treatment with non-sedating, second generation antihistamines.\nFor patients with a history of anaphylactic reactions to IV iron, desensitization can be considered, such as ferric gluconate.\n\n\nReferences\nGómez-Ramírez S, Shander A, Spahn DR, et al. Prevention and management of acute reactions to intravenous iron in surgical patients. Blood Transfusion. Published online April 10, 2019. doi:10.2450/2018.0156-18\nMuñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment options for iron-deficiency anemia. Expert Opin Drug Saf 2018; 17: 149-59.",
     "crumbs": [
@@ -304,7 +304,7 @@
   {
     "objectID": "specific-drugs.html#local-anesthetics",
     "href": "specific-drugs.html#local-anesthetics",
-    "title": "Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Local Anesthetics",
     "text": "Local Anesthetics",
     "crumbs": [
@@ -315,7 +315,7 @@
   {
     "objectID": "specific-drugs.html#radiocontrast",
     "href": "specific-drugs.html#radiocontrast",
-    "title": "Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Radiocontrast",
     "text": "Radiocontrast\n\nBackground\nHow do modern, radiocontrasts differ from older radiocontrasts?\nModern radiocontrasts are non-ionic, iodinated and either iso-osmolal or low-osmolality. Older radiocontrasts were high-osmolality–which are no longer used intravenously.\nIs radiocontrast allergy related to iodine or seafood allergy?\nThe radiocontrast molecular structure is responsible for hypersensitivity reactions–not iodine or seafood allergy. Shellfish allergy is secondary to tropomyosin not iodine.\n\n\nInfusion Reactions\nThese are also referred to as “toxic” or “chemotoxic” reactions. Characteristic symptoms include transient warmth/flushing, nausea/vomiting, chest pain, metallic taste, hypertension, and/or vasogal signs.\n\n\nImmediate Hypersensitivity Reactions\nThe most common immediate hypersensitivity reaction to radiocontrast is mild urticaria and pruritus, occuring in ~0.9% - 3.1% of patients receiving radiocontrast. Anaphylaxis occurs in 0.02% - 0.04% of patients. Of immediate hypersensitivity reactions, 70% occur within 5 minutes of radiocontrast injection and 96% of severe reactions occur within 20 minutes.\n\n\nDelayed Hypersensitivity Reactions\nThe most common delayed hypersensitivity reaction to radiocontrast is a maculopapular exanthem–occurring in 1 to 3% of patients.\n\n\nSkin Testing\nSkin prick testing to the culprit and other radiocontrasts followed by intradermal testing–if skin prick testing is negative–can be useful for identifying an alternative radiocontrast agent. A skin test negative radiocontrast alternative has a 95% NPV.\n\n\nIntravenous Challenge\nIntravenous challenge can be performed to radiocontrast with various protocols–such as 1 mL, 5 mL, 15, mL, and 50 mL (cumulative 71 mL) at 60 minute intervals.\n\n\nManagement\nThe culprit radiocontrast should be avoided, and an alternative radiocontrast should be used, guided by negative skin testing if available. Other measures to decrease risk of recurrent radiocontrast reaction include: lowering the radiocontrast dose, decreasing the injection speed, and pre-treatment with non-sedating, second generation antihistamines and/or corticosteroids.",
     "crumbs": [
@@ -326,7 +326,7 @@
   {
     "objectID": "specific-drugs.html#topicals",
     "href": "specific-drugs.html#topicals",
-    "title": "Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Topicals",
     "text": "Topicals\n\nAntibiotics\nThe most common topical antibiotics which cause ACD are those found in triple antibiotic ointment—neomycin, polymyxin B, and bacitracin.\n\n\n\n\n\n\nImportant\n\n\n\nOf patients with neomycin ACD, 50% will cross-react with other aminoglycosides such as gentamicin.\n\n\n\n\nAnesthetics\nThe most common topical anesthetics which cause ACD are lidocaine and benzocaine.\n\n\n\n\n\n\nNote\n\n\n\nWhile patch testing can confirm ACD due to a local anesthetic, not all patients will necessarily develop an allergic reaction to the same anesthetic if used intradermally or subcutaneous—which is often done for dental and dermatologic procedures.\n\n\n\n\nCorticosteroids\nMost patients with ACD secondary to corticosteroids have a history of atopy. Because corticosteroids are often not considered initially as a possible cause of ACD, there might be increased use and worsening of a patient’s dermatitis.\nACD due to corticosteroids may produce an “edge effect” or “doughnut-type” reaction–due to the anti-inflammatory effect of the higher concentration of the corticosteroid in the central area compared to the periphery.\n\n\n\n\n\n\nImportant\n\n\n\nIf a patient has ACD due to a topical corticosteroid, you should consider propylene glycol as a potential cause—an excipient found in various topical corticosteroids and one of the top 4 causes of ACD due to drugs.\n\n\n\n\nPropylene Glycol\nPropylene glycol—an excipient—may be utilized in topical drugs as a softening agent, solvent, moisturizer, or preservative.\nOf patients with propylene glycol ACD, 80% have a history of atopic dermatitis.\n\n\n\n\n\n\nImportant\n\n\n\nPropylene glycol is present in various topical emolients, corticosteroids, and calcineurin inhibitors.\n\n\n\n\n\nTable 7.2: Select topical drugs for treatment of atopic dermatitis by propylene glcyol content\n\n\n\n\n\nTopical\nPropylene glycol-containing\nPropylene glycol-free\n\n\n\n\nEmolients\n\nCetaphil Moisturizing Cream\n\n\nCerave Moisturizing Cream\nEucerin Orginal Healing Cream\n\n\n\nCorticosteroids\n\nMometasone furoate ointment 0.1%\n\n\nTriamcinolone acetonide ointment 0.1%\nHydrocortisone ointment 2.5%\n\n\n\nCalcineurin inhibitors\n\nPimecrolimus cream 1%\n\n\nTacrolimus ointment 0.03% and 0.1%\n\n\n\n\n\n\n\nReferences:\nhttps://www.jaad.org/article/S0190-9622(19)33110-X/fulltext\n\n\nEye Drops\nThe eyelids are more susceptible to ACD compared to other facial areas—owing to their thin skin 0.55 mm compared to 2 mm, respectively. Therefore, the eyelids may be the only affected area by a drug that comes in contact with the face.\n\n\n\n\n\n\nNote\n\n\n\nACD due to eye drops is primarily caused by anti-microbial preservatives rather than the primary drug. Benzylalkonium chloride is the most commonly implicated preservative in patients with history of eye drop reactions.\n\n\n\n\n\nTable 7.3: Select commercially-available eye drops for common treatment categories by benzylalkonium chloride content\n\n\n\n\n\n\n\n\n\n\nCategory\nBenzyalkonium chloride-containing\nBenyzlalkonium chloride-free\n\n\n\n\nAntibiotic\n\nCiprofloxacin (Ciloxan)\nGatifloxacin (Zymar)\nNeomycin/Polymyxin B sulfates/Dexamethasone (Maxitrol)\nOfloxacin (Ocuflox)\nPolymyxin B sulfate/Trimethoprim (Polytrim)\nTobramycin (Tobrex)\n\n\nMoxifloxacin (Vigamox)\nErythromycin ointment (Ilotycin)\n\n\n\nCorticosteroid\n\nDexamethasone (Maxidex)\nPrednisolone acetate\nPrednisolone sodium phosphate\n\n\nLoteprednol 0.5% ointment\n\n\n\nNSAID\n\nKeterolac 0.4% (Acular LS)\nKetorolac 0.5% (Acular)\n\n\nKeterolac 0.45% (Lotemax)\n\n\n\nGluacoma\n\nBrinzolamide (Azopt)\nTimolol (Timoptic)\n\n\nTafluprost (Zioptan)\nLatanoprost (Iyuzeh)\nTimolol (Timoptic in Ocudose)\nDorzolamide/Timolol (Cosopt PF)\n\n\n\n\n\n\n\nReferences:\nhttps://eyewiki.org/Preservatives_in_Topical_Ophthalmic_Medications#Benzalkonium_chloride_(BAK)",
     "crumbs": [
@@ -337,7 +337,7 @@
   {
     "objectID": "genotype-imputation.html",
     "href": "genotype-imputation.html",
-    "title": "Genotype Imputation",
+    "title": "8  Genotype Imputation",
     "section": "",
     "text": "Michigan Imputation Server\nThe Michigan Imputation Server is a free next-generation genotype imputation platform. You can learn more about the Michigan Imputation Server by visiting their Getting Started documentation. The 1000 Genomes Phase 3 (Version 5) Reference Panel is available on the Michigan Imputation Server.",
     "crumbs": [
@@ -347,7 +347,7 @@
   {
     "objectID": "genotype-imputation.html#topmed-imputation-server",
     "href": "genotype-imputation.html#topmed-imputation-server",
-    "title": "Genotype Imputation",
+    "title": "8  Genotype Imputation",
     "section": "TOPMed Imputation Server",
     "text": "TOPMed Imputation Server\nThe TOPMed Imputation Server is another free next-generation genotype imputation platform developed by the University of Michigan and powered by data from the TOPMed Program investigators. You can learn more about the TOPMed Imputation Server by visiting their Getting Started documentation. The TOPMed Version 3 Reference Panel was released in December 2023.",
     "crumbs": [
@@ -357,7 +357,7 @@
   {
     "objectID": "genotype-imputation.html#reference-panels",
     "href": "genotype-imputation.html#reference-panels",
-    "title": "Genotype Imputation",
+    "title": "8  Genotype Imputation",
     "section": "Reference Panels",
     "text": "Reference Panels\n\n\n\nReference Panel\nGenome Assembly\nNo. of Samples\nSites\n(chr1-22)\nChr.\nImputation Server\n\n\n\n\n1000 Genomes Phase 3 (Version 5)\nGRCh37/hg19\n2,504\n49,143,605\n1-22, X\nMichigan Imputation Server\n\n\nTOPMed (Version 3)\nGRCh38/hg38\n133,597\n445,600,184\n1-22, X\nTOPMed Imputation Server",
     "crumbs": [
@@ -367,7 +367,7 @@
   {
     "objectID": "genotype-imputation.html#genome-assemblies",
     "href": "genotype-imputation.html#genome-assemblies",
-    "title": "Genotype Imputation",
+    "title": "8  Genotype Imputation",
     "section": "Genome Assemblies",
     "text": "Genome Assemblies\nThe Genome Reference Consortium (GRC) is the main source of human genome assembly data. The most recent human genome assembly version is GRCh38, released in 2013. The “h” in “GRCh” stands for “human.” The GRC also maintains genome assembly data for rat (r), mouse (m), zebrafish (z), and chicken (g for gallus). Major updates, called “versions”, are released every few years. Minor updates are called “patches” and are released more frequently.\nGRCh38 is referred to as “hg38” in the University of California Santa Cruz (UCSC) Genome Browser. The “hg” stands for “human genome.” Before the GRCh38 genome assembly, the version numbers of the GRC and UCSC Genome Browser genome assemblies did not match. For example, when the GRCh37 genome assembly was released in 2009, the UCSC Genome Browser version was “hg19.” Therefore, to minimize confusion, starting with the GRCh38 genome assembly, the UCSC Genome Browser version number was matched as “hg38.”\n\n\n\n\n\n\n\n\n\n\nGRC Version\nUCSC Version\nYear Released\nGenome\nCoverage\nAlternate Haplotypes\n\n\n\n\nGRCh37\nhg19\n2009\n~92.5%\n3 regions with 9 alternate loci\n\n\nGRCh38\nhg38\n2013\n95%\n178 regions with 261 alternate loci",
     "crumbs": [
@@ -377,7 +377,7 @@
   {
     "objectID": "bioinformatic-best-practices.html",
     "href": "bioinformatic-best-practices.html",
-    "title": "Bioinformatic Best Practices",
+    "title": "9  Bioinformatic Best Practices",
     "section": "",
     "text": "Project Organization\nIf you would like a video overview of how to organize a project using R Studio, I recommend Ming “Tommy” Tang’s tutorial on YouTube, “How to Organize a Computational Biology Project”. In his tutorial he references an excellent reference on project organization, “A Quick Guide to Organizing Computational Biology Projects” by Noble (2009).\nBash Commands to Create Folder Directory Structure for Your R Project\nOnce you have created your New Project in RStudio and are in your-r-project-folder in the Terminal. You can create your README.md file and your sub-folder directory structure.\nOnce you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: chmod u-w -R data/",
     "crumbs": [
@@ -387,7 +387,7 @@
   {
     "objectID": "bioinformatic-best-practices.html#project-organization",
     "href": "bioinformatic-best-practices.html#project-organization",
-    "title": "Bioinformatic Best Practices",
+    "title": "9  Bioinformatic Best Practices",
     "section": "",
     "text": "Note\n\n\n\nIn RStudio, you should create a “New Project,” which creates both a project folder and a .Rproj file (which sets the path for your project working directory). You should use the here package to easily build paths to files in a more reliable fashion than using setwd().\n\n\n\n\ntouch README.md\nmkdir data doc scripts bin outputs",
     "crumbs": [
@@ -397,7 +397,7 @@
   {
     "objectID": "bioinformatic-best-practices.html#version-control-with-git",
     "href": "bioinformatic-best-practices.html#version-control-with-git",
-    "title": "Bioinformatic Best Practices",
+    "title": "9  Bioinformatic Best Practices",
     "section": "Version Control with Git",
     "text": "Version Control with Git\nYou should version control your scripts with Git.\nI recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.\n\n\n\n\n\n\nImportant\n\n\n\nAs long as you have your raw data backed up and your scripts version controlled, you can reproduce your results!\n\n\nVerify Git Installation and Version\nwhich git # request path to your Git executable\ngit --version # check your Git version\nIntroduce Yourself to Git\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email \"&lt;email&gt;\"\nCreate a New Repository on GitHub\nGo to GitHub to create your new repository, then initialize your repository from the command line.\ncd &lt;/path/to/your-r-project-folder&gt;\necho \"# your-r-project-folder\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/&lt;user.name&gt;/&lt;your-repository&gt;.git\ngit push -u origin main\nAdd, Commit, and Push Files to Remote Repository\ngit add &lt;file-name&gt;\ngit commit -m \"description\"\ngit push",
     "crumbs": [
@@ -407,7 +407,7 @@
   {
     "objectID": "bioinformatic-best-practices.html#file-naming-conventions",
     "href": "bioinformatic-best-practices.html#file-naming-conventions",
-    "title": "Bioinformatic Best Practices",
+    "title": "9  Bioinformatic Best Practices",
     "section": "File Naming Conventions",
     "text": "File Naming Conventions\nIn your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the File Naming Conventions Worksheet (Briney, 2020) to develop your file naming conventions.\n\n\n\n\n\n\n\n\nMetadata\nSeparator\nVersion Tracking\n\n\n\n\n3 to 5 pieces max\n(e.g. sample ID, date in\nISO 8601 format such as\nYYYY-MM-DD)\nDashes (-), underscore (_), or camel case (i.e., capitalize each word without spaces)\nNumeric (e.g., v01) or Status (e.g., raw, processed)\n\n\n\n\n\n\n\n\n\nExample\n\n\n\nMy naming convention for R Markdown analysis files is: “analysis-YYYY-MM-DD-version.Rmd” where version starts with “v01.” This is my first analysis file, “analysis-YYYY-MM-DD-v01.Rmd”",
     "crumbs": [
@@ -417,7 +417,7 @@
   {
     "objectID": "bioinformatic-best-practices.html#application-containers-with-docker",
     "href": "bioinformatic-best-practices.html#application-containers-with-docker",
-    "title": "Bioinformatic Best Practices",
+    "title": "9  Bioinformatic Best Practices",
     "section": "Application Containers with Docker",
     "text": "Application Containers with Docker\n\n\n\n\nNoble, William Stafford. 2009. “A Quick Guide to Organizing Computational Biology Projects.” Edited by Fran Lewitter. PLoS Computational Biology 5 (7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424.",
     "crumbs": [
@@ -427,7 +427,7 @@
   {
     "objectID": "presenting-your-medical-research.html",
     "href": "presenting-your-medical-research.html",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "",
     "text": "Font\nYou should use a sans-serif font like Arial to maximize readability. “Serifs” are extending features at the end of letters. Times New Roman is a serif font.",
     "crumbs": [
@@ -437,7 +437,7 @@
   {
     "objectID": "presenting-your-medical-research.html#font",
     "href": "presenting-your-medical-research.html#font",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "",
     "text": "Sans-serif versus serif fonts1\n\n\n\n\n\n\n\nFont\nIllustration\nExamples\n\n\n\n\nSans-serif font\n\nArial, Calibri, Helvetica\n\n\nSerif font\n\nTimes New Roman, Georgia, Garamond\n\n\nSerifs (colored in red)\n\n–",
     "crumbs": [
@@ -447,7 +447,7 @@
   {
     "objectID": "presenting-your-medical-research.html#font-size",
     "href": "presenting-your-medical-research.html#font-size",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "Font Size",
     "text": "Font Size\n\n\n\n\n\n\n\nSlide Section\nFont Size\n\n\n\n\nTitle\n36 – 44\n\n\nText\n(e.g., Bullets, Figures, Tables)\n24 – 28\n\n\nReferences\n20 – 24",
     "crumbs": [
@@ -457,7 +457,7 @@
   {
     "objectID": "presenting-your-medical-research.html#word-count",
     "href": "presenting-your-medical-research.html#word-count",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "Word Count",
     "text": "Word Count\nThe fewer words, the better. A rule to follow is the 7×7 rule: no more than 7 lines and no more than 7 words per line.",
     "crumbs": [
@@ -467,7 +467,7 @@
   {
     "objectID": "presenting-your-medical-research.html#timing",
     "href": "presenting-your-medical-research.html#timing",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "Timing",
     "text": "Timing\nYou should estimate approximately 1 minute per slide.",
     "crumbs": [
@@ -477,7 +477,7 @@
   {
     "objectID": "presenting-your-medical-research.html#figures",
     "href": "presenting-your-medical-research.html#figures",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "Figures",
     "text": "Figures\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nSome tools that you can use to get started creating SVG include Microsoft PowerPoint (subscription), Adobe Illustrator (subscription), draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscape is better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes &gt;1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”",
     "crumbs": [
@@ -487,7 +487,7 @@
   {
     "objectID": "presenting-your-medical-research.html#references",
     "href": "presenting-your-medical-research.html#references",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "References",
     "text": "References\nCite references at the bottom of your slides as you present information.\n\n\n\n\n\n\nFormat\n\n\n\nLast Name. Journal Abbreviation. Year.",
     "crumbs": [
@@ -497,7 +497,7 @@
   {
     "objectID": "presenting-your-medical-research.html#equipment",
     "href": "presenting-your-medical-research.html#equipment",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "Equipment",
     "text": "Equipment\n\nLaptop\nBring your own laptop to presentations in case there isn’t a desktop computer for you to use, or it is not functioning, reliable or frustratingly slow.\n\n\nHub\nWhat is worse than not being able to connect your laptop to the correct cable? While a good host for a presentation should have a hub (or dongle if that’s your preferred terminology), you can come prepared with your own too–particularly important if you have a laptop with only USB-C ports and no HDMI port.\nThere are lots of options for hubs. If you are looking for a recommendation, I’ve found that Anker usually has a selection of high-quality and affordable hubs.\n\n\nUSB Drive\nDo you want the entire audience to see your most recent emails when you login to download the PowerPoint you emailed yourself? No. Me either. To avoid this, bring your presentation loaded onto a USB drive, which should ideally have both USB-A and USB-C ports. Or, you can also avoid this by using your own laptop—where the presentation should already be downloaded.\n\n\nPresentation Remote\nI don’t feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive–but I think it is another piece of equipment to consider. This helps keep you from being tethered to and white knuckling the podium during your talk.\nOne option to consider is the Logitech Spotlight Presentation Remote–which includes features such as magnification, vibration alerts for time management (e.g., 5 minutes left), 3 hours use from 1 minute of charging, and connection by USB receiver or Bluetooth–in addition to slide advancement.",
     "crumbs": [
@@ -507,7 +507,7 @@
   {
     "objectID": "presenting-your-medical-research.html#footnotes",
     "href": "presenting-your-medical-research.html#footnotes",
-    "title": "Presenting Your Medical Research",
+    "title": "10  Presenting Your Medical Research",
     "section": "",
     "text": "Font images are recreated by User:Stannered, original by en:User:Chmod007 - en:Image:Serif and sans-serif 01.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2058303↩︎",
     "crumbs": [
@@ -517,7 +517,7 @@
   {
     "objectID": "on-being-a-physician-scientist.html",
     "href": "on-being-a-physician-scientist.html",
-    "title": "On Being a Physician-Scientist",
+    "title": "11  On Being a Physician-Scientist",
     "section": "",
     "text": "Building Accountability",
     "crumbs": [
@@ -527,7 +527,7 @@
   {
     "objectID": "on-being-a-physician-scientist.html#building-accountability",
     "href": "on-being-a-physician-scientist.html#building-accountability",
-    "title": "On Being a Physician-Scientist",
+    "title": "11  On Being a Physician-Scientist",
     "section": "",
     "text": "Semester Plan by Week\nEvery Friday, you should schedule yourself 30 minutes to plan your next week. Weekly Planning meeting 30 minutes. If wait you wait until Monday, you won’t start your week with momentum. 3 hours/deep work per day.\n1 - Reflect on the prior week and how you did\n2 - Set up skeleton for week (5 min)\n\nWrite/Design/Analysis in Mornings\nMeetings in Afternoon\n\n3 - Brain dump of things to get done; Map steps (15 min)\n4 - Tasks meet time (10 min)\nYou should keep and update your semester plan. Here is a link to an NCFDD example.\n\n\n\n\n\n\nImportant\n\n\n\nWe drastically underestimate how long research and writing tasks will take. Multiplying your initial estimate by 1.5x - 2.5x might get you closer to realistically how long a particular task will take.\n\n\n\n\nTask Tracking\nDon’t need to track every last minute/hour. Just track the “deep work” hours. Cal Newport, Deep Work.\nHarvest Time app. Link to website.\nFreedom - block email during “deep work” time.\n\n\nMentor Meetings\nCould also be a peer.\nHave an agenda and take notes for the meeting.",
     "crumbs": [
@@ -537,7 +537,7 @@
   {
     "objectID": "on-being-a-physician-scientist.html#daily-writing-practice",
     "href": "on-being-a-physician-scientist.html#daily-writing-practice",
-    "title": "On Being a Physician-Scientist",
+    "title": "11  On Being a Physician-Scientist",
     "section": "Daily Writing Practice",
     "text": "Daily Writing Practice\nWhy is it that the most important academic activity for tenure, promotion, and professional reputation—writing—has the least amount of built-in accountability?\nIf you are a physician-scientist, you are a writer; therefore, you should write everyday (Monday - Friday).\n\n\n\nTable 11.1: Built-in accountability and importance for tenure, promotion, and professional reputation by activity\n\n\n\n\n\n\n\n\n\n\nLess\nBuilt-in accountability\nMore\n\n\n\nWriting\nArticles\nGrants\n\n-&gt;\nActivity\n&lt;-\n\nService\nTeaching\nClinic/Consults\n\n\n\nMore\nImportance for tenure, promotion, and professional reputation\nLess\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe most important part of your promotion—writing—has the least accountability.\n\n\n\n\n\nTable 11.2: Limiting beliefs to cultivating a daily writing practice. Adapted from NCFDD.\n\n\n\n\n\n\n\n\n\nBelief\nReality\n\n\n\n\n“I need huge blocks of time.”\n“Both unrealistic and untrue. You can productively write in 30 minute blocks!”\n\n\n“I must be inspired to write.”\n“No, you don’t. If you put it on your calendar, you can show up to write just like you show up to meetings you don’t want to attend.”\n\n\n“Writing is what I do when I’m done thinking.”\n“Writing is thinking.”\n\n\n\n\n\n\n\nResearch on Daily Writing\n\n\n\nTable 11.3: Adapted from Boice (1989)\n\n\n\n\n\n\n\n\n\nParticipant Groups\nDraft Pages Written per Year\n\n\n\n\nNo change\n17\n\n\nWrote daily and recorded progress\n64\n\n\nWrote daily, recorded progress, and were accountable\n157\n\n\n\n\n\n\n\n\nTime Target for Daily Writing\nYour goal should be to spend 3 or more hours per week on scholarly writing. So, if you write 30 minutes Monday to Friday, you are already at 2.5 hours!\n\n\nTips for Daily Writing\nSchedule your writing in your calendar like any other meeting or clinical duty.\nYou should write first thing in the morning. Knock out the most important daily task for your career first!\nMap complex goals to attainable steps.\nUse a timer, stop when the timer goes off (to avoid slipping back into writing in huge chunks).\nLeave yourself a “breadcrumb,” so you can pick up where you left off.\nGive yourself a treat after writing.\nDo a reflection at the end of the week (Friday) on how your writing went.\n\n\nBenefits of Daily Writing\nWriting daily helps align your time with your evaluation criteria (e.g. 80% research and 20% clinical).\n\nBenefits of daily writing. Adapted from NCFDD\n\n\n\n\n\n\nBenefit\nDescription\n\n\n\n\nProductivity Shift\nLeads to slow, steady productivity and fewer feelings of anxiety over meeting writing expectations\n\n\nMental Shift\nWriting is the most important part of your success; therefore, it is your top priority.\n\n\nBehavior Shift\nYou write everyday and find a way to be accountable that works for you!",
     "crumbs": [
@@ -547,7 +547,7 @@
   {
     "objectID": "on-being-a-physician-scientist.html#academic-medicine-jobs",
     "href": "on-being-a-physician-scientist.html#academic-medicine-jobs",
-    "title": "On Being a Physician-Scientist",
+    "title": "11  On Being a Physician-Scientist",
     "section": "Academic Medicine Jobs",
     "text": "Academic Medicine Jobs\n\nAAMC Faculty Salary Report\nLooking to get an idea of academic faculty salaries? The annual AAMC Faculty Salary Report compiles academic faculty salaries by rank, degree, department/specialty, medical school type, region, and more. This is often available for free through your university library. Get to know your librarian!\n\n\nTenure-Track Offer Letters\nWhat goes into a tenure-track offer letter? The Burroughs Wellcome Fund provides a comprehensive list of offer letter components in their article, “Academic Tenure-Track Offer Letters.”",
     "crumbs": [
@@ -557,7 +557,7 @@
   {
     "objectID": "on-being-a-physician-scientist.html#nih-loan-repayment-program",
     "href": "on-being-a-physician-scientist.html#nih-loan-repayment-program",
-    "title": "On Being a Physician-Scientist",
+    "title": "11  On Being a Physician-Scientist",
     "section": "NIH Loan Repayment Program",
     "text": "NIH Loan Repayment Program\nNIH Loan Repayment Program",
     "crumbs": [
@@ -567,7 +567,7 @@
   {
     "objectID": "on-being-a-physician-scientist.html#online-resources",
     "href": "on-being-a-physician-scientist.html#online-resources",
-    "title": "On Being a Physician-Scientist",
+    "title": "11  On Being a Physician-Scientist",
     "section": "Online Resources",
     "text": "Online Resources\n\nEdge for Scholars\nEdge for Scholars\n\n\nNational Center for Faculty Development and Diversity\nThe National Center for Faculty Development and Diversity (NCFDD) provides practical resources for academic researchers. I recommend signing up for their Monday Motivator Newsletter and watching their Core Curriculum videos.",
     "crumbs": [
@@ -577,7 +577,7 @@
   {
     "objectID": "on-being-a-physician-scientist.html#professional-organizations",
     "href": "on-being-a-physician-scientist.html#professional-organizations",
-    "title": "On Being a Physician-Scientist",
+    "title": "11  On Being a Physician-Scientist",
     "section": "Professional Organizations",
     "text": "Professional Organizations\nAmerican Physician Scientists Association",
     "crumbs": [
@@ -587,7 +587,7 @@
   {
     "objectID": "on-being-a-physician-scientist.html#suggested-readings",
     "href": "on-being-a-physician-scientist.html#suggested-readings",
-    "title": "On Being a Physician-Scientist",
+    "title": "11  On Being a Physician-Scientist",
     "section": "Suggested Readings",
     "text": "Suggested Readings\n\nNot Discussed\nNot Discussed by Michael Stein\n\n\nPublishing Your Medical Research\nPublishing Your Medical Research by Daniel W. Byrne\nDeep Work by Cal Newport\n\n\n\n\nBoice, Robert. 1989. “Procrastination, Busyness and Bingeing.” Behaviour Research and Therapy 27 (6): 605–11. https://doi.org/https://doi.org/10.1016/0005-7967(89)90144-7.",
     "crumbs": [
