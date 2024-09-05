@@ -50,23 +50,25 @@
     ]
   },
   {
-    "objectID": "hla.html#functional-divergence",
-    "href": "hla.html#functional-divergence",
-    "title": "Human Leukocyte Antigens",
-    "section": "Functional Divergence",
-    "text": "Functional Divergence\nHeterozygosity of HLA class I genes is associated with better outcomes after HIV infection. This is thought to be due to a greater repertoire of HIV peptides presented and cytotoxic T cell response. However, looking at HLA class I allotype alone does not take into account differences in actual peptide repertoire. Viard et al. (2024) developed a metric to measure this difference, termed “functional divergence.” Functional divergence predicts the peptide repertoire as a continuum. They showed that greater functional divergence was associated with better HIV outcomes. Functional divergence may be relevant to other diseases where HLA heterozygosity confers advantage, such as infection, vaccination, and immunotherapy.\nYou can download functional divergence estimates for pairwise combinations of HLA-A, HLA-B, and HLA-C alleles from their article’s Supplementary Materials. The functional divergence measure ranges from 0 (i.e., smallest functional divergence) to 1 (i.e., greatest functional divergence).",
+    "objectID": "functional-divergence.html",
+    "href": "functional-divergence.html",
+    "title": "1  Functional Divergence",
+    "section": "",
+    "text": "Heterozygosity of HLA class I genes is associated with better outcomes after HIV infection. This is thought to be due to a greater repertoire of HIV peptides presented and cytotoxic T cell response. However, looking at HLA class I allotype alone does not take into account differences in actual peptide repertoire. Viard et al. (2024) developed a metric to measure this difference, termed “functional divergence.” Functional divergence predicts the peptide repertoire as a continuum. They showed that greater functional divergence was associated with better HIV outcomes. Functional divergence may be relevant to other diseases where HLA heterozygosity confers advantage, such as infection, vaccination, and immunotherapy.\nYou can download functional divergence estimates for pairwise combinations of HLA-A, HLA-B, and HLA-C alleles from their article’s Supplementary Materials. The functional divergence measure ranges from 0 (i.e., smallest functional divergence) to 1 (i.e., greatest functional divergence).\n\n\n\n\nViard, Mathias, Colm O’hUigin, Yuko Yuki, Arman A. Bashirova, David R. Collins, Jonathan M. Urbach, Steven Wolinsky, et al. 2024. “Impact of HLA Class I Functional Divergence on HIV Control.” Science 383 (6680): 319–25. https://doi.org/10.1126/science.adk0777.",
     "crumbs": [
-      "Human Leukocyte Antigens"
+      "Human Leukocyte Antigens",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Functional Divergence</span>"
     ]
   },
   {
-    "objectID": "hla.html#hla-imputation-programs",
-    "href": "hla.html#hla-imputation-programs",
-    "title": "Human Leukocyte Antigens",
-    "section": "HLA Imputation Programs",
-    "text": "HLA Imputation Programs\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nSNP2HLA\nCommand line interface\nPLINK binary format\nHLA class I and II alleles\nJia et al. (2013)\n\n\nHIBAG\nR\nPlink binary format\nHLA class I and II alleles\nZheng et al. (2014)\n\n\n\n\n\n\n\nJia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J. Concannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. De Bakker. 2013. “Imputing Amino Acid Polymorphisms in Human Leukocyte Antigens.” Edited by Jianming Tang. PLoS ONE 8 (6): e64683. https://doi.org/10.1371/journal.pone.0064683.\n\n\nViard, Mathias, Colm O’hUigin, Yuko Yuki, Arman A. Bashirova, David R. Collins, Jonathan M. Urbach, Steven Wolinsky, et al. 2024. “Impact of HLA Class I Functional Divergence on HIV Control.” Science 383 (6680): 319–25. https://doi.org/10.1126/science.adk0777.\n\n\nZheng, X, J Shen, C Cox, J C Wakefield, M G Ehm, M R Nelson, and B S Weir. 2014. “HIBAG—HLA Genotype Imputation with Attribute Bagging.” The Pharmacogenomics Journal 14 (2): 192–200. https://doi.org/10.1038/tpj.2013.18.",
+    "objectID": "hla-imputation-programs.html",
+    "href": "hla-imputation-programs.html",
+    "title": "2  HLA Imputation Programs",
+    "section": "",
+    "text": "Name\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nSNP2HLA\nCommand line interface\nPLINK binary format\nHLA class I and II alleles\nJia et al. (2013)\n\n\nHIBAG\nR\nPlink binary format\nHLA class I and II alleles\nZheng et al. (2014)\n\n\n\n\n\n\n\nJia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J. Concannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. De Bakker. 2013. “Imputing Amino Acid Polymorphisms in Human Leukocyte Antigens.” Edited by Jianming Tang. PLoS ONE 8 (6): e64683. https://doi.org/10.1371/journal.pone.0064683.\n\n\nZheng, X, J Shen, C Cox, J C Wakefield, M G Ehm, M R Nelson, and B S Weir. 2014. “HIBAG—HLA Genotype Imputation with Attribute Bagging.” The Pharmacogenomics Journal 14 (2): 192–200. https://doi.org/10.1038/tpj.2013.18.",
     "crumbs": [
-      "Human Leukocyte Antigens"
+      "Human Leukocyte Antigens",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>HLA Imputation Programs</span>"
     ]
   },
   {
@@ -140,13 +142,14 @@
     ]
   },
   {
-    "objectID": "kir.html#kir-allele-imputation-programs",
-    "href": "kir.html#kir-allele-imputation-programs",
-    "title": "Killer Cell Immunoglobulin-like Receptors",
-    "section": "KIR Allele Imputation Programs",
-    "text": "KIR Allele Imputation Programs\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nPONG\nR\nPLINK binary format\nKIR3DL1/S1 alleles (Global Model includes 51 alleles)\nHarrison, 2022\n\n\nKIR*IMP\nOnline portal\nHAPS/SAMPLE format\n19 KIR types: 17 loci (presence/absence and copy number) plus 2 extended haplotype classifications ( A and B haplotypes)\nVukcevic, 2015",
+    "objectID": "kir-imputation-programs.html",
+    "href": "kir-imputation-programs.html",
+    "title": "3  KIR Allele Imputation Programs",
+    "section": "",
+    "text": "Name\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nPONG\nR\nPLINK binary format\nKIR3DL1/S1 alleles (Global Model includes 51 alleles)\nHarrison, 2022\n\n\nKIR*IMP\nOnline portal\nHAPS/SAMPLE format\n19 KIR types: 17 loci (presence/absence and copy number) plus 2 extended haplotype classifications ( A and B haplotypes)\nVukcevic, 2015",
     "crumbs": [
-      "Killer Cell Immunoglobulin-like Receptors"
+      "Killer Cell Immunoglobulin-like Receptors",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>KIR Allele Imputation Programs</span>"
     ]
   },
   {
@@ -160,266 +163,256 @@
     ]
   },
   {
-    "objectID": "epistasis.html",
-    "href": "epistasis.html",
-    "title": "Epistatic Interactions",
-    "section": "",
-    "text": "KIR-HLA\nEpistatic interactions between KIR and HLA are associated with ankylosing spondylitis (Hanson, 2020)",
-    "crumbs": [
-      "Epistatic Interactions"
-    ]
-  },
-  {
     "objectID": "immediate-drug-allergy.html",
     "href": "immediate-drug-allergy.html",
-    "title": "1  Immediate Drug Allergy",
+    "title": "5  Immediate Drug Allergy",
     "section": "",
     "text": "Skin Testing\nConcentrations typically employed for drug skin testing are 1:10, 1:100, and full strength.",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Immediate Drug Allergy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Immediate Drug Allergy</span>"
     ]
   },
   {
     "objectID": "immediate-drug-allergy.html#skin-testing",
     "href": "immediate-drug-allergy.html#skin-testing",
-    "title": "1  Immediate Drug Allergy",
+    "title": "5  Immediate Drug Allergy",
     "section": "",
     "text": "Skin Prick Testing\n\n\nIntradermal Testing",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Immediate Drug Allergy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Immediate Drug Allergy</span>"
     ]
   },
   {
     "objectID": "delayed-drug-allergy.html",
     "href": "delayed-drug-allergy.html",
-    "title": "2  Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "",
     "text": "Phenotypes",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
     ]
   },
   {
     "objectID": "delayed-drug-allergy.html#phenotypes",
     "href": "delayed-drug-allergy.html#phenotypes",
-    "title": "2  Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "",
     "text": "Allergic Contact Dermatitis\nAllergic contact dermatitis (ACD) secondary to topical medications is characterized by an eczematous eruption–which typically localized to sites of direct exposure. Depending on the severity and chronicity of ACD, eczematous eruptions can range from localized erythema and edema to vesicularization, crusting and weeping. However, ACD can become generalized to non-exposed sites, referred to as “autoeczematization” or “id reaction.”\nThe differential diagnosis for ACD also includes irritant contact dermatitis as well as other chronic eczematous dermatoses (e.g., atopic dermatitis, psoriasis).\nThe top 4 drug category causes of ACD are: antibiotics, local anesthetics, corticosteroids, and propylene glycol (techically an excipient).\n\n\n\n\n\n\nImportant\n\n\n\nAntibiotics (e.g., neomycin, bacitracin, polymyxin B) are the most common cause of ACD. Therefore, it is recommended to use petrolatum or other bland emolients for wound care because have equally low infection rate as bacitracin and other topical antibiotics without the risk of ACD.\n\n\nCo-sensitization—when sensitized to ≥ 2 structurally distinct allergens—often occurs in patients who experience ACD. Therefore, when possible, it is important to test to individual components of a culprit topical drug.",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
     ]
   },
   {
     "objectID": "delayed-drug-allergy.html#skin-testing",
     "href": "delayed-drug-allergy.html#skin-testing",
-    "title": "2  Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "Skin Testing",
-    "text": "Skin Testing\n\n\n\nTable 2.1: Utility of patch and intradermal skin testing for delayed drug allergy reaction types\n\n\n\n\n\n\n\n\n\n\nReaction\nPatch Testing\nIntradermal Testing\n\n\n\n\nMaculopapular exanthem (MPE)\nUseful if positive\nUseful if positive\n\n\nAcute generalized exanthematous pustulosis (AGEP)\nUseful if positive\nUseful if positive\n\n\nStevens-Johnson Syndrome/Toxic epidermal necrolysis (SJS/TEN)\nLow sensitivity but potentially useful if positive\nContraindicated due to concern for potential reactivation\n\n\nDrug reaction with eosinophilia and systemic symptoms (DRESS)\nUseful if positive\nUseful if positive\n\n\nFixed drug eruption\nUseful if applied to the site of reaction\nNot useful\n\n\nAllergic contact dermatitis\nUseful if positive\n\n\n\nSymmetrical drug-related intertrigenous and flexural exanthema (SDRIFE)\n\nUseful if positive\n\n\nDrug-induced organ injury (e.g., kidney, liver)\nNot useful\nNot useful\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNo delayed skin testing method has 100% negative predictive value.\n\n\n\n\n\nTable 2.2: Shared characteristics of patch and intradermal testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTiming\nPerform at least 6 to 8 weeks after reaction; and 6 months or later after DRESS\n\n\nConcomitant medications\nMost medications okay to continue, including anti-histamines and beta-blockers. Should be off of steroids for ≥ 1 month or prednisone equivalent dose ≤ 10 mg/day\n\n\n\n\n\n\n\nIntradermal Testing\n\n\n\nTable 2.3: Characteristics of intradermal testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTesting site\nVolar forearm or extensor upper arm\n\n\nTesting reagents\nMust be sterile; often higher concentrations than those used for immediate skin testing\n\n\nReading\nAt 24 hours\n\n\nControls\n+ None\n- Saline\n\n\nTest interpretation\n+ Papule present\n- Negative\n\n\n\n\n\n\n\n\nPatch Testing\n\n\n\nTable 2.4: Characteristics of patch testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTesting site\nBack or upper arm (needs to be hairless)\n\n\nTesting reagents\n1% and 10% of reagent grade product; 10% and 30% of trade product; most commonly used vehicle is petrolatum\n\n\nControls\n+ None\n- Petrolatum\n\n\nShelf-life of patch test mixes\nMost antibiotics at room temperature are stable for 1 to 3 months; check with USP Pharmacopeia for verification\n\n\nPatches\nFinn chambers (can be aluminum or molded plastic)\n\n\nTape\nUse hypoallergenic paper tape\n\n\nReading\nAt 48 hours (85% of drugs-if will be positive-are positive by this point); 72 hours; 96 hours; and 1 week\n\n\nTest interpretation\n- Negative\n? Doubtful reaction\n+ Weak reaction, erythema\n++ Strong reaction, erythema, papules, or vesicles\n+++ Extreme, bullous, ulcerative",
+    "text": "Skin Testing\n\n\n\nTable 6.1: Utility of patch and intradermal skin testing for delayed drug allergy reaction types\n\n\n\n\n\n\n\n\n\n\nReaction\nPatch Testing\nIntradermal Testing\n\n\n\n\nMaculopapular exanthem (MPE)\nUseful if positive\nUseful if positive\n\n\nAcute generalized exanthematous pustulosis (AGEP)\nUseful if positive\nUseful if positive\n\n\nStevens-Johnson Syndrome/Toxic epidermal necrolysis (SJS/TEN)\nLow sensitivity but potentially useful if positive\nContraindicated due to concern for potential reactivation\n\n\nDrug reaction with eosinophilia and systemic symptoms (DRESS)\nUseful if positive\nUseful if positive\n\n\nFixed drug eruption\nUseful if applied to the site of reaction\nNot useful\n\n\nAllergic contact dermatitis\nUseful if positive\n\n\n\nSymmetrical drug-related intertrigenous and flexural exanthema (SDRIFE)\n\nUseful if positive\n\n\nDrug-induced organ injury (e.g., kidney, liver)\nNot useful\nNot useful\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNo delayed skin testing method has 100% negative predictive value.\n\n\n\n\n\nTable 6.2: Shared characteristics of patch and intradermal testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTiming\nPerform at least 6 to 8 weeks after reaction; and 6 months or later after DRESS\n\n\nConcomitant medications\nMost medications okay to continue, including anti-histamines and beta-blockers. Should be off of steroids for ≥ 1 month or prednisone equivalent dose ≤ 10 mg/day\n\n\n\n\n\n\n\nIntradermal Testing\n\n\n\nTable 6.3: Characteristics of intradermal testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTesting site\nVolar forearm or extensor upper arm\n\n\nTesting reagents\nMust be sterile; often higher concentrations than those used for immediate skin testing\n\n\nReading\nAt 24 hours\n\n\nControls\n+ None\n- Saline\n\n\nTest interpretation\n+ Papule present\n- Negative\n\n\n\n\n\n\n\n\nPatch Testing\n\n\n\nTable 6.4: Characteristics of patch testing\n\n\n\n\n\n\n\n\n\nCharacteristic\nDetails\n\n\n\n\nTesting site\nBack or upper arm (needs to be hairless)\n\n\nTesting reagents\n1% and 10% of reagent grade product; 10% and 30% of trade product; most commonly used vehicle is petrolatum\n\n\nControls\n+ None\n- Petrolatum\n\n\nShelf-life of patch test mixes\nMost antibiotics at room temperature are stable for 1 to 3 months; check with USP Pharmacopeia for verification\n\n\nPatches\nFinn chambers (can be aluminum or molded plastic)\n\n\nTape\nUse hypoallergenic paper tape\n\n\nReading\nAt 48 hours (85% of drugs-if will be positive-are positive by this point); 72 hours; 96 hours; and 1 week\n\n\nTest interpretation\n- Negative\n? Doubtful reaction\n+ Weak reaction, erythema\n++ Strong reaction, erythema, papules, or vesicles\n+++ Extreme, bullous, ulcerative",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
     ]
   },
   {
     "objectID": "delayed-drug-allergy.html#human-leukocyte-antigen-testing",
     "href": "delayed-drug-allergy.html#human-leukocyte-antigen-testing",
-    "title": "2  Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "Human Leukocyte Antigen Testing",
     "text": "Human Leukocyte Antigen Testing",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
     ]
   },
   {
     "objectID": "delayed-drug-allergy.html#enzyme-linked-immunospot-testing",
     "href": "delayed-drug-allergy.html#enzyme-linked-immunospot-testing",
-    "title": "2  Delayed Drug Allergy",
+    "title": "6  Delayed Drug Allergy",
     "section": "Enzyme-linked Immunospot Testing",
     "text": "Enzyme-linked Immunospot Testing",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Delayed Drug Allergy</span>"
     ]
   },
   {
     "objectID": "specific-drugs.html",
     "href": "specific-drugs.html",
-    "title": "3  Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "",
     "text": "Antibiotics",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Specific Drugs</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Specific Drugs</span>"
     ]
   },
   {
     "objectID": "specific-drugs.html#antibiotics",
     "href": "specific-drugs.html#antibiotics",
-    "title": "3  Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "",
     "text": "Cephalosporins\n\n\nFluoroquinolones\n\n\nMacrolides\n\nBackground\nWhat is the chemical structure of macrolides?\nMacrolides are defined by a large lactone ring, which varies from 12 to 16 carbons, with 1 or more attached sugar chains. Eyrthromycin and clarithromycin have 14 carbons in their lactone rings while azithromycin has 15.\nWhat is the mechanism of action of macrolides?\nAs 50S ribosomal subunit inhibitors, macrolides exert their bacteriostatic effect by inhibiting protein synthesis.\nWhat is the cross-reactivity pattern macrolide antibiotics?\nWhile not extensively studied, macrolide antibiotics with a different number of carbon atoms in their lactone ring are tolerated by most patients. Macrolide antibiotics are also unlikely to cross-react with macrolide immunosuppressants (e.g., tacrolimus, sirolimus).\nWhat are some infections that use macrolides as first-line therapy?\nClarithyromycin is used as part of combination treatment for H. pylori. Azithromycin is a part of the first-line combination therapy for Mycobacterium avium complex.\n\n\nNon-Hypersensitivity Reactions\nGI Side Effects\nBecause macrolides are also agonists for the motilin receptor–stimulating gastric and small intestine motility–they can cause nausea, vomiting, diarrhea, and abdmoninal cramping. Accordingly, erythromycin can be used as a treatment for gastroparesis.\nSensorineural Otoxicity\nMacrolides can cause usually, transient sensorineural ototoxicity.\nQT Interval Prolongation\nMacrolides are associated with QT interval prolongation.\n\n\nSkin Testing\nSkin testing for macrolide immediate hypersensitivity has not been shown to be reliable.\n\n\nOral Challenge\nFor patients with a history of immediate hypersensitivity reaction to a macrolide, graded azithromycin challenge can be performed, starting with azithromycin 25 mg followed by 1 hour observation then 250 mg followed by 2 hour observation.\nFor patients with a history of non-severe delayed hypersensitivity reaction to a macrolide, single dose azithromycin 250 mg challenge with 2 hour observation can be performed. Patients should be instructed to report any other delayed symptoms, which may occur up to 24 to 48 hours after the challenge dose.\n\n\n\nPenicillins\n\nSkin Testing\nWhat is the NPV of penicillin skin testing?\nThe NPV of penicillin skin testing is &gt; 95% when performed with only PPL plus penicillin G or with PPL plus full panel of minor derterminants.\n\n\n\n\n\n\n\nReagent\nDescription\n\n\n\n\nPenicilloyl polylysine (PPL, PrePen®)\n\nMajor antigenic determinant (what 95% of penicillin degrades into); PPL is penicilloyl complexed with polyltysine to constitute a multivalent skin test reagent. Polylysine acts like the carrier for the penicilloyl hapten in vivo.\n\n\n\nMinor derterminant mixture (MDM)\n\nPenicillin itself, penicilloate, penilloate\nNo commercially available expect in South America and Spain\n\n\n\nPenicillin G\n\n\n\nAmpicillin\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSelective IgE-mediated reactions to aminopenicillins are rare in North America (e.g. 3-5% in the United States) versus 25-50% of skin test positive patients in Europe.\n\n\nReferences:\nChapter 77 Middleton’s Drug Allergy\n\n\n\nSulfa Antibiotics\n\n\nVancomycin",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Specific Drugs</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Specific Drugs</span>"
     ]
   },
   {
     "objectID": "specific-drugs.html#antiepileptic-drugs",
     "href": "specific-drugs.html#antiepileptic-drugs",
-    "title": "3  Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Antiepileptic Drugs",
-    "text": "Antiepileptic Drugs\n\nBackground\nHow are antiepileptic drugs (AEDs) broadly categorized?\nAEDs can be broadly categorized by their structure: aromatic or non-aromatic.\nWhat defines an “aromatic” versus a “non-aromatic” AED?\nHistorically, compounds were labeled as aromatic based on their distinctive aromas.\nToday, aromatic compounds and AEDs are defined by containing a benzene ring or other benzene-like properties.\nBenzene has a sweet odor and is found naturally (e.g., crude oil) and produced as an intermediate for use in plastics, resins, nylons, synthetic fibers.\n\n\n\n\n\n\nFigure 3.1: 2D skeletal representation of benzene from Wikimedia\n\n\n\nWhich class of AEDs are associated with the greatest risk of rash and other cutaneous ADRs?\nAromatic AEDs are associated with the greatest occurence of rash and other cutaneous ADRs. In addition, there is greater cross-reactivity amongst aromatic AEDs than non-aromatic AEDs.",
+    "text": "Antiepileptic Drugs\n\nBackground\nHow are antiepileptic drugs (AEDs) broadly categorized?\nAEDs can be broadly categorized by their structure: aromatic or non-aromatic.\nWhat defines an “aromatic” versus a “non-aromatic” AED?\nHistorically, compounds were labeled as aromatic based on their distinctive aromas.\nToday, aromatic compounds and AEDs are defined by containing a benzene ring or other benzene-like properties.\nBenzene has a sweet odor and is found naturally (e.g., crude oil) and produced as an intermediate for use in plastics, resins, nylons, synthetic fibers.\n\n\n\n\n\n\nFigure 7.1: 2D skeletal representation of benzene from Wikimedia\n\n\n\nWhich class of AEDs are associated with the greatest risk of rash and other cutaneous ADRs?\nAromatic AEDs are associated with the greatest occurence of rash and other cutaneous ADRs. In addition, there is greater cross-reactivity amongst aromatic AEDs than non-aromatic AEDs.",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Specific Drugs</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Specific Drugs</span>"
     ]
   },
   {
     "objectID": "specific-drugs.html#buproprion",
     "href": "specific-drugs.html#buproprion",
-    "title": "3  Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Buproprion",
     "text": "Buproprion",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Specific Drugs</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Specific Drugs</span>"
     ]
   },
   {
     "objectID": "specific-drugs.html#iron",
     "href": "specific-drugs.html#iron",
-    "title": "3  Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Iron",
-    "text": "Iron\n\nBackground\nWhy is intravenous (IV) iron used?\nIV iron is used for the treatment of iron deficiency anemia when oral iron is effective or not tolerated.\nWhat IV iron formulations are available in the United States?\nFormulations available in the United States include low-molecular-weight iron dextran (LWMID), ferric gluconate, iron sucrose, ferumoxytol, iron isomaltoside, and ferric carboxymaltose.\n\n\n\n\n\n\nNote\n\n\n\nHigh-molecular weight iron dextrans were discontinued in the United States due to having a higher rate of hypersensitivity reactions.\n\n\n\n\n\nTable 3.1: Characteristics of iron formulations available in the United States\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneric name\nIron gluconate\nIron Sucrose\nLMWID\nFerric carboxymaltose\nIron isomaltoside\nFerumoxytol\n\n\n\n\nBrand name\nFerrlecit\nVenofer\nINFeD\nInjectafer\nMonofer\nFeraHeme\n\n\nMolecular weight (kD)\n289-440\n30-60\n165\n150\n150\n750\n\n\nLabile iron (% injected dose)\n3.3\n3.5\n2\n0.6\n1\n0.8\n\n\n\n\n\n\n\n\nImmediate Hypersensitivity Reactions\nWhat is the incidence of anaphylactic reactions with IV iron?\nAnaphylactic reactions—when high-molecular weight dextrans are excluded—occur with an incidence of &lt; 1 in 200,000.\nSignificant differences in reaction risk have not been shown among low-molecular weight iron dextran, iron sucrose, ferric gluconate, and ferric carboxymaltose.\nWhat is mechanism of most IV iron immediate hypersensitivity reactions?\nMost IV iron immediate hypersensitivity reactions are mediated through complement-activation related pseudoallergy (CARPA). Rarely, hypersensitivity reactions are IgE-mediated.\n\n\nMinor Infusion Reactions\nWhat are the symptoms of minor infusion reactions to IV iron?\nSymptoms of minor infusion reactions to IV iron include—flushing, chest/back tightness, myalgias—and, importantly, do not have any features of anaphylaxis.\nWhat is considered to be the main driver of minor infusion reactions to IV iron?\nLabile, or also called “free,” iron is associated with minor infusion reactions to IV iron.\n\n\nSkin Testing\nWhat is the utility of immediate skin testing for IV iron hypersensitivity reactions?\nAs most hypersensitivity reactions are non-IgE-mediated—rather via CARPA—skin testing has limited utility for evaluating IV iron hypersensitivity reactions; however, it may help detect the rare patients with IgE-mediated hypersensitivity.\n\n\nManagement\nWhat are some approaches to subsequent IV iron administration in patients with previous IV iron reactions?\nApproaches for patients with history of mild to moderate IV iron reactions include: switching to an alternative IV iron formulation, slowing the infusion rate (e.g., 10% of recommended rate during the first 10 to 15 minutes), and/or pre-treatment with non-sedating, second generation antihistamines.\nFor patients with a history of anaphylactic reactions to IV iron, desensitization can be considered, such as ferric gluconate.\n\n\nReferences\nGómez-Ramírez S, Shander A, Spahn DR, et al. Prevention and management of acute reactions to intravenous iron in surgical patients. Blood Transfusion. Published online April 10, 2019. doi:10.2450/2018.0156-18\nMuñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment options for iron-deficiency anemia. Expert Opin Drug Saf 2018; 17: 149-59.",
+    "text": "Iron\n\nBackground\nWhy is intravenous (IV) iron used?\nIV iron is used for the treatment of iron deficiency anemia when oral iron is effective or not tolerated.\nWhat IV iron formulations are available in the United States?\nFormulations available in the United States include low-molecular-weight iron dextran (LWMID), ferric gluconate, iron sucrose, ferumoxytol, iron isomaltoside, and ferric carboxymaltose.\n\n\n\n\n\n\nNote\n\n\n\nHigh-molecular weight iron dextrans were discontinued in the United States due to having a higher rate of hypersensitivity reactions.\n\n\n\n\n\nTable 7.1: Characteristics of iron formulations available in the United States\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneric name\nIron gluconate\nIron Sucrose\nLMWID\nFerric carboxymaltose\nIron isomaltoside\nFerumoxytol\n\n\n\n\nBrand name\nFerrlecit\nVenofer\nINFeD\nInjectafer\nMonofer\nFeraHeme\n\n\nMolecular weight (kD)\n289-440\n30-60\n165\n150\n150\n750\n\n\nLabile iron (% injected dose)\n3.3\n3.5\n2\n0.6\n1\n0.8\n\n\n\n\n\n\n\n\nImmediate Hypersensitivity Reactions\nWhat is the incidence of anaphylactic reactions with IV iron?\nAnaphylactic reactions—when high-molecular weight dextrans are excluded—occur with an incidence of &lt; 1 in 200,000.\nSignificant differences in reaction risk have not been shown among low-molecular weight iron dextran, iron sucrose, ferric gluconate, and ferric carboxymaltose.\nWhat is mechanism of most IV iron immediate hypersensitivity reactions?\nMost IV iron immediate hypersensitivity reactions are mediated through complement-activation related pseudoallergy (CARPA). Rarely, hypersensitivity reactions are IgE-mediated.\n\n\nMinor Infusion Reactions\nWhat are the symptoms of minor infusion reactions to IV iron?\nSymptoms of minor infusion reactions to IV iron include—flushing, chest/back tightness, myalgias—and, importantly, do not have any features of anaphylaxis.\nWhat is considered to be the main driver of minor infusion reactions to IV iron?\nLabile, or also called “free,” iron is associated with minor infusion reactions to IV iron.\n\n\nSkin Testing\nWhat is the utility of immediate skin testing for IV iron hypersensitivity reactions?\nAs most hypersensitivity reactions are non-IgE-mediated—rather via CARPA—skin testing has limited utility for evaluating IV iron hypersensitivity reactions; however, it may help detect the rare patients with IgE-mediated hypersensitivity.\n\n\nManagement\nWhat are some approaches to subsequent IV iron administration in patients with previous IV iron reactions?\nApproaches for patients with history of mild to moderate IV iron reactions include: switching to an alternative IV iron formulation, slowing the infusion rate (e.g., 10% of recommended rate during the first 10 to 15 minutes), and/or pre-treatment with non-sedating, second generation antihistamines.\nFor patients with a history of anaphylactic reactions to IV iron, desensitization can be considered, such as ferric gluconate.\n\n\nReferences\nGómez-Ramírez S, Shander A, Spahn DR, et al. Prevention and management of acute reactions to intravenous iron in surgical patients. Blood Transfusion. Published online April 10, 2019. doi:10.2450/2018.0156-18\nMuñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment options for iron-deficiency anemia. Expert Opin Drug Saf 2018; 17: 149-59.",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Specific Drugs</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Specific Drugs</span>"
     ]
   },
   {
     "objectID": "specific-drugs.html#local-anesthetics",
     "href": "specific-drugs.html#local-anesthetics",
-    "title": "3  Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Local Anesthetics",
     "text": "Local Anesthetics",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Specific Drugs</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Specific Drugs</span>"
     ]
   },
   {
     "objectID": "specific-drugs.html#radiocontrast",
     "href": "specific-drugs.html#radiocontrast",
-    "title": "3  Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Radiocontrast",
     "text": "Radiocontrast\n\nBackground\nHow do modern, radiocontrasts differ from older radiocontrasts?\nModern radiocontrasts are non-ionic, iodinated and either iso-osmolal or low-osmolality. Older radiocontrasts were high-osmolality–which are no longer used intravenously.\nIs radiocontrast allergy related to iodine or seafood allergy?\nThe radiocontrast molecular structure is responsible for hypersensitivity reactions–not iodine or seafood allergy. Shellfish allergy is secondary to tropomyosin not iodine.\n\n\nInfusion Reactions\nThese are also referred to as “toxic” or “chemotoxic” reactions. Characteristic symptoms include transient warmth/flushing, nausea/vomiting, chest pain, metallic taste, hypertension, and/or vasogal signs.\n\n\nImmediate Hypersensitivity Reactions\nThe most common immediate hypersensitivity reaction to radiocontrast is mild urticaria and pruritus, occuring in ~0.9% - 3.1% of patients receiving radiocontrast. Anaphylaxis occurs in 0.02% - 0.04% of patients. Of immediate hypersensitivity reactions, 70% occur within 5 minutes of radiocontrast injection and 96% of severe reactions occur within 20 minutes.\n\n\nDelayed Hypersensitivity Reactions\nThe most common delayed hypersensitivity reaction to radiocontrast is a maculopapular exanthem–occurring in 1 to 3% of patients.\n\n\nSkin Testing\nSkin prick testing to the culprit and other radiocontrasts followed by intradermal testing–if skin prick testing is negative–can be useful for identifying an alternative radiocontrast agent. A skin test negative radiocontrast alternative has a 95% NPV.\n\n\nIntravenous Challenge\nIntravenous challenge can be performed to radiocontrast with various protocols–such as 1 mL, 5 mL, 15, mL, and 50 mL (cumulative 71 mL) at 60 minute intervals.\n\n\nManagement\nThe culprit radiocontrast should be avoided, and an alternative radiocontrast should be used, guided by negative skin testing if available. Other measures to decrease risk of recurrent radiocontrast reaction include: lowering the radiocontrast dose, decreasing the injection speed, and pre-treatment with non-sedating, second generation antihistamines and/or corticosteroids.",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Specific Drugs</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Specific Drugs</span>"
     ]
   },
   {
     "objectID": "specific-drugs.html#topicals",
     "href": "specific-drugs.html#topicals",
-    "title": "3  Specific Drugs",
+    "title": "7  Specific Drugs",
     "section": "Topicals",
-    "text": "Topicals\n\nAntibiotics\nThe most common topical antibiotics which cause ACD are those found in triple antibiotic ointment—neomycin, polymyxin B, and bacitracin.\n\n\n\n\n\n\nImportant\n\n\n\nOf patients with neomycin ACD, 50% will cross-react with other aminoglycosides such as gentamicin.\n\n\n\n\nAnesthetics\nThe most common topical anesthetics which cause ACD are lidocaine and benzocaine.\n\n\n\n\n\n\nNote\n\n\n\nWhile patch testing can confirm ACD due to a local anesthetic, not all patients will necessarily develop an allergic reaction to the same anesthetic if used intradermally or subcutaneous—which is often done for dental and dermatologic procedures.\n\n\n\n\nCorticosteroids\nMost patients with ACD secondary to corticosteroids have a history of atopy. Because corticosteroids are often not considered initially as a possible cause of ACD, there might be increased use and worsening of a patient’s dermatitis.\nACD due to corticosteroids may produce an “edge effect” or “doughnut-type” reaction–due to the anti-inflammatory effect of the higher concentration of the corticosteroid in the central area compared to the periphery.\n\n\n\n\n\n\nImportant\n\n\n\nIf a patient has ACD due to a topical corticosteroid, you should consider propylene glycol as a potential cause—an excipient found in various topical corticosteroids and one of the top 4 causes of ACD due to drugs.\n\n\n\n\nPropylene Glycol\nPropylene glycol—an excipient—may be utilized in topical drugs as a softening agent, solvent, moisturizer, or preservative.\nOf patients with propylene glycol ACD, 80% have a history of atopic dermatitis.\n\n\n\n\n\n\nImportant\n\n\n\nPropylene glycol is present in various topical emolients, corticosteroids, and calcineurin inhibitors.\n\n\n\n\n\nTable 3.2: Select topical drugs for treatment of atopic dermatitis by propylene glcyol content\n\n\n\n\n\nTopical\nPropylene glycol-containing\nPropylene glycol-free\n\n\n\n\nEmolients\n\nCetaphil Moisturizing Cream\n\n\nCerave Moisturizing Cream\nEucerin Orginal Healing Cream\n\n\n\nCorticosteroids\n\nMometasone furoate ointment 0.1%\n\n\nTriamcinolone acetonide ointment 0.1%\nHydrocortisone ointment 2.5%\n\n\n\nCalcineurin inhibitors\n\nPimecrolimus cream 1%\n\n\nTacrolimus ointment 0.03% and 0.1%\n\n\n\n\n\n\n\nReferences:\nhttps://www.jaad.org/article/S0190-9622(19)33110-X/fulltext\n\n\nEye Drops\nThe eyelids are more susceptible to ACD compared to other facial areas—owing to their thin skin 0.55 mm compared to 2 mm, respectively. Therefore, the eyelids may be the only affected area by a drug that comes in contact with the face.\n\n\n\n\n\n\nNote\n\n\n\nACD due to eye drops is primarily caused by anti-microbial preservatives rather than the primary drug. Benzylalkonium chloride is the most commonly implicated preservative in patients with history of eye drop reactions.\n\n\n\n\n\nTable 3.3: Select commercially-available eye drops for common treatment categories by benzylalkonium chloride content\n\n\n\n\n\n\n\n\n\n\nCategory\nBenzyalkonium chloride-containing\nBenyzlalkonium chloride-free\n\n\n\n\nAntibiotic\n\nCiprofloxacin (Ciloxan)\nGatifloxacin (Zymar)\nNeomycin/Polymyxin B sulfates/Dexamethasone (Maxitrol)\nOfloxacin (Ocuflox)\nPolymyxin B sulfate/Trimethoprim (Polytrim)\nTobramycin (Tobrex)\n\n\nMoxifloxacin (Vigamox)\nErythromycin ointment (Ilotycin)\n\n\n\nCorticosteroid\n\nDexamethasone (Maxidex)\nPrednisolone acetate\nPrednisolone sodium phosphate\n\n\nLoteprednol 0.5% ointment\n\n\n\nNSAID\n\nKeterolac 0.4% (Acular LS)\nKetorolac 0.5% (Acular)\n\n\nKeterolac 0.45% (Lotemax)\n\n\n\nGluacoma\n\nBrinzolamide (Azopt)\nTimolol (Timoptic)\n\n\nTafluprost (Zioptan)\nLatanoprost (Iyuzeh)\nTimolol (Timoptic in Ocudose)\nDorzolamide/Timolol (Cosopt PF)\n\n\n\n\n\n\n\nReferences:\nhttps://eyewiki.org/Preservatives_in_Topical_Ophthalmic_Medications#Benzalkonium_chloride_(BAK)",
+    "text": "Topicals\n\nAntibiotics\nThe most common topical antibiotics which cause ACD are those found in triple antibiotic ointment—neomycin, polymyxin B, and bacitracin.\n\n\n\n\n\n\nImportant\n\n\n\nOf patients with neomycin ACD, 50% will cross-react with other aminoglycosides such as gentamicin.\n\n\n\n\nAnesthetics\nThe most common topical anesthetics which cause ACD are lidocaine and benzocaine.\n\n\n\n\n\n\nNote\n\n\n\nWhile patch testing can confirm ACD due to a local anesthetic, not all patients will necessarily develop an allergic reaction to the same anesthetic if used intradermally or subcutaneous—which is often done for dental and dermatologic procedures.\n\n\n\n\nCorticosteroids\nMost patients with ACD secondary to corticosteroids have a history of atopy. Because corticosteroids are often not considered initially as a possible cause of ACD, there might be increased use and worsening of a patient’s dermatitis.\nACD due to corticosteroids may produce an “edge effect” or “doughnut-type” reaction–due to the anti-inflammatory effect of the higher concentration of the corticosteroid in the central area compared to the periphery.\n\n\n\n\n\n\nImportant\n\n\n\nIf a patient has ACD due to a topical corticosteroid, you should consider propylene glycol as a potential cause—an excipient found in various topical corticosteroids and one of the top 4 causes of ACD due to drugs.\n\n\n\n\nPropylene Glycol\nPropylene glycol—an excipient—may be utilized in topical drugs as a softening agent, solvent, moisturizer, or preservative.\nOf patients with propylene glycol ACD, 80% have a history of atopic dermatitis.\n\n\n\n\n\n\nImportant\n\n\n\nPropylene glycol is present in various topical emolients, corticosteroids, and calcineurin inhibitors.\n\n\n\n\n\nTable 7.2: Select topical drugs for treatment of atopic dermatitis by propylene glcyol content\n\n\n\n\n\nTopical\nPropylene glycol-containing\nPropylene glycol-free\n\n\n\n\nEmolients\n\nCetaphil Moisturizing Cream\n\n\nCerave Moisturizing Cream\nEucerin Orginal Healing Cream\n\n\n\nCorticosteroids\n\nMometasone furoate ointment 0.1%\n\n\nTriamcinolone acetonide ointment 0.1%\nHydrocortisone ointment 2.5%\n\n\n\nCalcineurin inhibitors\n\nPimecrolimus cream 1%\n\n\nTacrolimus ointment 0.03% and 0.1%\n\n\n\n\n\n\n\nReferences:\nhttps://www.jaad.org/article/S0190-9622(19)33110-X/fulltext\n\n\nEye Drops\nThe eyelids are more susceptible to ACD compared to other facial areas—owing to their thin skin 0.55 mm compared to 2 mm, respectively. Therefore, the eyelids may be the only affected area by a drug that comes in contact with the face.\n\n\n\n\n\n\nNote\n\n\n\nACD due to eye drops is primarily caused by anti-microbial preservatives rather than the primary drug. Benzylalkonium chloride is the most commonly implicated preservative in patients with history of eye drop reactions.\n\n\n\n\n\nTable 7.3: Select commercially-available eye drops for common treatment categories by benzylalkonium chloride content\n\n\n\n\n\n\n\n\n\n\nCategory\nBenzyalkonium chloride-containing\nBenyzlalkonium chloride-free\n\n\n\n\nAntibiotic\n\nCiprofloxacin (Ciloxan)\nGatifloxacin (Zymar)\nNeomycin/Polymyxin B sulfates/Dexamethasone (Maxitrol)\nOfloxacin (Ocuflox)\nPolymyxin B sulfate/Trimethoprim (Polytrim)\nTobramycin (Tobrex)\n\n\nMoxifloxacin (Vigamox)\nErythromycin ointment (Ilotycin)\n\n\n\nCorticosteroid\n\nDexamethasone (Maxidex)\nPrednisolone acetate\nPrednisolone sodium phosphate\n\n\nLoteprednol 0.5% ointment\n\n\n\nNSAID\n\nKeterolac 0.4% (Acular LS)\nKetorolac 0.5% (Acular)\n\n\nKeterolac 0.45% (Lotemax)\n\n\n\nGluacoma\n\nBrinzolamide (Azopt)\nTimolol (Timoptic)\n\n\nTafluprost (Zioptan)\nLatanoprost (Iyuzeh)\nTimolol (Timoptic in Ocudose)\nDorzolamide/Timolol (Cosopt PF)\n\n\n\n\n\n\n\nReferences:\nhttps://eyewiki.org/Preservatives_in_Topical_Ophthalmic_Medications#Benzalkonium_chloride_(BAK)",
     "crumbs": [
       "Drug Allergy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Specific Drugs</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Specific Drugs</span>"
     ]
   },
   {
     "objectID": "reproducible-data-analysis-workflow.html",
     "href": "reproducible-data-analysis-workflow.html",
-    "title": "4  Reproducible Data Analysis Workflow",
+    "title": "8  Reproducible Data Analysis Workflow",
     "section": "",
     "text": "I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (Peikert & Brandmaier, 2021).\nI also recommend using the integrated development environment (IDE) for R, RStudio.\n\n\n\n\n\n\n\nComponent\nDescription\n\n\n\n\nRMarkdown\nDynamic document generation\n\n“literate programming paradigm”\nEliminate copy and paste errors\nknitr (export to other formats such documents, presentations)\npapaja (APA formatting of results in text)\nstargazer (journal ready tables)\n\n\n\nGit\nVersion control tracking\n\nCommits = “snapshots”\nCommit Message = Description of update\nRepository = Collection of commits\nHash = unique identifier\n\n\n\n\n\n\n\nNote\n\n\n\nRStudio has a GUI for Git.\n\n\n\n\nMake\nDependency management\n\n\nDocker\nContainerization\n\nVirtual software environment\nReproduce results independent of host operating system",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Reproducible Data Analysis Workflow</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Reproducible Data Analysis Workflow</span>"
     ]
   },
   {
     "objectID": "project-organization.html",
     "href": "project-organization.html",
-    "title": "5  Project Organization",
+    "title": "9  Project Organization",
     "section": "",
     "text": "If you would like a video overview of how to organize a project using R Studio, I recommend Ming “Tommy” Tang’s tutorial on YouTube, “How to Organize a Computational Biology Project”. In his tutorial he references an excellent reference on project organization, “A Quick Guide to Organizing Computational Biology Projects” by Noble (2009).\n\n\n\n\n\n\nNote\n\n\n\nIn RStudio, you should create a “New Project,” which creates both a project folder and a .Rproj file (which sets the path for your project working directory). You should use the here package to easily build paths to files in a more reliable fashion than using setwd().\n\n\nBash Commands to Create Folder Directory Structure for Your R Project\nOnce you have created your New Project in RStudio and are in your-r-project-folder in the Terminal. You can create your README.md file and your sub-folder directory structure.\ntouch README.md\nmkdir data doc scripts bin outputs\nOnce you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: chmod u-w -R data/\n\n\n\n\nNoble, William Stafford. 2009. “A Quick Guide to Organizing Computational Biology Projects.” Edited by Fran Lewitter. PLoS Computational Biology 5 (7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424.",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Project Organization</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Project Organization</span>"
     ]
   },
   {
     "objectID": "file-naming-conventions.html",
     "href": "file-naming-conventions.html",
-    "title": "6  File Naming Conventions",
+    "title": "10  File Naming Conventions",
     "section": "",
     "text": "In your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the File Naming Conventions Worksheet (Briney, 2020) to develop your file naming conventions.\n\n\n\n\n\n\n\n\nMetadata\nSeparator\nVersion Tracking\n\n\n\n\n3 to 5 pieces max\n(e.g. sample ID, date in\nISO 8601 format such as\nYYYY-MM-DD)\nDashes (-), underscore (_), or camel case (i.e., capitalize each word without spaces)\nNumeric (e.g., v01) or Status (e.g., raw, processed)\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nMy naming convention for R Markdown analysis files is: “analysis-YYYY-MM-DD-version.Rmd” where version starts with “v01.” This is my first analysis file, “analysis-YYYY-MM-DD-v01.Rmd”",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File Naming Conventions</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>File Naming Conventions</span>"
     ]
   },
   {
     "objectID": "package-managers.html",
     "href": "package-managers.html",
-    "title": "7  Package Managers",
+    "title": "11  Package Managers",
     "section": "",
     "text": "Homebrew",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Package Managers</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Package Managers</span>"
     ]
   },
   {
     "objectID": "version-control-with-git.html",
     "href": "version-control-with-git.html",
-    "title": "8  Version Control with Git",
+    "title": "12  Version Control with Git",
     "section": "",
     "text": "You should version control your scripts with Git.\nI recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.\n\n\n\n\n\n\nImportant\n\n\n\nAs long as you have your raw data backed up and your scripts version controlled, you can reproduce your results!\n\n\nVerify Git Installation and Version\nwhich git # request path to your Git executable\ngit --version # check your Git version\nIntroduce Yourself to Git\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email \"&lt;email&gt;\"\nCreate a New Repository on GitHub\nGo to GitHub to create your new repository, then initialize your repository from the command line.\ncd &lt;/path/to/your-r-project-folder&gt;\necho \"# your-r-project-folder\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/&lt;user.name&gt;/&lt;your-repository&gt;.git\ngit push -u origin main\nAdd, Commit, and Push Files to Remote Repository\ngit add &lt;file-name&gt;\ngit commit -m \"description\"\ngit push",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Version Control with Git</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Version Control with Git</span>"
     ]
   },
   {
     "objectID": "rmarkdown.html",
     "href": "rmarkdown.html",
-    "title": "9  Dynamic Document Generation with RMarkdown",
+    "title": "13  Dynamic Document Generation with RMarkdown",
     "section": "",
     "text": "here = consistent paths relative to project directory\nredoc = bidirectional syncing between RMarkdown and word",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Dynamic Document Generation with RMarkdown</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Dynamic Document Generation with RMarkdown</span>"
     ]
   },
   {
     "objectID": "make.html",
     "href": "make.html",
-    "title": "10  Dependency Management with Make",
+    "title": "14  Dependency Management with Make",
     "section": "",
     "text": "Makefile = a list of recipes\n\nAll = the target of the recipe\nthen ingredients\nfinally steps to prepare the dish",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Dependency Management with Make</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Dependency Management with Make</span>"
     ]
   },
   {
     "objectID": "docker.html",
     "href": "docker.html",
-    "title": "11  Containerization with Docker",
+    "title": "15  Containerization with Docker",
     "section": "",
     "text": "Docker = sets up a virtual computer (e.g. install software)\n\nThen saves the resulting state of the virtual computer = “image”\nContainer = running instance of an image\nAn image can be transferred and executed on any machine that has Docker installed\nContainers = lightweight\n\nStart rapidly\nRun with little overhead\nDo no need much storage space\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nContainers achieve this by reusing large parts of the host operating system.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSoftware versions should be precisely documented to ensure full computational reproducibility.\n\n\nRocker Project\n\nDocker images of pre-configured selected version of R from MRAN\nrocker/verse = RStudio and tidyverse\nliftR = way to automatically identify dependencies and automatically generate a Docker image",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Containerization with Docker</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Containerization with Docker</span>"
     ]
   },
   {

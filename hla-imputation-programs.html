@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Translational Bioinformatics for Immunogenomics - Bonus</title>
+<title>Translational Bioinformatics for Immunogenomics - 2&nbsp; HLA Imputation Programs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./bioinformatic-best-practices.html" rel="next">
-<link href="./specific-drugs.html" rel="prev">
+<link href="./kir.html" rel="next">
+<link href="./functional-divergence.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +110,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bonus.html">Bonus</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hla.html">Human Leukocyte Antigens</a></li><li class="breadcrumb-item"><a href="./hla-imputation-programs.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">HLA Imputation Programs</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -144,7 +164,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hla-imputation-programs.html" class="sidebar-item-text sidebar-link">
+  <a href="./hla-imputation-programs.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">HLA Imputation Programs</span></span></a>
   </div>
 </li>
@@ -215,7 +235,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bonus.html" class="sidebar-item-text sidebar-link active">
+  <a href="./bonus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bonus</span></a>
   </div>
 </li>
@@ -307,9 +327,9 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hla.html">Human Leukocyte Antigens</a></li><li class="breadcrumb-item"><a href="./hla-imputation-programs.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">HLA Imputation Programs</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Bonus</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">HLA Imputation Programs</span></h1>
 </div>
 
 
@@ -326,8 +346,43 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 </header>
 
 
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Programming Language</th>
+<th>Input Data</th>
+<th>Output</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://software.broadinstitute.org/mpg/snp2hla/">SNP2HLA</a></td>
+<td>Command line interface</td>
+<td>PLINK binary format</td>
+<td>HLA class I and II alleles</td>
+<td><span class="citation" data-cites="jia_imputing_2013">Jia et al. (<a href="references.html#ref-jia_imputing_2013" role="doc-biblioref">2013</a>)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://bioconductor.org/packages/release/bioc/html/HIBAG.html">HIBAG</a></td>
+<td>R</td>
+<td>Plink binary format</td>
+<td>HLA class I and II alleles</td>
+<td><span class="citation" data-cites="zheng_hibaghla_2014">Zheng et al. (<a href="references.html#ref-zheng_hibaghla_2014" role="doc-biblioref">2014</a>)</span></td>
+</tr>
+</tbody>
+</table>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-jia_imputing_2013" class="csl-entry" role="listitem">
+Jia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J. Concannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. De Bakker. 2013. <span>“Imputing <span>Amino</span> <span>Acid</span> <span>Polymorphisms</span> in <span>Human</span> <span>Leukocyte</span> <span>Antigens</span>.”</span> Edited by Jianming Tang. <em>PLoS ONE</em> 8 (6): e64683. <a href="https://doi.org/10.1371/journal.pone.0064683">https://doi.org/10.1371/journal.pone.0064683</a>.
+</div>
+<div id="ref-zheng_hibaghla_2014" class="csl-entry" role="listitem">
+Zheng, X, J Shen, C Cox, J C Wakefield, M G Ehm, M R Nelson, and B S Weir. 2014. <span>“<span>HIBAG</span>—<span>HLA</span> Genotype Imputation with Attribute Bagging.”</span> <em>The Pharmacogenomics Journal</em> 14 (2): 192–200. <a href="https://doi.org/10.1038/tpj.2013.18">https://doi.org/10.1038/tpj.2013.18</a>.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -741,13 +796,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./specific-drugs.html" class="pagination-link" aria-label="Specific Drugs">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specific Drugs</span></span>
+      <a href="./functional-divergence.html" class="pagination-link" aria-label="Functional Divergence">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Functional Divergence</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./bioinformatic-best-practices.html" class="pagination-link" aria-label="Bioinformatic Best Practices">
-        <span class="nav-page-text">Bioinformatic Best Practices</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./kir.html" class="pagination-link" aria-label="Killer Cell Immunoglobulin-like Receptors">
+        <span class="nav-page-text">Killer Cell Immunoglobulin-like Receptors</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Translational Bioinformatics for Immunogenomics - Bonus</title>
+<title>Translational Bioinformatics for Immunogenomics - 1&nbsp; Functional Divergence</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./bioinformatic-best-practices.html" rel="next">
-<link href="./specific-drugs.html" rel="prev">
+<link href="./hla-imputation-programs.html" rel="next">
+<link href="./hla.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +110,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bonus.html">Bonus</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hla.html">Human Leukocyte Antigens</a></li><li class="breadcrumb-item"><a href="./functional-divergence.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Functional Divergence</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -138,7 +158,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./functional-divergence.html" class="sidebar-item-text sidebar-link">
+  <a href="./functional-divergence.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Functional Divergence</span></span></a>
   </div>
 </li>
@@ -215,7 +235,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bonus.html" class="sidebar-item-text sidebar-link active">
+  <a href="./bonus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bonus</span></a>
   </div>
 </li>
@@ -307,9 +327,9 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hla.html">Human Leukocyte Antigens</a></li><li class="breadcrumb-item"><a href="./functional-divergence.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Functional Divergence</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Bonus</h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Functional Divergence</span></h1>
 </div>
 
 
@@ -326,8 +346,15 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 </header>
 
 
+<p>Heterozygosity of HLA class I genes is associated with better outcomes after HIV infection. This is thought to be due to a greater repertoire of HIV peptides presented and cytotoxic T cell response. However, looking at HLA class I allotype alone does not take into account differences in actual peptide repertoire. <span class="citation" data-cites="viard_impact_2024">Viard et al. (<a href="references.html#ref-viard_impact_2024" role="doc-biblioref">2024</a>)</span> developed a metric to measure this difference, termed “functional divergence.” Functional divergence predicts the peptide repertoire as a continuum. They showed that greater functional divergence was associated with better HIV outcomes. Functional divergence may be relevant to other diseases where HLA heterozygosity confers advantage, such as infection, vaccination, and immunotherapy.</p>
+<p>You can download functional divergence estimates for pairwise combinations of HLA-A, HLA-B, and HLA-C alleles from their article’s Supplementary Materials. The functional divergence measure ranges from 0 (i.e., smallest functional divergence) to 1 (i.e., greatest functional divergence).</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-viard_impact_2024" class="csl-entry" role="listitem">
+Viard, Mathias, Colm O’hUigin, Yuko Yuki, Arman A. Bashirova, David R. Collins, Jonathan M. Urbach, Steven Wolinsky, et al. 2024. <span>“Impact of <span>HLA</span> Class <span>I</span> Functional Divergence on <span>HIV</span> Control.”</span> <em>Science</em> 383 (6680): 319–25. <a href="https://doi.org/10.1126/science.adk0777">https://doi.org/10.1126/science.adk0777</a>.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -741,13 +768,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./specific-drugs.html" class="pagination-link" aria-label="Specific Drugs">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specific Drugs</span></span>
+      <a href="./hla.html" class="pagination-link" aria-label="Human Leukocyte Antigens">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Human Leukocyte Antigens</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./bioinformatic-best-practices.html" class="pagination-link" aria-label="Bioinformatic Best Practices">
-        <span class="nav-page-text">Bioinformatic Best Practices</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./hla-imputation-programs.html" class="pagination-link" aria-label="HLA Imputation Programs">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">HLA Imputation Programs</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
