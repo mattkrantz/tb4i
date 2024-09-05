@@ -335,289 +335,257 @@
     ]
   },
   {
+    "objectID": "reproducible-data-analysis-workflow.html",
+    "href": "reproducible-data-analysis-workflow.html",
+    "title": "4  Reproducible Data Analysis Workflow",
+    "section": "",
+    "text": "I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (Peikert & Brandmaier, 2021).",
+    "crumbs": [
+      "Bioinformatic Best Practices",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Reproducible Data Analysis Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "project-organization.html",
+    "href": "project-organization.html",
+    "title": "5  Project Organization",
+    "section": "",
+    "text": "If you would like a video overview of how to organize a project using R Studio, I recommend Ming “Tommy” Tang’s tutorial on YouTube, “How to Organize a Computational Biology Project”. In his tutorial he references an excellent reference on project organization, “A Quick Guide to Organizing Computational Biology Projects” by Noble (2009).\n\n\n\n\n\n\nNote\n\n\n\nIn RStudio, you should create a “New Project,” which creates both a project folder and a .Rproj file (which sets the path for your project working directory). You should use the here package to easily build paths to files in a more reliable fashion than using setwd().\n\n\nBash Commands to Create Folder Directory Structure for Your R Project\nOnce you have created your New Project in RStudio and are in your-r-project-folder in the Terminal. You can create your README.md file and your sub-folder directory structure.\ntouch README.md\nmkdir data doc scripts bin outputs\nOnce you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: chmod u-w -R data/\n\n\n\n\nNoble, William Stafford. 2009. “A Quick Guide to Organizing Computational Biology Projects.” Edited by Fran Lewitter. PLoS Computational Biology 5 (7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424.",
+    "crumbs": [
+      "Bioinformatic Best Practices",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Project Organization</span>"
+    ]
+  },
+  {
+    "objectID": "file-naming-conventions.html",
+    "href": "file-naming-conventions.html",
+    "title": "6  File Naming Conventions",
+    "section": "",
+    "text": "In your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the File Naming Conventions Worksheet (Briney, 2020) to develop your file naming conventions.\n\n\n\n\n\n\n\n\nMetadata\nSeparator\nVersion Tracking\n\n\n\n\n3 to 5 pieces max\n(e.g. sample ID, date in\nISO 8601 format such as\nYYYY-MM-DD)\nDashes (-), underscore (_), or camel case (i.e., capitalize each word without spaces)\nNumeric (e.g., v01) or Status (e.g., raw, processed)\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nMy naming convention for R Markdown analysis files is: “analysis-YYYY-MM-DD-version.Rmd” where version starts with “v01.” This is my first analysis file, “analysis-YYYY-MM-DD-v01.Rmd”",
+    "crumbs": [
+      "Bioinformatic Best Practices",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File Naming Conventions</span>"
+    ]
+  },
+  {
+    "objectID": "version-control-with-git.html",
+    "href": "version-control-with-git.html",
+    "title": "7  Version Control with Git",
+    "section": "",
+    "text": "You should version control your scripts with Git.\nI recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.\n\n\n\n\n\n\nImportant\n\n\n\nAs long as you have your raw data backed up and your scripts version controlled, you can reproduce your results!\n\n\nVerify Git Installation and Version\nwhich git # request path to your Git executable\ngit --version # check your Git version\nIntroduce Yourself to Git\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email \"&lt;email&gt;\"\nCreate a New Repository on GitHub\nGo to GitHub to create your new repository, then initialize your repository from the command line.\ncd &lt;/path/to/your-r-project-folder&gt;\necho \"# your-r-project-folder\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/&lt;user.name&gt;/&lt;your-repository&gt;.git\ngit push -u origin main\nAdd, Commit, and Push Files to Remote Repository\ngit add &lt;file-name&gt;\ngit commit -m \"description\"\ngit push",
+    "crumbs": [
+      "Bioinformatic Best Practices",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Version Control with Git</span>"
+    ]
+  },
+  {
     "objectID": "genotype-imputation.html",
     "href": "genotype-imputation.html",
-    "title": "4  Genotype Imputation",
+    "title": "Genotype Imputation",
     "section": "",
     "text": "Michigan Imputation Server\nThe Michigan Imputation Server is a free next-generation genotype imputation platform. You can learn more about the Michigan Imputation Server by visiting their Getting Started documentation. The 1000 Genomes Phase 3 (Version 5) Reference Panel is available on the Michigan Imputation Server.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Genotype Imputation</span>"
+      "Genotype Imputation"
     ]
   },
   {
     "objectID": "genotype-imputation.html#topmed-imputation-server",
     "href": "genotype-imputation.html#topmed-imputation-server",
-    "title": "4  Genotype Imputation",
+    "title": "Genotype Imputation",
     "section": "TOPMed Imputation Server",
     "text": "TOPMed Imputation Server\nThe TOPMed Imputation Server is another free next-generation genotype imputation platform developed by the University of Michigan and powered by data from the TOPMed Program investigators. You can learn more about the TOPMed Imputation Server by visiting their Getting Started documentation. The TOPMed Version 3 Reference Panel was released in December 2023.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Genotype Imputation</span>"
+      "Genotype Imputation"
     ]
   },
   {
     "objectID": "genotype-imputation.html#reference-panels",
     "href": "genotype-imputation.html#reference-panels",
-    "title": "4  Genotype Imputation",
+    "title": "Genotype Imputation",
     "section": "Reference Panels",
     "text": "Reference Panels\n\n\n\nReference Panel\nGenome Assembly\nNo. of Samples\nSites\n(chr1-22)\nChr.\nImputation Server\n\n\n\n\n1000 Genomes Phase 3 (Version 5)\nGRCh37/hg19\n2,504\n49,143,605\n1-22, X\nMichigan Imputation Server\n\n\nTOPMed (Version 3)\nGRCh38/hg38\n133,597\n445,600,184\n1-22, X\nTOPMed Imputation Server",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Genotype Imputation</span>"
+      "Genotype Imputation"
     ]
   },
   {
     "objectID": "genotype-imputation.html#genome-assemblies",
     "href": "genotype-imputation.html#genome-assemblies",
-    "title": "4  Genotype Imputation",
+    "title": "Genotype Imputation",
     "section": "Genome Assemblies",
     "text": "Genome Assemblies\nThe Genome Reference Consortium (GRC) is the main source of human genome assembly data. The most recent human genome assembly version is GRCh38, released in 2013. The “h” in “GRCh” stands for “human.” The GRC also maintains genome assembly data for rat (r), mouse (m), zebrafish (z), and chicken (g for gallus). Major updates, called “versions”, are released every few years. Minor updates are called “patches” and are released more frequently.\nGRCh38 is referred to as “hg38” in the University of California Santa Cruz (UCSC) Genome Browser. The “hg” stands for “human genome.” Before the GRCh38 genome assembly, the version numbers of the GRC and UCSC Genome Browser genome assemblies did not match. For example, when the GRCh37 genome assembly was released in 2009, the UCSC Genome Browser version was “hg19.” Therefore, to minimize confusion, starting with the GRCh38 genome assembly, the UCSC Genome Browser version number was matched as “hg38.”\n\n\n\n\n\n\n\n\n\n\nGRC Version\nUCSC Version\nYear Released\nGenome\nCoverage\nAlternate Haplotypes\n\n\n\n\nGRCh37\nhg19\n2009\n~92.5%\n3 regions with 9 alternate loci\n\n\nGRCh38\nhg38\n2013\n95%\n178 regions with 261 alternate loci",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Genotype Imputation</span>"
-    ]
-  },
-  {
-    "objectID": "bioinformatic-best-practices.html",
-    "href": "bioinformatic-best-practices.html",
-    "title": "5  Bioinformatic Best Practices",
-    "section": "",
-    "text": "Project Organization\nIf you would like a video overview of how to organize a project using R Studio, I recommend Ming “Tommy” Tang’s tutorial on YouTube, “How to Organize a Computational Biology Project”. In his tutorial he references an excellent reference on project organization, “A Quick Guide to Organizing Computational Biology Projects” by Noble (2009).\nBash Commands to Create Folder Directory Structure for Your R Project\nOnce you have created your New Project in RStudio and are in your-r-project-folder in the Terminal. You can create your README.md file and your sub-folder directory structure.\nOnce you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: chmod u-w -R data/",
-    "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bioinformatic Best Practices</span>"
-    ]
-  },
-  {
-    "objectID": "bioinformatic-best-practices.html#project-organization",
-    "href": "bioinformatic-best-practices.html#project-organization",
-    "title": "5  Bioinformatic Best Practices",
-    "section": "",
-    "text": "Note\n\n\n\nIn RStudio, you should create a “New Project,” which creates both a project folder and a .Rproj file (which sets the path for your project working directory). You should use the here package to easily build paths to files in a more reliable fashion than using setwd().\n\n\n\n\ntouch README.md\nmkdir data doc scripts bin outputs",
-    "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bioinformatic Best Practices</span>"
-    ]
-  },
-  {
-    "objectID": "bioinformatic-best-practices.html#version-control-with-git",
-    "href": "bioinformatic-best-practices.html#version-control-with-git",
-    "title": "5  Bioinformatic Best Practices",
-    "section": "Version Control with Git",
-    "text": "Version Control with Git\nYou should version control your scripts with Git.\nI recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.\n\n\n\n\n\n\nImportant\n\n\n\nAs long as you have your raw data backed up and your scripts version controlled, you can reproduce your results!\n\n\nVerify Git Installation and Version\nwhich git # request path to your Git executable\ngit --version # check your Git version\nIntroduce Yourself to Git\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email \"&lt;email&gt;\"\nCreate a New Repository on GitHub\nGo to GitHub to create your new repository, then initialize your repository from the command line.\ncd &lt;/path/to/your-r-project-folder&gt;\necho \"# your-r-project-folder\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/&lt;user.name&gt;/&lt;your-repository&gt;.git\ngit push -u origin main\nAdd, Commit, and Push Files to Remote Repository\ngit add &lt;file-name&gt;\ngit commit -m \"description\"\ngit push",
-    "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bioinformatic Best Practices</span>"
-    ]
-  },
-  {
-    "objectID": "bioinformatic-best-practices.html#file-naming-conventions",
-    "href": "bioinformatic-best-practices.html#file-naming-conventions",
-    "title": "5  Bioinformatic Best Practices",
-    "section": "File Naming Conventions",
-    "text": "File Naming Conventions\nIn your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the File Naming Conventions Worksheet (Briney, 2020) to develop your file naming conventions.\n\n\n\n\n\n\n\n\nMetadata\nSeparator\nVersion Tracking\n\n\n\n\n3 to 5 pieces max\n(e.g. sample ID, date in\nISO 8601 format such as\nYYYY-MM-DD)\nDashes (-), underscore (_), or camel case (i.e., capitalize each word without spaces)\nNumeric (e.g., v01) or Status (e.g., raw, processed)\n\n\n\n\n\n\n\n\n\nExample\n\n\n\nMy naming convention for R Markdown analysis files is: “analysis-YYYY-MM-DD-version.Rmd” where version starts with “v01.” This is my first analysis file, “analysis-YYYY-MM-DD-v01.Rmd”",
-    "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bioinformatic Best Practices</span>"
-    ]
-  },
-  {
-    "objectID": "bioinformatic-best-practices.html#application-containers-with-docker",
-    "href": "bioinformatic-best-practices.html#application-containers-with-docker",
-    "title": "5  Bioinformatic Best Practices",
-    "section": "Application Containers with Docker",
-    "text": "Application Containers with Docker\n\n\n\n\nNoble, William Stafford. 2009. “A Quick Guide to Organizing Computational Biology Projects.” Edited by Fran Lewitter. PLoS Computational Biology 5 (7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424.",
-    "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bioinformatic Best Practices</span>"
+      "Genotype Imputation"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html",
     "href": "presenting-your-medical-research.html",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "",
     "text": "Font\nYou should use a sans-serif font like Arial to maximize readability. “Serifs” are extending features at the end of letters. Times New Roman is a serif font.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html#font",
     "href": "presenting-your-medical-research.html#font",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "",
     "text": "Sans-serif versus serif fonts1\n\n\n\n\n\n\n\nFont\nIllustration\nExamples\n\n\n\n\nSans-serif font\n\nArial, Calibri, Helvetica\n\n\nSerif font\n\nTimes New Roman, Georgia, Garamond\n\n\nSerifs (colored in red)\n\n–",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html#font-size",
     "href": "presenting-your-medical-research.html#font-size",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "Font Size",
     "text": "Font Size\n\n\n\n\n\n\n\nSlide Section\nFont Size\n\n\n\n\nTitle\n36 – 44\n\n\nText\n(e.g., Bullets, Figures, Tables)\n24 – 28\n\n\nReferences\n20 – 24",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html#word-count",
     "href": "presenting-your-medical-research.html#word-count",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "Word Count",
     "text": "Word Count\nThe fewer words, the better. A rule to follow is the 7×7 rule: no more than 7 lines and no more than 7 words per line.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html#timing",
     "href": "presenting-your-medical-research.html#timing",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "Timing",
     "text": "Timing\nYou should estimate approximately 1 minute per slide.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html#figures",
     "href": "presenting-your-medical-research.html#figures",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "Figures",
     "text": "Figures\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nSome tools that you can use to get started creating SVG include Microsoft PowerPoint (subscription), Adobe Illustrator (subscription), draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscape is better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes &gt;1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html#references",
     "href": "presenting-your-medical-research.html#references",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "References",
     "text": "References\nCite references at the bottom of your slides as you present information.\n\n\n\n\n\n\nFormat\n\n\n\nLast Name. Journal Abbreviation. Year.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html#equipment",
     "href": "presenting-your-medical-research.html#equipment",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "Equipment",
     "text": "Equipment\n\nLaptop\nBring your own laptop to presentations in case there isn’t a desktop computer for you to use, or it is not functioning, reliable or frustratingly slow.\n\n\nHub\nWhat is worse than not being able to connect your laptop to the correct cable? While a good host for a presentation should have a hub (or dongle if that’s your preferred terminology), you can come prepared with your own too–particularly important if you have a laptop with only USB-C ports and no HDMI port.\nThere are lots of options for hubs. If you are looking for a recommendation, I’ve found that Anker usually has a selection of high-quality and affordable hubs.\n\n\nUSB Drive\nDo you want the entire audience to see your most recent emails when you login to download the PowerPoint you emailed yourself? No. Me either. To avoid this, bring your presentation loaded onto a USB drive, which should ideally have both USB-A and USB-C ports. Or, you can also avoid this by using your own laptop—where the presentation should already be downloaded.\n\n\nPresentation Remote\nI don’t feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive–but I think it is another piece of equipment to consider. This helps keep you from being tethered to and white knuckling the podium during your talk.\nOne option to consider is the Logitech Spotlight Presentation Remote–which includes features such as magnification, vibration alerts for time management (e.g., 5 minutes left), 3 hours use from 1 minute of charging, and connection by USB receiver or Bluetooth–in addition to slide advancement.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "presenting-your-medical-research.html#footnotes",
     "href": "presenting-your-medical-research.html#footnotes",
-    "title": "6  Presenting Your Medical Research",
+    "title": "Presenting Your Medical Research",
     "section": "",
     "text": "Font images are recreated by User:Stannered, original by en:User:Chmod007 - en:Image:Serif and sans-serif 01.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2058303↩︎",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenting Your Medical Research</span>"
+      "Presenting Your Medical Research"
     ]
   },
   {
     "objectID": "on-being-a-physician-scientist.html",
     "href": "on-being-a-physician-scientist.html",
-    "title": "7  On Being a Physician-Scientist",
+    "title": "On Being a Physician-Scientist",
     "section": "",
     "text": "Building Accountability",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>On Being a Physician-Scientist</span>"
+      "On Being a Physician-Scientist"
     ]
   },
   {
     "objectID": "on-being-a-physician-scientist.html#building-accountability",
     "href": "on-being-a-physician-scientist.html#building-accountability",
-    "title": "7  On Being a Physician-Scientist",
+    "title": "On Being a Physician-Scientist",
     "section": "",
     "text": "Semester Plan by Week\nEvery Friday, you should schedule yourself 30 minutes to plan your next week. Weekly Planning meeting 30 minutes. If wait you wait until Monday, you won’t start your week with momentum. 3 hours/deep work per day.\n1 - Reflect on the prior week and how you did\n2 - Set up skeleton for week (5 min)\n\nWrite/Design/Analysis in Mornings\nMeetings in Afternoon\n\n3 - Brain dump of things to get done; Map steps (15 min)\n4 - Tasks meet time (10 min)\nYou should keep and update your semester plan. Here is a link to an NCFDD example.\n\n\n\n\n\n\nImportant\n\n\n\nWe drastically underestimate how long research and writing tasks will take. Multiplying your initial estimate by 1.5x - 2.5x might get you closer to realistically how long a particular task will take.\n\n\n\n\nTask Tracking\nDon’t need to track every last minute/hour. Just track the “deep work” hours. Cal Newport, Deep Work.\nHarvest Time app. Link to website.\nFreedom - block email during “deep work” time.\n\n\nMentor Meetings\nCould also be a peer.\nHave an agenda and take notes for the meeting.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>On Being a Physician-Scientist</span>"
+      "On Being a Physician-Scientist"
     ]
   },
   {
     "objectID": "on-being-a-physician-scientist.html#daily-writing-practice",
     "href": "on-being-a-physician-scientist.html#daily-writing-practice",
-    "title": "7  On Being a Physician-Scientist",
+    "title": "On Being a Physician-Scientist",
     "section": "Daily Writing Practice",
-    "text": "Daily Writing Practice\nWhy is it that the most important academic activity for tenure, promotion, and professional reputation—writing—has the least amount of built-in accountability?\nIf you are a physician-scientist, you are a writer; therefore, you should write everyday (Monday - Friday).\n\n\n\nTable 7.1: Built-in accountability and importance for tenure, promotion, and professional reputation by activity\n\n\n\n\n\n\n\n\n\n\nLess\nBuilt-in accountability\nMore\n\n\n\nWriting\nArticles\nGrants\n\n-&gt;\nActivity\n&lt;-\n\nService\nTeaching\nClinic/Consults\n\n\n\nMore\nImportance for tenure, promotion, and professional reputation\nLess\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe most important part of your promotion—writing—has the least accountability.\n\n\n\n\n\nTable 7.2: Limiting beliefs to cultivating a daily writing practice. Adapted from NCFDD.\n\n\n\n\n\n\n\n\n\nBelief\nReality\n\n\n\n\n“I need huge blocks of time.”\n“Both unrealistic and untrue. You can productively write in 30 minute blocks!”\n\n\n“I must be inspired to write.”\n“No, you don’t. If you put it on your calendar, you can show up to write just like you show up to meetings you don’t want to attend.”\n\n\n“Writing is what I do when I’m done thinking.”\n“Writing is thinking.”\n\n\n\n\n\n\n\nResearch on Daily Writing\n\n\n\nTable 7.3: Adapted from Boice (1989)\n\n\n\n\n\n\n\n\n\nParticipant Groups\nDraft Pages Written per Year\n\n\n\n\nNo change\n17\n\n\nWrote daily and recorded progress\n64\n\n\nWrote daily, recorded progress, and were accountable\n157\n\n\n\n\n\n\n\n\nTime Target for Daily Writing\nYour goal should be to spend 3 or more hours per week on scholarly writing. So, if you write 30 minutes Monday to Friday, you are already at 2.5 hours!\n\n\nTips for Daily Writing\nSchedule your writing in your calendar like any other meeting or clinical duty.\nYou should write first thing in the morning. Knock out the most important daily task for your career first!\nMap complex goals to attainable steps.\nUse a timer, stop when the timer goes off (to avoid slipping back into writing in huge chunks).\nLeave yourself a “breadcrumb,” so you can pick up where you left off.\nGive yourself a treat after writing.\nDo a reflection at the end of the week (Friday) on how your writing went.\n\n\nBenefits of Daily Writing\nWriting daily helps align your time with your evaluation criteria (e.g. 80% research and 20% clinical).\n\nBenefits of daily writing. Adapted from NCFDD\n\n\n\n\n\n\nBenefit\nDescription\n\n\n\n\nProductivity Shift\nLeads to slow, steady productivity and fewer feelings of anxiety over meeting writing expectations\n\n\nMental Shift\nWriting is the most important part of your success; therefore, it is your top priority.\n\n\nBehavior Shift\nYou write everyday and find a way to be accountable that works for you!",
+    "text": "Daily Writing Practice\nWhy is it that the most important academic activity for tenure, promotion, and professional reputation—writing—has the least amount of built-in accountability?\nIf you are a physician-scientist, you are a writer; therefore, you should write everyday (Monday - Friday).\n\n\n\nTable 1: Built-in accountability and importance for tenure, promotion, and professional reputation by activity\n\n\n\n\n\n\n\n\n\n\nLess\nBuilt-in accountability\nMore\n\n\n\nWriting\nArticles\nGrants\n\n-&gt;\nActivity\n&lt;-\n\nService\nTeaching\nClinic/Consults\n\n\n\nMore\nImportance for tenure, promotion, and professional reputation\nLess\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe most important part of your promotion—writing—has the least accountability.\n\n\n\n\n\nTable 2: Limiting beliefs to cultivating a daily writing practice. Adapted from NCFDD.\n\n\n\n\n\n\n\n\n\nBelief\nReality\n\n\n\n\n“I need huge blocks of time.”\n“Both unrealistic and untrue. You can productively write in 30 minute blocks!”\n\n\n“I must be inspired to write.”\n“No, you don’t. If you put it on your calendar, you can show up to write just like you show up to meetings you don’t want to attend.”\n\n\n“Writing is what I do when I’m done thinking.”\n“Writing is thinking.”\n\n\n\n\n\n\n\nResearch on Daily Writing\n\n\n\nTable 3: Adapted from Boice (1989)\n\n\n\n\n\n\n\n\n\nParticipant Groups\nDraft Pages Written per Year\n\n\n\n\nNo change\n17\n\n\nWrote daily and recorded progress\n64\n\n\nWrote daily, recorded progress, and were accountable\n157\n\n\n\n\n\n\n\n\nTime Target for Daily Writing\nYour goal should be to spend 3 or more hours per week on scholarly writing. So, if you write 30 minutes Monday to Friday, you are already at 2.5 hours!\n\n\nTips for Daily Writing\nSchedule your writing in your calendar like any other meeting or clinical duty.\nYou should write first thing in the morning. Knock out the most important daily task for your career first!\nMap complex goals to attainable steps.\nUse a timer, stop when the timer goes off (to avoid slipping back into writing in huge chunks).\nLeave yourself a “breadcrumb,” so you can pick up where you left off.\nGive yourself a treat after writing.\nDo a reflection at the end of the week (Friday) on how your writing went.\n\n\nBenefits of Daily Writing\nWriting daily helps align your time with your evaluation criteria (e.g. 80% research and 20% clinical).\n\nBenefits of daily writing. Adapted from NCFDD\n\n\n\n\n\n\nBenefit\nDescription\n\n\n\n\nProductivity Shift\nLeads to slow, steady productivity and fewer feelings of anxiety over meeting writing expectations\n\n\nMental Shift\nWriting is the most important part of your success; therefore, it is your top priority.\n\n\nBehavior Shift\nYou write everyday and find a way to be accountable that works for you!",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>On Being a Physician-Scientist</span>"
+      "On Being a Physician-Scientist"
     ]
   },
   {
     "objectID": "on-being-a-physician-scientist.html#academic-medicine-jobs",
     "href": "on-being-a-physician-scientist.html#academic-medicine-jobs",
-    "title": "7  On Being a Physician-Scientist",
+    "title": "On Being a Physician-Scientist",
     "section": "Academic Medicine Jobs",
     "text": "Academic Medicine Jobs\n\nAAMC Faculty Salary Report\nLooking to get an idea of academic faculty salaries? The annual AAMC Faculty Salary Report compiles academic faculty salaries by rank, degree, department/specialty, medical school type, region, and more. This is often available for free through your university library. Get to know your librarian!\n\n\nTenure-Track Offer Letters\nWhat goes into a tenure-track offer letter? The Burroughs Wellcome Fund provides a comprehensive list of offer letter components in their article, “Academic Tenure-Track Offer Letters.”",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>On Being a Physician-Scientist</span>"
+      "On Being a Physician-Scientist"
     ]
   },
   {
     "objectID": "on-being-a-physician-scientist.html#nih-loan-repayment-program",
     "href": "on-being-a-physician-scientist.html#nih-loan-repayment-program",
-    "title": "7  On Being a Physician-Scientist",
+    "title": "On Being a Physician-Scientist",
     "section": "NIH Loan Repayment Program",
     "text": "NIH Loan Repayment Program\nNIH Loan Repayment Program",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>On Being a Physician-Scientist</span>"
+      "On Being a Physician-Scientist"
     ]
   },
   {
     "objectID": "on-being-a-physician-scientist.html#online-resources",
     "href": "on-being-a-physician-scientist.html#online-resources",
-    "title": "7  On Being a Physician-Scientist",
+    "title": "On Being a Physician-Scientist",
     "section": "Online Resources",
     "text": "Online Resources\n\nEdge for Scholars\nEdge for Scholars\n\n\nNational Center for Faculty Development and Diversity\nThe National Center for Faculty Development and Diversity (NCFDD) provides practical resources for academic researchers. I recommend signing up for their Monday Motivator Newsletter and watching their Core Curriculum videos.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>On Being a Physician-Scientist</span>"
+      "On Being a Physician-Scientist"
     ]
   },
   {
     "objectID": "on-being-a-physician-scientist.html#professional-organizations",
     "href": "on-being-a-physician-scientist.html#professional-organizations",
-    "title": "7  On Being a Physician-Scientist",
+    "title": "On Being a Physician-Scientist",
     "section": "Professional Organizations",
     "text": "Professional Organizations\nAmerican Physician Scientists Association",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>On Being a Physician-Scientist</span>"
+      "On Being a Physician-Scientist"
     ]
   },
   {
     "objectID": "on-being-a-physician-scientist.html#suggested-readings",
     "href": "on-being-a-physician-scientist.html#suggested-readings",
-    "title": "7  On Being a Physician-Scientist",
+    "title": "On Being a Physician-Scientist",
     "section": "Suggested Readings",
     "text": "Suggested Readings\n\nNot Discussed\nNot Discussed by Michael Stein\n\n\nPublishing Your Medical Research\nPublishing Your Medical Research by Daniel W. Byrne\nDeep Work by Cal Newport\n\n\n\n\nBoice, Robert. 1989. “Procrastination, Busyness and Bingeing.” Behaviour Research and Therapy 27 (6): 605–11. https://doi.org/https://doi.org/10.1016/0005-7967(89)90144-7.",
     "crumbs": [
-      "Bonus",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>On Being a Physician-Scientist</span>"
+      "On Being a Physician-Scientist"
     ]
   },
   {
