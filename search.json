@@ -339,7 +339,7 @@
     "href": "reproducible-data-analysis-workflow.html",
     "title": "4  Reproducible Data Analysis Workflow",
     "section": "",
-    "text": "I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (Peikert & Brandmaier, 2021).",
+    "text": "I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (Peikert & Brandmaier, 2021).\nI also recommend using the integrated development environment (IDE) for R, RStudio.\n\n\n\n\n\n\n\nComponent\nDescription\n\n\n\n\nRMarkdown\nDynamic document generation\n\n“literate programming paradigm”\nEliminate copy and paste errors\nknitr (export to other formats such documents, presentations)\npapaja (APA formatting of results in text)\nstargazer (journal ready tables)\n\n\n\nGit\nVersion control tracking\n\nCommits = “snapshots”\nCommit Message = Description of update\nRepository = Collection of commits\nHash = unique identifier\n\n\n\n\n\n\n\nNote\n\n\n\nRStudio has a GUI for Git.\n\n\n\n\nMake\nDependency management\n\n\nDocker\nContainerization\n\nVirtual software environment\nReproduce results independent of host operating system",
     "crumbs": [
       "Bioinformatic Best Practices",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Reproducible Data Analysis Workflow</span>"
@@ -368,14 +368,58 @@
     ]
   },
   {
+    "objectID": "package-managers.html",
+    "href": "package-managers.html",
+    "title": "7  Package Managers",
+    "section": "",
+    "text": "Homebrew",
+    "crumbs": [
+      "Bioinformatic Best Practices",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Package Managers</span>"
+    ]
+  },
+  {
     "objectID": "version-control-with-git.html",
     "href": "version-control-with-git.html",
-    "title": "7  Version Control with Git",
+    "title": "8  Version Control with Git",
     "section": "",
     "text": "You should version control your scripts with Git.\nI recommend the Using Git and GitHub with RStudio Cheatsheet for additional helpful commands.\n\n\n\n\n\n\nImportant\n\n\n\nAs long as you have your raw data backed up and your scripts version controlled, you can reproduce your results!\n\n\nVerify Git Installation and Version\nwhich git # request path to your Git executable\ngit --version # check your Git version\nIntroduce Yourself to Git\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email \"&lt;email&gt;\"\nCreate a New Repository on GitHub\nGo to GitHub to create your new repository, then initialize your repository from the command line.\ncd &lt;/path/to/your-r-project-folder&gt;\necho \"# your-r-project-folder\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/&lt;user.name&gt;/&lt;your-repository&gt;.git\ngit push -u origin main\nAdd, Commit, and Push Files to Remote Repository\ngit add &lt;file-name&gt;\ngit commit -m \"description\"\ngit push",
     "crumbs": [
       "Bioinformatic Best Practices",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Version Control with Git</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Version Control with Git</span>"
+    ]
+  },
+  {
+    "objectID": "rmarkdown.html",
+    "href": "rmarkdown.html",
+    "title": "9  Dynamic Document Generation with RMarkdown",
+    "section": "",
+    "text": "here = consistent paths relative to project directory\nredoc = bidirectional syncing between RMarkdown and word",
+    "crumbs": [
+      "Bioinformatic Best Practices",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Dynamic Document Generation with RMarkdown</span>"
+    ]
+  },
+  {
+    "objectID": "make.html",
+    "href": "make.html",
+    "title": "10  Dependency Management with Make",
+    "section": "",
+    "text": "Makefile = a list of recipes\n\nAll = the target of the recipe\nthen ingredients\nfinally steps to prepare the dish",
+    "crumbs": [
+      "Bioinformatic Best Practices",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Dependency Management with Make</span>"
+    ]
+  },
+  {
+    "objectID": "docker.html",
+    "href": "docker.html",
+    "title": "11  Containerization with Docker",
+    "section": "",
+    "text": "Docker = sets up a virtual computer (e.g. install software)\n\nThen saves the resulting state of the virtual computer = “image”\nContainer = running instance of an image\nAn image can be transferred and executed on any machine that has Docker installed\nContainers = lightweight\n\nStart rapidly\nRun with little overhead\nDo no need much storage space\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nContainers achieve this by reusing large parts of the host operating system.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSoftware versions should be precisely documented to ensure full computational reproducibility.\n\n\nRocker Project\n\nDocker images of pre-configured selected version of R from MRAN\nrocker/verse = RStudio and tidyverse\nliftR = way to automatically identify dependencies and automatically generate a Docker image",
+    "crumbs": [
+      "Bioinformatic Best Practices",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Containerization with Docker</span>"
     ]
   },
   {

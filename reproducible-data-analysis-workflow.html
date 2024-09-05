@@ -207,26 +207,32 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./package-managers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Package Managers</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./version-control-with-git.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Version Control with Git</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Version Control with Git</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./rmarkdown.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dynamic Document Generation with RMarkdown</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Dynamic Document Generation with RMarkdown</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./make.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Dependency Management with Make</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Dependency Management with Make</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./docker.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Containerization with Docker</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Containerization with Docker</span></span></a>
   </div>
 </li>
       </ul>
@@ -280,6 +286,67 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 
 
 <p>I recommend the tutorial, “A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker” as a starting point for R-based data analyses (<a href="https://doi.org/10.5964/qcmb.3763">Peikert &amp; Brandmaier, 2021</a>).</p>
+<p>I also recommend using the integrated development environment (IDE) for R, RStudio.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 83%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RMarkdown</td>
+<td><p>Dynamic document generation</p>
+<ul>
+<li><p>“literate programming paradigm”</p></li>
+<li><p>Eliminate copy and paste errors</p></li>
+<li><p><code>knitr</code> (export to other formats such documents, presentations)</p></li>
+<li><p><code>papaja</code> (APA formatting of results in text)</p></li>
+<li><p><code>stargazer</code> (journal ready tables)</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Git</td>
+<td><p>Version control tracking</p>
+<ul>
+<li><p>Commits = “snapshots”</p></li>
+<li><p>Commit Message = Description of update</p></li>
+<li><p>Repository = Collection of commits</p></li>
+<li><p>Hash = unique identifier</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>RStudio has a GUI for Git.</p>
+</div>
+</div></td>
+</tr>
+<tr class="odd">
+<td>Make</td>
+<td>Dependency management</td>
+</tr>
+<tr class="even">
+<td>Docker</td>
+<td><p>Containerization</p>
+<ul>
+<li><p>Virtual software environment</p></li>
+<li><p>Reproduce results independent of host operating system</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 
 
