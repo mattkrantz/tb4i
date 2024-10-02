@@ -54,7 +54,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -336,7 +356,13 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link active" data-scroll-target="#bibliography">References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -360,7 +386,7 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 </header>
 
 
-<p>If you would like a video overview of how to organize a project using R Studio, I recommend <a href="https://tommytang.bio.link">Ming “Tommy” Tang</a>’s tutorial on YouTube, “<a href="https://www.youtube.com/watch?v=wXXhp9sXqao">How to Organize a Computational Biology Project</a>”. In his tutorial he references an excellent reference on project organization, “<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1000424">A Quick Guide to Organizing Computational Biology Projects</a>” by <span class="citation" data-cites="noble2009">@noble2009</span>.</p>
+<p>If you would like a video overview of how to organize a project using R Studio, I recommend <a href="https://tommytang.bio.link">Ming “Tommy” Tang</a>’s tutorial on YouTube, “<a href="https://www.youtube.com/watch?v=wXXhp9sXqao">How to Organize a Computational Biology Project</a>”. In his tutorial he references an excellent reference on project organization, “<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1000424">A Quick Guide to Organizing Computational Biology Projects</a>” by <span class="citation" data-cites="noble2009">Noble (<a href="references.html#ref-noble2009" role="doc-biblioref">2009</a>)</span>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -381,6 +407,14 @@ Note
 <p>Once you have downloaded your raw data to your data folder, you should make the contents of the data folder read-only (non-editable) with the following command: <code>chmod u-w -R data/</code></p>
 
 
+<section id="bibliography" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-noble2009" class="csl-entry" role="listitem">
+Noble, William Stafford. 2009. <span>“A Quick Guide to Organizing Computational Biology Projects.”</span> Edited by Fran Lewitter. <em>PLoS Computational Biology</em> 5 (7): e1000424. <a href="https://doi.org/10.1371/journal.pcbi.1000424">https://doi.org/10.1371/journal.pcbi.1000424</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -306,7 +326,10 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#table" id="toc-table" class="nav-link active" data-scroll-target="#table">Table</a>
+  <ul>
+  <li><a href="#bibliography--0424f6e7026fa4bc2c4a7043083417315113c79b" id="toc-bibliography--0424f6e7026fa4bc2c4a7043083417315113c79b" class="nav-link" data-scroll-target="#bibliography--0424f6e7026fa4bc2c4a7043083417315113c79b">References</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -332,6 +355,8 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 </header>
 
 
+<section id="table" class="level1 unnumbered">
+<h1 class="unnumbered">Table</h1>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -348,24 +373,30 @@ gtag('config', 'G-KMNNS24XZ5', { 'anonymize_ip': true});
 <td>Command line interface</td>
 <td>PLINK binary format</td>
 <td>HLA class I and II alleles</td>
-<td><span class="citation" data-cites="jia_imputing_2013">@jia_imputing_2013</span></td>
+<td><span class="citation" data-cites="jia_imputing_2013--0424f6e7026fa4bc2c4a7043083417315113c79b">Jia et al. (<a href="references.html#ref-jia_imputing_2013--0424f6e7026fa4bc2c4a7043083417315113c79b" role="doc-biblioref">2013</a>)</span></td>
 </tr>
 <tr class="even">
 <td><a href="https://bioconductor.org/packages/release/bioc/html/HIBAG.html">HIBAG</a></td>
 <td>R</td>
 <td>Plink binary format</td>
 <td>HLA class I and II alleles</td>
-<td><span class="citation" data-cites="zheng_hibaghla_2014">@zheng_hibaghla_2014</span></td>
+<td><span class="citation" data-cites="zheng_hibaghla_2014--0424f6e7026fa4bc2c4a7043083417315113c79b">Zheng et al. (<a href="references.html#ref-zheng_hibaghla_2014--0424f6e7026fa4bc2c4a7043083417315113c79b" role="doc-biblioref">2014</a>)</span></td>
 </tr>
 </tbody>
 </table>
-<section id="references" class="level2 sectionbibliography">
-<h2 class="sectionbibliography anchored" data-anchor-id="references">References</h2>
-<div class="sectionrefs">
 
+
+<section id="bibliography--0424f6e7026fa4bc2c4a7043083417315113c79b" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="bibliography--0424f6e7026fa4bc2c4a7043083417315113c79b">References</h2>
+<div id="refs--0424f6e7026fa4bc2c4a7043083417315113c79b" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-jia_imputing_2013--0424f6e7026fa4bc2c4a7043083417315113c79b" class="csl-entry" role="listitem">
+Jia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J. Concannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. De Bakker. 2013. <span>“Imputing <span>Amino</span> <span>Acid</span> <span>Polymorphisms</span> in <span>Human</span> <span>Leukocyte</span> <span>Antigens</span>.”</span> Edited by Jianming Tang. <em>PLoS ONE</em> 8 (6): e64683. <a href="https://doi.org/10.1371/journal.pone.0064683">https://doi.org/10.1371/journal.pone.0064683</a>.
 </div>
-
-
+<div id="ref-zheng_hibaghla_2014--0424f6e7026fa4bc2c4a7043083417315113c79b" class="csl-entry" role="listitem">
+Zheng, X, J Shen, C Cox, J C Wakefield, M G Ehm, M R Nelson, and B S Weir. 2014. <span>“<span>HIBAG</span>—<span>HLA</span> Genotype Imputation with Attribute Bagging.”</span> <em>The Pharmacogenomics Journal</em> 14 (2): 192–200. <a href="https://doi.org/10.1038/tpj.2013.18">https://doi.org/10.1038/tpj.2013.18</a>.
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
