@@ -4,8 +4,17 @@ project:
 book:
   google-analytics: "G-KMNNS24XZ5"
   title: "Translational Bioinformatics for Immunogenomics"
+  reader-mode: true
+  page-footer:
+    left: |
+      Translational Bioinformatics for Immunogenomics was written by Matthew S. Krantz
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
   sidebar:
     collapse-level: 1
+    tools:
+      - icon: github
+        href: https://github.com/mattkrantz/tb4i
   chapters:
     - index.qmd
     - intro.qmd
@@ -19,12 +28,12 @@ book:
     - part: erap.qmd
       chapters:
         - erap-imputation.qmd
+    - bonus.qmd
     - part: drug-allergy.qmd
       chapters:
         - immediate-drug-allergy.qmd
         - delayed-drug-allergy.qmd
         - specific-drugs.qmd
-    - bonus.qmd
     - part: bioinformatic-best-practices.qmd
       chapters:
         - reproducible-data-analysis-workflow.qmd
@@ -39,17 +48,12 @@ book:
     - presenting-your-medical-research.qmd
     - on-being-a-physician-scientist.qmd
     - references.qmd
-
+  
 number-sections: true
 
 number-depth: 1
     
 toc-depth: 4
-
-filters:
-  - /Users/matthewkrantz/Library/CloudStorage/OneDrive-VUMC/21-tb4i/quarto-tb4i/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua
-bibliography: references.bib
-reference-section-title: References
 
 resources:
   - CNAME
