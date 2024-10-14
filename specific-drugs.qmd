@@ -181,7 +181,7 @@ Today, [aromatic compounds](https://en.wikipedia.org/wiki/Aromatic_compound) and
 
 [Benzene](https://en.wikipedia.org/wiki/Benzene) has a sweet odor and is found naturally (e.g., crude oil) and produced as an intermediate for use in plastics, resins, nylons, synthetic fibers.
 
-![2D skeletal representation of benzene from [Wikimedia](https://en.m.wikipedia.org/wiki/File:Benzene-Kekule-2D-skeletal.png)](images/specific-drugs/fig-benzene.png){#fig-benzene fig-align="center" width="119"}
+![2D skeletal representation of benzene](images/specific-drugs/fig-benzene.png){#fig-benzene fig-align="center" width="119"}
 :::
 
 ::: {#antiepileptic-drugs-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
