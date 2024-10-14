@@ -14,35 +14,35 @@ format: html
 #### Background
 
 ::: {#macrolides-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
-## What is the chemical structure of macrolides?
+##### What is the chemical structure of macrolides?
 
 Macrolides are defined by a large lactone ring, which varies from 12 to 16 carbons, with 1 or more attached sugar chains. Eyrthromycin and clarithromycin have 14 carbons in their lactone rings while azithromycin has 15.
 :::
 
 ::: {#macrolides-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
-## What is the mechanism of action of macrolides?
+##### What is the mechanism of action of macrolides?
 
 As 50S ribosomal subunit inhibitors, macrolides exert their bacteriostatic effect by inhibiting protein synthesis.
 :::
 
 ::: {#macrolides-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
-## What is the cross-reactivity pattern macrolide antibiotics?
+##### What is the cross-reactivity pattern macrolide antibiotics?
 
 While not extensively studied, macrolide antibiotics with a different number of carbon atoms in their lactone ring are tolerated by most patients. Macrolide antibiotics are also unlikely to cross-react with macrolide immunosuppressants (e.g., tacrolimus, sirolimus).
 :::
 
 ::: {#macrolides-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
-## What are some infections that use macrolides as first-line therapy?
+##### What are some infections that use macrolides as first-line therapy?
 
 Clarithyromycin is used as part of combination treatment for H. pylori. Azithromycin is a part of the first-line combination therapy for Mycobacterium avium complex.
 :::
 
 ::: {#macrolides-question-5 .callout-note collapse="true" icon="false" appearance="simple"}
-## What non-hypersensitivity reactions are associated with macrolides?
+##### What non-hypersensitivity reactions are associated with macrolides?
 
-(1) GI side effects: Because macrolides are also agonists for the motilin receptor--stimulating gastric and small intestine motility--they can cause nausea, vomiting, diarrhea, and abdmoninal cramping. Accordingly, erythromycin can be used as a treatment for gastroparesis. 
+(1) GI side effects: Because macrolides are also agonists for the motilin receptor--stimulating gastric and small intestine motility--they can cause nausea, vomiting, diarrhea, and abdmoninal cramping. Accordingly, erythromycin can be used as a treatment for gastroparesis.
 
-(2) Sensorineural ototoxicity (usually transient). 
+(2) Sensorineural ototoxicity (usually transient).
 
 (3) QT interval prolongation.
 :::
@@ -62,13 +62,13 @@ For patients with a history of non-severe delayed hypersensitivity reaction to a
 #### Background
 
 ::: {#penicillins-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
-## What percent of the US population reports an allergy to penicillin?
+##### What percent of the US population reports an allergy to penicillin?
 
-Approximately 10% of the US population reports an allergy to penicillin while \< 5% of these reported penicillin allergies are clinically significant immediate or delayed-immune mediated drug reactions.
+Approximately 10% of the US population reports an allergy to penicillin.
 :::
 
 ::: {#penicillins-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
-## Of individuals reporting a penicillin allergy, what percent are clinically significant immediate or delayed immune-mediated drug reactions?
+##### Of individuals reporting a penicillin allergy, what percent are clinically significant immediate or delayed immune-mediated drug reactions?
 
 Less than 5% of these reported penicillin allergies are clinically significant immediate or delayed-immune mediated drug reactions.
 
@@ -76,7 +76,7 @@ Over 95% of patients who do not have a history of serious penicillin allergy are
 :::
 
 ::: {#penicillins-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
-## What infections are individuals with a history of penicillin allergy at higher risk of developing due to receiving broad-spectrum antibiotics?
+##### What infections are individuals with a history of penicillin allergy at higher risk of developing due to receiving broad-spectrum antibiotics?
 
 Individuals who report a penicillin allergy label are more likely to receive broad-spectrum antibiotics that increase the risk for antimicrobial resistance, including methicillin-resistant *Staphylococcus aureus* and vancomycin-resistant *Enterococcus*. In addition, broad-spectrum antibiotics also increase the risk of developing *Clostridium difficile* infection.
 
@@ -84,19 +84,19 @@ Receipt of non-beta-lactam perioperative prophylaxis has been associated with an
 :::
 
 ::: {#penicillins-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
-## What infection-related drug interaction is associated with individuals developing a maculopapular rash when receiving an aminopenicillin?
+##### What infection-related drug interaction is associated with individuals developing a maculopapular rash when receiving an aminopenicillin?
 
 Epstein-Barr virus
 :::
 
 ::: {#penicillins-question-5 .callout-note collapse="true" icon="false" appearance="simple"}
-## What percent of penicillin administrations result in a reaction that could be consistent with a hypersensitivity reaction, most often a rash, that could also be nonallergic?
+##### What percent of penicillin administrations result in a reaction that could be consistent with a hypersensitivity reaction, most often a rash, that could also be nonallergic?
 
 About 0.5% to 2.0%
 :::
 
 ::: {#penicillins-question-6 .callout-note collapse="true" icon="false" appearance="simple"}
-## Currently the rate of IgE-mediated penicillin allergies is decreasing. What is a potential hypothesis for this trend?
+##### Currently the rate of IgE-mediated penicillin allergies is decreasing. What is a potential hypothesis for this trend?
 
 Potentially due to the decrease in use of parenteral penicillins in the outpatient setting, where most antibiotic use occurs.
 
@@ -129,12 +129,10 @@ interactive_plot
 ```
 :::
 
-
-
 #### Skin Testing
 
 ::: {#penicillins-question-7 .callout-note collapse="true" icon="false" appearance="simple"}
-## What is the NPV of penicillin skin testing?
+##### What is the NPV of penicillin skin testing?
 
 The NPV of penicillin skin testing is \> 95% when performed with only PPL plus penicillin G or with PPL plus full panel of minor derterminants.
 :::
@@ -168,11 +166,14 @@ Chapter 77 Middleton's Drug Allergy
 
 ### Background
 
-**How are antiepileptic drugs (AEDs) broadly categorized?**
+::: {#antiepileptic-drugs-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+#### How are antiepileptic drugs (AEDs) broadly categorized?
 
 AEDs can be broadly categorized by their structure: aromatic or non-aromatic.
+:::
 
-**What defines an "aromatic" versus a "non-aromatic" AED?**
+::: {#antiepileptic-drugs-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What defines an "aromatic" versus a "non-aromatic" AED?
 
 Historically, compounds were labeled as aromatic based on their distinctive aromas.
 
@@ -181,54 +182,52 @@ Today, [aromatic compounds](https://en.wikipedia.org/wiki/Aromatic_compound) and
 [Benzene](https://en.wikipedia.org/wiki/Benzene) has a sweet odor and is found naturally (e.g., crude oil) and produced as an intermediate for use in plastics, resins, nylons, synthetic fibers.
 
 ![2D skeletal representation of benzene from [Wikimedia](https://en.m.wikipedia.org/wiki/File:Benzene-Kekule-2D-skeletal.png)](images/specific-drugs/fig-benzene.png){#fig-benzene fig-align="center" width="119"}
+:::
 
-**Which class of AEDs are associated with the greatest risk of rash and other cutaneous ADRs?**
+::: {#antiepileptic-drugs-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+#### Which class of AEDs are associated with the greatest risk of rash and other cutaneous ADRs?
 
 Aromatic AEDs are associated with the greatest occurence of rash and other cutaneous ADRs, including phenytoin, carbamazepine, phenobarbital, lamotrigine, zonisamide, and oxcarbazapine.
 
 In addition, there is greater cross-reactivity amongst aromatic AEDs (40-58%) than non-aromatic AEDs.
 
 Of the AEDs with lower rash risk, most are non-aromatic (e.g. valproate, gabapentin, levetiracetam, pregabalin, vigabatrin, lacosamide, brivaracetam).
-
-::: panel-tabset
-## Benzene
-
-![](images/specific-drugs/fig-benzene.png){width="119"}
 :::
 
-+---------------------+---------------------+
-| Aromatic AEDs       | Non-aromatic AEDs   |
-+=====================+=====================+
-| -   Ethosuximide    | -   Valproate       |
-|                     |                     |
-| -   Phenytoin       | -   Gabapentin      |
-|                     |                     |
-| -   Phenobarbital   | -   Topiramate      |
-|                     |                     |
-| -   Carbamepine     | -   Levetiracetam   |
-|                     |                     |
-| -   Oxcarbazepine   | -   Pregabalin      |
-|                     |                     |
-| -   Zonisamide      | -   Vigabatrin      |
-|                     |                     |
-| -   Lamotrigine     | -   Lacosamide      |
-|                     |                     |
-| -   Clobazam        | -   Brivaracetam    |
-|                     |                     |
-| -   Felbamate       |                     |
-|                     |                     |
-| -   Primidone       |                     |
-|                     |                     |
-| -   Eslicarbazepine |                     |
-|                     |                     |
-| -   Perampanel      |                     |
-|                     |                     |
-| -   Cannabidiol     |                     |
-+---------------------+---------------------+
++---------------------+-------------------+
+| Aromatic AEDs       | Non-aromatic AEDs |
++=====================+===================+
+| -   Ethosuximide    | -   Valproate     |
+|                     |                   |
+| -   Phenytoin       | -   Gabapentin    |
+|                     |                   |
+| -   Phenobarbital   | -   Topiramate    |
+|                     |                   |
+| -   Carbamepine     | -   Levetiracetam |
+|                     |                   |
+| -   Oxcarbazepine   | -   Pregabalin    |
+|                     |                   |
+| -   Zonisamide      | -   Vigabatrin    |
+|                     |                   |
+| -   Lamotrigine     | -   Lacosamide    |
+|                     |                   |
+| -   Clobazam        | -   Brivaracetam  |
+|                     |                   |
+| -   Felbamate       |                   |
+|                     |                   |
+| -   Primidone       |                   |
+|                     |                   |
+| -   Eslicarbazepine |                   |
+|                     |                   |
+| -   Perampanel      |                   |
+|                     |                   |
+| -   Cannabidiol     |                   |
++---------------------+-------------------+
 
 : Select aromatic and non-aromatic AEDs. Adapted from Mani et al. Seizure. 2019. {#tbl-aeds}
 
-**What are some risk factors for developing AED-induced rashes?**
+::: {#antiepileptic-drugs-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What are some risk factors for developing AED-induced rashes?
 
 -   History of previous AED-related skin reaction
 
@@ -237,6 +236,7 @@ Of the AEDs with lower rash risk, most are non-aromatic (e.g. valproate, gabapen
 -   Older age
 
 -   Low vitamin D concentrations
+:::
 
 **Reference**
 
@@ -248,16 +248,20 @@ Mani R, Monteleone C, Schalock PC, Truong T, Zhang XB, Wagner ML. Rashes and oth
 
 ### Background
 
-**Why is intravenous (IV) iron used?**
+::: {#iron-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+#### Why is intravenous (IV) iron used?
 
 IV iron is used for the treatment of iron deficiency anemia when oral iron is effective or not tolerated.
+:::
 
-**What IV iron formulations are available in the United States?**
+::: {#iron-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What IV iron formulations are available in the United States?
 
 Formulations available in the United States include low-molecular-weight iron dextran (LWMID), ferric gluconate, iron sucrose, ferumoxytol, iron isomaltoside, and ferric carboxymaltose.
 
-::: callout-note
+::: callout-important
 High-molecular weight iron dextrans were discontinued in the United States due to having a higher rate of hypersensitivity reactions.
+:::
 :::
 
 +-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
@@ -274,39 +278,51 @@ High-molecular weight iron dextrans were discontinued in the United States due t
 
 ### Immediate Hypersensitivity Reactions
 
-**What is the incidence of anaphylactic reactions with IV iron?**
+::: {#iron-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is the incidence of anaphylactic reactions with IV iron?
 
 Anaphylactic reactions—when high-molecular weight dextrans are excluded—occur with an incidence of \< 1 in 200,000.
 
 Significant differences in reaction risk have not been shown among low-molecular weight iron dextran, iron sucrose, ferric gluconate, and ferric carboxymaltose.
+:::
 
-**What is mechanism of most IV iron immediate hypersensitivity reactions?**
+::: {#iron-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is the mechanism of most IV iron immediate hypersensitivity reactions?
 
 Most IV iron immediate hypersensitivity reactions are mediated through complement-activation related pseudoallergy (CARPA). Rarely, hypersensitivity reactions are IgE-mediated.
+:::
 
 ### Minor Infusion Reactions
 
-**What are the symptoms of minor infusion reactions to IV iron?**
+::: {#iron-question-5 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What are the symptoms of minor infusion reactions to IV iron?
 
 Symptoms of minor infusion reactions to IV iron include—flushing, chest/back tightness, myalgias—and, importantly, do not have any features of anaphylaxis.
+:::
 
-**What is considered to be the main driver of minor infusion reactions to IV iron?**
+::: {#iron-question-6 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is considered to be the main driver of minor infusion reactions to IV iron?
 
 Labile, or also called "free," iron is associated with minor infusion reactions to IV iron.
+:::
 
 ### Skin Testing
 
-**What is the utility of immediate skin testing for IV iron hypersensitivity reactions?**
+::: {#iron-question-7 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is the utility of immediate skin testing for IV iron hypersensitivity reactions?
 
 As most hypersensitivity reactions are non-IgE-mediated—rather via CARPA—skin testing has limited utility for evaluating IV iron hypersensitivity reactions; however, it may help detect the rare patients with IgE-mediated hypersensitivity.
+:::
 
 ### Management
 
-**What are some approaches to subsequent IV iron administration in patients with previous IV iron reactions?**
+::: {#iron-question-8 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What are some approaches to subsequent IV iron administration in patients with previous IV iron reactions?
 
 Approaches for patients with history of mild to moderate IV iron reactions include: switching to an alternative IV iron formulation, slowing the infusion rate (e.g., 10% of recommended rate during the first 10 to 15 minutes), and/or pre-treatment with non-sedating, second generation antihistamines.
 
 For patients with a history of anaphylactic reactions to IV iron, desensitization can be considered, such as ferric gluconate.
+:::
 
 ### References
 
@@ -320,21 +336,26 @@ Muñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment optio
 
 ### Background
 
-**What is the prevalence of nonsteroidal anti-inflammatory drug (NSAID) allergy?**
+::: {#nsaids-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is the prevalence of nonsteroidal anti-inflammatory drug (NSAID) allergy?
 
 In the general population, 1.5 - 3.5% of individuals report an NSAID allergy. However, fewer than 20% of those individuals with self-reported NSAID allergy are consistent with a true hypersensitivity.
+:::
 
-**What are some important therapeutic uses of NSAIDs?**
+::: {#nsaids-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+#### WWhat are some important therapeutic uses of NSAIDs?
 
 NSAIDs are important for the treatment of acute coronary syndrome, pain treatment, and for certain high-risk pregnancy conditions.
 
 For individuals with chronic back pain, NSAID allergy is a risk factor for increased receipt of opioid prescriptions and development of opioid use disorder.
+:::
 
 ### Management
 
 For non-aspirin exacerbated respiratory disease (AERD) NSAID hypersensitivity, a two-step outpatient NSAID oral challenge has been shown to be a safe and effective approach.
 
-**Factors associated with a positive NSAID challenge**
+::: {#nsaids-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What factors are associated with a positive NSAID challenge?
 
 -   NSAID reaction within the past 5 years
 
@@ -343,6 +364,7 @@ For non-aspirin exacerbated respiratory disease (AERD) NSAID hypersensitivity, a
 -   History of reaction to multiple NSAIDs
 
 -   Presence of co-morbid chronic spontaneous urticaria
+:::
 
 ### Oral Challenge
 
@@ -372,13 +394,17 @@ Li L, Bensko J, Buchheit K, Saff RR, Laidlaw TM. Safety, Outcomes, and Recommend
 
 ### Background
 
-**How do modern radiocontrasts differ from older radiocontrasts?**
+::: {#radiocontrast-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+#### How do modern radiocontrasts differ from older radiocontrasts?
 
 Modern radiocontrasts are non-ionic, iodinated and either iso-osmolal or low-osmolality. Older radiocontrasts were high-osmolality--which are no longer used intravenously.
+:::
 
-**Is radiocontrast allergy related to iodine or seafood allergy?**
+::: {#radiocontrast-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+#### Is radiocontrast allergy related to iodine or seafood allergy?
 
 The radiocontrast molecular structure is responsible for hypersensitivity reactions--not iodine or seafood allergy. Shellfish allergy is secondary to tropomyosin not iodine.
+:::
 
 ### Infusion Reactions
 
