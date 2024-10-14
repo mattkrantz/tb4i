@@ -12,9 +12,10 @@ book:
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   sidebar:
     collapse-level: 1
-    tools:
-      - icon: github
-        href: https://github.com/mattkrantz/tb4i
+  site-url: https://tb4i.mattkrantz.com/
+  repo-url: https://github.com/mattkrantz/tb4i/
+  repo-branch: main
+  repo-actions: [edit, issue]
   chapters:
     - index.qmd
     - intro.qmd
