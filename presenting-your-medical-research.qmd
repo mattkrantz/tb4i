@@ -1,0 +1,80 @@
+# Presenting Your Medical Research {.unnumbered}
+
+## Font
+
+You should use a [sans-serif](https://en.wikipedia.org/wiki/Sans-serif) font like Arial to maximize readability. "Serifs" are extending features at the end of letters. Times New Roman is a serif font.
+
++-------------------------+----------------------------------------------------------------------------------------+------------------------------------+
+| **Font**                | **Illustration**                                                                       | **Examples**                       |
++:=======================:+:======================================================================================:+:==================================:+
+| Sans-serif font         | ![](figures/presenting-your-medical-research/Serif_and_sans-serif_01.png){width="250"} | Arial, Calibri, Helvetica          |
++-------------------------+----------------------------------------------------------------------------------------+------------------------------------+
+| Serif font              | ![](figures/presenting-your-medical-research/Serif_and_sans-serif_02.png){width="250"} | Times New Roman, Georgia, Garamond |
++-------------------------+----------------------------------------------------------------------------------------+------------------------------------+
+| Serifs (colored in red) | ![](figures/presenting-your-medical-research/Serif_and_sans-serif_03.png){width="250"} | --                                 |
++-------------------------+----------------------------------------------------------------------------------------+------------------------------------+
+
+: Sans-serif versus serif fonts[^presenting-your-medical-research-1] {tbl-colwidths="\[15,15,15\]"}
+
+[^presenting-your-medical-research-1]: Font images are recreated by User:Stannered, original by en:User:Chmod007 - en:Image:Serif and sans-serif 01.png, CC BY-SA 3.0, <https://commons.wikimedia.org/w/index.php?curid=2058303>
+
+## Font Size
+
++----------------------------------+-------------+
+| Slide Section                    | Font Size   |
++:================================:+:===========:+
+| Title                            | 36 -- 44    |
++----------------------------------+-------------+
+| Text\                            | 24 -- 28    |
+| (e.g., Bullets, Figures, Tables) |             |
++----------------------------------+-------------+
+| References                       | 20 -- 24    |
++----------------------------------+-------------+
+
+## Word Count
+
+The fewer words, the better. A rule to follow is the [7×7 rule](https://blog.hubspot.com/marketing/7x7-rule-powerpoint): no more than 7 lines and no more than 7 words per line.
+
+## Timing
+
+You should estimate approximately 1 minute per slide.
+
+## Figures
+
+I recommend creating your figures as [Scalable Vector Graphics](https://en.wikipedia.org/wiki/SVG) (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).
+
+Some tools that you can use to get started creating SVG include [Microsoft PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint) (subscription), [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) (subscription), [draw.io](https://www.drawio.com) (free), and [Inkscape](https://inkscape.org) (free). [Draw.io](https://www.drawio.com) is best for diagrams and flowcharts. [Inkscape](https://inkscape.org) is better for flexible drawings. Both [draw.io](https://www.drawio.com) and [Inkscape](https://inkscape.org) are integrated with [Bioicons](https://bioicons.com/extensions/), an open-source extension which includes \>1700 icons for scientific illustrations.
+
+In Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing "Save as Picture", and then picking "SVG" as the "Save as Type."
+
+## References
+
+Cite references at the bottom of your slides as you present information.
+
+::: callout-note
+## Format
+
+Last Name. *Journal Abbreviation*. Year.
+:::
+
+## Equipment
+
+### Laptop
+
+Bring your own laptop to presentations in case there isn't a desktop computer for you to use, or it is not functioning, reliable or frustratingly slow.
+
+### Hub
+
+What is worse than not being able to connect your laptop to the correct cable? While a good host for a presentation should have a hub (or dongle if that's your preferred terminology), you can come prepared with your own too--particularly important if you have a laptop with only USB-C ports and no HDMI port.
+
+There are lots of options for hubs. If you are looking for a recommendation, I've found that [Anker](https://www.anker.com) usually has a selection of high-quality and affordable hubs.
+
+### USB Drive
+
+Do you want the entire audience to see your most recent emails when you login to download the PowerPoint you emailed yourself? No. Me either. To avoid this, bring your presentation loaded onto a USB drive, which should ideally have both USB-A and USB-C ports. Or, you can also avoid this by using your own laptop—where the presentation should already be downloaded.
+
+### Presentation Remote
+
+I don't feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive--but I think it is another piece of equipment to consider. This helps keep you from being tethered to and white knuckling the podium during your talk.
+
+One option to consider is the [Logitech Spotlight Presentation Remote](https://www.logitech.com/en-us/products/presenters/spotlight-presentation-remote.910-004654.html?utm_source=Google&utm_medium=Paid-Search&utm_campaign=DEPT_FY25_QX_USA_LO_Logi_DTX-Logitech-Search-Product_Google_na&gad_source=1&gbraid=0AAAAADDQ2OxlZEEEm1pbmGeQwBy2tp5qP&gclid=Cj0KCQjwkdO0BhDxARIsANkNcrdav5PZi0zNNl3VzdVBl2UsY7yWd8urzGp4BmCxaR5VFOXlgY70Tf0aAh3zEALw_wcB)--which includes features such as magnification, vibration alerts for time management (e.g., 5 minutes left), 3 hours use from 1 minute of charging, and connection by USB receiver or Bluetooth--in addition to slide advancement.

@@ -1,0 +1,5 @@
+# Dynamic Document Generation with RMarkdown
+
+-   `here` = consistent paths relative to project directory
+
+-   `redoc` = bidirectional syncing between RMarkdown and word

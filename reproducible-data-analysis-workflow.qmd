@@ -1,0 +1,43 @@
+# Reproducible Data Analysis Workflow
+
+I recommend the tutorial, "A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker" as a starting point for R-based data analyses ([Peikert & Brandmaier, 2021](https://doi.org/10.5964/qcmb.3763)).
+
+I also recommend using the integrated development environment (IDE) for R, RStudio.
+
++-----------+---------------------------------------------------------------------+
+| Component | Description                                                         |
++===========+=====================================================================+
+| RMarkdown | Dynamic document generation                                         |
+|           |                                                                     |
+|           | -   "literate programming paradigm"                                 |
+|           |                                                                     |
+|           | -   Eliminate copy and paste errors                                 |
+|           |                                                                     |
+|           | -   `knitr` (export to other formats such documents, presentations) |
+|           |                                                                     |
+|           | -   `papaja` (APA formatting of results in text)                    |
+|           |                                                                     |
+|           | -   `stargazer` (journal ready tables)                              |
++-----------+---------------------------------------------------------------------+
+| Git       | Version control tracking                                            |
+|           |                                                                     |
+|           | -   Commits = "snapshots"                                           |
+|           |                                                                     |
+|           | -   Commit Message = Description of update                          |
+|           |                                                                     |
+|           | -   Repository = Collection of commits                              |
+|           |                                                                     |
+|           | -   Hash = unique identifier                                        |
+|           |                                                                     |
+|           | ::: callout-note                                                    |
+|           | RStudio has a GUI for Git.                                          |
+|           | :::                                                                 |
++-----------+---------------------------------------------------------------------+
+| Make      | Dependency management                                               |
++-----------+---------------------------------------------------------------------+
+| Docker    | Containerization                                                    |
+|           |                                                                     |
+|           | -   Virtual software environment                                    |
+|           |                                                                     |
+|           | -   Reproduce results independent of host operating system          |
++-----------+---------------------------------------------------------------------+

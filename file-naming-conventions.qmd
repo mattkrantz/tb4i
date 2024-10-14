@@ -1,0 +1,16 @@
+# File Naming Conventions
+
+In your README.md, you should define naming conventions for your project files. The main elements for a file naming convention are metadata, separator, and version tracking. I recommend the [File Naming Conventions Worksheet](https://doi.org/10.7907/894q-zr22) (Briney, 2020) to develop your file naming conventions.
+
++---------------------------+----------------------------------------------------------------------------------------+------------------------------------------------------+
+| **Metadata**              | **Separator**                                                                          | **Version** **Tracking**                             |
++:=========================:+:======================================================================================:+:====================================================:+
+| 3 to 5 pieces max\        | Dashes (-), underscore (\_), or camel case (i.e., capitalize each word without spaces) | Numeric (e.g., v01) or Status (e.g., raw, processed) |
+| (e.g. sample ID, date in\ |                                                                                        |                                                      |
+| ISO 8601 format such as\  |                                                                                        |                                                      |
+| YYYY-MM-DD)               |                                                                                        |                                                      |
++---------------------------+----------------------------------------------------------------------------------------+------------------------------------------------------+
+
+::: callout-note
+My naming convention for R Markdown analysis files is: "analysis-YYYY-MM-DD-version.Rmd" where version starts with "v01." This is my first analysis file, "analysis-YYYY-MM-DD-v01.Rmd"
+:::

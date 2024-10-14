@@ -1,0 +1,61 @@
+project:
+  type: book
+
+book:
+  google-analytics: "G-KMNNS24XZ5"
+  title: "Translational Bioinformatics for Immunogenomics"
+  sidebar:
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - part: hla.qmd
+      chapters: 
+        - functional-divergence.qmd
+        - hla-imputation-programs.qmd
+    - part: kir.qmd
+      chapters:
+        - kir-imputation-programs.qmd
+    - part: erap.qmd
+      chapters:
+        - erap-imputation.qmd
+    - part: drug-allergy.qmd
+      chapters:
+        - immediate-drug-allergy.qmd
+        - delayed-drug-allergy.qmd
+        - specific-drugs.qmd
+    - bonus.qmd
+    - part: bioinformatic-best-practices.qmd
+      chapters:
+        - reproducible-data-analysis-workflow.qmd
+        - project-organization.qmd
+        - file-naming-conventions.qmd
+        - package-managers.qmd
+        - version-control-with-git.qmd
+        - rmarkdown.qmd
+        - make.qmd
+        - docker.qmd
+    - genotype-imputation.qmd
+    - presenting-your-medical-research.qmd
+    - on-being-a-physician-scientist.qmd
+    - references.qmd
+
+number-sections: true
+
+number-depth: 1
+    
+toc-depth: 4
+
+filters:
+  - /Users/matthewkrantz/Library/CloudStorage/OneDrive-VUMC/21-tb4i/quarto-tb4i/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua
+bibliography: references.bib
+reference-section-title: References
+
+resources:
+  - CNAME
+
+format:
+  html:
+    theme: cosmo
+editor: visual
+

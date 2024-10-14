@@ -1,0 +1,15 @@
+# Human Leukocyte Antigens {.unnumbered}
+
+## Background
+
+HLA is located on chromosome 6 in the Major Histocompatibility Complex (MHC).
+
+## HLA Class I
+
+HLA class I molecules are expressed by healthy nucleated cells.
+
+## HLA Class II
+
+HLA class II molecules are expressed by professional antigen-presenting cells (APC)--dendritic cells, macrophages, and B cells.
+
+## HLA Nomenclature

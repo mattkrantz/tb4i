@@ -1,0 +1,33 @@
+# Containerization with Docker
+
+-   Docker = sets up a virtual computer (e.g. install software)
+
+    -   Then saves the resulting state of the virtual computer = "image"
+
+    -   Container = running instance of an image
+
+    -   An image can be transferred and executed on any machine that has Docker installed
+
+    -   Containers = lightweight
+
+        -   Start rapidly
+
+        -   Run with little overhead
+
+        -   Do no need much storage space
+
+::: callout-note
+Containers achieve this by reusing large parts of the host operating system.
+:::
+
+::: callout-important
+Software versions should be precisely documented to ensure full computational reproducibility.
+:::
+
+Rocker Project
+
+-   Docker images of pre-configured selected version of R from MRAN
+
+-   rocker/verse = RStudio and tidyverse
+
+-   `liftR` = way to automatically identify dependencies and automatically generate a Docker image

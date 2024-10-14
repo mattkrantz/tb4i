@@ -1,0 +1,14 @@
+# Welcome {.unnumbered}
+
+::: columns
+::: {.column width="70%"}
+This is the website for **"Translational Bioninformatics for Immunogenomics."**
+:::
+
+::: {.column width="30%"}
+![](tb4i-cover.png){width="230"}
+:::
+:::
+
+::: column-page-right
+:::

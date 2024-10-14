@@ -1,0 +1,9 @@
+# Dependency Management with Make
+
+-   Makefile = a list of recipes
+
+    -   All = the target of the recipe
+
+    -   then ingredients
+
+    -   finally steps to prepare the dish

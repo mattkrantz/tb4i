@@ -1,0 +1,541 @@
+---
+title: "Specific Drugs"
+format: html
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: true
+css: styles.css
+---
+
+## Antibiotics
+
+### Cephalosporins
+
+### Fluoroquinolones
+
+### Macrolides
+
+#### Background
+
+<details>
+
+<summary>What is the chemical structure of macrolides?</summary>
+
+Macrolides are defined by a large lactone ring, which varies from 12 to 16 carbons, with 1 or more attached sugar chains. Eyrthromycin and clarithromycin have 14 carbons in their lactone rings while azithromycin has 15.
+
+</details>
+
+<details>
+
+<summary>What is the mechanism of action of macrolides?</summary>
+
+As 50S ribosomal subunit inhibitors, macrolides exert their bacteriostatic effect by inhibiting protein synthesis.
+
+</details>
+
+<details>
+
+<summary>What is the cross-reactivity pattern macrolide antibiotics?</summary>
+
+While not extensively studied, macrolide antibiotics with a different number of carbon atoms in their lactone ring are tolerated by most patients. Macrolide antibiotics are also unlikely to cross-react with macrolide immunosuppressants (e.g., tacrolimus, sirolimus).
+
+</details>
+
+<details>
+
+<summary>What are some infections that use macrolides as first-line therapy?</summary>
+
+Clarithyromycin is used as part of combination treatment for *H. pylori*. Azithromycin is a part of the first-line combination therapy for *Mycobacterium avium* complex.
+
+</details>
+
+#### Non-Hypersensitivity Reactions
+
+<details>
+
+<summary>GI Side Effects</summary>
+
+Because macrolides are also agonists for the motilin receptor--stimulating gastric and small intestine motility--they can cause nausea, vomiting, diarrhea, and abdmoninal cramping. Accordingly, erythromycin can be used as a treatment for gastroparesis.
+
+</details>
+
+<details>
+
+<summary>Sensorineural Otoxicity</summary>
+
+Macrolides can cause usually, transient sensorineural ototoxicity.
+
+</details>
+
+<details>
+
+<summary>QT Interval Prolongation</summary>
+
+Macrolides are associated with QT interval prolongation.
+
+</details>
+
+#### Skin Testing
+
+Skin testing for macrolide immediate hypersensitivity has not been shown to be reliable.
+
+#### Oral Challenge
+
+For patients with a history of immediate hypersensitivity reaction to a macrolide, graded azithromycin challenge can be performed, starting with azithromycin 25 mg followed by 1 hour observation then 250 mg followed by 2 hour observation.
+
+For patients with a history of non-severe delayed hypersensitivity reaction to a macrolide, single dose azithromycin 250 mg challenge with 2 hour observation can be performed. Patients should be instructed to report any other delayed symptoms, which may occur up to 24 to 48 hours after the challenge dose.
+
+### Penicillins
+
+#### Background
+
+<details>
+
+<summary>What percent of the US population reports an allergy to penicillin?</summary>
+
+Approximately 10% of the US population reports an allergy to penicillin while \< 5% of these reported penicillin allergies are clinically significant immediate or delayed-immune mediated drug reactions.
+
+</details>
+
+<details>
+
+<summary>Of individuals reporting a penicillin allergy, what percent are clinically significant immediate or delayed immune-mediated drug reactions?</summary>
+
+Less than 5% of these reported penicillin allergies are clinically significant immediate or delayed-immune mediated drug reactions.
+
+Over 95% of patients who do not have a history of serious penicillin allergy are actually tolerant because (1) the most common reported reaction is a benign delayed rash (type IV hypersensitivity reaction) which may or may not recur with subsequent penicillin exposure; (2) IgE-mediated penicillin allergy wanes over time, with 80% of patients becoming tolerant after a decade since their index reaction; and (3) the index reaction may have rather been an intolerance or caused by the underlying infection being treated at the time.
+
+</details>
+
+<details>
+
+<summary>What infections are individuals with a history of penicillin allergy at higher risk of developing due to receiving broad-spectrum antibiotics?</summary>
+
+Individuals who report a penicillin allergy label are more likely to receive broad-spectrum antibiotics that increase the risk for antimicrobial resistance, including methicillin-resistant *Staphylococcus aureus* and vancomycin-resistant *Enterococcus*. In addition, broad-spectrum antibiotics also increase the risk of developing *Clostridium difficile* infection.
+
+Receipt of non-beta-lactam perioperative prophylaxis has been associated with an increased risk of surgical site infections.
+
+</details>
+
+<details>
+
+<summary>What infection-related drug interaction is associated with individuals developing a maculopapular rash when receiving an aminopenicillin?</summary>
+
+Epstein-Barr virus
+
+</details>
+
+<details>
+
+<summary>What percent of penicillin administrations result in a reaction that could be consistent with a hypersensitivity reaction, most often a rash, that could also be nonallergic?</summary>
+
+About 0.5% to 2.0%
+
+</details>
+
+<details>
+
+<summary>Currently the rate of IgE-mediated penicillin allergies is decreasing. What is a potential hypothesis for this trend?</summary>
+
+Potentially due to the decrease in use of parenteral penicillins in the outpatient setting, where most antibiotic use occurs.
+
+```{r, echo = FALSE}
+library(ggplot2)
+# Create the dataframe
+data <- data.frame(
+  Year = as.integer(c(1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007)),
+  Percent_Positive = c(15.4, 9.2, 8.0, 9.6, 4.1, 8.7, 10.8, 8.8, 4.7, 4.8, 4.5, 4.1, 3.4)
+)
+```
+
+```{r, echo = FALSE}
+# Create the plot
+library(plotly)
+plot <- ggplot(data, aes(x = Year, y = Percent_Positive)) +
+  geom_line() +
+  geom_point() +  # Add points to make the data points clearer
+  labs(title = "Percentage of Positive Cases Over Time",
+       x = "Year",
+       y = "Percent Positive (%)") +
+  theme_minimal()
+
+# Print the plot
+interactive_plot <- ggplotly(plot)
+
+interactive_plot
+```
+
+</details>
+
+#### Skin Testing
+
+**What is the NPV of penicillin skin testing?**
+
+The NPV of penicillin skin testing is \> 95% when performed with only PPL plus penicillin G or with PPL plus full panel of minor derterminants.
+
++---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Reagent                               | Description                                                                                                                                                                                                                               |         |
++=======================================+===========================================================================================================================================================================================================================================+=========+
+| Penicilloyl polylysine (PPL, PrePen®) | -   Major antigenic determinant (what 95% of penicillin degrades into); PPL is penicilloyl complexed with polyltysine to constitute a multivalent skin test reagent. Polylysine acts like the carrier for the penicilloyl hapten in vivo. |         |
++---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Minor derterminant mixture (MDM)      | -   Penicillin itself, penicilloate, penilloate \| \|                                                                                                                                                                                     |         |
+|                                       | -   Not commercially available expect in South America and Spain                                                                                                                                                                          |         |
++---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Penicillin G                          |                                                                                                                                                                                                                                           |         |
++---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Ampicillin                            |                                                                                                                                                                                                                                           |         |
++---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+::: callout-note
+Selective IgE-mediated reactions to aminopenicillins are rare in North America (e.g. 3-5% in the United States) versus 25-50% of skin test positive patients in Europe.
+:::
+
+**References:**
+
+Chapter 77 Middleton's Drug Allergy
+
+### Sulfa Antibiotics
+
+### Vancomycin
+
+## Antiepileptic Drugs
+
+### Background
+
+**How are antiepileptic drugs (AEDs) broadly categorized?**
+
+AEDs can be broadly categorized by their structure: aromatic or non-aromatic.
+
+**What defines an "aromatic" versus a "non-aromatic" AED?**
+
+Historically, compounds were labeled as aromatic based on their distinctive aromas.
+
+Today, [aromatic compounds](https://en.wikipedia.org/wiki/Aromatic_compound) and AEDs are defined by containing a benzene ring or other benzene-like properties.
+
+[Benzene](https://en.wikipedia.org/wiki/Benzene) has a sweet odor and is found naturally (e.g., crude oil) and produced as an intermediate for use in plastics, resins, nylons, synthetic fibers.
+
+![2D skeletal representation of benzene from [Wikimedia](https://en.m.wikipedia.org/wiki/File:Benzene-Kekule-2D-skeletal.png)](figures/drugallergy/fig-benzene.png){#fig-benzene fig-align="center" width="109"}
+
+**Which class of AEDs are associated with the greatest risk of rash and other cutaneous ADRs?**
+
+Aromatic AEDs are associated with the greatest occurence of rash and other cutaneous ADRs, including phenytoin, carbamazepine, phenobarbital, lamotrigine, zonisamide, and oxcarbazapine.
+
+In addition, there is greater cross-reactivity amongst aromatic AEDs (40-58%) than non-aromatic AEDs.
+
+Of the AEDs with lower rash risk, most are non-aromatic (e.g. valproate, gabapentin, levetiracetam, pregabalin, vigabatrin, lacosamide, brivaracetam).
+
++---------------------+------------------------------+
+| Aromatic AEDs       | Non-aromatic AEDs            |
++=====================+==============================+
+| -   Ethosuximide    | -   Valproate                |
+|                     |                              |
+| -   Phenytoin       | -   Gabapentin               |
+|                     |                              |
+| -   Phenobarbital   | -   Topiramate               |
+|                     |                              |
+| -   Carbamepine     | -   Levetiracetam            |
+|                     |                              |
+| -   Oxcarbazepine   | -   Pregabalin               |
+|                     |                              |
+| -   Zonisamide      | -   Vigabatrin               |
+|                     |                              |
+| -   Lamotrigine     | -   Lacosamide               |
+|                     |                              |
+| -   Clobazam        | -   Brivaracetam             |
+|                     |                              |
+| -   Felbamate       |                              |
+|                     |                              |
+| -   Primidone       |                              |
+|                     |                              |
+| -   Eslicarbazepine |                              |
+|                     |                              |
+| -   Perampanel      |                              |
+|                     |                              |
+| -   Cannabidiol     |                              |
++---------------------+------------------------------+
+
+: Select aromatic and non-aromatic AEDs. Adapted from Mani et al. Seizure. 2019. {#tbl-aeds}
+
+**What are some risk factors for developing AED-induced rashes?**
+
+-   History of previous AED-related skin reaction
+
+-   Female \> Male (2:1), though difference does not persist after \> age 50 years
+
+-   Older age
+
+-   Low vitamin D concentrations
+
+**Reference**
+
+Mani R, Monteleone C, Schalock PC, Truong T, Zhang XB, Wagner ML. Rashes and other hypersensitivity reactions associated with antiepileptic drugs: A review of current literature. Seizure. 2019 Oct;71:270-278. doi: 10.1016/j.seizure.2019.07.015. Epub 2019 Jul 24. PMID: 31491658.
+
+## Buproprion
+
+## Iron
+
+### Background
+
+**Why is intravenous (IV) iron used?**
+
+IV iron is used for the treatment of iron deficiency anemia when oral iron is effective or not tolerated.
+
+**What IV iron formulations are available in the United States?**
+
+Formulations available in the United States include low-molecular-weight iron dextran (LWMID), ferric gluconate, iron sucrose, ferumoxytol, iron isomaltoside, and ferric carboxymaltose.
+
+::: callout-note
+High-molecular weight iron dextrans were discontinued in the United States due to having a higher rate of hypersensitivity reactions.
+:::
+
++-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
+| Generic name                  | Iron gluconate | Iron Sucrose | LMWID  | Ferric carboxymaltose | Iron isomaltoside | Ferumoxytol |
++:=============================:+:==============:+:============:+:======:+:=====================:+:=================:+:===========:+
+| Brand name                    | Ferrlecit      | Venofer      | INFeD  | Injectafer            | Monofer           | FeraHeme    |
++-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
+| Molecular weight (kD)         | 289-440        | 30-60        | 165    | 150                   | 150               | 750         |
++-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
+| Labile iron (% injected dose) | 3.3            | 3.5          | 2      | 0.6                   | 1                 | 0.8         |
++-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
+
+: Characteristics of iron formulations available in the United States {#tbl-iv-iron}
+
+### Immediate Hypersensitivity Reactions
+
+**What is the incidence of anaphylactic reactions with IV iron?**
+
+Anaphylactic reactions—when high-molecular weight dextrans are excluded—occur with an incidence of \< 1 in 200,000.
+
+Significant differences in reaction risk have not been shown among low-molecular weight iron dextran, iron sucrose, ferric gluconate, and ferric carboxymaltose.
+
+**What is mechanism of most IV iron immediate hypersensitivity reactions?**
+
+Most IV iron immediate hypersensitivity reactions are mediated through complement-activation related pseudoallergy (CARPA). Rarely, hypersensitivity reactions are IgE-mediated.
+
+### Minor Infusion Reactions
+
+**What are the symptoms of minor infusion reactions to IV iron?**
+
+Symptoms of minor infusion reactions to IV iron include—flushing, chest/back tightness, myalgias—and, importantly, do not have any features of anaphylaxis.
+
+**What is considered to be the main driver of minor infusion reactions to IV iron?**
+
+Labile, or also called "free," iron is associated with minor infusion reactions to IV iron.
+
+### Skin Testing
+
+**What is the utility of immediate skin testing for IV iron hypersensitivity reactions?**
+
+As most hypersensitivity reactions are non-IgE-mediated—rather via CARPA—skin testing has limited utility for evaluating IV iron hypersensitivity reactions; however, it may help detect the rare patients with IgE-mediated hypersensitivity.
+
+### Management
+
+**What are some approaches to subsequent IV iron administration in patients with previous IV iron reactions?**
+
+Approaches for patients with history of mild to moderate IV iron reactions include: switching to an alternative IV iron formulation, slowing the infusion rate (e.g., 10% of recommended rate during the first 10 to 15 minutes), and/or pre-treatment with non-sedating, second generation antihistamines.
+
+For patients with a history of anaphylactic reactions to IV iron, desensitization can be considered, such as ferric gluconate.
+
+### References
+
+Gómez-Ramírez S, Shander A, Spahn DR, et al. Prevention and management of acute reactions to intravenous iron in surgical patients. *Blood Transfusion*. Published online April 10, 2019. doi:[10.2450/2018.0156-18](https://doi.org/10.2450/2018.0156-18)
+
+Muñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment options for iron-deficiency anemia. Expert Opin Drug Saf 2018; 17: 149-59.
+
+## Local Anesthetics
+
+## Nonsteroidal Anti-Inflammatory Drugs
+
+### Background
+
+**What is the prevalence of nonsteroidal anti-inflammatory drug (NSAID) allergy?**
+
+In the general population, 1.5 - 3.5% of individuals report an NSAID allergy. However, fewer than 20% of those individuals with self-reported NSAID allergy are consistent with a true hypersensitivity.
+
+**What are some important therapeutic uses of NSAIDs?**
+
+NSAIDs are important for the treatment of acute coronary syndrome, pain treatment, and for certain high-risk pregnancy conditions.
+
+For individuals with chronic back pain, NSAID allergy is a risk factor for increased receipt of opioid prescriptions and development of opioid use disorder.
+
+### Management
+
+For non-aspirin exacerbated respiratory disease (AERD) NSAID hypersensitivity, a two-step outpatient NSAID oral challenge has been shown to be a safe and effective approach.
+
+**Factors associated with a positive NSAID challenge**
+
+-   NSAID reaction within the past 5 years
+
+-   Prior immediate reaction within 3 hours of NSAID ingestion
+
+-   History of reaction to multiple NSAIDs
+
+-   Presence of co-morbid chronic spontaneous urticaria
+
+### Oral Challenge
+
++----------------+-------------------------+--------------------------+
+| NSAID          | Step 1 Dose             | Step 2 Dose              |
+|                |                         |                          |
+|                | (60 minute observation) | (120 minute observation) |
++:==============:+:=======================:+:========================:+
+| Aspirin        | 40.5 mg                 | 325 mg                   |
++----------------+-------------------------+--------------------------+
+| Ibuprofen      | 50 mg                   | 500 mg                   |
++----------------+-------------------------+--------------------------+
+| Naproxen       | 60 mg                   | 600 mg                   |
++----------------+-------------------------+--------------------------+
+
+: Proposed two-step protocol for outpatient NSAID oral challenge in patients without AERD. Adapted from Li et al. JACI In Practice. 2022 {#tbl-nsaids}
+
+Because of the potential future need for higher dose of aspirin for management of acute coronary syndrome, the second dose for aspirin oral challenge is 325 mg instead of 81 mg.
+
+Of the 262 NSAID challenges performed in the Li et al study, over 85% had negative challenges. In addition, 76% of patients included in the study reported a history of urticaria, angioedema, or both. For patients experiencing a positive challenge, 45% had their reaction within 3 hours of NSAID ingestion
+
+**Reference**
+
+Li L, Bensko J, Buchheit K, Saff RR, Laidlaw TM. Safety, Outcomes, and Recommendations for Two-Step Outpatient Nonsteroidal Anti-Inflammatory Drug Challenges. J Allergy Clin Immunol Pract. 2022 May;10(5):1286-1292.e2. doi: 10.1016/j.jaip.2021.11.006. Epub 2021 Nov 17. PMID: 34800703; PMCID: PMC9086081.
+
+## Radiocontrast
+
+### Background
+
+**How do modern radiocontrasts differ from older radiocontrasts?**
+
+Modern radiocontrasts are non-ionic, iodinated and either iso-osmolal or low-osmolality. Older radiocontrasts were high-osmolality--which are no longer used intravenously.
+
+**Is radiocontrast allergy related to iodine or seafood allergy?**
+
+The radiocontrast molecular structure is responsible for hypersensitivity reactions--not iodine or seafood allergy. Shellfish allergy is secondary to tropomyosin not iodine.
+
+### Infusion Reactions
+
+These are also referred to as "toxic" or "chemotoxic" reactions. Characteristic symptoms include transient warmth/flushing, nausea/vomiting, chest pain, metallic taste, hypertension, and/or vasogal signs.
+
+### Immediate Hypersensitivity Reactions
+
+The most common immediate hypersensitivity reaction to radiocontrast is mild urticaria and pruritus, occuring in \~0.9% - 3.1% of patients receiving radiocontrast. Anaphylaxis occurs in 0.02% - 0.04% of patients. Of immediate hypersensitivity reactions, 70% occur within 5 minutes of radiocontrast injection and 96% of severe reactions occur within 20 minutes.
+
+### Delayed Hypersensitivity Reactions
+
+The most common delayed hypersensitivity reaction to radiocontrast is a maculopapular exanthem--occurring in 1 to 3% of patients.
+
+### Skin Testing
+
+Skin prick testing to the culprit and other radiocontrasts followed by intradermal testing--if skin prick testing is negative--can be useful for identifying an alternative radiocontrast agent. A skin test negative radiocontrast alternative has a 95% NPV.
+
+### Intravenous Challenge
+
+Intravenous challenge can be performed to radiocontrast with various protocols--such as 1 mL, 5 mL, 15, mL, and 50 mL (cumulative 71 mL) at 60 minute intervals.
+
+### Management
+
+The culprit radiocontrast should be avoided, and an alternative radiocontrast should be used, guided by negative skin testing if available. Other measures to decrease risk of recurrent radiocontrast reaction include: lowering the radiocontrast dose, decreasing the injection speed, and pre-treatment with non-sedating, second generation antihistamines and/or corticosteroids.
+
+## Topicals
+
+### Antibiotics
+
+The most common topical antibiotics which cause ACD are those found in triple antibiotic ointment—neomycin, polymyxin B, and bacitracin.
+
+::: callout-important
+Of patients with neomycin ACD, 50% will cross-react with other aminoglycosides such as gentamicin.
+:::
+
+### Anesthetics
+
+The most common topical anesthetics which cause ACD are lidocaine and benzocaine.
+
+::: callout-note
+While patch testing can confirm ACD due to a local anesthetic, not all patients will necessarily develop an allergic reaction to the same anesthetic if used intradermally or subcutaneous—which is often done for dental and dermatologic procedures.
+:::
+
+### Corticosteroids
+
+Most patients with ACD secondary to corticosteroids have a history of atopy. Because corticosteroids are often not considered initially as a possible cause of ACD, there might be increased use and worsening of a patient's dermatitis.
+
+ACD due to corticosteroids may produce an "edge effect" or "doughnut-type" reaction--due to the anti-inflammatory effect of the higher concentration of the corticosteroid in the central area compared to the periphery.
+
+::: callout-important
+If a patient has ACD due to a topical corticosteroid, you should consider propylene glycol as a potential cause—an excipient found in various topical corticosteroids and one of the top 4 causes of ACD due to drugs.
+:::
+
+### Propylene Glycol
+
+Propylene glycol—an excipient—may be utilized in topical drugs as a softening agent, solvent, moisturizer, or preservative.
+
+Of patients with propylene glycol ACD, 80% have a history of atopic dermatitis.
+
+::: callout-important
+Propylene glycol is present in various topical emolients, corticosteroids, and calcineurin inhibitors.
+:::
+
++------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Topical                | Propylene glycol-containing                                                                                                         | Propylene glycol-free                                                                                                           |
++========================+=====================================================================================================================================+=================================================================================================================================+
+| Emolients              | -   [Cetaphil Moisturizing Cream](https://www.cetaphil.com/us/moisturizers/moisturizing-cream/302993917564.html#productIngredients) | -   [Cerave Moisturizing Cream](https://www.cerave.com/skincare/moisturizers/moisturizing-cream#product-description)            |
+|                        |                                                                                                                                     |                                                                                                                                 |
+|                        |                                                                                                                                     | -   [Eucerin Orginal Healing Cream](https://www.eucerinus.com/products/original/eucerin-original-healing-soothing-repair-creme) |
++------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Corticosteroids        | -   Mometasone furoate ointment 0.1%                                                                                                | -   Triamcinolone acetonide ointment 0.1%                                                                                       |
+|                        |                                                                                                                                     |                                                                                                                                 |
+|                        |                                                                                                                                     | -   Hydrocortisone ointment 2.5%                                                                                                |
++------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Calcineurin inhibitors | -   Pimecrolimus cream 1%                                                                                                           | -   Tacrolimus ointment 0.03% and 0.1%                                                                                          |
++------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+
+: Select topical drugs for treatment of atopic dermatitis by propylene glcyol content {#tbl-topicals-propylene-glycol}
+
+References:
+
+<https://www.jaad.org/article/S0190-9622(19)33110-X/fulltext>
+
+### Eye Drops
+
+The eyelids are more susceptible to ACD compared to other facial areas—owing to their thin skin 0.55 mm compared to 2 mm, respectively. Therefore, the eyelids may be the only affected area by a drug that comes in contact with the face.
+
+::: callout-note
+ACD due to eye drops is primarily caused by anti-microbial preservatives rather than the primary drug. Benzylalkonium chloride is the most commonly implicated preservative in patients with history of eye drop reactions.
+:::
+
++----------------+------------------------------------------------------------+--------------------------------------+
+| Category       | Benzyalkonium chloride-containing                          | Benyzlalkonium chloride-free         |
++================+============================================================+======================================+
+| Antibiotic     | -   Ciprofloxacin (Ciloxan)                                | -   Moxifloxacin (Vigamox)           |
+|                |                                                            |                                      |
+|                | -   Gatifloxacin (Zymar)                                   | -   Erythromycin ointment (Ilotycin) |
+|                |                                                            |                                      |
+|                | -   Neomycin/Polymyxin B sulfates/Dexamethasone (Maxitrol) |                                      |
+|                |                                                            |                                      |
+|                | -   Ofloxacin (Ocuflox)                                    |                                      |
+|                |                                                            |                                      |
+|                | -   Polymyxin B sulfate/Trimethoprim (Polytrim)            |                                      |
+|                |                                                            |                                      |
+|                | -   Tobramycin (Tobrex)                                    |                                      |
++----------------+------------------------------------------------------------+--------------------------------------+
+| Corticosteroid | -   Dexamethasone (Maxidex)                                | -   Loteprednol 0.5% ointment        |
+|                |                                                            |                                      |
+|                | -   Prednisolone acetate                                   |                                      |
+|                |                                                            |                                      |
+|                | -   Prednisolone sodium phosphate                          |                                      |
++----------------+------------------------------------------------------------+--------------------------------------+
+| NSAID          | -   Keterolac 0.4% (Acular LS)                             | -   Keterolac 0.45% (Lotemax)        |
+|                |                                                            |                                      |
+|                | -   Ketorolac 0.5% (Acular)                                |                                      |
++----------------+------------------------------------------------------------+--------------------------------------+
+| Gluacoma       | -   Brinzolamide (Azopt)                                   | -   Tafluprost (Zioptan)             |
+|                |                                                            |                                      |
+|                | -   Timolol (Timoptic)                                     | -   Latanoprost (Iyuzeh)             |
+|                |                                                            |                                      |
+|                |                                                            | -   Timolol (Timoptic in Ocudose)    |
+|                |                                                            |                                      |
+|                |                                                            | -   Dorzolamide/Timolol (Cosopt PF)  |
++----------------+------------------------------------------------------------+--------------------------------------+
+
+: Select commercially-available eye drops for common treatment categories by benzylalkonium chloride content {#tbl-eyedrops-benzalkonium-chloride}
+
+References:
+
+<https://eyewiki.org/Preservatives_in_Topical_Ophthalmic_Medications#Benzalkonium_chloride_(BAK)>

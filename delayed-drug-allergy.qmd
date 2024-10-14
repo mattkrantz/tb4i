@@ -1,0 +1,131 @@
+# Delayed Drug Allergy
+
+## Phenotypes
+
+### Allergic Contact Dermatitis
+
+Allergic contact dermatitis (ACD) secondary to topical medications is characterized by an eczematous eruption--which typically localized to sites of direct exposure. Depending on the severity and chronicity of ACD, eczematous eruptions can range from localized erythema and edema to vesicularization, crusting and weeping. However, ACD can become generalized to non-exposed sites, referred to as "autoeczematization" or "id reaction."
+
+The differential diagnosis for ACD also includes irritant contact dermatitis as well as other chronic eczematous dermatoses (e.g., atopic dermatitis, psoriasis).
+
+The top 4 drug category causes of ACD are: antibiotics, local anesthetics, corticosteroids, and propylene glycol (techically an excipient).
+
+::: callout-important
+Antibiotics (e.g., neomycin, bacitracin, polymyxin B) are the most common cause of ACD. Therefore, it is recommended to use petrolatum or other bland emolients for wound care because have equally low infection rate as bacitracin and other topical antibiotics without the risk of ACD.
+:::
+
+Co-sensitization—when sensitized to ≥ 2 structurally distinct allergens—often occurs in patients who experience ACD. Therefore, when possible, it is important to test to individual components of a culprit topical drug.
+
+### Mimics of Delayed Drug Allergy
+
+-   Lichen planus
+
+-   Prurigo nodularis
+
+-   Psoriasis
+
+-   Atopic dermatitis
+
+-   Mycosis fungoides
+
+::: callout-note
+These underlying chronic dermatoses can be exacerbated by drugs but not primarily driven by delayed drug allergy.
+:::
+
+## Skin Testing
+
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+| Reaction                                                                | Patch Testing                                      | Intradermal Testing                                       |
++=========================================================================+====================================================+===========================================================+
+| Maculopapular exanthem (MPE)                                            | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+| Acute generalized exanthematous pustulosis (AGEP)                       | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+| Stevens-Johnson Syndrome/Toxic epidermal necrolysis (SJS/TEN)           | Low sensitivity but potentially useful if positive | Contraindicated due to concern for potential reactivation |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+| Drug reaction with eosinophilia and systemic symptoms (DRESS)           | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+| Fixed drug eruption                                                     | Useful if applied to the site of reaction          | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+| Allergic contact dermatitis                                             | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+| Symmetrical drug-related intertrigenous and flexural exanthema (SDRIFE) | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+| Drug-induced organ injury (e.g., kidney, liver)                         | Not useful                                         | Not useful                                                |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
+
+: Utility of patch and intradermal skin testing for delayed drug allergy reaction types {#tbl-delayed-skin-testing}
+
+::: callout-important
+No delayed skin testing method has 100% negative predictive value.
+:::
+
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Characteristic          | Details                                                                                                                                                           |
++=========================+===================================================================================================================================================================+
+| Timing                  | Perform at least 6 to 8 weeks after reaction; and 6 months or later after DRESS                                                                                   |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Concomitant medications | Most medications okay to continue, including anti-histamines and beta-blockers. Should be off of steroids for ≥ 1 month or prednisone equivalent dose ≤ 10 mg/day |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Shared characteristics of patch and intradermal testing {#tbl-delayed-skin-shared}
+
+### Intradermal Testing
+
++---------------------+-----------------------------------------------------------------------------------------+
+| Characteristic      | Details                                                                                 |
++=====================+=========================================================================================+
+| Testing site        | Volar forearm or extensor upper arm                                                     |
++---------------------+-----------------------------------------------------------------------------------------+
+| Testing reagents    | Must be sterile; often higher concentrations than those used for immediate skin testing |
++---------------------+-----------------------------------------------------------------------------------------+
+| Reading             | At 24 hours                                                                             |
++---------------------+-----------------------------------------------------------------------------------------+
+| Controls            | \+ None                                                                                 |
+|                     |                                                                                         |
+|                     | \- Saline                                                                               |
++---------------------+-----------------------------------------------------------------------------------------+
+| Test interpretation | \+ Papule present                                                                       |
+|                     |                                                                                         |
+|                     | \- Negative                                                                             |
++---------------------+-----------------------------------------------------------------------------------------+
+
+: Characteristics of intradermal testing {#tbl-intradermal-testing}
+
+### Patch Testing
+
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| Characteristic                 | Details                                                                                                         |
++================================+=================================================================================================================+
+| Testing site                   | Back or upper arm (needs to be hairless)                                                                        |
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| Testing reagents               | 1% and 10% of reagent grade product; 10% and 30% of trade product; most commonly used vehicle is petrolatum     |
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| Controls                       | \+ None                                                                                                         |
+|                                |                                                                                                                 |
+|                                | \- Petrolatum                                                                                                   |
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| Shelf-life of patch test mixes | Most antibiotics at room temperature are stable for 1 to 3 months; check with USP Pharmacopeia for verification |
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| Patches                        | Finn chambers (can be aluminum or molded plastic)                                                               |
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| Tape                           | Use hypoallergenic paper tape                                                                                   |
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| Reading                        | At 48 hours (85% of drugs-if will be positive-are positive by this point); 72 hours; 96 hours; and 1 week       |
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| Test interpretation            | \- Negative                                                                                                     |
+|                                |                                                                                                                 |
+|                                | ? Doubtful reaction                                                                                             |
+|                                |                                                                                                                 |
+|                                | \+ Weak reaction, erythema                                                                                      |
+|                                |                                                                                                                 |
+|                                | ++ Strong reaction, erythema, papules, or vesicles                                                              |
+|                                |                                                                                                                 |
+|                                | +++ Extreme, bullous, ulcerative                                                                                |
++--------------------------------+-----------------------------------------------------------------------------------------------------------------+
+
+: Characteristics of patch testing {#tbl-patch-testing}
+
+## Human Leukocyte Antigen Testing
+
+## Enzyme-linked Immunospot Testing

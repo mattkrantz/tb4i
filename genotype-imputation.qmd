@@ -1,0 +1,37 @@
+# Genotype Imputation {.unnumbered}
+
+## Michigan Imputation Server
+
+The [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html#!pages/home) is a free next-generation genotype imputation platform. You can learn more about the Michigan Imputation Server by visiting their [Getting Started](https://imputationserver.readthedocs.io/en/latest/getting-started/) documentation. The [1000 Genomes Phase 3 (Version 5)](http://www.internationalgenome.org/) Reference Panel is available on the Michigan Imputation Server.
+
+## TOPMed Imputation Server
+
+The [TOPMed Imputation Server](https://imputation.biodatacatalyst.nhlbi.nih.gov/#!) is another free next-generation genotype imputation platform developed by the [University of Michigan](https://imputationserver.sph.umich.edu/index.html#!) and powered by data from the [TOPMed Program](https://topmed.nhlbi.nih.gov/) investigators. You can learn more about the TOPMed Imputation Server by visiting their [Getting Started](https://topmedimpute.readthedocs.io/en/latest/getting-started/) documentation. The [TOPMed Version 3](https://www.nhlbiwgs.org/) Reference Panel was released in December 2023.
+
+## Reference Panels
+
++-------------------------------------------------------------------------+-----------------+----------------+-------------+---------+-----------------------------------------------------------------------------------+
+| Reference Panel                                                         | Genome Assembly | No. of Samples | Sites\      | Chr.    | Imputation Server                                                                 |
+|                                                                         |                 |                | (chr1-22)   |         |                                                                                   |
++=========================================================================+=================+:==============:+:===========:+:=======:+===================================================================================+
+| [1000 Genomes Phase 3 (Version 5)](http://www.internationalgenome.org/) | GRCh37/hg19     | 2,504          | 49,143,605  | 1-22, X | [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html#!) |
++-------------------------------------------------------------------------+-----------------+----------------+-------------+---------+-----------------------------------------------------------------------------------+
+| [TOPMed (Version 3)](https://www.nhlbiwgs.org/)                         | GRCh38/hg38     | 133,597        | 445,600,184 | 1-22, X | [TOPMed Imputation Server](https://imputation.biodatacatalyst.nhlbi.nih.gov/#!)   |
++-------------------------------------------------------------------------+-----------------+----------------+-------------+---------+-----------------------------------------------------------------------------------+
+
+## Genome Assemblies
+
+The [Genome Reference Consortium](https://www.ncbi.nlm.nih.gov/grc) (GRC) is the main source of human genome assembly data. The most recent human genome assembly version is GRCh38, released in 2013. The "h" in "GRCh" stands for "human." The GRC also maintains genome assembly data for rat (r), mouse (m), zebrafish (z), and chicken (g for gallus). Major updates, called "versions", are released every few years. Minor updates are called "patches" and are released more frequently.
+
+GRCh38 is referred to as "hg38" in the [University of California Santa Cruz (UCSC) Genome Browser](https://genome.ucsc.edu/). The "hg" stands for "human genome." Before the GRCh38 genome assembly, the version numbers of the GRC and UCSC Genome Browser genome assemblies did not match. For example, when the GRCh37 genome assembly was released in 2009, the UCSC Genome Browser version was "hg19." Therefore, to minimize confusion, starting with the GRCh38 genome assembly, the [UCSC Genome Browser](https://genome.ucsc.edu/) version number was matched as "hg38."
+
++-------------+--------------+---------------+----------+-------------------------------------+
+| GRC Version | UCSC Version | Year Released | Genome\  | Alternate Haplotypes                |
+|             |              |               | Coverage |                                     |
++:===========:+:============:+:=============:+:========:+:===================================:+
+| GRCh37      | hg19         | 2009          | \~92.5%  | 3 regions with 9 alternate loci     |
++-------------+--------------+---------------+----------+-------------------------------------+
+| GRCh38      | hg38         | 2013          | 95%      | 178 regions with 261 alternate loci |
++-------------+--------------+---------------+----------+-------------------------------------+
+
+## 

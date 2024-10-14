@@ -1,0 +1,46 @@
+# Version Control with Git
+
+You should version control your scripts with Git.
+
+I recommend the [Using Git and GitHub with RStudio Cheatsheet](https://rstudio.github.io/cheatsheets/git-github.pdf) for additional helpful commands.
+
+::: callout-important
+As long as you have your raw data backed up and your scripts version controlled, you can reproduce your results!
+:::
+
+**Verify Git Installation and Version**
+
+``` bash
+which git # request path to your Git executable
+git --version # check your Git version
+```
+
+**Introduce Yourself to Git**
+
+``` bash
+git config --global user.name "<username>"
+git config --global user.email "<email>"
+```
+
+**Create a New Repository on GitHub**
+
+Go to GitHub to create your new repository, then initialize your repository from the command line.
+
+``` bash
+cd </path/to/your-r-project-folder>
+echo "# your-r-project-folder" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/<user.name>/<your-repository>.git
+git push -u origin main
+```
+
+**Add, Commit, and Push Files to Remote Repository**
+
+``` bash
+git add <file-name>
+git commit -m "description"
+git push
+```
