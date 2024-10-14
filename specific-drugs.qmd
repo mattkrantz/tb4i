@@ -19,37 +19,22 @@ css: styles.css
 
 #### Background
 
-<details>
+---
+accordion:
+  - macrolides-background:
+    - header: What is the chemical structure of macrolides?
+      body: Macrolides are defined by a large lactone ring, which varies from 12 to 16 carbons, with 1 or more attached sugar chains. Eyrthromycin and clarithromycin have 14 carbons in their lactone rings while azithromycin has 15.
+    - header: What is the mechanism of action of macrolides?
+      body: As 50S ribosomal subunit inhibitors, macrolides exert their bacteriostatic effect by inhibiting protein synthesis.
+    - header: What is the cross-reactivity pattern macrolide antibiotics?
+      body: While not extensively studied, macrolide antibiotics with a different number of carbon atoms in their lactone ring are tolerated by most patients. Macrolide antibiotics are also unlikely to cross-react with macrolide immunosuppressants (e.g., tacrolimus, sirolimus).
+    - header: What are some infections that use macrolides as first-line therapy?
+      body: Clarithyromycin is used as part of combination treatment for H. pylori. Azithromycin is a part of the first-line combination therapy for Mycobacterium avium complex.
+filters:
+  - accordion
+---
 
-<summary>What is the chemical structure of macrolides?</summary>
-
-Macrolides are defined by a large lactone ring, which varies from 12 to 16 carbons, with 1 or more attached sugar chains. Eyrthromycin and clarithromycin have 14 carbons in their lactone rings while azithromycin has 15.
-
-</details>
-
-<details>
-
-<summary>What is the mechanism of action of macrolides?</summary>
-
-As 50S ribosomal subunit inhibitors, macrolides exert their bacteriostatic effect by inhibiting protein synthesis.
-
-</details>
-
-<details>
-
-<summary>What is the cross-reactivity pattern macrolide antibiotics?</summary>
-
-While not extensively studied, macrolide antibiotics with a different number of carbon atoms in their lactone ring are tolerated by most patients. Macrolide antibiotics are also unlikely to cross-react with macrolide immunosuppressants (e.g., tacrolimus, sirolimus).
-
-</details>
-
-<details>
-
-<summary>What are some infections that use macrolides as first-line therapy?</summary>
-
-Clarithyromycin is used as part of combination treatment for *H. pylori*. Azithromycin is a part of the first-line combination therapy for *Mycobacterium avium* complex.
-
-</details>
+{{< accordion macrolides-background >}}
 
 #### Non-Hypersensitivity Reactions
 
@@ -216,7 +201,7 @@ Today, [aromatic compounds](https://en.wikipedia.org/wiki/Aromatic_compound) and
 
 [Benzene](https://en.wikipedia.org/wiki/Benzene) has a sweet odor and is found naturally (e.g., crude oil) and produced as an intermediate for use in plastics, resins, nylons, synthetic fibers.
 
-![2D skeletal representation of benzene from [Wikimedia](https://en.m.wikipedia.org/wiki/File:Benzene-Kekule-2D-skeletal.png)](figures/drugallergy/fig-benzene.png){#fig-benzene fig-align="center" width="109"}
+![2D skeletal representation of benzene from [Wikimedia](https://en.m.wikipedia.org/wiki/File:Benzene-Kekule-2D-skeletal.png)](images/specific-drugs/fig-benzene.png){#fig-benzene fig-align="center" width="119"}
 
 **Which class of AEDs are associated with the greatest risk of rash and other cutaneous ADRs?**
 
@@ -226,35 +211,35 @@ In addition, there is greater cross-reactivity amongst aromatic AEDs (40-58%) th
 
 Of the AEDs with lower rash risk, most are non-aromatic (e.g. valproate, gabapentin, levetiracetam, pregabalin, vigabatrin, lacosamide, brivaracetam).
 
-+---------------------+------------------------------+
-| Aromatic AEDs       | Non-aromatic AEDs            |
-+=====================+==============================+
-| -   Ethosuximide    | -   Valproate                |
-|                     |                              |
-| -   Phenytoin       | -   Gabapentin               |
-|                     |                              |
-| -   Phenobarbital   | -   Topiramate               |
-|                     |                              |
-| -   Carbamepine     | -   Levetiracetam            |
-|                     |                              |
-| -   Oxcarbazepine   | -   Pregabalin               |
-|                     |                              |
-| -   Zonisamide      | -   Vigabatrin               |
-|                     |                              |
-| -   Lamotrigine     | -   Lacosamide               |
-|                     |                              |
-| -   Clobazam        | -   Brivaracetam             |
-|                     |                              |
-| -   Felbamate       |                              |
-|                     |                              |
-| -   Primidone       |                              |
-|                     |                              |
-| -   Eslicarbazepine |                              |
-|                     |                              |
-| -   Perampanel      |                              |
-|                     |                              |
-| -   Cannabidiol     |                              |
-+---------------------+------------------------------+
++---------------------+----------------------------+
+| Aromatic AEDs       | Non-aromatic AEDs          |
++=====================+============================+
+| -   Ethosuximide    | -   Valproate              |
+|                     |                            |
+| -   Phenytoin       | -   Gabapentin             |
+|                     |                            |
+| -   Phenobarbital   | -   Topiramate             |
+|                     |                            |
+| -   Carbamepine     | -   Levetiracetam          |
+|                     |                            |
+| -   Oxcarbazepine   | -   Pregabalin             |
+|                     |                            |
+| -   Zonisamide      | -   Vigabatrin             |
+|                     |                            |
+| -   Lamotrigine     | -   Lacosamide             |
+|                     |                            |
+| -   Clobazam        | -   Brivaracetam           |
+|                     |                            |
+| -   Felbamate       |                            |
+|                     |                            |
+| -   Primidone       |                            |
+|                     |                            |
+| -   Eslicarbazepine |                            |
+|                     |                            |
+| -   Perampanel      |                            |
+|                     |                            |
+| -   Cannabidiol     |                            |
++---------------------+----------------------------+
 
 : Select aromatic and non-aromatic AEDs. Adapted from Mani et al. Seizure. 2019. {#tbl-aeds}
 
