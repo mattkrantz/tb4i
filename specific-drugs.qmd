@@ -1,12 +1,6 @@
 ---
 title: "Specific Drugs"
 format: html
-execute:
-  echo: true
-  warning: false
-  message: false
-  error: true
-css: styles.css
 ---
 
 ## Antibiotics
@@ -19,48 +13,39 @@ css: styles.css
 
 #### Background
 
----
-accordion:
-  - macrolides-background:
-    - header: What is the chemical structure of macrolides?
-      body: Macrolides are defined by a large lactone ring, which varies from 12 to 16 carbons, with 1 or more attached sugar chains. Eyrthromycin and clarithromycin have 14 carbons in their lactone rings while azithromycin has 15.
-    - header: What is the mechanism of action of macrolides?
-      body: As 50S ribosomal subunit inhibitors, macrolides exert their bacteriostatic effect by inhibiting protein synthesis.
-    - header: What is the cross-reactivity pattern macrolide antibiotics?
-      body: While not extensively studied, macrolide antibiotics with a different number of carbon atoms in their lactone ring are tolerated by most patients. Macrolide antibiotics are also unlikely to cross-react with macrolide immunosuppressants (e.g., tacrolimus, sirolimus).
-    - header: What are some infections that use macrolides as first-line therapy?
-      body: Clarithyromycin is used as part of combination treatment for H. pylori. Azithromycin is a part of the first-line combination therapy for Mycobacterium avium complex.
-filters:
-  - accordion
----
+::: {#macrolides-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+## What is the chemical structure of macrolides?
 
-{{< accordion macrolides-background >}}
+Macrolides are defined by a large lactone ring, which varies from 12 to 16 carbons, with 1 or more attached sugar chains. Eyrthromycin and clarithromycin have 14 carbons in their lactone rings while azithromycin has 15.
+:::
 
-#### Non-Hypersensitivity Reactions
+::: {#macrolides-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+## What is the mechanism of action of macrolides?
 
-<details>
+As 50S ribosomal subunit inhibitors, macrolides exert their bacteriostatic effect by inhibiting protein synthesis.
+:::
 
-<summary>GI Side Effects</summary>
+::: {#macrolides-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+## What is the cross-reactivity pattern macrolide antibiotics?
 
-Because macrolides are also agonists for the motilin receptor--stimulating gastric and small intestine motility--they can cause nausea, vomiting, diarrhea, and abdmoninal cramping. Accordingly, erythromycin can be used as a treatment for gastroparesis.
+While not extensively studied, macrolide antibiotics with a different number of carbon atoms in their lactone ring are tolerated by most patients. Macrolide antibiotics are also unlikely to cross-react with macrolide immunosuppressants (e.g., tacrolimus, sirolimus).
+:::
 
-</details>
+::: {#macrolides-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
+## What are some infections that use macrolides as first-line therapy?
 
-<details>
+Clarithyromycin is used as part of combination treatment for H. pylori. Azithromycin is a part of the first-line combination therapy for Mycobacterium avium complex.
+:::
 
-<summary>Sensorineural Otoxicity</summary>
+::: {#macrolides-question-5 .callout-note collapse="true" icon="false" appearance="simple"}
+## What non-hypersensitivity reactions are associated with macrolides?
 
-Macrolides can cause usually, transient sensorineural ototoxicity.
+(1) GI side effects: Because macrolides are also agonists for the motilin receptor--stimulating gastric and small intestine motility--they can cause nausea, vomiting, diarrhea, and abdmoninal cramping. Accordingly, erythromycin can be used as a treatment for gastroparesis. 
 
-</details>
+(2) Sensorineural ototoxicity (usually transient). 
 
-<details>
-
-<summary>QT Interval Prolongation</summary>
-
-Macrolides are associated with QT interval prolongation.
-
-</details>
+(3) QT interval prolongation.
+:::
 
 #### Skin Testing
 
@@ -76,53 +61,42 @@ For patients with a history of non-severe delayed hypersensitivity reaction to a
 
 #### Background
 
-<details>
-
-<summary>What percent of the US population reports an allergy to penicillin?</summary>
+::: {#penicillins-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+## What percent of the US population reports an allergy to penicillin?
 
 Approximately 10% of the US population reports an allergy to penicillin while \< 5% of these reported penicillin allergies are clinically significant immediate or delayed-immune mediated drug reactions.
+:::
 
-</details>
-
-<details>
-
-<summary>Of individuals reporting a penicillin allergy, what percent are clinically significant immediate or delayed immune-mediated drug reactions?</summary>
+::: {#penicillins-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+## Of individuals reporting a penicillin allergy, what percent are clinically significant immediate or delayed immune-mediated drug reactions?
 
 Less than 5% of these reported penicillin allergies are clinically significant immediate or delayed-immune mediated drug reactions.
 
 Over 95% of patients who do not have a history of serious penicillin allergy are actually tolerant because (1) the most common reported reaction is a benign delayed rash (type IV hypersensitivity reaction) which may or may not recur with subsequent penicillin exposure; (2) IgE-mediated penicillin allergy wanes over time, with 80% of patients becoming tolerant after a decade since their index reaction; and (3) the index reaction may have rather been an intolerance or caused by the underlying infection being treated at the time.
+:::
 
-</details>
-
-<details>
-
-<summary>What infections are individuals with a history of penicillin allergy at higher risk of developing due to receiving broad-spectrum antibiotics?</summary>
+::: {#penicillins-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+## What infections are individuals with a history of penicillin allergy at higher risk of developing due to receiving broad-spectrum antibiotics?
 
 Individuals who report a penicillin allergy label are more likely to receive broad-spectrum antibiotics that increase the risk for antimicrobial resistance, including methicillin-resistant *Staphylococcus aureus* and vancomycin-resistant *Enterococcus*. In addition, broad-spectrum antibiotics also increase the risk of developing *Clostridium difficile* infection.
 
 Receipt of non-beta-lactam perioperative prophylaxis has been associated with an increased risk of surgical site infections.
+:::
 
-</details>
-
-<details>
-
-<summary>What infection-related drug interaction is associated with individuals developing a maculopapular rash when receiving an aminopenicillin?</summary>
+::: {#penicillins-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
+## What infection-related drug interaction is associated with individuals developing a maculopapular rash when receiving an aminopenicillin?
 
 Epstein-Barr virus
+:::
 
-</details>
-
-<details>
-
-<summary>What percent of penicillin administrations result in a reaction that could be consistent with a hypersensitivity reaction, most often a rash, that could also be nonallergic?</summary>
+::: {#penicillins-question-5 .callout-note collapse="true" icon="false" appearance="simple"}
+## What percent of penicillin administrations result in a reaction that could be consistent with a hypersensitivity reaction, most often a rash, that could also be nonallergic?
 
 About 0.5% to 2.0%
+:::
 
-</details>
-
-<details>
-
-<summary>Currently the rate of IgE-mediated penicillin allergies is decreasing. What is a potential hypothesis for this trend?</summary>
+::: {#penicillins-question-6 .callout-note collapse="true" icon="false" appearance="simple"}
+## Currently the rate of IgE-mediated penicillin allergies is decreasing. What is a potential hypothesis for this trend?
 
 Potentially due to the decrease in use of parenteral penicillins in the outpatient setting, where most antibiotic use occurs.
 
@@ -135,7 +109,7 @@ data <- data.frame(
 )
 ```
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
 # Create the plot
 library(plotly)
 plot <- ggplot(data, aes(x = Year, y = Percent_Positive)) +
@@ -144,6 +118,8 @@ plot <- ggplot(data, aes(x = Year, y = Percent_Positive)) +
   labs(title = "Percentage of Positive Cases Over Time",
        x = "Year",
        y = "Percent Positive (%)") +
+  scale_x_continuous(breaks = seq(min(data$Year), max(data$Year), by = 1), 
+                     labels = seq(min(data$Year), max(data$Year), by = 1)) +
   theme_minimal()
 
 # Print the plot
@@ -151,14 +127,17 @@ interactive_plot <- ggplotly(plot)
 
 interactive_plot
 ```
+:::
 
-</details>
+
 
 #### Skin Testing
 
-**What is the NPV of penicillin skin testing?**
+::: {#penicillins-question-7 .callout-note collapse="true" icon="false" appearance="simple"}
+## What is the NPV of penicillin skin testing?
 
 The NPV of penicillin skin testing is \> 95% when performed with only PPL plus penicillin G or with PPL plus full panel of minor derterminants.
+:::
 
 +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 | Reagent                               | Description                                                                                                                                                                                                                               |         |
@@ -211,35 +190,41 @@ In addition, there is greater cross-reactivity amongst aromatic AEDs (40-58%) th
 
 Of the AEDs with lower rash risk, most are non-aromatic (e.g. valproate, gabapentin, levetiracetam, pregabalin, vigabatrin, lacosamide, brivaracetam).
 
-+---------------------+----------------------------+
-| Aromatic AEDs       | Non-aromatic AEDs          |
-+=====================+============================+
-| -   Ethosuximide    | -   Valproate              |
-|                     |                            |
-| -   Phenytoin       | -   Gabapentin             |
-|                     |                            |
-| -   Phenobarbital   | -   Topiramate             |
-|                     |                            |
-| -   Carbamepine     | -   Levetiracetam          |
-|                     |                            |
-| -   Oxcarbazepine   | -   Pregabalin             |
-|                     |                            |
-| -   Zonisamide      | -   Vigabatrin             |
-|                     |                            |
-| -   Lamotrigine     | -   Lacosamide             |
-|                     |                            |
-| -   Clobazam        | -   Brivaracetam           |
-|                     |                            |
-| -   Felbamate       |                            |
-|                     |                            |
-| -   Primidone       |                            |
-|                     |                            |
-| -   Eslicarbazepine |                            |
-|                     |                            |
-| -   Perampanel      |                            |
-|                     |                            |
-| -   Cannabidiol     |                            |
-+---------------------+----------------------------+
+::: panel-tabset
+## Benzene
+
+![](images/specific-drugs/fig-benzene.png){width="119"}
+:::
+
++---------------------+---------------------+
+| Aromatic AEDs       | Non-aromatic AEDs   |
++=====================+=====================+
+| -   Ethosuximide    | -   Valproate       |
+|                     |                     |
+| -   Phenytoin       | -   Gabapentin      |
+|                     |                     |
+| -   Phenobarbital   | -   Topiramate      |
+|                     |                     |
+| -   Carbamepine     | -   Levetiracetam   |
+|                     |                     |
+| -   Oxcarbazepine   | -   Pregabalin      |
+|                     |                     |
+| -   Zonisamide      | -   Vigabatrin      |
+|                     |                     |
+| -   Lamotrigine     | -   Lacosamide      |
+|                     |                     |
+| -   Clobazam        | -   Brivaracetam    |
+|                     |                     |
+| -   Felbamate       |                     |
+|                     |                     |
+| -   Primidone       |                     |
+|                     |                     |
+| -   Eslicarbazepine |                     |
+|                     |                     |
+| -   Perampanel      |                     |
+|                     |                     |
+| -   Cannabidiol     |                     |
++---------------------+---------------------+
 
 : Select aromatic and non-aromatic AEDs. Adapted from Mani et al. Seizure. 2019. {#tbl-aeds}
 
