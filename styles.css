@@ -1,0 +1,9 @@
+/* Adjust the callout header text size */
+.callout-title-container {
+    font-size: var(--bs-body-font-size) !important
+}
+
+/* Adjust the callout body text size */
+.callout-body-container {
+    font-size: var(--bs-body-font-size) !important;
+}
