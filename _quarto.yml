@@ -58,9 +58,13 @@ toc-depth: 4
 
 resources:
   - CNAME
+  
+callout:
+  font-size: 2em
 
 format:
   html:
     theme: cosmo
+    css: styles.css
 editor: visual
 
