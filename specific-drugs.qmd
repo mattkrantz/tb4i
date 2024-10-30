@@ -343,7 +343,7 @@ In the general population, 1.5 - 3.5% of individuals report an NSAID allergy. Ho
 :::
 
 ::: {#nsaids-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
-#### WWhat are some important therapeutic uses of NSAIDs?
+#### What are some important therapeutic uses of NSAIDs?
 
 NSAIDs are important for the treatment of acute coronary syndrome, pain treatment, and for certain high-risk pregnancy conditions.
 
@@ -578,19 +578,28 @@ The reported incidence of anaphylaxis is 1.3 case per million doses.
 |                                                                                                                               |                       | Positive: Graded dose                                         |
 +-------------------------------------------------------------------------------------------------------------------------------+-----------------------+---------------------------------------------------------------+
 
-| Step | Volume (mL) of full-dose full-strength for 0.5 mL vaccine dose | Dilution      | Percent of full-dose full-strength for 0.5 mL vaccine dose | Observation |
-|------|----------------------------------------------------------------|---------------|------------------------------------------------------------|-------------|
-| 1    | 0.05                                                           | Full-strength | 10%                                                        | 30 minutes  |
-| 2    | 0.45                                                           | Full-strength | 90%                                                        | 30 minutes  |
++---------+----------------------------------------------------------------+---------------+------------------------------------------------------------+-------------+
+| Step    | Volume (mL) of full-dose full-strength for 0.5 mL vaccine dose | Dilution      | Percent of full-dose full-strength for 0.5 mL vaccine dose | Observation |
++=========+================================================================+===============+============================================================+=============+
+| 1       | 0.05                                                           | Full-strength | 10%                                                        | 30 minutes  |
++---------+----------------------------------------------------------------+---------------+------------------------------------------------------------+-------------+
+| 2       | 0.45                                                           | Full-strength | 90%                                                        | 30 minutes  |
++---------+----------------------------------------------------------------+---------------+------------------------------------------------------------+-------------+
 
 : Protocol for vaccine split dose administration
 
-| Step | Volume (mL) | Dilution      | Percent of full-dose full-strength | Observation |
-|------|-------------|---------------|------------------------------------|-------------|
-| 1    | 0.05        | 1:10          | N/A                                | 15 minutes  |
-| 2    | 0.05        | Full-strength | 10%                                | 15 minutes  |
-| 3    | 0.1         | Full-strength | 20%                                | 15 minutes  |
-| 4    | 0.15        | Full-strength | 30%                                | 15 minutes  |
-| 5    | 0.2         | Full-strength | 40%                                | 15 minutes  |
++----------+-------------+---------------+------------------------------------+-------------+
+| Step     | Volume (mL) | Dilution      | Percent of full-dose full-strength | Observation |
++==========+=============+===============+====================================+=============+
+| 1        | 0.05        | 1:10          | N/A                                | 15 minutes  |
++----------+-------------+---------------+------------------------------------+-------------+
+| 2        | 0.05        | Full-strength | 10%                                | 15 minutes  |
++----------+-------------+---------------+------------------------------------+-------------+
+| 3        | 0.1         | Full-strength | 20%                                | 15 minutes  |
++----------+-------------+---------------+------------------------------------+-------------+
+| 4        | 0.15        | Full-strength | 30%                                | 15 minutes  |
++----------+-------------+---------------+------------------------------------+-------------+
+| 5        | 0.2         | Full-strength | 40%                                | 15 minutes  |
++----------+-------------+---------------+------------------------------------+-------------+
 
 : Protocol for vaccine graded dose administration
