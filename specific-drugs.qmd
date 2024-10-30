@@ -535,3 +535,62 @@ ACD due to eye drops is primarily caused by anti-microbial preservatives rather 
 References:
 
 <https://eyewiki.org/Preservatives_in_Topical_Ophthalmic_Medications#Benzalkonium_chloride_(BAK)>
+
+## Vaccines
+
+### Background
+
+::: {#vaccines-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is the reported incidence of any adverse effect after vaccine administration?
+
+It is estimated that any adverse effect from vaccines occurs in 11.4 per 100,000 administrations.
+:::
+
+::: {#vaccines-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What are the most commonly reported vaccine adverse reactions?
+
+The most common vaccine adverse reactions are fever and local injection site reactions--which are not hypersensitivity reactions and are not contraindications to future vaccination.
+:::
+
+::: {#vaccines-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is the reported incidence of anaphylaxis to vaccines?
+
+The reported incidence of anaphylaxis is 1.3 case per million doses.
+:::
+
+### Skin Testing
+
+### Management
+
++-------------------------------------------------------------------------------------------------------------------------------+-----------------------+---------------------------------------------------------------+
+| Reaction Type                                                                                                                 | Perform Skin Testing? | Vaccine Administration by Skin Testing Result (if applicable) |
++===============================================================================================================================+=======================+===============================================================+
+| Delayed reaction (e.g. late-onset urticaria, local arm swelling)                                                              | No                    | Subsequent dose in usual manner                               |
++-------------------------------------------------------------------------------------------------------------------------------+-----------------------+---------------------------------------------------------------+
+| Immediate reaction without IgE-mediated reaction features (e.g. tingling, flushing, palpitation, sensation of throat closure) | No                    | Subsequent dose in usual manner but observe for 30 minutes    |
++-------------------------------------------------------------------------------------------------------------------------------+-----------------------+---------------------------------------------------------------+
+| Immediate reaction with IgE-mediated reaction features (e.g. urticaria, angioedema, wheezing)                                 | Yes                   | Negative: Usual manner 30 min obs                             |
+|                                                                                                                               |                       |                                                               |
+|                                                                                                                               |                       | Positive: Split dose                                          |
++-------------------------------------------------------------------------------------------------------------------------------+-----------------------+---------------------------------------------------------------+
+| Anaphylaxis                                                                                                                   | Yes                   | Negative: Split dose                                          |
+|                                                                                                                               |                       |                                                               |
+|                                                                                                                               |                       | Positive: Graded dose                                         |
++-------------------------------------------------------------------------------------------------------------------------------+-----------------------+---------------------------------------------------------------+
+
+| Step | Volume (mL) of full-dose full-strength for 0.5 mL vaccine dose | Dilution      | Percent of full-dose full-strength for 0.5 mL vaccine dose | Observation |
+|------|----------------------------------------------------------------|---------------|------------------------------------------------------------|-------------|
+| 1    | 0.05                                                           | Full-strength | 10%                                                        | 30 minutes  |
+| 2    | 0.45                                                           | Full-strength | 90%                                                        | 30 minutes  |
+
+: Protocol for vaccine split dose administration
+
+| Step | Volume (mL) | Dilution      | Percent of full-dose full-strength | Observation |
+|------|-------------|---------------|------------------------------------|-------------|
+| 1    | 0.05        | 1:10          | N/A                                | 15 minutes  |
+| 2    | 0.05        | Full-strength | 10%                                | 15 minutes  |
+| 3    | 0.1         | Full-strength | 20%                                | 15 minutes  |
+| 4    | 0.15        | Full-strength | 30%                                | 15 minutes  |
+| 5    | 0.2         | Full-strength | 40%                                | 15 minutes  |
+
+: Protocol for vaccine graded dose administration
