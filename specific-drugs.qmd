@@ -332,6 +332,32 @@ Muñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment optio
 
 ## Local Anesthetics
 
+### Background
+
+::: {#local-anesthetics-1 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What are the two main groups of local anesthetics?
+
+Local anesthetics are divided into two groups: ester and amide groups.
+:::
+
++-----------------------------------------+---------------------------------------+
+| Amides                                  | Esters                                |
++=========================================+=======================================+
+| -   Bupivacaine (Marcaine, Sensorcaine) | -   Benzocaine (Americaine, Lanacane) |
+|                                         |                                       |
+| -   Lidocaine (Xylocaine)               | -   Chloroprocaine (Nesacaine)        |
+|                                         |                                       |
+| -   Mepivacaine (Carbocaine)            | -   Cocaine                           |
+|                                         |                                       |
+|                                         | -   Procaine (Novacaine)              |
+|                                         |                                       |
+|                                         | -   Tetracaine (Pontocaine)           |
++-----------------------------------------+---------------------------------------+
+
+### Management
+
+If skin testing is negative to lidocaine, a subcutaneous lidocaine 1% with 1.5 mL (15 mg) can be performed followed by a 1.5 hour observation.
+
 ## Nonsteroidal Anti-Inflammatory Drugs
 
 ### Background
