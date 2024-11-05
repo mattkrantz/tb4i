@@ -86,7 +86,7 @@ The most important part of your promotion—writing—has the least accountabili
 | Wrote daily, recorded progress, and were accountable | 157                          |
 +------------------------------------------------------+------------------------------+
 
-: Adapted from @boice_procrastination_1989 {#tbl-research-daily-writing-boice}
+: Adapted from @boice1989 {#tbl-research-daily-writing-boice}
 
 ### Time Target for Daily Writing
 
