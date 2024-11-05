@@ -4,7 +4,7 @@ title: HLA Imputation Programs
 
 # Table {.unnumbered}
 
-| Name                                                                    | Programming Language   | Input Data          | Output                     | Reference            |
-|------------------------|------------|------------|------------|------------|
-| [SNP2HLA](https://software.broadinstitute.org/mpg/snp2hla/)             | Command line interface | PLINK binary format | HLA class I and II alleles | @jia_imputing_2013   |
-| [HIBAG](https://bioconductor.org/packages/release/bioc/html/HIBAG.html) | R                      | Plink binary format | HLA class I and II alleles | @zheng_hibaghla_2014 |
+| Name                                                                    | Programming Language   | Input Data          | Output                     | Reference  |
+|-------------------|--------------|--------------|--------------|--------------|
+| [SNP2HLA](https://software.broadinstitute.org/mpg/snp2hla/)             | Command line interface | PLINK binary format | HLA class I and II alleles | @jia2013   |
+| [HIBAG](https://bioconductor.org/packages/release/bioc/html/HIBAG.html) | R                      | Plink binary format | HLA class I and II alleles | @zheng2014 |

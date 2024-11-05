@@ -49,6 +49,8 @@ book:
     - presenting-your-medical-research.qmd
     - on-being-a-physician-scientist.qmd
     - references.qmd
+    
+bibliography: references.bib
   
 number-sections: true
 
