@@ -2,110 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tb4i.mattkrantz.com/index.html</loc>
-    <lastmod>2024-10-14T23:08:17.143Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.410Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/intro.html</loc>
-    <lastmod>2024-10-14T15:52:17.912Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.411Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/hla.html</loc>
-    <lastmod>2024-10-14T15:52:17.912Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.410Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/functional-divergence.html</loc>
-    <lastmod>2024-10-14T15:52:17.912Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.410Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/hla-imputation-programs.html</loc>
-    <lastmod>2024-10-18T17:52:34.847Z</lastmod>
+    <lastmod>2024-11-05T16:45:58.348Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/kir.html</loc>
-    <lastmod>2024-10-14T15:52:17.912Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.411Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/kir-imputation-programs.html</loc>
-    <lastmod>2024-10-14T15:52:17.912Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.411Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/erap.html</loc>
-    <lastmod>2024-10-14T15:52:17.911Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.409Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/erap-imputation.html</loc>
-    <lastmod>2024-10-14T15:52:17.911Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.409Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/bonus.html</loc>
-    <lastmod>2024-10-14T15:52:17.911Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.408Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/drug-allergy.html</loc>
-    <lastmod>2024-10-14T16:19:51.913Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.409Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/immediate-drug-allergy.html</loc>
-    <lastmod>2024-10-14T16:11:14.997Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.410Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/delayed-drug-allergy.html</loc>
-    <lastmod>2024-10-14T15:52:17.911Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.409Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/specific-drugs.html</loc>
-    <lastmod>2024-10-30T20:38:40.011Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.413Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/bioinformatic-best-practices.html</loc>
-    <lastmod>2024-10-14T15:52:17.911Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.408Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/reproducible-data-analysis-workflow.html</loc>
-    <lastmod>2024-10-14T15:52:17.913Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.412Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/project-organization.html</loc>
-    <lastmod>2024-10-14T15:52:17.913Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.412Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/file-naming-conventions.html</loc>
-    <lastmod>2024-10-14T15:52:17.911Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.409Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/package-managers.html</loc>
-    <lastmod>2024-10-14T15:52:17.913Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.411Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/version-control-with-git.html</loc>
-    <lastmod>2024-10-14T15:52:17.914Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.413Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/rmarkdown.html</loc>
-    <lastmod>2024-10-14T15:52:17.913Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.412Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/make.html</loc>
-    <lastmod>2024-10-14T15:52:17.913Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.411Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/docker.html</loc>
-    <lastmod>2024-10-14T15:52:17.911Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.409Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/genotype-imputation.html</loc>
-    <lastmod>2024-10-14T15:52:17.912Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.410Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/presenting-your-medical-research.html</loc>
-    <lastmod>2024-10-14T16:11:00.969Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.412Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/on-being-a-physician-scientist.html</loc>
-    <lastmod>2024-10-14T16:11:07.956Z</lastmod>
+    <lastmod>2024-11-05T15:55:20.411Z</lastmod>
   </url>
   <url>
     <loc>https://tb4i.mattkrantz.com/references.html</loc>
-    <lastmod>2024-10-18T18:00:08.306Z</lastmod>
+    <lastmod>2024-11-05T16:43:01.536Z</lastmod>
   </url>
 </urlset>

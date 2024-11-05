@@ -65,7 +65,7 @@
     "href": "hla-imputation-programs.html",
     "title": "2  HLA Imputation Programs",
     "section": "",
-    "text": "Table\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nSNP2HLA\nCommand line interface\nPLINK binary format\nHLA class I and II alleles\nJia et al. (2013)\n\n\nHIBAG\nR\nPlink binary format\nHLA class I and II alleles\nZheng et al. (2014)\n\n\n\nTian et al. (2017)\n\n\n\n\nJia, X., Han, B., Onengut-Gumuscu, S., Chen, W.-M., Concannon, P. J., Rich, S. S., … Bakker, P. I. W. de. (2013). Imputing amino acid polymorphisms in human leukocyte antigens. PloS One, 8(6), e64683. https://doi.org/10.1371/journal.pone.0064683▪▪ jia is a really good researcher.\n\n\nTian, C., Hromatka, B. S., Kiefer, A. K., Eriksson, N., Noble, S. M., Tung, J. Y., & Hinds, D. A. (2017). Genome-wide association and HLA region fine-mapping studies identify susceptibility loci for multiple common infections. Nature Communications, 8(1), 599. https://doi.org/10.1038/s41467-017-00257-5▪▪ this is another test with a paper\n\n\nZheng, X., Shen, J., Cox, C., Wakefield, J. C., Ehm, M. G., Nelson, M. R., & Weir, B. S. (2014). HIBAG–HLA genotype imputation with attribute bagging. The Pharmacogenomics Journal, 14(2), 192–200. https://doi.org/10.1038/tpj.2013.18this is a test annotation",
+    "text": "Table\n\n\n\nName\nProgramming Language\nInput Data\nOutput\nReference\n\n\n\n\nSNP2HLA\nCommand line interface\nPLINK binary format\nHLA class I and II alleles\nJia et al. (2013)\n\n\nHIBAG\nR\nPlink binary format\nHLA class I and II alleles\nZheng et al. (2014)\n\n\n\n\n\n\n\nJia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J. Concannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. de Bakker. 2013. “Imputing amino acid polymorphisms in human leukocyte antigens.” PloS One 8 (6): e64683. https://doi.org/10.1371/journal.pone.0064683.\n\n\nZheng, X., J. Shen, C. Cox, J. C. Wakefield, M. G. Ehm, M. R. Nelson, and B. S. Weir. 2014. “HIBAG–HLA genotype imputation with attribute bagging.” The Pharmacogenomics Journal 14 (2): 192–200. https://doi.org/10.1038/tpj.2013.18.",
     "crumbs": [
       "Human Leukocyte Antigens",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>HLA Imputation Programs</span>"
@@ -650,11 +650,11 @@
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "Annotated References",
+    "title": "16  References",
     "section": "",
-    "text": "Papers of particular interest have been highlighted as:\n▪ of special interest\n▪▪ of outstanding interest\n\n\n\nJia, X., Han, B., Onengut-Gumuscu, S., Chen, W.-M., Concannon, P. J.,\nRich, S. S., … Bakker, P. I. W. de. (2013). Imputing amino acid\npolymorphisms in human leukocyte antigens. PloS One,\n8(6), e64683. https://doi.org/10.1371/journal.pone.0064683▪▪ jia is a really good researcher.\n\n\nTian, C., Hromatka, B. S., Kiefer, A. K., Eriksson, N., Noble, S. M.,\nTung, J. Y., & Hinds, D. A. (2017). Genome-wide association and HLA\nregion fine-mapping studies identify susceptibility loci for multiple\ncommon infections. Nature Communications, 8(1), 599.\nhttps://doi.org/10.1038/s41467-017-00257-5▪▪ this is another test with a paper\n\n\nZheng, X., Shen, J., Cox, C., Wakefield, J. C., Ehm, M. G., Nelson, M.\nR., & Weir, B. S. (2014). HIBAG–HLA genotype imputation with\nattribute bagging. The Pharmacogenomics Journal,\n14(2), 192–200. https://doi.org/10.1038/tpj.2013.18this is a test annotation",
+    "text": "Jia, Xiaoming, Buhm Han, Suna Onengut-Gumuscu, Wei-Min Chen, Patrick J.\nConcannon, Stephen S. Rich, Soumya Raychaudhuri, and Paul I. W. de\nBakker. 2013. “Imputing amino acid polymorphisms in human\nleukocyte antigens.” PloS One 8 (6): e64683. https://doi.org/10.1371/journal.pone.0064683.\n\n\nZheng, X., J. Shen, C. Cox, J. C. Wakefield, M. G. Ehm, M. R. Nelson,\nand B. S. Weir. 2014. “HIBAG–HLA genotype imputation with\nattribute bagging.” The Pharmacogenomics Journal 14 (2):\n192–200. https://doi.org/10.1038/tpj.2013.18.",
     "crumbs": [
-      "Annotated References"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>References</span>"
     ]
   }
 ]
