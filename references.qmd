@@ -1,4 +1,6 @@
 # References
 
+You can view the references for this book at the Zotero Group Library link: <https://www.zotero.org/groups/5745068/tb4i/library>
+
 ::: {#refs}
 :::
