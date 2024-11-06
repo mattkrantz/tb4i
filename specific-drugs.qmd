@@ -456,7 +456,7 @@ The culprit radiocontrast should be avoided, and an alternative radiocontrast sh
 
 ### Antibiotics
 
-The most common topical antibiotics which cause ACD are those found in triple antibiotic ointment—neomycin, polymyxin B, and bacitracin.
+The most common topical antibiotics which cause ACD are those found in triple antibiotic ointment—neomycin, polymyxin B, and bacitracin [@choi2021].
 
 ::: callout-important
 Of patients with neomycin ACD, 50% will cross-react with other aminoglycosides such as gentamicin.
@@ -487,7 +487,7 @@ Propylene glycol—an excipient—may be utilized in topical drugs as a softenin
 Of patients with propylene glycol ACD, 80% have a history of atopic dermatitis.
 
 ::: callout-important
-Propylene glycol is present in various topical emolients, corticosteroids, and calcineurin inhibitors.
+Propylene glycol is present in various topical emolients, corticosteroids, and calcineurin inhibitors [@tran2020].
 :::
 
 +------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
@@ -504,18 +504,14 @@ Propylene glycol is present in various topical emolients, corticosteroids, and c
 | Calcineurin inhibitors | -   Pimecrolimus cream 1%                                                                                                           | -   Tacrolimus ointment 0.03% and 0.1%                                                                                          |
 +------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
 
-: Select topical drugs for treatment of atopic dermatitis by propylene glcyol content {#tbl-topicals-propylene-glycol}
-
-References:
-
-<https://www.jaad.org/article/S0190-9622(19)33110-X/fulltext>
+: Select topical drugs for treatment of atopic dermatitis by propylene glcyol content. {#tbl-topicals-propylene-glycol}
 
 ### Eye Drops
 
-The eyelids are more susceptible to ACD compared to other facial areas—owing to their thin skin 0.55 mm compared to 2 mm, respectively. Therefore, the eyelids may be the only affected area by a drug that comes in contact with the face.
+The eyelids are more susceptible to ACD compared to other facial areas—owing to their thin skin 0.55 mm compared to 2 mm, respectively [@amin2006]. Therefore, the eyelids may be the only affected area by a drug that comes in contact with the face.
 
 ::: callout-note
-ACD due to eye drops is primarily caused by anti-microbial preservatives rather than the primary drug. Benzylalkonium chloride is the most commonly implicated preservative in patients with history of eye drop reactions.
+ACD due to eye drops is primarily caused by anti-microbial preservatives rather than the primary drug. Benzylalkonium chloride is the most commonly implicated preservative in patients with history of eye drop reactions [@dear2021].
 :::
 
 +----------------+------------------------------------------------------------+--------------------------------------+
