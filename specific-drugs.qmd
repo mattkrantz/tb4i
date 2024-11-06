@@ -576,6 +576,14 @@ The most common vaccine adverse reactions are fever and local injection site rea
 The reported incidence of anaphylaxis is 1.3 case per million doses.
 :::
 
+::: {#vaccines-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
+#### Is egg allergy a contraindication to recieiving the influenza vaccine?
+
+No, egg allergy is not a contraindication to receiving the influenza vaccine.
+
+The amount of egg protein (ovalbumin) is not sufficient (< 1 µg) to provoke a reaction even in the recipients with most severe egg allergy.
+:::
+
 ### Skin Testing
 
 ### Management
