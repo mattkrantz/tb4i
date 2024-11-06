@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -630,8 +650,8 @@ Currently the rate of IgE-mediated penicillin allergies is decreasing. What is a
 <p>Potentially due to the decrease in use of parenteral penicillins in the outpatient setting, where most antibiotic use occurs.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="plotly html-widget html-fill-item" id="htmlwidget-0f7792d42320ae77faa8" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-0f7792d42320ae77faa8">{"x":{"data":[{"x":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],"y":[15.4,9.1999999999999993,8,9.5999999999999996,4.0999999999999996,8.6999999999999993,10.800000000000001,8.8000000000000007,4.7000000000000002,4.7999999999999998,4.5,4.0999999999999996,3.3999999999999999],"text":["Year: 1995<br />Percent_Positive: 15.4","Year: 1996<br />Percent_Positive:  9.2","Year: 1997<br />Percent_Positive:  8.0","Year: 1998<br />Percent_Positive:  9.6","Year: 1999<br />Percent_Positive:  4.1","Year: 2000<br />Percent_Positive:  8.7","Year: 2001<br />Percent_Positive: 10.8","Year: 2002<br />Percent_Positive:  8.8","Year: 2003<br />Percent_Positive:  4.7","Year: 2004<br />Percent_Positive:  4.8","Year: 2005<br />Percent_Positive:  4.5","Year: 2006<br />Percent_Positive:  4.1","Year: 2007<br />Percent_Positive:  3.4"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(0,0,0,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,0,0,1)"}},"frame":null}],"layout":{"margin":{"t":43.762557077625573,"r":7.3059360730593621,"b":40.182648401826498,"l":37.260273972602747},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Percentage of Positive Cases Over Time","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1994.4000000000001,2007.5999999999999],"tickmode":"array","ticktext":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],"tickvals":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],"categoryorder":"array","categoryarray":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"Year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2.7999999999999998,16],"tickmode":"array","ticktext":["3","6","9","12","15"],"tickvals":[3,6,9,12,15],"categoryorder":"array","categoryarray":["3","6","9","12","15"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Percent Positive (%)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"509b492afa89":{"x":{},"y":{},"type":"scatter"},"509b24a65de6":{"x":{},"y":{}}},"cur_data":"509b492afa89","visdat":{"509b492afa89":["function (y) ","x"],"509b24a65de6":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-9f54d6498b0fdcbb72f0" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-9f54d6498b0fdcbb72f0">{"x":{"data":[{"x":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],"y":[15.4,9.1999999999999993,8,9.5999999999999996,4.0999999999999996,8.6999999999999993,10.800000000000001,8.8000000000000007,4.7000000000000002,4.7999999999999998,4.5,4.0999999999999996,3.3999999999999999],"text":["Year: 1995<br />Percent_Positive: 15.4","Year: 1996<br />Percent_Positive:  9.2","Year: 1997<br />Percent_Positive:  8.0","Year: 1998<br />Percent_Positive:  9.6","Year: 1999<br />Percent_Positive:  4.1","Year: 2000<br />Percent_Positive:  8.7","Year: 2001<br />Percent_Positive: 10.8","Year: 2002<br />Percent_Positive:  8.8","Year: 2003<br />Percent_Positive:  4.7","Year: 2004<br />Percent_Positive:  4.8","Year: 2005<br />Percent_Positive:  4.5","Year: 2006<br />Percent_Positive:  4.1","Year: 2007<br />Percent_Positive:  3.4"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(0,0,0,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,0,0,1)"}},"frame":null}],"layout":{"margin":{"t":43.762557077625573,"r":7.3059360730593621,"b":40.182648401826498,"l":37.260273972602747},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Percentage of Positive Cases Over Time","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1994.4000000000001,2007.5999999999999],"tickmode":"array","ticktext":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],"tickvals":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],"categoryorder":"array","categoryarray":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"Year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2.7999999999999998,16],"tickmode":"array","ticktext":["3","6","9","12","15"],"tickvals":[3,6,9,12,15],"categoryorder":"array","categoryarray":["3","6","9","12","15"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Percent Positive (%)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"8e547eab6d89":{"x":{},"y":{},"type":"scatter"},"8e5428a47e57":{"x":{},"y":{}}},"cur_data":"8e547eab6d89","visdat":{"8e547eab6d89":["function (y) ","x"],"8e5428a47e57":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -1213,7 +1233,7 @@ What factors are associated with a positive NSAID challenge?
 <div id="tbl-nsaids" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-nsaids-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;7.3: Proposed two-step protocol for outpatient NSAID oral challenge in patients without AERD. Adapted from Li et al.&nbsp;JACI In Practice. 2022
+Table&nbsp;7.3: Proposed two-step protocol for outpatient NSAID oral challenge in patients without AERD. Adapted from <span class="citation" data-cites="li2022">Li et al. (<a href="references.html#ref-li2022" role="doc-biblioref">2022</a>)</span>
 </figcaption>
 <div aria-describedby="tbl-nsaids-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -1253,9 +1273,7 @@ Table&nbsp;7.3: Proposed two-step protocol for outpatient NSAID oral challenge i
 </figure>
 </div>
 <p>Because of the potential future need for higher dose of aspirin for management of acute coronary syndrome, the second dose for aspirin oral challenge is 325 mg instead of 81 mg.</p>
-<p>Of the 262 NSAID challenges performed in the Li et al study, over 85% had negative challenges. In addition, 76% of patients included in the study reported a history of urticaria, angioedema, or both. For patients experiencing a positive challenge, 45% had their reaction within 3 hours of NSAID ingestion</p>
-<p><strong>Reference</strong></p>
-<p>Li L, Bensko J, Buchheit K, Saff RR, Laidlaw TM. Safety, Outcomes, and Recommendations for Two-Step Outpatient Nonsteroidal Anti-Inflammatory Drug Challenges. J Allergy Clin Immunol Pract. 2022 May;10(5):1286-1292.e2. doi: 10.1016/j.jaip.2021.11.006. Epub 2021 Nov 17. PMID: 34800703; PMCID: PMC9086081.</p>
+<p>Of the 262 NSAID challenges performed, over 85% had negative challenges. In addition, 76% of patients included in the study reported a history of urticaria, angioedema, or both <span class="citation" data-cites="li2022">(<a href="references.html#ref-li2022" role="doc-biblioref">Li et al. 2022</a>)</span>. For patients experiencing a positive challenge, 45% had their reaction within 3 hours of NSAID ingestion</p>
 </section>
 </section>
 <section id="radiocontrast" class="level2">
@@ -1324,7 +1342,7 @@ Is radiocontrast allergy related to iodine or seafood allergy?
 <h2 class="anchored" data-anchor-id="topicals">Topicals</h2>
 <section id="antibiotics-1" class="level3">
 <h3 class="anchored" data-anchor-id="antibiotics-1">Antibiotics</h3>
-<p>The most common topical antibiotics which cause ACD are those found in triple antibiotic ointment—neomycin, polymyxin B, and bacitracin.</p>
+<p>The most common topical antibiotics which cause ACD are those found in triple antibiotic ointment—neomycin, polymyxin B, and bacitracin <span class="citation" data-cites="choi2021">(<a href="references.html#ref-choi2021" role="doc-biblioref">Choi et al. 2021</a>)</span>.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1388,13 +1406,13 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Propylene glycol is present in various topical emolients, corticosteroids, and calcineurin inhibitors.</p>
+<p>Propylene glycol is present in various topical emolients, corticosteroids, and calcineurin inhibitors <span class="citation" data-cites="tran2020">(<a href="references.html#ref-tran2020" role="doc-biblioref">Tran and Reeder 2020</a>)</span>.</p>
 </div>
 </div>
 <div id="tbl-topicals-propylene-glycol" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-topicals-propylene-glycol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;7.4: Select topical drugs for treatment of atopic dermatitis by propylene glcyol content
+Table&nbsp;7.4: Select topical drugs for treatment of atopic dermatitis by propylene glcyol content.
 </figcaption>
 <div aria-describedby="tbl-topicals-propylene-glycol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -1440,12 +1458,10 @@ Table&nbsp;7.4: Select topical drugs for treatment of atopic dermatitis by propy
 </div>
 </figure>
 </div>
-<p>References:</p>
-<p><a href="https://www.jaad.org/article/S0190-9622(19)33110-X/fulltext" class="uri">https://www.jaad.org/article/S0190-9622(19)33110-X/fulltext</a></p>
 </section>
 <section id="eye-drops" class="level3">
 <h3 class="anchored" data-anchor-id="eye-drops">Eye Drops</h3>
-<p>The eyelids are more susceptible to ACD compared to other facial areas—owing to their thin skin 0.55 mm compared to 2 mm, respectively. Therefore, the eyelids may be the only affected area by a drug that comes in contact with the face.</p>
+<p>The eyelids are more susceptible to ACD compared to other facial areas—owing to their thin skin 0.55 mm compared to 2 mm, respectively <span class="citation" data-cites="amin2006">(<a href="references.html#ref-amin2006" role="doc-biblioref">Amin and Belsito 2006</a>)</span>. Therefore, the eyelids may be the only affected area by a drug that comes in contact with the face.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1456,7 +1472,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>ACD due to eye drops is primarily caused by anti-microbial preservatives rather than the primary drug. Benzylalkonium chloride is the most commonly implicated preservative in patients with history of eye drop reactions.</p>
+<p>ACD due to eye drops is primarily caused by anti-microbial preservatives rather than the primary drug. Benzylalkonium chloride is the most commonly implicated preservative in patients with history of eye drop reactions <span class="citation" data-cites="dear2021">(<a href="references.html#ref-dear2021" role="doc-biblioref">Dear, Palmer, and Nixon 2021</a>)</span>.</p>
 </div>
 </div>
 <div id="tbl-eyedrops-benzalkonium-chloride" class="quarto-float anchored">
@@ -1586,6 +1602,23 @@ What is the reported incidence of anaphylaxis to vaccines?
 <div id="callout-40" class="callout-40-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>The reported incidence of anaphylaxis is 1.3 case per million doses.</p>
+</div>
+</div>
+</div>
+<div id="vaccines-question-4" class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-41-contents" aria-controls="callout-41" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Is egg allergy a contraindication to recieiving the influenza vaccine?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-41" class="callout-41-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>No, egg allergy is not a contraindication to receiving the influenza vaccine.</p>
+<p>The amount of egg protein (ovalbumin) is not sufficient (&lt; 1 µg) to provoke a reaction even in the recipients with most severe egg allergy.</p>
 </div>
 </div>
 </div>
@@ -1726,6 +1759,23 @@ What is the reported incidence of anaphylaxis to vaccines?
 </table>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-amin2006" class="csl-entry" role="listitem">
+Amin, Kathani A., and Donald V. Belsito. 2006. <span>“The Aetiology of Eyelid Dermatitis: A 10<span>-</span>Year Retrospective Analysis.”</span> <em>Contact Dermatitis</em> 55 (5): 280–85. <a href="https://doi.org/10.1111/j.1600-0536.2006.00927.x">https://doi.org/10.1111/j.1600-0536.2006.00927.x</a>.
+</div>
+<div id="ref-choi2021" class="csl-entry" role="listitem">
+Choi, Charles, Saba Vafaei-Nodeh, Jamie Phillips, and Gillian De Gannes. 2021. <span>“Approach to Allergic Contact Dermatitis Caused by Topical Medicaments.”</span> <em>Canadian Family Physician</em> 67 (6): 414–19. <a href="https://doi.org/10.46747/cfp.6706414">https://doi.org/10.46747/cfp.6706414</a>.
+</div>
+<div id="ref-dear2021" class="csl-entry" role="listitem">
+Dear, Kate, Amanda Palmer, and Rosemary Nixon. 2021. <span>“Contact Allergy and Allergic Contact Dermatitis from Benzalkonium Chloride in a Tertiary Dermatology Center in Melbourne, Australia.”</span> <em>Contact Dermatitis</em> 85 (2): 146–53. <a href="https://doi.org/10.1111/cod.13826">https://doi.org/10.1111/cod.13826</a>.
+</div>
+<div id="ref-li2022" class="csl-entry" role="listitem">
+Li, Lily, Jillian Bensko, Kathleen Buchheit, Rebecca R. Saff, and Tanya M. Laidlaw. 2022. <span>“Safety, Outcomes, and Recommendations for Two-Step Outpatient Nonsteroidal Anti-Inflammatory Drug Challenges.”</span> <em>The Journal of Allergy and Clinical Immunology: In Practice</em> 10 (5): 1286–1292.e2. <a href="https://doi.org/10.1016/j.jaip.2021.11.006">https://doi.org/10.1016/j.jaip.2021.11.006</a>.
+</div>
+<div id="ref-tran2020" class="csl-entry" role="listitem">
+Tran, Jennifer M., and Margo J. Reeder. 2020. <span>“When the Treatment Is the Culprit: Prevalence of Allergens in Prescription Topical Steroids and Immunomodulators.”</span> <em>Journal of the American Academy of Dermatology</em> 83 (1): 228–30. <a href="https://doi.org/10.1016/j.jaad.2019.11.020">https://doi.org/10.1016/j.jaad.2019.11.020</a>.
+</div>
+</div>
 </section>
 </section>
 
