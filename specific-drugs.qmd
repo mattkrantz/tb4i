@@ -406,15 +406,11 @@ For non-aspirin exacerbated respiratory disease (AERD) NSAID hypersensitivity, a
 | Naproxen       | 60 mg                   | 600 mg                   |
 +----------------+-------------------------+--------------------------+
 
-: Proposed two-step protocol for outpatient NSAID oral challenge in patients without AERD. Adapted from Li et al. JACI In Practice. 2022 {#tbl-nsaids}
+: Proposed two-step protocol for outpatient NSAID oral challenge in patients without AERD. Adapted from @li2022 {#tbl-nsaids}
 
 Because of the potential future need for higher dose of aspirin for management of acute coronary syndrome, the second dose for aspirin oral challenge is 325 mg instead of 81 mg.
 
-Of the 262 NSAID challenges performed in the Li et al study, over 85% had negative challenges. In addition, 76% of patients included in the study reported a history of urticaria, angioedema, or both. For patients experiencing a positive challenge, 45% had their reaction within 3 hours of NSAID ingestion
-
-**Reference**
-
-Li L, Bensko J, Buchheit K, Saff RR, Laidlaw TM. Safety, Outcomes, and Recommendations for Two-Step Outpatient Nonsteroidal Anti-Inflammatory Drug Challenges. J Allergy Clin Immunol Pract. 2022 May;10(5):1286-1292.e2. doi: 10.1016/j.jaip.2021.11.006. Epub 2021 Nov 17. PMID: 34800703; PMCID: PMC9086081.
+Of the 262 NSAID challenges performed, over 85% had negative challenges. In addition, 76% of patients included in the study reported a history of urticaria, angioedema, or both [@li2022]. For patients experiencing a positive challenge, 45% had their reaction within 3 hours of NSAID ingestion
 
 ## Radiocontrast
 
