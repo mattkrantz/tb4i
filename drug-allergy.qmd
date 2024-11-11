@@ -1,6 +1,6 @@
 # Drug Allergy {.unnumbered}
 
-Helpful Resources:
+# Helpful Resources:
 
 Delayed Drug Allergy Testing
 
@@ -19,3 +19,13 @@ Practical Guidance for the Evaluation and Management of Drug Hypersensitivity: S
 JACI In Practice Drug Allergy Resources
 
 <https://www.jaci-inpractice.org/drug-allergy-resources>
+
+# Intradermal Skin Testing Concentrations
+
+```{r, echo=FALSE, message=FALSE}
+library(DT)
+library(here)
+library(readxl)
+intradermal_skin_testing_concentrations <- read_excel(here("intradermal-skin-testing-concentrations.xlsx"))
+datatable(intradermal_skin_testing_concentrations, filter = "top")
+```
