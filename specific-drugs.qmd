@@ -160,6 +160,30 @@ Chapter 77 Middleton's Drug Allergy
 
 ### Sulfa Antibiotics
 
+#### Background
+
+[@serrano-arias2024]
+
+::: {#sulfa-antibiotics-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What percent of the total population reports an allergy to sulfa antibiotics?
+
+3% to 6% of the global population report an allergy to sulfa antibiotics. The prevalence is higher is individuals with hematological malignancies (12-40%) and HIV (30-70%).
+:::
+
+::: {#sulfa-antibiotics-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What is the structure of sulfa antibiotics?
+
+Sulfa antibiotics--also called sulfonylarylamines--are characterized by the presence of a sulfonamide functional (SO2NH2) group attached to a benzene ring.
+
+Arylamine (aromatic amine) side chain linked the N4 position and a 5 or 6 member aromatic heterocyclic ring at the N1 position.
+:::
+
+::: {#sulfa-antibiotics-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+##### Although sulfa antibiotics and non-antiobitic sulfamide contain sulfur, do they cross-react?
+
+No, they do not cross-react because non-antibiotic sulfamide lack the same accessory groups as sulfa antibiotics--aryalmine and aromatic heterocyclic ring.
+:::
+
 ### Vancomycin
 
 ## Antiepileptic Drugs
@@ -581,7 +605,7 @@ The reported incidence of anaphylaxis is 1.3 case per million doses.
 
 No, egg allergy is not a contraindication to receiving the influenza vaccine.
 
-The amount of egg protein (ovalbumin) is not sufficient (< 1 µg) to provoke a reaction even in the recipients with most severe egg allergy.
+The amount of egg protein (ovalbumin) is not sufficient (\< 1 µg) to provoke a reaction even in the recipients with most severe egg allergy.
 :::
 
 ### Skin Testing
