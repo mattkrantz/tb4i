@@ -228,7 +228,7 @@ Of the AEDs with lower rash risk, most are non-aromatic (e.g. valproate, gabapen
 | -   Cannabidiol     |                   |
 +---------------------+-------------------+
 
-: Select aromatic and non-aromatic AEDs. Adapted from Mani et al. Seizure. 2019. {#tbl-aeds}
+: Select aromatic and non-aromatic AEDs. Adapted from [@mani2019] {#tbl-aeds}
 
 ::: {#antiepileptic-drugs-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
 #### What are some risk factors for developing AED-induced rashes?
