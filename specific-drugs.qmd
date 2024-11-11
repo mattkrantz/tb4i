@@ -55,6 +55,29 @@ Ceftazadime.
 Cefaclor accounts for up to 80% of serum sickness-like reactions.
 :::
 
+|                       |           |            |             |            |            |          |             |             |          |
+|----------------|---------|---------|------|------|------|------|------|------|------|
+|                       | Cefazolin | Cephalexin | Amoxicillin | Ampicillin | Cefuroxime | Cefdinir | Cefpodoxime | Ceftriaxone | Cefepime |
+| Cefazolin (1st; IV)   | \-        |            |             |            |            |          |             |             |          |
+| Cephalexin (1st; PO)  |           | \-         |             | X          |            |          |             |             |          |
+| Amoxicillin (PO)      |           | X          | \-          |            |            |          |             |             |          |
+| Ampicillin (IV)       |           |            |             | \-         |            |          |             |             |          |
+| Cefuroxime (2nd)      |           |            |             |            | \-         |          | \*          | \*          | \*       |
+| Cefdinir (3rd; PO)    |           |            |             |            |            | \-       |             |             |          |
+| Cefpodoxime (3rd; PO) |           |            |             |            | \*         |          | \-          | X           |          |
+| Ceftriaxone (3rd; IV) |           |            |             |            | \*         |          | X           | \-          | X        |
+| Cefepime (4th)        |           |            |             |            | \*         |          |             | X           | \-       |
+
+X = have identical or very similar R1 side chains (highest risk of cross reactivity
+
+R2 = identical or very similar R2 side groups (lower risk of cross-reactivity)
+
+-   drugs that have less similar side chain groups but cross reactivity assumed to be possible
+
+if do not share R1/R2, rate cross reactivity \< 2%
+
+adapted from uptodate
+
 #### Skin Testing
 
 Lack of commercial products and metabolites for skin testing.
@@ -70,6 +93,30 @@ Immediate Index agents - cephalexin (55.5%), ceftriaxone (24.9%), and cefazolin 
 8.9% of pateints had positive skin tests (cefazolin 50% positives)
 
 time since index reaction, OR 0.71 (95% CI 0.57 - 0.90) for positive skin test
+
++-------------+---------------------+---------------------------------+
+| Reagent     | Concentrations      | Description                     |
++=============+=====================+=================================+
+| Cefazolin   | -   1 mg/mL         |                                 |
+|             |                     |                                 |
+|             | -   10 mg/mL        |                                 |
++-------------+---------------------+---------------------------------+
+| Ceftriaxone | -   2.5 mg/mL       |                                 |
+|             |                     |                                 |
+|             | -   25 mg/mL        |                                 |
++-------------+---------------------+---------------------------------+
+| Cefepime    | -   1 mg/mL         |                                 |
+|             |                     |                                 |
+|             | -   10 mg/mL        |                                 |
++-------------+---------------------+---------------------------------+
+| Cefuroxime  | -   1 mg/mL         |                                 |
+|             |                     |                                 |
+|             | -   10 mg/mL        |                                 |
++-------------+---------------------+---------------------------------+
+| Ceftazadime | -   1 mg/mL         |                                 |
+|             |                     |                                 |
+|             | -   10 mg/mL        |                                 |
++-------------+---------------------+---------------------------------+
 
 #### Oral Challenge
 
