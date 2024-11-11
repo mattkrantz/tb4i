@@ -100,6 +100,8 @@ About 0.5% to 2.0%
 
 Potentially due to the decrease in use of parenteral penicillins in the outpatient setting, where most antibiotic use occurs.
 
+[@macy2009]
+
 ```{r, echo = FALSE}
 library(ggplot2)
 # Create the dataframe
