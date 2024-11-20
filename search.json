@@ -542,7 +542,27 @@
     "href": "presenting-your-medical-research.html#figures",
     "title": "Presenting Your Medical Research",
     "section": "Figures",
-    "text": "Figures\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nSome tools that you can use to get started creating SVG include Microsoft PowerPoint (subscription), Adobe Illustrator (subscription), draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscape is better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes &gt;1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”",
+    "text": "Figures\nPNG or JPEG\nModern slide format uses the 16:9 aspect ratio.\nBecause most projector screens are in Full HD (1920 x 1080 pixels), you should shoot for your images to be a minimum (or as close to as possible) 1920 x 1080, especially if you plan for the picture to occupy.\nScalable Vector Graphics\nA strategy to both currently and future proof yourself against resolution issues is to make your figures as Scalable Vector Graphics.\nI recommend creating your figures as Scalable Vector Graphics (SVG). The main advantages of the SVG format include always maintaining its resolution and smaller file size than pixel-based image formats (e.g., JPEG).\nSome tools that you can use to get started creating SVG include Microsoft PowerPoint (subscription), Adobe Illustrator (subscription), draw.io (free), and Inkscape (free). Draw.io is best for diagrams and flowcharts. Inkscape is better for flexible drawings. Both draw.io and Inkscape are integrated with Bioicons, an open-source extension which includes &gt;1700 icons for scientific illustrations.\nIn Microsoft PowerPoint, you can create an SVG file by selecting all shapes, right-clicking, choosing “Save as Picture”, and then picking “SVG” as the “Save as Type.”",
+    "crumbs": [
+      "Presenting Your Medical Research"
+    ]
+  },
+  {
+    "objectID": "presenting-your-medical-research.html#tables",
+    "href": "presenting-your-medical-research.html#tables",
+    "title": "Presenting Your Medical Research",
+    "section": "Tables",
+    "text": "Tables\nIf you have time, rather than inserting an image of a table, you can create a selection of the table in PowerPoint (this will be a scalable vector graphic) so that you can control the font size and not worry resolution.",
+    "crumbs": [
+      "Presenting Your Medical Research"
+    ]
+  },
+  {
+    "objectID": "presenting-your-medical-research.html#images",
+    "href": "presenting-your-medical-research.html#images",
+    "title": "Presenting Your Medical Research",
+    "section": "Images",
+    "text": "Images\nYou should use either JPEG or PNG format.\nYou should shoot for your images to be a minimum (or as close to as possible) 1920 x 1080, especially if you plan for the picture to occupy a large portion of the slide.",
     "crumbs": [
       "Presenting Your Medical Research"
     ]
@@ -562,7 +582,7 @@
     "href": "presenting-your-medical-research.html#equipment",
     "title": "Presenting Your Medical Research",
     "section": "Equipment",
-    "text": "Equipment\n\nLaptop\nBring your own laptop to presentations in case there isn’t a desktop computer for you to use, or it is not functioning, reliable or frustratingly slow.\n\n\nHub\nWhat is worse than not being able to connect your laptop to the correct cable? While a good host for a presentation should have a hub (or dongle if that’s your preferred terminology), you can come prepared with your own too–particularly important if you have a laptop with only USB-C ports and no HDMI port.\nThere are lots of options for hubs. If you are looking for a recommendation, I’ve found that Anker usually has a selection of high-quality and affordable hubs.\n\n\nUSB Drive\nDo you want the entire audience to see your most recent emails when you login to download the PowerPoint you emailed yourself? No. Me either. To avoid this, bring your presentation loaded onto a USB drive, which should ideally have both USB-A and USB-C ports. Or, you can also avoid this by using your own laptop—where the presentation should already be downloaded.\n\n\nPresentation Remote\nI don’t feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive–but I think it is another piece of equipment to consider. This helps keep you from being tethered to and white knuckling the podium during your talk.\nOne option to consider is the Logitech Spotlight Presentation Remote–which includes features such as magnification, vibration alerts for time management (e.g., 5 minutes left), 3 hours use from 1 minute of charging, and connection by USB receiver or Bluetooth–in addition to slide advancement.",
+    "text": "Equipment\n\nLaptop\nBring your own laptop to presentations in case there isn’t a desktop computer for you to use, or it is not functioning, reliable or frustratingly slow.\n\n\nHub\nWhat is worse than not being able to connect your laptop to the correct cable? While a good host for a presentation should have a hub (or dongle if that’s your preferred terminology), you can come prepared with your own too–particularly important if you have a laptop with only USB-C ports and no HDMI port.\nThere are lots of options for hubs. If you are looking for a recommendation, I’ve found that Anker usually has a selection of high-quality and affordable hubs.\n\n\nUSB Drive\nDo you want the entire audience to see your most recent emails when you login to download the PowerPoint you emailed yourself? No. Me either. To avoid this, bring your presentation loaded onto a USB drive, which should ideally have both USB-A and USB-C ports. Or, you can also avoid this by using your own laptop—where the presentation should already be downloaded.\n\n\nPresentation Remote\nI don’t feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive–but I think it is another piece of equipment to consider. This helps keep you from being tethered to and white knuckling the podium during your talk.\nOne option to consider is the Logitech Spotlight Presentation Remote–which can get 3 hours use from 1 minute of charging and connect by USB receiver or Bluetooth–in addition to slide advancement.",
     "crumbs": [
       "Presenting Your Medical Research"
     ]
