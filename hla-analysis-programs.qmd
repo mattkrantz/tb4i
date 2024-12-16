@@ -1,0 +1,17 @@
+---
+title: HLA Analysis Programs
+---
+
+# Table {.unnumbered}
+
+BIGDAWG
+
+@pappas2016
+
+https://github.com/IgDAWG/BIGDAWG
+
+midasHLA
+
+@migdal2021
+
+https://github.com/Genentech/midasHLA
