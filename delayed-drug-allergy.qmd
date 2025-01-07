@@ -8,6 +8,10 @@ RegiSCAR criteria
 
 <https://doi.org/10.1111/bjd.12501>
 
+DRESS Review Paper in NEJM (Blumenthal)
+
+@kroshinsky2024
+
 ### Allergic Contact Dermatitis
 
 Allergic contact dermatitis (ACD) secondary to topical medications is characterized by an eczematous eruption--which typically localized to sites of direct exposure. Depending on the severity and chronicity of ACD, eczematous eruptions can range from localized erythema and edema to vesicularization, crusting and weeping. However, ACD can become generalized to non-exposed sites, referred to as "autoeczematization" or "id reaction."
@@ -40,16 +44,25 @@ These underlying chronic dermatoses can be exacerbated by drugs but not primaril
 
 ## Skin Testing
 
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Reaction                                                                | Patch Testing                                      | Intradermal Testing                                       |
-|-------------------------------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------|
++=========================================================================+====================================================+===========================================================+
 | Maculopapular exanthem (MPE)                                            | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Acute generalized exanthematous pustulosis (AGEP)                       | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Stevens-Johnson Syndrome/Toxic epidermal necrolysis (SJS/TEN)           | Low sensitivity but potentially useful if positive | Contraindicated due to concern for potential reactivation |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Drug reaction with eosinophilia and systemic symptoms (DRESS)           | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Fixed drug eruption                                                     | Useful if applied to the site of reaction          | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Allergic contact dermatitis                                             | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Symmetrical drug-related intertrigenous and flexural exanthema (SDRIFE) | Useful if positive                                 | Useful if positive                                        |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Drug-induced organ injury (e.g., kidney, liver)                         | Not useful                                         | Not useful                                                |
++-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 
 : Utility of patch and intradermal skin testing for delayed drug allergy reaction types {#tbl-delayed-skin-testing}
 
@@ -57,10 +70,13 @@ These underlying chronic dermatoses can be exacerbated by drugs but not primaril
 No delayed skin testing method has 100% negative predictive value.
 :::
 
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Characteristic          | Details                                                                                                                                                           |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
++=========================+===================================================================================================================================================================+
 | Timing                  | Perform at least 6 to 8 weeks after reaction; and 6 months or later after DRESS                                                                                   |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Concomitant medications | Most medications okay to continue, including anti-histamines and beta-blockers. Should be off of steroids for ≥ 1 month or prednisone equivalent dose ≤ 10 mg/day |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : Shared characteristics of patch and intradermal testing {#tbl-delayed-skin-shared}
 
