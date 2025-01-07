@@ -167,7 +167,7 @@ Chapter 77 Middleton's Drug Allergy
 ::: {#sulfa-antibiotics-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
 ##### What percent of the total population reports an allergy to sulfa antibiotics?
 
-3% to 6% of the global population report an allergy to sulfa antibiotics. The prevalence is higher is individuals with hematological malignancies (12-40%) and HIV (30-70%).
+The reported global prevalence of sulfa antibiotic allergy is 3% to 6%. The prevalence is higher is individuals with hematological malignancies (12-40%) and HIV (30-70%).
 :::
 
 ::: {#sulfa-antibiotics-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
@@ -181,8 +181,16 @@ Arylamine (aromatic amine) side chain linked the N4 position and a 5 or 6 member
 ::: {#sulfa-antibiotics-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
 ##### Although sulfa antibiotics and non-antiobitic sulfamide contain sulfur, do they cross-react?
 
-No, they do not cross-react because non-antibiotic sulfamide lack the same accessory groups as sulfa antibiotics--aryalmine and aromatic heterocyclic ring.
+No, they do not cross-react because non-antibiotic sulfonamides lack the same accessory groups as sulfa antibiotics--aryalmine and aromatic heterocyclic ring.
 :::
+
+Trubiano and transplant importance: <https://onlinelibrary.wiley.com/doi/10.1111/tid.13955>
+
+Cochrane and prednisone? <https://doi.org/10.1002/14651858.cd005590.pub3>
+
+Guidelines for Bactrim as first line PJP prophylaxis <https://pubmed.ncbi.nlm.nih.gov/27550992/>
+
+First cases of PJP pneumonia (WWII orphanages): <https://pmc.ncbi.nlm.nih.gov/articles/PMC3323247/>
 
 ### Vancomycin
 
