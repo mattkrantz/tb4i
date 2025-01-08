@@ -164,6 +164,78 @@ Chapter 77 Middleton's Drug Allergy
 
 ### Sulfa Antibiotics
 
+#### Background
+
+::: {#sulfa-antibiotics-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What percent of the total population reports an allergy to sulfa antibiotics?
+
+The reported global prevalence of sulfa antibiotic allergy is 3% to 6%. The prevalence is higher is individuals with hematological malignancies (12-40%) and HIV (30-70%) [@serrano-arias2024].
+:::
+
+::: {#sulfa-antibiotics-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What is the structure of sulfa antibiotics?
+
+Sulfa antibiotics--also called sulfonylarylamines--are characterized by the presence of a sulfonamide functional group with two side chains, arylamine (aromatic amine) and an aromatic heterocyclic ring [@serrano-arias2024].
+:::
+
+::: {#sulfa-antibiotics-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+##### Although sulfa antibiotics and non-antiobitic sulfamide both contain a sulfonamide functional group, do they cross-react?
+
+No, they do not cross-react because non-antibiotic sulfonamides lack the same side chains as sulfa antibiotics--aryalmine and aromatic heterocyclic ring [@serrano-arias2024].
+:::
+
+::: {#sulfa-antibiotics-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
+##### For what respiratory, opportunistic infection in immunocompromised patients is trimethoprim-sulfamethoxazole the preferred prophylaxis?
+
+Trimethoprim-sulfamethoxazole is the preferred prophylaxis for *Pneumocystis jirovecii* pneumonia (PJP) because of its greater evidence of efficacy and lower cost compared to alternative prophylaxis, such as atovaquone, dapsone, and aerosolized pentamidine [@maertens2016].
+
+Further, compared to alternative PJP prophylaxis, trimethoprim-sulfamethoxazole may also prevent other breakthrough infections such as *Nocardia*, *Toxoplasma*, S*treptococcus pneumoniae*, and *Haemophilus* species.
+
+A Cochrane review on the efficacy of trimethoprim-sulfamethoxazole for PJP prevention in non-HIV immunocompromised patients found the number needed to treat to prevent one case of PJP is 19 [@stern2014].
+:::
+
+::: {#sulfa-antibiotics-question-5 .callout-note collapse="true" icon="false" appearance="simple"}
+##### For what patient populations is prophylaxis for *Pneumocystis jirovecii* pneumonia recommended?
+
+When considering *Pneumocystis jirovecii* pneumonia prophylaxis, the two main patient populations to consider are non-HIV immunocompromised and HIV immunocompromised individuals.
+
+HIV immunocompromised:
+
+-   CD4+ T cell count \< 200 cells/µL
+
+Non-HIV immunocompromised:
+
+-   Solid organ transplant
+
+-   Bone marrow transplant
+
+-   Prednisone ≥ 20 mg (or equivalent) for more than one month
+:::
+
+::: {#sulfa-antibiotics-question-6 .callout-note collapse="true" icon="false" appearance="simple"}
+##### When and in what patient population was *Pneumocystis jirovec*ii pneumonia first described?
+
+The first cases of *Pneumocystis jirovecii* pneumonia were described in malnourished children in orphanages in Europe during World War II. When initially described, it was referred to as "interstitial plasma cell pneumonia [@morris2004].
+:::
+
+::: {#sulfa-antibiotics-question-7 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What type of pathogen is *Pneumocystis jirovecii*?
+
+*Pneumocystis jirovecii* is a ubiquitous fungus with infection commonly occurring at young age, with near universal positivity to Pneumocystis by two years of age [@vargas2001]. In immunocompetent individuals, primary infection is largely asymptomatic. In addition, colonization with *Pneumocystis jirovecii* occurs in more than 50% of the general adult population and is assumed to be due to re-infection (i.e. person-to-person transmission, environmental re-exposures) rather than reactivation [@gigliotti2012].
+:::
+
+::: {#sulfa-antibiotics-question-8 .callout-note collapse="true" icon="false" appearance="simple"}
+##### Why did the nomenclature human Pneumocystis pneumonia change from *Pneumocystis carinii* to *Pneumocystis jiroveci*?
+
+DNA sequencing improved our understanding of Pneumocystis and its different species that are associated with various host organisms. Therefore, *Pneumocystis jirovecii* describes the species that infects humans while *Pneumocystis carinii* describes the species that infects rats [@stringer2002].
+:::
+
+::: {#sulfa-antibiotics-question-9 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What primary immune deficiency is notably associated with a high risk of *Pneumocystis jirovecii* pneumonia?
+
+Hyper-immunoglobulin M syndromes—the X-linked recessive version caused by defects in CD40L (expressed on the surface of T cells to induce antibody isotype switching in B cells)--is associated with a notably increased risk of *Pneumocystis jirovecii* pneumonia [@davies2010].
+:::
+
 ### Vancomycin
 
 ## Antiepileptic Drugs
