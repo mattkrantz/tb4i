@@ -2,6 +2,16 @@
 
 ## Phenotypes
 
+### Drug Reaction with Eosinophilia and Systemic Symptoms
+
+RegiSCAR criteria
+
+<https://doi.org/10.1111/bjd.12501>
+
+DRESS Review Paper in NEJM (Blumenthal)
+
+@kroshinsky2024
+
 ### Allergic Contact Dermatitis
 
 Allergic contact dermatitis (ACD) secondary to topical medications is characterized by an eczematous eruption--which typically localized to sites of direct exposure. Depending on the severity and chronicity of ACD, eczematous eruptions can range from localized erythema and edema to vesicularization, crusting and weeping. However, ACD can become generalized to non-exposed sites, referred to as "autoeczematization" or "id reaction."

@@ -1,3 +1,9 @@
+---
+execute:
+  echo: false
+  message: false
+  warning: false
+---
 # On Being a Physician-Scientist {.unnumbered}
 
 ## Building Accountability
@@ -133,6 +139,85 @@ Looking to get an idea of academic faculty salaries? The annual [AAMC Faculty Sa
 ### Tenure-Track Offer Letters
 
 What goes into a tenure-track offer letter? The [Burroughs Wellcome Fund](https://www.bwfund.org/) provides a comprehensive list of offer letter components in their article, "[Academic Tenure-Track Offer Letters](https://www.bwfund.org/career-tool/academic-tenure-track-offer-letters/)."
+
+## NIH Career Development Awards
+
+The NIH provides [Success Rates](https://report.nih.gov/funding/nih-budget-and-spending-data-past-fiscal-years/success-rates) for Career Development Awards. Below, you will find interactive plots for Fiscal Years 2014-2023 and can analyze success rates by individual institute or by all for the primary extramural, mentored career development awards (K01, K08, K23, K99). These interactive plots were created using [Observable JS](https://quarto.org/docs/computations/ojs.html). You can download the publicly available [dataset](https://report.nih.gov/reportweb/web/displayreport?rId=551) from the NIH. You can also find a copy in the [data folder](https://github.com/mattkrantz/tb4i/tree/main/data/on-being-a-physician-scientist) of this book's GitHub repository.
+
+```{r}
+library(readxl)
+library(dplyr)
+library(here)
+
+dat = read_excel(here("data/on-being-a-physician-scientist", "T204 2023 CAREER DEV_Appls_Awds_Succ Rate_Fund by Act and IC.xlsx"), skip=1, sheet=1) %>% 
+  rename(
+    fiscal_year=`Fiscal Year`,
+    activity_code=`Activity Code`,
+    nih_institute=`NIH Institute / Center`,
+    n_applications=`Number of Applications Reviewed`,
+    n_awarded=`Number of Applications Awarded`,
+    success_rate=`Success Rate`,
+    total_funding=`Total Funding`) %>%
+  mutate(nih_institute = if_else(nih_institute == "ACTIVITY TOTAL", "All", nih_institute))
+
+ojs_define(data_json = dat)
+
+```
+
+### Interactive Plots
+
+```{ojs}
+
+data = transpose(data_json)
+
+nih_institutes = ["NCI", "NEI", "NHLBI", "NHGRI", "NIA", "NIAAA", "NIAID", "NIAMS", "NIBIB", "NICHD", "NIDCD", "NIDCR", "NIDDK", "NIDA", "NIEHS", "NIGMS", "NIMH", "NIMHD", "NINDS", "NINR", "NLM"]
+
+viewof selected_nih_institute = Inputs.select(["All"].concat(nih_institutes), {label: "NIH Institute"})
+
+viewof activity_codes = Inputs.checkbox(
+  ["K01", "K08", "K23", "K99"], 
+  { value: ["K08", "K01", "K23", "K99"], 
+    label: "Activity Code:"
+  }
+)
+
+filtered = data.filter(function(d) {
+  return activity_codes.includes(d.activity_code) && d.nih_institute === selected_nih_institute;
+})
+html`<br>`
+html `<div style="text-align: center; font-weight: bold;"> Success Rates by Fiscal Year </div>`
+
+plt1 = Plot.plot({
+  color: {legend: true, label: "Activity Code"},
+  marks: [
+    Plot.lineY(filtered, {x: "fiscal_year", y: "success_rate", 
+    stroke: "activity_code", 
+    channels: {
+      n_awarded: {value: "n_awarded", label: "No. Awarded"},
+      n_applications:{value: "n_applications", label: "No. Applications"}},
+    tip: {
+      format: {x:"d", z:false, y: d3.format(",.0%")}}})
+    ],
+    style: {fontSize: "11px"},
+    x: {label: "Fiscal Year", tickFormat: d3.format("d")},
+    y: {label: "Success Rate", tickFormat: d3.format(",.0%")}
+    })
+
+html `<div style="text-align: center; font-weight: bold;"> Applications by Fiscal Year </div>`
+plt2 = Plot.plot({
+  color: {legend: true, label: "Activity Code"},
+  marks: [
+    Plot.barY(filtered, {x: "fiscal_year", y: "n_applications", fill: "activity_code", tip: {format: {x:"d"}}})
+    ],
+    x: {label: "Fiscal Year", tickFormat: "d"},
+    y: {label: "No. of Applications"},
+    fill: {label: "Activity Code"},
+    style: {fontSize: "11px"}
+    })
+    
+    
+
+```
 
 ## NIH Loan Repayment Program
 

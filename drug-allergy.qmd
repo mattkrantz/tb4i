@@ -1,1 +1,31 @@
 # Drug Allergy {.unnumbered}
+
+# Helpful Resources:
+
+Delayed Drug Allergy Testing
+
+<https://www.youtube.com/watch?v=-KmMF_X5g4g>
+
+Immediate Drug Allergy Testing
+
+<https://www.youtube.com/watch?v=R9yWxDY3YCA>
+
+2022 Drug Allergy Practice Parameter <https://www.sciencedirect.com/science/article/pii/S0091674922011861?via%3Dihub>
+
+Practical Guidance for the Evaluation and Management of Drug Hypersensitivity: Specific Drugs
+
+<https://www.jaci-inpractice.org/article/S2213-2198(20)30816-3/fulltext>
+
+JACI In Practice Drug Allergy Resources
+
+<https://www.jaci-inpractice.org/drug-allergy-resources>
+
+# Intradermal Skin Testing Concentrations
+
+```{r, echo=FALSE, message=FALSE}
+library(DT)
+library(here)
+library(readxl)
+intradermal_skin_testing_concentrations <- read_excel(here("intradermal-skin-testing-concentrations.xlsx"))
+datatable(intradermal_skin_testing_concentrations, filter = "top")
+```

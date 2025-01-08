@@ -1,0 +1,23 @@
+---
+title: HLA Analysis Programs
+---
+
+BIGDAWG
+
+@pappas2016
+
+https://github.com/IgDAWG/BIGDAWG\
+
+Hapl-o-Mat
+
+@schäfer2017
+
+<https://github.com/DKMS/Hapl-o-Mat>
+
+<https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1692-y>
+
+midasHLA
+
+@migdal2021
+
+https://github.com/Genentech/midasHLA
