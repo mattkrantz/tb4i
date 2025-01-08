@@ -173,16 +173,18 @@ The reported global prevalence of sulfa antibiotic allergy is 3% to 6%. The prev
 ::: {#sulfa-antibiotics-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
 ##### What is the structure of sulfa antibiotics?
 
-Sulfa antibiotics--also called sulfonylarylamines--are characterized by the presence of a sulfonamide functional (SO2NH2) group attached to a benzene ring.
-
-Arylamine (aromatic amine) side chain linked the N4 position and a 5 or 6 member aromatic heterocyclic ring at the N1 position.
+Sulfa antibiotics--also called sulfonylarylamines--are characterized by the presence of a sulfonamide functional group with two side chains, arylamine (aromatic amine) and an aromatic heterocyclic ring.
 :::
 
 ::: {#sulfa-antibiotics-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
 ##### Although sulfa antibiotics and non-antiobitic sulfamide contain sulfur, do they cross-react?
 
-No, they do not cross-react because non-antibiotic sulfonamides lack the same accessory groups as sulfa antibiotics--aryalmine and aromatic heterocyclic ring.
+No, they do not cross-react because non-antibiotic sulfonamides lack the same side chains as sulfa antibiotics--aryalmine and aromatic heterocyclic ring.
 :::
+
+HIV immunocompromised CD4 \< 200 for PJP, \< 50 for Toxo
+
+NonHIV immunocompromised: SOT, HSCT, prednisone \>= 20 mg for more than a month
 
 Trubiano and transplant importance: <https://onlinelibrary.wiley.com/doi/10.1111/tid.13955>
 
@@ -190,7 +192,21 @@ Cochrane and prednisone? <https://doi.org/10.1002/14651858.cd005590.pub3>
 
 Guidelines for Bactrim as first line PJP prophylaxis <https://pubmed.ncbi.nlm.nih.gov/27550992/>
 
-First cases of PJP pneumonia (WWII orphanages): <https://pmc.ncbi.nlm.nih.gov/articles/PMC3323247/>
+More evidence for Bactrim efficacy
+
+From cochrane review: prophylaxis for PCP using trimethoprim/sulfamethoxazole is highly effective among non‐HIV immunocompromised patients, with a number needed to treat to prevent PCP of 19 patients (95% CI 17 to 42). Prophylaxis should be considered for patients with a similar baseline risk of PCP.
+
+More from Cochrane review:
+
+*Pneumocystis jirovecii* is a ubiquitous, species‐specific fungus. Infection with *Pneumocystis jirovecii* is common and occurs at an early age. Serologic surveys have shown nearly universal seropositivity to Pneumocystis by two years of age ([Vargas 2001](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005590.pub3/references#CD005590-bbs2-0087 "VargasSL , HughesWT , SantolayaME , UlloaAV , PonceCA , CabreraCE , et al. Search for primary infection by Pneumocystis carinii in a cohort of normal, healthy infants. Clinical Infectious Diseases2001;32:855‐61. ")). Primary infection is probably largely asymptomatic ([Mandel 2010](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005590.pub3/references#CD005590-bbs2-0063 "WalzerPD , SmulianAG . Pneumocystis species. Mandel, Douglas and Bennet's principles and practice of infectious diseases. Vol. 2, Churchill Livingstone, 2010:3377‐90. ")). Colonization with PCP is common, documented to occur in more than 50% of the general adult population, and is assumed to represent re‐infections through person‐to‐person transmission or environmental re‐exposures rather than re‐activation ([Gigliotti 2012](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005590.pub3/references#CD005590-bbs2-0056 "GigliottiF , WrightTW . Pneumocystis: where does it live?. PLoS Pathogens2012;8(11):e1003025. "); [Ponce 2010](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005590.pub3/references#CD005590-bbs2-0073 "PonceCA , GalloM , BustamanteR , VargasSL . Pneumocystis colonization is highly prevalent in the autopsied lungs of the general population. Clinical Infectious Diseases2010;50(3):347‐53. ")). 
+
+Bactrim Covers other pathogens of benefit: a trend towards more breakthrough infections by organisms potentially preventable by trimethoprim/sulfamethoxazole but not covered by dapsone (e.g. *Nocardia*, *Toxoplasma*, *Streptococcus pneumoniae* and *Haemophilus* species
+
+First cases of PJP pneumonia (WWII orphanages): <https://pmc.ncbi.nlm.nih.gov/articles/PMC3323247/> called *interstitial plasma cell pneumonia*
+
+Nomenclature Pneumocystis carinii and jiroveci - The 18S rRNA sequences from *P. jiroveci* (i.e., human-derived) and *P. carinii* (i.e., rat-derived). <https://pmc.ncbi.nlm.nih.gov/articles/PMC2732539/>
+
+What immune deficiency is associated with high risk of PJP: HyperIgM CD40L (expressed on surface of T cells to induce isotype switching in B cells), X-linked recessive <https://pubmed.ncbi.nlm.nih.gov/20180797/>
 
 ### Vancomycin
 
