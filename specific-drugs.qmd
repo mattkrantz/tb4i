@@ -72,7 +72,7 @@ Approximately 10% of the US population reports an allergy to penicillin.
 
 Less than 5% of these reported penicillin allergies are clinically significant immediate or delayed-immune mediated drug reactions.
 
-Over 95% of patients who do not have a history of serious penicillin allergy are actually tolerant because (1) the most common reported reaction is a benign delayed rash (type IV hypersensitivity reaction) which may or may not recur with subsequent penicillin exposure; (2) IgE-mediated penicillin allergy wanes over time, with 80% of patients becoming tolerant after a decade since their index reaction; and (3) the index reaction may have rather been an intolerance or caused by the underlying infection being treated at the time.
+Over 95% of patients who do not have a history of serious penicillin allergy are actually tolerant because (1) the most common reported reaction is a benign delayed rash (type IV hypersensitivity reaction) which may or may not recur with subsequent penicillin exposure; (2) IgE-mediated penicillin allergy wanes over time, with 80% of patients becoming tolerant after a decade since their index reaction; and (3) the index reaction may have rather been an intolerance or caused by the underlying infection being treated at the time. [@shenoy2019]
 :::
 
 ::: {#penicillins-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
@@ -86,7 +86,7 @@ Receipt of non-beta-lactam perioperative prophylaxis has been associated with an
 ::: {#penicillins-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
 ##### What infection-related drug interaction is associated with individuals developing a maculopapular rash when receiving an aminopenicillin?
 
-Epstein-Barr virus
+Epstein-Barr virus. [@chovel-sella2013]
 :::
 
 ::: {#penicillins-question-5 .callout-note collapse="true" icon="false" appearance="simple"}
@@ -336,15 +336,15 @@ GBCAs consist of the combination of the gadolinium ion to its carrier molecule, 
 
 When imaging of the hepatobiliary tree is needed, tissue-specific GBCAs (e.g. gadoxetate disodium and gadobenate dimeglumine) are used because they are taken up by hepatocytes and later excreted into the biliary system.
 
-+-----------------------------------+------------------------------------------------+
-| Class                             | Immediate Reactions per 10,000 Administrations |
-+===================================+================================================+
-| Nonioinic linear                  | 1.5                                            |
-+-----------------------------------+------------------------------------------------+
-| Ionic linear                      | 8.3                                            |
-+-----------------------------------+------------------------------------------------+
-| Nonionic macrocyclic              | 16                                             |
-+-----------------------------------+------------------------------------------------+
++-----------------------------+------------------------------------------------+
+| Class                       | Immediate Reactions per 10,000 Administrations |
++=============================+================================================+
+| Nonioinic linear            | 1.5                                            |
++-----------------------------+------------------------------------------------+
+| Ionic linear                | 8.3                                            |
++-----------------------------+------------------------------------------------+
+| Nonionic macrocyclic        | 16                                             |
++-----------------------------+------------------------------------------------+
 
 ### References
 
