@@ -318,6 +318,12 @@ Of the AEDs with lower rash risk, most are non-aromatic (e.g. valproate, gabapen
 
 Mani R, Monteleone C, Schalock PC, Truong T, Zhang XB, Wagner ML. Rashes and other hypersensitivity reactions associated with antiepileptic drugs: A review of current literature. Seizure. 2019 Oct;71:270-278. doi: 10.1016/j.seizure.2019.07.015. Epub 2019 Jul 24. PMID: 31491658.
 
+## Antihistamines
+
+### References
+
+[@shakouri2013]
+
 ## Buproprion
 
 ## Gadolinium-Based Contrast Agents
@@ -336,15 +342,15 @@ GBCAs consist of the combination of the gadolinium ion to its carrier molecule, 
 
 When imaging of the hepatobiliary tree is needed, tissue-specific GBCAs (e.g. gadoxetate disodium and gadobenate dimeglumine) are used because they are taken up by hepatocytes and later excreted into the biliary system.
 
-+-----------------------------+------------------------------------------------+
-| Class                       | Immediate Reactions per 10,000 Administrations |
-+=============================+================================================+
-| Nonioinic linear            | 1.5                                            |
-+-----------------------------+------------------------------------------------+
-| Ionic linear                | 8.3                                            |
-+-----------------------------+------------------------------------------------+
-| Nonionic macrocyclic        | 16                                             |
-+-----------------------------+------------------------------------------------+
++--------------------------+------------------------------------------------+
+| Class                    | Immediate Reactions per 10,000 Administrations |
++==========================+================================================+
+| Nonioinic linear         | 1.5                                            |
++--------------------------+------------------------------------------------+
+| Ionic linear             | 8.3                                            |
++--------------------------+------------------------------------------------+
+| Nonionic macrocyclic     | 16                                             |
++--------------------------+------------------------------------------------+
 
 ### References
 
