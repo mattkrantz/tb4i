@@ -2,7 +2,7 @@
 title: HLA Analysis Programs
 ---
 
-BIGDAWG
+BIGDAWG - Haplotype analysis
 
 @pappas2016
 
@@ -16,8 +16,12 @@ Hapl-o-Mat
 
 <https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1692-y>
 
-midasHLA
+midasHLA - Locus analysis
 
 @migdal2021
 
 https://github.com/Genentech/midasHLA
+
+Fine-Mapping
+
+[@clay2022]
