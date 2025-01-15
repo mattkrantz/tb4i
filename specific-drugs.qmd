@@ -335,7 +335,7 @@ Mani R, Monteleone C, Schalock PC, Truong T, Zhang XB, Wagner ML. Rashes and oth
 
 Gadolinium-based contrast agents (GBCAs) are divided into three categories based on their stability and carrier molecule (also called chelating agent): ionic linear, nonionic linear, and nonionic macrocyclic.
 
-GBCAs consist of the combination of the gadolinium ion to its carrier molecule. 
+GBCAs consist of the combination of the gadolinium ion to its carrier molecule.
 
 The carrier molecule serves to minimize the toxicity of gadolinium in its free form while preserving its contrast properties.
 :::
@@ -349,7 +349,6 @@ This is because the macrocyclic form cages the gadolinium ion leading to better 
 
 However, despite their lower stability, linear GBCAs seem to cause less adverse reactions than macrocyclic GBCAs.
 :::
-
 
 ::: {#gbca-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
 #### Between linear and macrocylclic GBCAs, which seem to cause less adverse reactions?
@@ -369,15 +368,15 @@ Gadolinium is a rare earth element—that does not exist in nature in its pure f
 When imaging of the hepatobiliary tree is needed, tissue-specific GBCAs (e.g. gadoxetate disodium and gadobenate dimeglumine) are used because they are taken up by hepatocytes and later excreted into the biliary system.
 :::
 
-+------------------------+------------------------------------------------+
-| Class                  | Immediate Reactions per 10,000 Administrations |
-+========================+================================================+
-| Nonioinic linear       | 1.5                                            |
-+------------------------+------------------------------------------------+
-| Ionic linear           | 8.3                                            |
-+------------------------+------------------------------------------------+
-| Nonionic macrocyclic   | 16                                             |
-+------------------------+------------------------------------------------+
++-----------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
+| Class                 | Generic Name (Brand Name)                                                                       | Immediate Reactions per 10,000 Administrations |
++:=====================:+=================================================================================================+:==============================================:+
+| Linear, nonionic      | Gadodiamide (Omniscan)                                                                          | 1.5                                            |
++-----------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
+| Linear, ionic         | Gadopentetate (Magnevist), Gadoxetate (Eovist), Gadobenate (MultiHance), Gadofosveset (Ablavar) | 8.3                                            |
++-----------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
+| Macrocyclic           | Gadobutrol (Gadovist), Gadoterate (Dotarem), Gadoteridol (ProHance)                             | 16                                             |
++-----------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
 
 ### References
 
