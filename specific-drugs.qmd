@@ -7,6 +7,91 @@ format: html
 
 ### Cephalosporins
 
+#### Background
+
+::: {#cephalosporins-question-1 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What percent of the total US population reports a cephalopsorin allergy?
+
+In the US, 1.3% to 1.7% of the total population reports a cephalosporin allergy whereas 0.5% of pediatric patients report a cephalosporin allergy [@chow2024; @khan2019]
+:::
+
+::: {#cephalosporins-question-2 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What is the most common drug allergy phenotype associated with cephalosporins?
+
+Most reactions to cephalosporins are immediate (74.7%)--characterized by urticaria and/or angioedema--as opposed to delayed--typically non-severe maculopapular exanthem (25.3%).
+:::
+
+::: {#cephalosporins-question-3 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What is the chemical structure of cephalosporins?
+
+The chemical structure of cephalosporins is a four membered ring fused with a six membered dihydrothiazine ring with R1 and R2 side chains.
+:::
+
+::: {#cephalosporins-question-4 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What is the major structural component responsible for cross-reactivity between penicillins and cephalopsorins?
+
+The R1 side chain is the major component responsible for the cross-reactivity with penicillins and cephalosporins. Tolerance to cephalosporins can usually but always be predicted on the basis of similarities or differences in R1 side chains.
+
+R2 side is less studied but may have a role. There is some evidence that suggests that the opening of the cephalosporin beta-lactam ring destroys the R2 side chain.
+:::
+
+::: {#cephalosporins-question-5 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What penicillins share the same R1 side chain as cefazolin?
+
+Trick question! None!
+:::
+
+::: {#cephalosporins-question-6 .callout-note collapse="true" icon="false" appearance="simple"}
+##### Aztreonam (a monobactam and beta-lactam) can be given without any concerns for cross-reactivity to patients with a cephalosporin allergy except which R1 side chain sharing cephalosporin?
+
+Ceftazadime.
+:::
+
+::: {#cephalosporins-question-7 .callout-note collapse="true" icon="false" appearance="simple"}
+##### What cephalosporin is the main culprit for serum sickness-like reactions?
+
+Cefaclor accounts for up to 80% of serum sickness-like reactions.
+:::
+
+|                       |           |            |             |            |            |          |             |             |          |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|                       | Cefazolin | Cephalexin | Amoxicillin | Ampicillin | Cefuroxime | Cefdinir | Cefpodoxime | Ceftriaxone | Cefepime |
+| Cefazolin (1st; IV)   | \-        |            |             |            |            |          |             |             |          |
+| Cephalexin (1st; PO)  |           | \-         |             | X          |            |          |             |             |          |
+| Amoxicillin (PO)      |           | X          | \-          |            |            |          |             |             |          |
+| Ampicillin (IV)       |           |            |             | \-         |            |          |             |             |          |
+| Cefuroxime (2nd)      |           |            |             |            | \-         |          | \*          | \*          | \*       |
+| Cefdinir (3rd; PO)    |           |            |             |            |            | \-       |             |             |          |
+| Cefpodoxime (3rd; PO) |           |            |             |            | \*         |          | \-          | X           |          |
+| Ceftriaxone (3rd; IV) |           |            |             |            | \*         |          | X           | \-          | X        |
+| Cefepime (4th)        |           |            |             |            | \*         |          |             | X           | \-       |
+
+X = have identical or very similar R1 side chains (highest risk of cross reactivity
+
+R2 = identical or very similar R2 side groups (lower risk of cross-reactivity)
+
+\\\* drugs that have less similar side chain groups but cross reactivity assumed to be possible
+
+if do not share R1/R2, rate cross reactivity \< 2%
+
+adapted from uptodate
+
+#### Skin Testing
+
+Lack of commercial products and metabolites for skin testing.
+
+Immediate Index agents: cephalexin (55.5%), ceftriaxone (24.9%), and cefazolin (17.5%)
+
+8.9% of pateints had positive skin tests (cefazolin 50% positives)
+
+Time since index reaction, OR 0.71 (95% CI 0.57 - 0.90) for positive skin test. [@stone2021]
+
+#### Oral Challenge
+
+100% NPV if reaction \> 5 years, isolated urticaria, benign MPE, isolated GI symptoms or other non-allergic and orally administere vs 98.5% NPV (95% CI 95.8%-99.7%) if include IV and PO administered. [@stone2021]
+
+Cephalexin 250 mg oral challenge with 1.5 hour observation. [@koo2022]
+
 ### Fluoroquinolones
 
 ### Macrolides
