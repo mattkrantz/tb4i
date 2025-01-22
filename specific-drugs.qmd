@@ -368,15 +368,15 @@ Gadolinium is a rare earth element—that does not exist in nature in its pure f
 When imaging of the hepatobiliary tree is needed, tissue-specific GBCAs (e.g. gadoxetate disodium and gadobenate dimeglumine) are used because they are taken up by hepatocytes and later excreted into the biliary system.
 :::
 
-+-----------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
-| Class                 | Generic Name (Brand Name)                                                                       | Immediate Reactions per 10,000 Administrations |
-+:=====================:+=================================================================================================+:==============================================:+
-| Linear, nonionic      | Gadodiamide (Omniscan)                                                                          | 1.5                                            |
-+-----------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
-| Linear, ionic         | Gadopentetate (Magnevist), Gadoxetate (Eovist), Gadobenate (MultiHance), Gadofosveset (Ablavar) | 8.3                                            |
-+-----------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
-| Macrocyclic           | Gadobutrol (Gadovist), Gadoterate (Dotarem), Gadoteridol (ProHance)                             | 16                                             |
-+-----------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
++------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
+| Class            | Generic Name (Brand Name)                                                                       | Immediate Reactions per 10,000 Administrations |
++:================:+=================================================================================================+:==============================================:+
+| Linear, nonionic | Gadodiamide (Omniscan)                                                                          | 1.5                                            |
++------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
+| Linear, ionic    | Gadopentetate (Magnevist), Gadoxetate (Eovist), Gadobenate (MultiHance), Gadofosveset (Ablavar) | 8.3                                            |
++------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
+| Macrocyclic      | Gadobutrol (Gadovist), Gadoterate (Dotarem), Gadoteridol (ProHance)                             | 16                                             |
++------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
 
 ### References
 
@@ -473,9 +473,35 @@ Muñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment optio
 ### Background
 
 ::: {#local-anesthetics-1 .callout-note collapse="true" icon="false" appearance="simple"}
-#### What are the two main groups of local anesthetics?
+#### What are the two main groups of local anesthetics (LAs)?
 
-Local anesthetics are divided into two groups: ester and amide groups.
+Local anesthetics are divided into two groups: ester and amide.
+:::
+
+::: {#local-anesthetics-2 .callout-note collapse="true" icon="false" appearance="simple"}
+#### Is there cross-reactivity between amide and ester LAs?
+
+There is no cross-reactivity between amide and ester LAs.
+:::
+
+::: {#local-anesthetics-3 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is the most common adverse reaction phenotype associated with LAs?
+
+The most common adverse reaction phenotype associated with LAs are non-allergic, including sympathetic stimulation (pain which can be potentiated by epinephrine if used), systemic toxic effects, and vasovagal syncope.
+:::
+
+::: {#local-anesthetics-4 .callout-note collapse="true" icon="false" appearance="simple"}
+#### Why are amide LAs used more than ester LAs?
+
+Amide LAs are used more than ester LAs for several reasons. 1) Amide LAs have longer stability and shelf-life; 2) They are less likely to trigger allergic reactions because unlike ester LAs, they do have a para-aminobenzoic acid (PABA) metabolite which is the main trigger of allergic reactions associated with ester LAs; 3) They are metabolized in the liver whereas ester LAs are broken down by plasma cholinesterase in the blood, leading to variable metabolism and unpredictable pain reduction in individuals and higher potential for systemic toxicity; 4) They have a longer duration of action.
+:::
+
+::: {#local-anesthetics-5 .callout-note collapse="true" icon="false" appearance="simple"}
+#### What is the most commonly used LA?
+
+The most commonly used LA is lidocaine, due to its fast onset of action (2 to 5 min), intermediate duration of action (1 to 2 hours), and relatively low potential for systemic toxicity.
+
+For procedures requiring prolonged anesthesia, bupivicaine is often utilized because of its relatively fast onset (5 to 10 minutes) but much longer duration (several hours). Therefore, bupivicaine is used for epidural anesthesia, spinal anesthesia, and peripheral nerve blocks. Of note, bupivicaine has a higher risk of systemic toxicity compared to lidocaine.
 :::
 
 +-----------------------------------------+---------------------------------------+
@@ -491,6 +517,10 @@ Local anesthetics are divided into two groups: ester and amide groups.
 |                                         |                                       |
 |                                         | -   Tetracaine (Pontocaine)           |
 +-----------------------------------------+---------------------------------------+
+
+### Skin Testing
+
+LA preparations without epinephrine should be used for skin testing because the vasoconstricting properties of epineprhine may mask a positive test.
 
 ### Management
 
