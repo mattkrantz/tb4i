@@ -53,28 +53,7 @@ Ceftazadime.
 Cefaclor accounts for up to 80% of serum sickness-like reactions.
 :::
 
-|                       |           |            |             |            |            |          |             |             |          |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|                       | Cefazolin | Cephalexin | Amoxicillin | Ampicillin | Cefuroxime | Cefdinir | Cefpodoxime | Ceftriaxone | Cefepime |
-| Cefazolin (1st; IV)   | \-        |            |             |            |            |          |             |             |          |
-| Cephalexin (1st; PO)  |           | \-         |             | X          |            |          |             |             |          |
-| Amoxicillin (PO)      |           | X          | \-          |            |            |          |             |             |          |
-| Ampicillin (IV)       |           |            |             | \-         |            |          |             |             |          |
-| Cefuroxime (2nd)      |           |            |             |            | \-         |          | \*          | \*          | \*       |
-| Cefdinir (3rd; PO)    |           |            |             |            |            | \-       |             |             |          |
-| Cefpodoxime (3rd; PO) |           |            |             |            | \*         |          | \-          | X           |          |
-| Ceftriaxone (3rd; IV) |           |            |             |            | \*         |          | X           | \-          | X        |
-| Cefepime (4th)        |           |            |             |            | \*         |          |             | X           | \-       |
-
-X = have identical or very similar R1 side chains (highest risk of cross reactivity
-
-R2 = identical or very similar R2 side groups (lower risk of cross-reactivity)
-
-\\\* drugs that have less similar side chain groups but cross reactivity assumed to be possible
-
-if do not share R1/R2, rate cross reactivity \< 2%
-
-adapted from uptodate
+![Select cephalosporin cross-reactivity](images/specific-drugs/fig-cephalosporins.png){#fig-benzene fig-align="center"}
 
 #### Skin Testing
 
@@ -342,7 +321,7 @@ Today, [aromatic compounds](https://en.wikipedia.org/wiki/Aromatic_compound) and
 
 [Benzene](https://en.wikipedia.org/wiki/Benzene) has a sweet odor and is found naturally (e.g., crude oil) and produced as an intermediate for use in plastics, resins, nylons, synthetic fibers.
 
-![2D skeletal representation of benzene](images/specific-drugs/fig-benzene.png){#fig-benzene fig-align="center" width="119"}
+![2D skeletal representation of benzene](images/specific-drugs/fig-benzene.png){fig-align="center" width="119"}
 :::
 
 ::: {#antiepileptic-drugs-question-3 .callout-note collapse="true" icon="false" appearance="simple"}

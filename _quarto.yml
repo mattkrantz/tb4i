@@ -61,6 +61,8 @@ toc-depth: 4
 
 resources:
   - CNAME
+
+lightbox: true
   
 callout:
   font-size: 2em
