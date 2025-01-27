@@ -300,6 +300,12 @@ DNA sequencing improved our understanding of Pneumocystis and its different spec
 Hyper-immunoglobulin M syndromes—the X-linked recessive version caused by defects in CD40L (expressed on the surface of T cells to induce antibody isotype switching in B cells)--is associated with a notably increased risk of *Pneumocystis jirovecii* pneumonia [@davies2010].
 :::
 
+::: {#sulfa-antibiotics-question-10 .callout-note collapse="true" icon="false" appearance="simple"}
+##### Why is trimethoprim-sulfamethoxazole sometimes referred to as "co-trimoxazole?"
+
+Co-trimoxazole is the British Approved Name (BAN) for trimethoprim-sulfamethoxazole. BANs are assigned for both single-drug and combination preparations. The prefix of "co-" is used for denote combination drugs like trimethoprim and sulfamethoxazole. For example, the combination of amoxicillin and clavulanic acid has the BAN "co-amoxiclav."
+:::
+
 ### Vancomycin
 
 ## Antiepileptic Drugs
