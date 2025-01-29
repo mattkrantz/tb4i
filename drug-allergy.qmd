@@ -1,6 +1,6 @@
 # Drug Allergy {.unnumbered}
 
-# Helpful Resources:
+# Helpful Resources
 
 Delayed Drug Allergy Testing
 
@@ -19,6 +19,8 @@ Practical Guidance for the Evaluation and Management of Drug Hypersensitivity: S
 JACI In Practice Drug Allergy Resources
 
 <https://www.jaci-inpractice.org/drug-allergy-resources>
+
+![Intradermal testing](images/drug-allergy/fig-intradermal-testing.png){#fig-intradermal-testing fig-align="center" width=300}
 
 # Intradermal Skin Testing Concentrations
 
