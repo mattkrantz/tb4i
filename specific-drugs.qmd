@@ -438,15 +438,11 @@ Gadolinium is a rare earth element—that does not exist in nature in its pure f
 When imaging of the hepatobiliary tree is needed, tissue-specific GBCAs (e.g. gadoxetate disodium and gadobenate dimeglumine) are used because they are taken up by hepatocytes and later excreted into the biliary system.
 :::
 
-+------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
-| Class            | Generic Name (Brand Name)                                                                       | Immediate Reactions per 10,000 Administrations |
-+:================:+=================================================================================================+:==============================================:+
-| Linear, nonionic | Gadodiamide (Omniscan)                                                                          | 1.5                                            |
-+------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
-| Linear, ionic    | Gadopentetate (Magnevist), Gadoxetate (Eovist), Gadobenate (MultiHance), Gadofosveset (Ablavar) | 8.3                                            |
-+------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
-| Macrocyclic      | Gadobutrol (Gadovist), Gadoterate (Dotarem), Gadoteridol (ProHance)                             | 16                                             |
-+------------------+-------------------------------------------------------------------------------------------------+------------------------------------------------+
+|      Class       | Generic Name (Brand Name)                                                                       | Immediate Reactions per 10,000 Administrations |
+|:----------------:|-------------------------------------------------------------------------------------------------|:----------------------------------------------:|
+| Linear, nonionic | Gadodiamide (Omniscan)                                                                          |                      1.5                       |
+|  Linear, ionic   | Gadopentetate (Magnevist), Gadoxetate (Eovist), Gadobenate (MultiHance), Gadofosveset (Ablavar) |                      8.3                       |
+|   Macrocyclic    | Gadobutrol (Gadovist), Gadoterate (Dotarem), Gadoteridol (ProHance)                             |                       16                       |
 
 ### References
 
@@ -472,15 +468,11 @@ High-molecular weight iron dextrans were discontinued in the United States due t
 :::
 :::
 
-+-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
-| Generic name                  | Iron gluconate | Iron Sucrose | LMWID  | Ferric carboxymaltose | Iron isomaltoside | Ferumoxytol |
-+:=============================:+:==============:+:============:+:======:+:=====================:+:=================:+:===========:+
-| Brand name                    | Ferrlecit      | Venofer      | INFeD  | Injectafer            | Monofer           | FeraHeme    |
-+-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
-| Molecular weight (kD)         | 289-440        | 30-60        | 165    | 150                   | 150               | 750         |
-+-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
-| Labile iron (% injected dose) | 3.3            | 3.5          | 2      | 0.6                   | 1                 | 0.8         |
-+-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
+|         Generic name          | Iron gluconate | Iron Sucrose | LMWID | Ferric carboxymaltose | Iron isomaltoside | Ferumoxytol |
+|:-----------------------------:|:--------------:|:------------:|:-----:|:---------------------:|:-----------------:|:-----------:|
+|          Brand name           |   Ferrlecit    |   Venofer    | INFeD |      Injectafer       |      Monofer      |  FeraHeme   |
+|     Molecular weight (kD)     |    289-440     |    30-60     |  165  |          150          |        150        |     750     |
+| Labile iron (% injected dose) |      3.3       |     3.5      |   2   |          0.6          |         1         |     0.8     |
 
 : Characteristics of iron formulations available in the United States {#tbl-iv-iron}
 
@@ -632,17 +624,17 @@ For non-aspirin exacerbated respiratory disease (AERD) NSAID hypersensitivity, a
 
 ### Oral Challenge
 
-+----------------+-------------------------+--------------------------+
-| NSAID          | Step 1 Dose             | Step 2 Dose              |
-|                |                         |                          |
-|                | (60 minute observation) | (120 minute observation) |
-+:==============:+:=======================:+:========================:+
-| Aspirin        | 40.5 mg                 | 325 mg                   |
-+----------------+-------------------------+--------------------------+
-| Ibuprofen      | 50 mg                   | 500 mg                   |
-+----------------+-------------------------+--------------------------+
-| Naproxen       | 60 mg                   | 600 mg                   |
-+----------------+-------------------------+--------------------------+
++-----------+-------------------------+--------------------------+
+| NSAID     | Step 1 Dose             | Step 2 Dose              |
+|           |                         |                          |
+|           | (60 minute observation) | (120 minute observation) |
++:=========:+:=======================:+:========================:+
+| Aspirin   | 40.5 mg                 | 325 mg                   |
++-----------+-------------------------+--------------------------+
+| Ibuprofen | 50 mg                   | 500 mg                   |
++-----------+-------------------------+--------------------------+
+| Naproxen  | 60 mg                   | 600 mg                   |
++-----------+-------------------------+--------------------------+
 
 : Proposed two-step protocol for outpatient NSAID oral challenge in patients without AERD. Adapted from @li2022 {#tbl-nsaids}
 
@@ -842,28 +834,19 @@ The amount of egg protein (ovalbumin) is not sufficient (\< 1 µg) to provoke a 
 |                                                                                                                               |                       | Positive: Graded dose                                         |
 +-------------------------------------------------------------------------------------------------------------------------------+-----------------------+---------------------------------------------------------------+
 
-+---------+----------------------------------------------------------------+---------------+------------------------------------------------------------+-------------+
-| Step    | Volume (mL) of full-dose full-strength for 0.5 mL vaccine dose | Dilution      | Percent of full-dose full-strength for 0.5 mL vaccine dose | Observation |
-+=========+================================================================+===============+============================================================+=============+
-| 1       | 0.05                                                           | Full-strength | 10%                                                        | 30 minutes  |
-+---------+----------------------------------------------------------------+---------------+------------------------------------------------------------+-------------+
-| 2       | 0.45                                                           | Full-strength | 90%                                                        | 30 minutes  |
-+---------+----------------------------------------------------------------+---------------+------------------------------------------------------------+-------------+
+| Step | Volume (mL) of full-dose full-strength for 0.5 mL vaccine dose | Dilution      | Percent of full-dose full-strength for 0.5 mL vaccine dose | Observation |
+|------|----------------------------------------------------------------|---------------|------------------------------------------------------------|-------------|
+| 1    | 0.05                                                           | Full-strength | 10%                                                        | 30 minutes  |
+| 2    | 0.45                                                           | Full-strength | 90%                                                        | 30 minutes  |
 
 : Protocol for vaccine split dose administration
 
-+----------+-------------+---------------+------------------------------------+-------------+
-| Step     | Volume (mL) | Dilution      | Percent of full-dose full-strength | Observation |
-+==========+=============+===============+====================================+=============+
-| 1        | 0.05        | 1:10          | N/A                                | 15 minutes  |
-+----------+-------------+---------------+------------------------------------+-------------+
-| 2        | 0.05        | Full-strength | 10%                                | 15 minutes  |
-+----------+-------------+---------------+------------------------------------+-------------+
-| 3        | 0.1         | Full-strength | 20%                                | 15 minutes  |
-+----------+-------------+---------------+------------------------------------+-------------+
-| 4        | 0.15        | Full-strength | 30%                                | 15 minutes  |
-+----------+-------------+---------------+------------------------------------+-------------+
-| 5        | 0.2         | Full-strength | 40%                                | 15 minutes  |
-+----------+-------------+---------------+------------------------------------+-------------+
+| Step | Volume (mL) | Dilution      | Percent of full-dose full-strength | Observation |
+|------|-------------|---------------|------------------------------------|-------------|
+| 1    | 0.05        | 1:10          | N/A                                | 15 minutes  |
+| 2    | 0.05        | Full-strength | 10%                                | 15 minutes  |
+| 3    | 0.1         | Full-strength | 20%                                | 15 minutes  |
+| 4    | 0.15        | Full-strength | 30%                                | 15 minutes  |
+| 5    | 0.2         | Full-strength | 40%                                | 15 minutes  |
 
 : Protocol for vaccine graded dose administration
