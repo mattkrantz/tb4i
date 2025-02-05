@@ -306,6 +306,8 @@ Hyper-immunoglobulin M syndromes—the X-linked recessive version caused by defe
 Co-trimoxazole is the British Approved Name (BAN) for trimethoprim-sulfamethoxazole. BANs are assigned for both single-drug and combination preparations. The prefix of "co-" is used for denote combination drugs like trimethoprim and sulfamethoxazole. For example, the combination of amoxicillin and clavulanic acid has the BAN "co-amoxiclav."
 :::
 
+![Sulfonamides and sulfone structures](images/specific-drugs/fig-sulfonamides.png){#fig-sulfonamides fig-align="center"}
+
 ### Vancomycin
 
 ## Antiepileptic Drugs
