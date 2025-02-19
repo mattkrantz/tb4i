@@ -200,30 +200,32 @@ interactive_plot
 ::: {#penicillins-question-7 .callout-note collapse="true" icon="false" appearance="simple"}
 ##### What is the NPV of penicillin skin testing?
 
-The NPV of penicillin skin testing is \> 95% when performed with only PPL plus penicillin G or with PPL plus full panel of minor derterminants.
+The NPV of penicillin skin testing is \> 95% when performed with only benzylpenicilloyl polylysine plus penicillin G or with benzylpenicilloyl polylysine plus full panel of minor derterminants.
 :::
 
-+----------------------------------------+------------------------------------------------------------------------------------------------------------+
-| Reagent                                | Description                                                                                                |
-+========================================+============================================================================================================+
-| Benzylpenicilloyl polylysine (PrePen®) | -   Benzylpenicilloyl is the Major antigenic determinant (what 95% of penicillin degrades into)            |
-|                                        |                                                                                                            |
-|                                        | -   PrePen isis benzylpenicilloyl complexed with polylysine to constitute a multivalent skin test reagent. |
-|                                        |                                                                                                            |
-|                                        | -   Polylysine acts like the carrier for the benzylpenicilloyl hapten in vivo.                             |
-+----------------------------------------+------------------------------------------------------------------------------------------------------------+
-| Minor derterminant mixture (MDM)       | -   Penicillin G itself, benzylpenicilloate, benzylpenilloate                                              |
-|                                        |                                                                                                            |
-|                                        | -   Not commercially available expect in South America and Spain                                           |
-+----------------------------------------+------------------------------------------------------------------------------------------------------------+
-| Penicillin G                           | -   Also called benzylpenicillin                                                                           |
-+----------------------------------------+------------------------------------------------------------------------------------------------------------+
-| Ampicillin                             | -   Differs only from penicillin G by the presence of an amino group (-NH~2~)                              |
-+----------------------------------------+------------------------------------------------------------------------------------------------------------+
++----------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Reagent                                | Description                                                                                              |
++========================================+==========================================================================================================+
+| Benzylpenicilloyl polylysine (PrePen®) | -   Benzylpenicilloyl is the Major antigenic determinant (what 95% of penicillin degrades into)          |
+|                                        |                                                                                                          |
+|                                        | -   PrePen is benzylpenicilloyl complexed with polylysine to constitute a multivalent skin test reagent. |
+|                                        |                                                                                                          |
+|                                        | -   Polylysine acts like the carrier for the benzylpenicilloyl hapten in vivo.                           |
++----------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Minor derterminant mixture (MDM)       | -   Penicillin G itself, benzylpenicilloate, benzylpenilloate                                            |
+|                                        |                                                                                                          |
+|                                        | -   Not commercially available expect in South America and Spain                                         |
++----------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Penicillin G                           | -   Also called benzylpenicillin                                                                         |
++----------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Ampicillin                             | -   Differs only from penicillin G by the presence of an amino group (-NH~2~)                            |
++----------------------------------------+----------------------------------------------------------------------------------------------------------+
 
 ::: callout-note
 Selective IgE-mediated reactions to aminopenicillins are rare in North America (e.g. 3-5% in the United States) versus 25-50% of skin test positive patients in Europe.
 :::
+
+![Benzylpenicillin, ampicillin, and benzylpenicillin polylysine](images/specific-drugs/fig-penicillins.png){#fig-penicillins fig-align="center"}
 
 **References:**
 
