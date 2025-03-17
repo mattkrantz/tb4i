@@ -4,11 +4,15 @@
 
 You should use a [sans-serif](https://en.wikipedia.org/wiki/Sans-serif) font like Arial to maximize readability. "Serifs" are extending features at the end of letters. Times New Roman is a serif font.
 
-|        **Font**         |                             **Illustration**                             |            **Examples**            |
-|:-----------------------:|:------------------------------------------------------------------------:|:----------------------------------:|
-|     Sans-serif font     | ![](images/presenting-your-medical-research/Serif_and_sans-serif_01.png) |     Arial, Calibri, Helvetica      |
-|       Serif font        | ![](images/presenting-your-medical-research/Serif_and_sans-serif_02.png) | Times New Roman, Georgia, Garamond |
-| Serifs (colored in red) | ![](images/presenting-your-medical-research/Serif_and_sans-serif_03.png) |                 --                 |
++-------------------------+--------------------------------------------------------------------------+------------------------------------+
+| **Font**                | **Illustration**                                                         | **Examples**                       |
++:=======================:+:========================================================================:+:==================================:+
+| Sans-serif font         | ![](images/presenting-your-medical-research/Serif_and_sans-serif_01.png) | Arial, Calibri, Helvetica          |
++-------------------------+--------------------------------------------------------------------------+------------------------------------+
+| Serif font              | ![](images/presenting-your-medical-research/Serif_and_sans-serif_02.png) | Times New Roman, Georgia, Garamond |
++-------------------------+--------------------------------------------------------------------------+------------------------------------+
+| Serifs (colored in red) | ![](images/presenting-your-medical-research/Serif_and_sans-serif_03.png) | --                                 |
++-------------------------+--------------------------------------------------------------------------+------------------------------------+
 
 : Sans-serif versus serif fonts[^presenting-your-medical-research-1] {tbl-colwidths="\[15,15,15\]"}
 
@@ -16,16 +20,16 @@ You should use a [sans-serif](https://en.wikipedia.org/wiki/Sans-serif) font lik
 
 ## Font Size
 
-+----------------------------------+-----------+
-| Slide Section                    | Font Size |
-+:================================:+:=========:+
-| Title                            | 36 -- 44  |
-+----------------------------------+-----------+
-| Text\                            | 24 -- 28  |
-| (e.g., Bullets, Figures, Tables) |           |
-+----------------------------------+-----------+
-| References                       | 20 -- 24  |
-+----------------------------------+-----------+
++----------------------------------+--------------+
+| Slide Section                    | Font Size    |
++:================================:+:============:+
+| Title                            | 36 -- 44     |
++----------------------------------+--------------+
+| Text\                            | 24 -- 28     |
+| (e.g., Bullets, Figures, Tables) |              |
++----------------------------------+--------------+
+| References                       | 20 -- 24     |
++----------------------------------+--------------+
 
 ## Word Count
 
@@ -94,3 +98,7 @@ Do you want the entire audience to see your most recent emails when you login to
 I don't feel as strongly about bringing your own presentation remote as your own laptop, hub, and USB drive--but I think it is another piece of equipment to consider. This helps keep you from being tethered to and white knuckling the podium during your talk.
 
 One option to consider is the [Logitech Spotlight Presentation Remote](https://www.logitech.com/en-us/products/presenters/spotlight-presentation-remote.910-004654.html?utm_source=Google&utm_medium=Paid-Search&utm_campaign=DEPT_FY25_QX_USA_LO_Logi_DTX-Logitech-Search-Product_Google_na&gad_source=1&gbraid=0AAAAADDQ2OxlZEEEm1pbmGeQwBy2tp5qP&gclid=Cj0KCQjwkdO0BhDxARIsANkNcrdav5PZi0zNNl3VzdVBl2UsY7yWd8urzGp4BmCxaR5VFOXlgY70Tf0aAh3zEALw_wcB)--which can get 3 hours use from 1 minute of charging and connect by USB receiver or Bluetooth--in addition to slide advancement.
+
+## Template
+
+{{< revealjs file="https://mattkrantz.github.io/slide-deck-template-revealjs/slide-deck-template-revealjs.html" height="500px" class="ratio ratio-16x9" >}}

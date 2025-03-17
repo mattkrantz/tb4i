@@ -2,7 +2,8 @@
 .RDataTmp1
 .Rhistory
 .Rproj.user
-drafts/
 /.quarto/
-_book/
 .DS_Store
+_book/
+_extensions/
+drafts/
