@@ -39,7 +39,14 @@ data <- data %>% mutate(amount_per_min = rate_mL_min * conc_mg_ml)
 
 expanded_data <- data %>% group_by(protocol) %>% arrange(protocol, step) %>% mutate(start_time = lag(cumsum(time), default = 0),end_time = cumsum(time)) %>% rowwise() %>%do(data.frame(protocol = .$protocol, time = seq(.$start_time + 1, .$end_time),amount_per_min = .$amount_per_min)) %>% ungroup()
 
-ggplot(expanded_data, aes(x = time, y = amount_per_min, color = protocol, fill=protocol)) + geom_area(alpha=0.5,position="identity") + geom_line(aes(color=protocol),size=1) + scale_fill_manual(values = c("gray50", "gray80")) + scale_color_manual(values = c("gray50", "gray80")) + labs(title = "Cumulative Dose Over Time", x = "Time (minutes)", y = "Rate (mg/min)") + theme_minimal() + theme(legend.title = element_blank()) + theme_classic()
+ggplot(expanded_data, aes(x = time, y = amount_per_min, color = protocol, fill=protocol)) + geom_area(alpha=0.5,position="identity") + geom_line(aes(color=protocol),size=1) + scale_fill_manual(values = c("gray50", "gray80")) + scale_color_manual(values = c("gray50", "gray80")) + labs(x = "Time (minutes)", y = "Rate (mg/min)") + theme_minimal() + theme(legend.title = element_blank()) + theme_classic() + theme(
+        text = element_text(family = "Arial"),
+        strip.text = element_text(size=15),  
+        axis.text = element_text(color="black", size=15),  
+        axis.title = element_text(size=15),  
+        legend.position="bottom",  
+        legend.text=element_text(size=15),  
+        legend.title=element_text(size=15))  
                  
 ```
 
