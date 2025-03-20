@@ -1,5 +1,7 @@
 # Immediate Drug Allergy
 
+For an overview of immediate drug allergy testing, I recommend getting started by watching [Immediate Drug Allergy Hypersensitivity Testing](https://www.youtube.com/watch?v=R9yWxDY3YCA).
+
 ## Skin Testing
 
 Concentrations typically employed for drug skin testing are 1:10, 1:100, and full strength.
@@ -7,3 +9,36 @@ Concentrations typically employed for drug skin testing are 1:10, 1:100, and ful
 ### Skin Prick Testing
 
 ### Intradermal Testing
+
+#### Concentrations
+
+```{r, echo=FALSE, message=FALSE}
+library(DT)
+library(here)
+library(readxl)
+intradermal_skin_testing_concentrations <- read_excel(here("intradermal-skin-testing-concentrations.xlsx"))
+datatable(intradermal_skin_testing_concentrations, filter = "top")
+```
+
+## Rapid Desensitization
+
+![Rapid Desensitization](images/drug-allergy/fig-desensitization-three-bag.png){#fig-rapid-desensitization fig-align="center"}
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(here)
+
+data <- read.csv(here("data", "drug-allergy", "1-vs-3-bag-protocol.csv"))
+
+data <- data %>% mutate(rate_mL_min = rate_ml_h / 60)
+
+data <- data %>% mutate(amount_per_min = rate_mL_min * conc_mg_ml)
+
+expanded_data <- data %>% group_by(protocol) %>% arrange(protocol, step) %>% mutate(start_time = lag(cumsum(time), default = 0),end_time = cumsum(time)) %>% rowwise() %>%do(data.frame(protocol = .$protocol, time = seq(.$start_time + 1, .$end_time),amount_per_min = .$amount_per_min)) %>% ungroup()
+
+ggplot(expanded_data, aes(x = time, y = amount_per_min, color = protocol, fill=protocol)) + geom_area(alpha=0.5,position="identity") + geom_line(aes(color=protocol),size=1) + scale_fill_manual(values = c("gray50", "gray80")) + scale_color_manual(values = c("gray50", "gray80")) + labs(title = "Cumulative Dose Over Time", x = "Time (minutes)", y = "Rate (mg/min)") + theme_minimal() + theme(legend.title = element_blank()) + theme_classic()
+                 
+```
+
+Figure Generated from protocol comparison from [@lee2020]

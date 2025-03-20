@@ -479,15 +479,15 @@ High-molecular weight iron dextrans were discontinued in the United States due t
 :::
 :::
 
-+-------------------------------+----------------+--------------+---------+-----------------------+-------------------+-------------+
-| Generic name                  | Iron gluconate | Iron Sucrose | LMWID   | Ferric carboxymaltose | Iron isomaltoside | Ferumoxytol |
-+:=============================:+:==============:+:============:+:=======:+:=====================:+:=================:+:===========:+
-| Brand name                    | Ferrlecit      | Venofer      | INFeD   | Injectafer            | Monofer           | FeraHeme    |
-+-------------------------------+----------------+--------------+---------+-----------------------+-------------------+-------------+
-| Molecular weight (kD)         | 289-440        | 30-60        | 165     | 150                   | 150               | 750         |
-+-------------------------------+----------------+--------------+---------+-----------------------+-------------------+-------------+
-| Labile iron (% injected dose) | 3.3            | 3.5          | 2       | 0.6                   | 1                 | 0.8         |
-+-------------------------------+----------------+--------------+---------+-----------------------+-------------------+-------------+
++-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
+| Generic name                  | Iron gluconate | Iron Sucrose | LMWID  | Ferric carboxymaltose | Iron isomaltoside | Ferumoxytol |
++:=============================:+:==============:+:============:+:======:+:=====================:+:=================:+:===========:+
+| Brand name                    | Ferrlecit      | Venofer      | INFeD  | Injectafer            | Monofer           | FeraHeme    |
++-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
+| Molecular weight (kD)         | 289-440        | 30-60        | 165    | 150                   | 150               | 750         |
++-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
+| Labile iron (% injected dose) | 3.3            | 3.5          | 2      | 0.6                   | 1                 | 0.8         |
++-------------------------------+----------------+--------------+--------+-----------------------+-------------------+-------------+
 
 : Characteristics of iron formulations available in the United States {#tbl-iv-iron}
 
@@ -544,6 +544,42 @@ For patients with a history of anaphylactic reactions to IV iron, desensitizatio
 Gómez-Ramírez S, Shander A, Spahn DR, et al. Prevention and management of acute reactions to intravenous iron in surgical patients. *Blood Transfusion*. Published online April 10, 2019. doi:[10.2450/2018.0156-18](https://doi.org/10.2450/2018.0156-18)
 
 Muñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment options for iron-deficiency anemia. Expert Opin Drug Saf 2018; 17: 149-59.
+
+## Latex
+
+### Background
+
+NRL = natural rubber latex
+> 40,000 products with NRL
+
+Hard rubber latex (heat vulcanized at high temp)
+Less latex antigen (most allergen denatured at high heat)
+Medical
+Consumer 
+Gloves, balloons, condoms
+
+Soft rubber latex (dipping process low heat vulcanization; 10-12% latex products made this way)
+More latex antigen (less allergen denatured at low heat)
+Bungs, stoppers
+Medical
+Consumer
+rubber car tires
+
+#### Skin Testing
+
+Standardized latex for skin testing is not available in the US.
+
+~ 95% Sensitivity (false negative can occur with non-standardized extracts), 100% specificity
+
+#### Specific IgE Testing
+
+~70-80% sensitivity, 95% specificity
+
+#### Management
+
+In US, medical devices are required to be labelled with warning if contain NRL.
+
+Latex avoidance if subsequent serologic testing negative; however, negative latex IgE susggestive that inadvertant exposure risk is minimal.
 
 ## Local Anesthetics
 
@@ -639,17 +675,17 @@ For non-aspirin exacerbated respiratory disease (AERD) NSAID hypersensitivity, a
 
 ### Oral Challenge
 
-+--------------+-------------------------+--------------------------+
-| NSAID        | Step 1 Dose             | Step 2 Dose              |
-|              |                         |                          |
-|              | (60 minute observation) | (120 minute observation) |
-+:============:+:=======================:+:========================:+
-| Aspirin      | 40.5 mg                 | 325 mg                   |
-+--------------+-------------------------+--------------------------+
-| Ibuprofen    | 50 mg                   | 500 mg                   |
-+--------------+-------------------------+--------------------------+
-| Naproxen     | 60 mg                   | 600 mg                   |
-+--------------+-------------------------+--------------------------+
++---------------+-------------------------+--------------------------+
+| NSAID         | Step 1 Dose             | Step 2 Dose              |
+|               |                         |                          |
+|               | (60 minute observation) | (120 minute observation) |
++:=============:+:=======================:+:========================:+
+| Aspirin       | 40.5 mg                 | 325 mg                   |
++---------------+-------------------------+--------------------------+
+| Ibuprofen     | 50 mg                   | 500 mg                   |
++---------------+-------------------------+--------------------------+
+| Naproxen      | 60 mg                   | 600 mg                   |
++---------------+-------------------------+--------------------------+
 
 : Proposed two-step protocol for outpatient NSAID oral challenge in patients without AERD. Adapted from @li2022 {#tbl-nsaids}
 

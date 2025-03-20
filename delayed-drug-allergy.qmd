@@ -44,6 +44,8 @@ These underlying chronic dermatoses can be exacerbated by drugs but not primaril
 
 ## Skin Testing
 
+For an overview of delayed drug allergy testing, I recommend getting started by watching [Delayed Drug Allergy Hypersensitivity Testing](https://www.youtube.com/watch?v=-KmMF_X5g4g).
+
 +-------------------------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------+
 | Reaction                                                                | Patch Testing                                      | Intradermal Testing                                       |
 +=========================================================================+====================================================+===========================================================+
