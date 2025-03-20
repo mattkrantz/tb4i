@@ -7,5 +7,3 @@
 -   [Practical Guidance for the Evaluation and Management of Drug Hypersensitivity: Specific Drugs](https://www.jaci-inpractice.org/article/S2213-2198(20)30816-3/fulltext)
 
 -   [JACI In Practice Drug Allergy Resources](https://www.jaci-inpractice.org/drug-allergy-resources)
-
-![Intradermal testing](images/drug-allergy/fig-intradermal-testing.png){#fig-intradermal-testing fig-align="center" width="300"}
