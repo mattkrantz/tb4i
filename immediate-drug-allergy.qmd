@@ -10,7 +10,7 @@ Concentrations typically employed for drug skin testing are 1:10, 1:100, and ful
 
 ### Intradermal Testing
 
-![Intradermal testing](images/drug-allergy/fig-intradermal-testing.png){#fig-intradermal-testing fig-align="center" width="400px"}
+![Intradermal testing](images/drug-allergy/fig-intradermal-testing.png){#fig-intradermal-testing fig-align="center" width="500px"}
 
 #### Concentrations
 
