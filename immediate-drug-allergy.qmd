@@ -8,6 +8,9 @@ Concentrations typically employed for drug skin testing are 1:10, 1:100, and ful
 
 ### Skin Prick Testing
 
+
+![Skin prick testing](images/drug-allergy/fig-skin-prick-testing.png){#fig-skin-prick-testing fig-align="center" width="500px"}
+
 ### Intradermal Testing
 
 ![Intradermal testing](images/drug-allergy/fig-intradermal-testing.png){#fig-intradermal-testing fig-align="center" width="500px"}
