@@ -54,3 +54,33 @@ ggplot(expanded_data, aes(x = time, y = amount_per_min, color = protocol, fill=p
 ```
 
 Figure Generated from protocol comparison from [@lee2020]
+
+## Tryptase
+
+![Tryptase Gene](images/drug-allergy/fig-tryptase-1.png){#fig-tryptase-1 fig-align="center" width="500px"}
+
+![Tryptase Secretion](images/drug-allergy/fig-tryptase-2.png){#fig-tryptase-2 fig-align="center"}
+
+![Tryptase and Histamine](images/drug-allergy/fig-tryptase-3.png){#fig-tryptase-3 fig-align="center"}
+Tryptase is a natural serine protease
+
+Elevated basal tryptase >= 11.5 ng/mL
+Can get basal tryptase at 24 hrs after anaphylaxis event
+
+Anaphylaxis >= 20% increase from basal tryptase + 2 ng/mL
+
+TPSAB1
+increased: HaT, SM
+CNV (alpha tryptase)
+alpha or beta tryptase constitutively released (measure of MC burden)
+
+TPSB2
+Beta
+preformed granule release during anaphylaxis/severe MC activation
+
+Total Tryptase = a + B
+by ImmunoCAP (R)
+In vitro assay
+half-life ~90 minutes
+peak at 1 hr
+stored primarily in MC
