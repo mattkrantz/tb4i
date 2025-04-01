@@ -240,6 +240,8 @@ The National Center for Faculty Development and Diversity ([NCFDD](https://www.n
 
 ## Peer Review
 
+[Peer Review Template](https://github.com/mattkrantz/tb4i/blob/main/templates/peer-review-template.docx)
+
 ## Suggested Readings
 
 ### Not Discussed
