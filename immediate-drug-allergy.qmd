@@ -1,3 +1,7 @@
+---
+format: html
+---
+
 # Immediate Drug Allergy
 
 For an overview of immediate drug allergy testing, I recommend getting started by watching [Immediate Drug Allergy Hypersensitivity Testing](https://www.youtube.com/watch?v=R9yWxDY3YCA).
@@ -8,14 +12,17 @@ Concentrations typically employed for drug skin testing are 1:10, 1:100, and ful
 
 ### Skin Prick Testing
 
-
 ![Skin prick testing](images/drug-allergy/fig-skin-prick-testing.png){#fig-skin-prick-testing fig-align="center" width="500px"}
 
 ### Intradermal Testing
 
 ![Intradermal testing](images/drug-allergy/fig-intradermal-testing.png){#fig-intradermal-testing fig-align="center" width="500px"}
 
-#### Concentrations
+### Positive Skin Test
+
+![Positive skin test](images/drug-allergy/fig-positive-skin-testing-criteria.png){#fig-positive-skin-testing-criteria fig-align="center" width="500px"}
+
+### Concentrations
 
 ```{r, echo=FALSE, message=FALSE}
 library(DT)
@@ -25,11 +32,16 @@ intradermal_skin_testing_concentrations <- read_excel(here("intradermal-skin-tes
 datatable(intradermal_skin_testing_concentrations, filter = "top")
 ```
 
+## Oral Challenge
+
 ## Rapid Desensitization
 
 ![Rapid Desensitization](images/drug-allergy/fig-desensitization-three-bag.png){#fig-rapid-desensitization fig-align="center"}
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
+#| label: fig-charts
+#| fig-cap: "Rate (mg/min) by time for 1-bag vs 3-bag rapid desensitization protocols"
+
 library(ggplot2)
 library(dplyr)
 library(here)
@@ -49,38 +61,28 @@ ggplot(expanded_data, aes(x = time, y = amount_per_min, color = protocol, fill=p
         axis.title = element_text(size=15),  
         legend.position="bottom",  
         legend.text=element_text(size=15),  
-        legend.title=element_text(size=15))  
+        legend.title=element_text(size=15))
                  
 ```
 
 Figure Generated from protocol comparison from [@lee2020]
 
-## Tryptase
+## Biomarkers
+
+### Tryptase
 
 ![Tryptase Gene](images/drug-allergy/fig-tryptase-1.png){#fig-tryptase-1 fig-align="center" width="500px"}
 
 ![Tryptase Secretion](images/drug-allergy/fig-tryptase-2.png){#fig-tryptase-2 fig-align="center"}
 
-![Tryptase and Histamine](images/drug-allergy/fig-tryptase-3.png){#fig-tryptase-3 fig-align="center"}
-Tryptase is a natural serine protease
+![Tryptase and Histamine](images/drug-allergy/fig-tryptase-3.png){#fig-tryptase-3 fig-align="center"} Tryptase is a natural serine protease
 
-Elevated basal tryptase >= 11.5 ng/mL
-Can get basal tryptase at 24 hrs after anaphylaxis event
+Elevated basal tryptase \>= 11.5 ng/mL Can get basal tryptase at 24 hrs after anaphylaxis event
 
-Anaphylaxis >= 20% increase from basal tryptase + 2 ng/mL
+Anaphylaxis \>= 20% increase from basal tryptase + 2 ng/mL
 
-TPSAB1
-increased: HaT, SM
-CNV (alpha tryptase)
-alpha or beta tryptase constitutively released (measure of MC burden)
+TPSAB1 increased: HaT, SM CNV (alpha tryptase) alpha or beta tryptase constitutively released (measure of MC burden)
 
-TPSB2
-Beta
-preformed granule release during anaphylaxis/severe MC activation
+TPSB2 Beta preformed granule release during anaphylaxis/severe MC activation
 
-Total Tryptase = a + B
-by ImmunoCAP (R)
-In vitro assay
-half-life ~90 minutes
-peak at 1 hr
-stored primarily in MC
+Total Tryptase = a + B by ImmunoCAP (R) In vitro assay half-life \~90 minutes peak at 1 hr stored primarily in MC
