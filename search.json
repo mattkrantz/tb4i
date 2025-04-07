@@ -243,7 +243,18 @@
     "href": "immediate-drug-allergy.html#skin-testing",
     "title": "6  Immediate Drug Allergy",
     "section": "",
-    "text": "Skin Prick Testing\n\n\n\n\n\n\nFigure 6.1: Skin prick testing\n\n\n\n\n\nIntradermal Testing\n\n\n\n\n\n\nFigure 6.2: Intradermal testing\n\n\n\n\nConcentrations",
+    "text": "Skin Prick Testing\n\n\n\n\n\n\nFigure 6.1: Skin prick testing\n\n\n\n\n\nIntradermal Testing\n\n\n\n\n\n\nFigure 6.2: Intradermal testing\n\n\n\n\n\nPositive Skin Test\n\n\n\n\n\n\nFigure 6.3: Positive skin test\n\n\n\n\n\nConcentrations",
+    "crumbs": [
+      "Drug Allergy",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Immediate Drug Allergy</span>"
+    ]
+  },
+  {
+    "objectID": "immediate-drug-allergy.html#oral-challenge",
+    "href": "immediate-drug-allergy.html#oral-challenge",
+    "title": "6  Immediate Drug Allergy",
+    "section": "Oral Challenge",
+    "text": "Oral Challenge",
     "crumbs": [
       "Drug Allergy",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Immediate Drug Allergy</span>"
@@ -254,18 +265,18 @@
     "href": "immediate-drug-allergy.html#rapid-desensitization",
     "title": "6  Immediate Drug Allergy",
     "section": "Rapid Desensitization",
-    "text": "Rapid Desensitization\n\n\n\n\n\n\nFigure 6.3: Rapid Desensitization\n\n\n\n\n\n\n\n\n\n\n\n\nFigure Generated from protocol comparison from (Lee et al. 2020)",
+    "text": "Rapid Desensitization\n\n\n\n\n\n\nFigure 6.4: Rapid Desensitization\n\n\n\n\n\n\n\n\n\n\n\nFigure 6.5: Rate (mg/min) by time for 1-bag vs 3-bag rapid desensitization protocols\n\n\n\n\n\nFigure Generated from protocol comparison from (Lee et al. 2020)",
     "crumbs": [
       "Drug Allergy",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Immediate Drug Allergy</span>"
     ]
   },
   {
-    "objectID": "immediate-drug-allergy.html#tryptase",
-    "href": "immediate-drug-allergy.html#tryptase",
+    "objectID": "immediate-drug-allergy.html#biomarkers",
+    "href": "immediate-drug-allergy.html#biomarkers",
     "title": "6  Immediate Drug Allergy",
-    "section": "Tryptase",
-    "text": "Tryptase\n\n\n\n\n\n\nFigure 6.4: Tryptase Gene\n\n\n\n\n\n\n\n\n\nFigure 6.5: Tryptase Secretion\n\n\n\n Tryptase is a natural serine protease\nElevated basal tryptase &gt;= 11.5 ng/mL Can get basal tryptase at 24 hrs after anaphylaxis event\nAnaphylaxis &gt;= 20% increase from basal tryptase + 2 ng/mL\nTPSAB1 increased: HaT, SM CNV (alpha tryptase) alpha or beta tryptase constitutively released (measure of MC burden)\nTPSB2 Beta preformed granule release during anaphylaxis/severe MC activation\nTotal Tryptase = a + B by ImmunoCAP (R) In vitro assay half-life ~90 minutes peak at 1 hr stored primarily in MC\n\n\n\nFigure 6.1: Skin prick testing\nFigure 6.2: Intradermal testing\nFigure 6.3: Rapid Desensitization\nFigure 6.4: Tryptase Gene\nFigure 6.5: Tryptase Secretion\n\n\n\nLee, Jae-Ha, Mira Moon, Young-Chan Kim, Soo Jie Chung, Jihyun Oh, Dong-Yoon Kang, Suh-Young Lee, Kyung-Hun Lee, James Yun, and Hye-Ryun Kang. 2020. “A One-Bag Rapid Desensitization Protocol for Paclitaxel Hypersensitivity: A Noninferior Alternative to a Multi-Bag Rapid Desensitization Protocol.” The Journal of Allergy and Clinical Immunology: In Practice 8 (2): 696–703. https://doi.org/10.1016/j.jaip.2019.10.014.",
+    "section": "Biomarkers",
+    "text": "Biomarkers\n\nTryptase\n\n\n\n\n\n\nFigure 6.6: Tryptase Gene\n\n\n\n\n\n\n\n\n\nFigure 6.7: Tryptase Secretion\n\n\n\n Tryptase is a natural serine protease\nElevated basal tryptase &gt;= 11.5 ng/mL Can get basal tryptase at 24 hrs after anaphylaxis event\nAnaphylaxis &gt;= 20% increase from basal tryptase + 2 ng/mL\nTPSAB1 increased: HaT, SM CNV (alpha tryptase) alpha or beta tryptase constitutively released (measure of MC burden)\nTPSB2 Beta preformed granule release during anaphylaxis/severe MC activation\nTotal Tryptase = a + B by ImmunoCAP (R) In vitro assay half-life ~90 minutes peak at 1 hr stored primarily in MC\n\n\n\nFigure 6.1: Skin prick testing\nFigure 6.2: Intradermal testing\nFigure 6.3: Positive skin test\nFigure 6.4: Rapid Desensitization\nFigure 6.5: Rate (mg/min) by time for 1-bag vs 3-bag rapid desensitization protocols\nFigure 6.6: Tryptase Gene\nFigure 6.7: Tryptase Secretion\n\n\n\nLee, Jae-Ha, Mira Moon, Young-Chan Kim, Soo Jie Chung, Jihyun Oh, Dong-Yoon Kang, Suh-Young Lee, Kyung-Hun Lee, James Yun, and Hye-Ryun Kang. 2020. “A One-Bag Rapid Desensitization Protocol for Paclitaxel Hypersensitivity: A Noninferior Alternative to a Multi-Bag Rapid Desensitization Protocol.” The Journal of Allergy and Clinical Immunology: In Practice 8 (2): 696–703. https://doi.org/10.1016/j.jaip.2019.10.014.",
     "crumbs": [
       "Drug Allergy",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Immediate Drug Allergy</span>"
@@ -812,7 +823,17 @@
     "href": "on-being-a-physician-scientist.html#suggested-readings",
     "title": "On Being a Physician-Scientist",
     "section": "Suggested Readings",
-    "text": "Suggested Readings\n\nNot Discussed\nNot Discussed by Michael Stein\n\n\nPublishing Your Medical Research\nPublishing Your Medical Research by Daniel W. Byrne\nDeep Work by Cal Newport\n\n\n\n\nBoice, R. 1989. “Procrastination, busyness and bingeing.” Behaviour Research and Therapy 27 (6): 605–11. https://doi.org/10.1016/0005-7967(89)90144-7.",
+    "text": "Suggested Readings\n\nNot Discussed\nNot Discussed by Michael Stein\n\n\nPublishing Your Medical Research\nPublishing Your Medical Research by Daniel W. Byrne\nDeep Work by Cal Newport",
+    "crumbs": [
+      "On Being a Physician-Scientist"
+    ]
+  },
+  {
+    "objectID": "on-being-a-physician-scientist.html#motivating-quotes",
+    "href": "on-being-a-physician-scientist.html#motivating-quotes",
+    "title": "On Being a Physician-Scientist",
+    "section": "Motivating Quotes",
+    "text": "Motivating Quotes\nBeauty is in the edit (Prof G)\nIf it’s your job to eat a frog, it’s best to do it first thing in the morning. And If it’s your job to eat two frogs, it’s best to eat the biggest one first. - Twain\nDRY WIT\nAction absorbs anxiety\nImprov Edit when the scene needs to be edited, then figure out what to do\nSeparate the creativity from the execution (BJ Novak) Right down funny ideas when you think of them so that you can come back to later during the execution\nPut your self in situations where luck can happen\n\n\n\n\nBoice, R. 1989. “Procrastination, busyness and bingeing.” Behaviour Research and Therapy 27 (6): 605–11. https://doi.org/10.1016/0005-7967(89)90144-7.",
     "crumbs": [
       "On Being a Physician-Scientist"
     ]
