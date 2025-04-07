@@ -230,6 +230,10 @@ plt2 = Plot.plot({
 
 [Edge for Scholars](https://edgeforscholars.org)
 
+### Nature Masterclasses
+
+[Nature Masterclasses](https://masterclasses.nature.com/)
+
 ### National Center for Faculty Development and Diversity
 
 The National Center for Faculty Development and Diversity ([NCFDD](https://www.ncfdd.org)) provides practical resources for academic researchers. I recommend signing up for their Monday Motivator Newsletter and watching their Core Curriculum videos.
@@ -240,15 +244,111 @@ The National Center for Faculty Development and Diversity ([NCFDD](https://www.n
 
 ## Peer Review
 
++-------------------------+-------------------------------------------------------------------------+
+| Type                    | Description                                                             |
++=========================+=========================================================================+
+| Single Blind            | -   Peer reviewers not known to authors but peer reviewers see authors  |
+|                         |                                                                         |
+|                         | -   Peer review reports not published                                   |
++-------------------------+-------------------------------------------------------------------------+
+| Double Blind            | -   Both authors and peer reviewers are not identified                  |
++-------------------------+-------------------------------------------------------------------------+
+| Open (i.e. Transparent) | -   The peer review reports and identities are published with the paper |
++-------------------------+-------------------------------------------------------------------------+
+
+Peer review is not quick or easy. It takes hours over a period of time to do well.
+
+Goal: Give constructive feedback to peer researchers in a professional tone that includes both the strengths and weakness of their work.
+
+Benchmark to Shoot for: Review 3 papers for every paper you submit or review \~1 paper per month
+
+Reasons to Peer Review:
+
+Service to scientific community
+
+Teach trainees by co-reviewing with
+
+Build researcher profile and CV (ORCID, Web of Science) to record/get credit for peer review activity
+
+Steps for Peer Review
+
+Before Accepting Peer Review
+
+Am I qualified?
+
+Do I have any conflicts?
+
+Do I have time?
+
+Doing the Peer Review
+
+Before Starting the Peer Review
+
+Is their a submission form with questions? Is this a narrative or structured review
+
+Step 1: Initial Read through Paper
+
+-   Read through the whole manuscript to get an overall impression of the study. Maybe jot down a few notes but not much.
+
+-   Questions to think about:
+
+    -   What is the research question?
+
+    -   Is the question answered?
+
+    -   Does the data support the claims?
+
+    -   Novelty? Appropriate for the journal/would readers be interested in the study?
+
+    -   Study design appropriate?
+
+    -   Any fundamental flaws?
+
+    -   Strong methodological rigor?
+
+Step 2: Put paper aside for a couple of days
+
+Step 3: Detailed read through and content analysis (major comments)
+
+-   Make notes in a separate document and note the line \#
+
+Step 4: Readability analysis (minor comments)
+
+-   Make notes in a separate document and note the line \#
+
+-   Logical flow/structure
+
+-   This is not about spelling and grammar. Don't worry about this unless it causes major issues with readability. The paper will be copy edited if accepted for publicatin.
+
+Step 5: Write the summary statement of paper and thoughts on suitable for publication.
+
+-   Does not need to be long
+
+-   Helps the authors know you too the time to understand their study and the editors know what you think about it.
+
+-   1st part of the report
+
+Structure of Peer Review Report
+
 [Peer Review Template](https://github.com/mattkrantz/tb4i/blob/main/templates/peer-review-template.docx)
+
+Summary statement
+
+Major comments
+
+Minor comments
+
+Comments to Editor Box
+
+-   Potential COI
+
+-   Acknowledge any trainees that co-reviewed with
 
 ## Suggested Readings
 
 ### Not Discussed
 
-[Not Discussed](https://www.amazon.com/Not-Discussed-unspoken-academic-research/dp/172162502X) by Michael Stein
-
-### Publishing Your Medical Research
+[Not Discussed](https://www.amazon.com/Not-Discussed-unspoken-academic-research/dp/172162502X) by Michael SteinPublishing Your Medical Research
 
 [Publishing Your Medical Research](https://www.amazon.com/Publishing-Medical-Research-Daniel-Byrne/dp/1496353862/ref=sr_1_1?crid=3F5BP25U9CE6I&dib=eyJ2IjoiMSJ9.REkf1mtiHjg8wQYHq-l_uM1mEnpISI9prYug5IUDsYjJEeqL4_dS21DlCngkbglNM0Ta-DYibacy7sXoOtMobP3CMl_U-YcxcRLmnwC29OoQ5S83qHoUDJxOKCVlITpks080TU8upjIyC6K0Qh-BzLc4XKdRjrM8nzpXqPJGZhHv4pHqsmprjFjvtHQtJvQH40uSWxRjZ2sk8jOdJmxmONRkqBWyTO1P2-yi_fa83zc.MXpIhKTk-4zMTbBXRuntFhP6guiUi5Mcmd5Vpmsk7PE&dib_tag=se&keywords=publishing+your+medical+research&qid=1721136315&s=books&sprefix=publishing+your+medical+research%2Cstripbooks%2C92&sr=1-1) by Daniel W. Byrne
 
@@ -264,11 +364,8 @@ DRY WIT
 
 Action absorbs anxiety
 
-Improv
-Edit when the scene needs to be edited, then figure out what to do
+Improv Edit when the scene needs to be edited, then figure out what to do
 
-Separate the creativity from the execution (BJ Novak)
-Right down funny ideas when you think of them so that you can come back to later during the execution 
+Separate the creativity from the execution (BJ Novak) Right down funny ideas when you think of them so that you can come back to later during the execution
 
 Put your self in situations where luck can happen
-
