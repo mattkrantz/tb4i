@@ -71,8 +71,11 @@ Figure Generated from protocol comparison from [@lee2020]
 
 ![Tryptase Secretion](images/drug-allergy/fig-tryptase-2.png){#fig-tryptase-2 fig-align="center"}
 
-![Tryptase and Histamine](images/drug-allergy/fig-tryptase-3.png){#fig-tryptase-3 fig-align="center"}
-![Reaction and Baseline Tryptase](images/drug-allergy/fig-tryptase-4.png){#fig-tryptase-4 fig-align="center" width="400px"}
+![Tryptase Secretion](images/drug-allergy/fig-tryptase-3.png){#fig-tryptase-3 fig-align="center"}
+
+![Acute and Baseline Tryptase](images/drug-allergy/fig-tryptase-4.png){#fig-tryptase-4 fig-align="center" width="400px"}
+
+
 
 Tryptase is a natural serine protease
 
