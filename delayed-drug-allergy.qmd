@@ -108,6 +108,8 @@ No delayed skin testing method has 100% negative predictive value.
 
 ![Patch testing](images/drug-allergy/fig-patch-testing.png){#fig-patch-testing fig-align="center" width="400px"}
 
+![Patch testing placement for fixed drug eruption](images/drug-allergy/fig-patch-testing-fixed-drug-eruption.png){#fig-patch-testing fig-align="center" width="400px"}
+
 +--------------------------------+-----------------------------------------------------------------------------------------------------------------+
 | Characteristic                 | Details                                                                                                         |
 +================================+=================================================================================================================+
