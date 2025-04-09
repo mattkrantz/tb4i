@@ -61,6 +61,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -600,6 +603,16 @@ Table&nbsp;7.3: Characteristics of intradermal testing
 </section>
 <section id="patch-testing" class="level3">
 <h3 class="anchored" data-anchor-id="patch-testing">Patch Testing</h3>
+<div id="fig-patch-testing" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-patch-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/drug-allergy/fig-patch-testing.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="images/drug-allergy/fig-patch-testing.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-patch-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.1: Patch testing
+</figcaption>
+</figure>
+</div>
 <div id="tbl-patch-testing" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-patch-testing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -669,6 +682,9 @@ Table&nbsp;7.4: Characteristics of patch testing
 <h2 class="anchored" data-anchor-id="enzyme-linked-immunospot-testing">Enzyme-linked Immunospot Testing</h2>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;7.1: Patch testing</span>
+</div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-kroshinsky2024" class="csl-entry" role="listitem">
 Kroshinsky, Daniela, Adela Rambi G. Cardones, and Kimberly G. Blumenthal. 2024. <span>“Drug Reaction with Eosinophilia and Systemic Symptoms.”</span> Edited by Julie R. Ingelfinger and Clement D. Lee. <em>New England Journal of Medicine</em> 391 (23): 2242–54. <a href="https://doi.org/10.1056/NEJMra2204547">https://doi.org/10.1056/NEJMra2204547</a>.
@@ -1112,6 +1128,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
