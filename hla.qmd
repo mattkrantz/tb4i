@@ -13,3 +13,5 @@ HLA class I molecules are expressed by healthy nucleated cells.
 HLA class II molecules are expressed by professional antigen-presenting cells (APC)--dendritic cells, macrophages, and B cells.
 
 ## HLA Nomenclature
+
+![HLA naming](images/fig-hla-naming.png){fig-align="center" width="500px"}
