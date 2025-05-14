@@ -203,29 +203,29 @@ interactive_plot
 The NPV of penicillin skin testing is \> 95% when performed with only benzylpenicilloyl polylysine plus penicillin G or with benzylpenicilloyl polylysine plus full panel of minor derterminants.
 :::
 
-+----------------------------------------+----------------------------------------------------------------------------------------------------------+
-| Reagent                                | Description                                                                                              |
-+========================================+==========================================================================================================+
-| Benzylpenicilloyl polylysine (PrePen®) | -   Benzylpenicilloyl is the Major antigenic determinant (what 95% of penicillin degrades into)          |
-|                                        |                                                                                                          |
-|                                        | -   PrePen is benzylpenicilloyl complexed with polylysine to constitute a multivalent skin test reagent. |
-|                                        |                                                                                                          |
-|                                        | -   Polylysine acts like the carrier for the benzylpenicilloyl hapten in vivo.                           |
-+----------------------------------------+----------------------------------------------------------------------------------------------------------+
-| Minor derterminant mixture (MDM)       | -   Penicillin G itself, benzylpenicilloate, benzylpenilloate                                            |
-|                                        |                                                                                                          |
-|                                        | -   Not commercially available expect in South America and Spain                                         |
-+----------------------------------------+----------------------------------------------------------------------------------------------------------+
-| Penicillin G                           | -   Also called benzylpenicillin                                                                         |
-+----------------------------------------+----------------------------------------------------------------------------------------------------------+
-| Ampicillin                             | -   Differs only from penicillin G by the presence of an amino group (-NH~2~)                            |
-+----------------------------------------+----------------------------------------------------------------------------------------------------------+
++----------------------------------+----------------------------------------------------------------------------------------------------+
+| Reagent                          | Description                                                                                        |
++==================================+====================================================================================================+
+| Penicilloyl polylysine (PrePen®) | -   Penicilloyl is the Major antigenic determinant (what 95% of penicillin degrades into)          |
+|                                  |                                                                                                    |
+|                                  | -   PrePen is penicilloyl complexed with polylysine to constitute a multivalent skin test reagent. |
+|                                  |                                                                                                    |
+|                                  | -   Polylysine acts like the carrier for the penicilloyl hapten in vivo.                           |
++----------------------------------+----------------------------------------------------------------------------------------------------+
+| Minor derterminant mixture (MDM) | -   Penicillin G itself, penicilloate, and penilloate                                              |
+|                                  |                                                                                                    |
+|                                  | -   Not commercially available expect in South America and Spain                                   |
++----------------------------------+----------------------------------------------------------------------------------------------------+
+| Penicillin G                     | -   Also called benzylpenicillin                                                                   |
++----------------------------------+----------------------------------------------------------------------------------------------------+
+| Ampicillin                       | -   Differs only from penicillin G by the presence of an amino group (-NH~2~)                      |
++----------------------------------+----------------------------------------------------------------------------------------------------+
 
 ::: callout-note
 Selective IgE-mediated reactions to aminopenicillins are rare in North America (e.g. 3-5% in the United States) versus 25-50% of skin test positive patients in Europe.
 :::
 
-![Benzylpenicillin, ampicillin, and benzylpenicillin polylysine](images/specific-drugs/fig-penicillins.png){#fig-penicillins fig-align="center"}
+![Penicillin, ampicillin, and penicilloyl polylysine](images/specific-drugs/fig-penicillins.png){#fig-penicillins fig-align="center"}
 
 **References:**
 
@@ -549,31 +549,21 @@ Muñoz M, Gómez-Ramírez S, Bhandari S. The safety of available treatment optio
 
 ### Background
 
-NRL = natural rubber latex
-> 40,000 products with NRL
+NRL = natural rubber latex \> 40,000 products with NRL
 
-Hard rubber latex (heat vulcanized at high temp)
-Less latex antigen (most allergen denatured at high heat)
-Medical
-Consumer 
-Gloves, balloons, condoms
+Hard rubber latex (heat vulcanized at high temp) Less latex antigen (most allergen denatured at high heat) Medical Consumer Gloves, balloons, condoms
 
-Soft rubber latex (dipping process low heat vulcanization; 10-12% latex products made this way)
-More latex antigen (less allergen denatured at low heat)
-Bungs, stoppers
-Medical
-Consumer
-rubber car tires
+Soft rubber latex (dipping process low heat vulcanization; 10-12% latex products made this way) More latex antigen (less allergen denatured at low heat) Bungs, stoppers Medical Consumer rubber car tires
 
 #### Skin Testing
 
 Standardized latex for skin testing is not available in the US.
 
-~ 95% Sensitivity (false negative can occur with non-standardized extracts), 100% specificity
+:   95% Sensitivity (false negative can occur with non-standardized extracts), 100% specificity
 
 #### Specific IgE Testing
 
-~70-80% sensitivity, 95% specificity
+\~70-80% sensitivity, 95% specificity
 
 #### Management
 
@@ -675,17 +665,17 @@ For non-aspirin exacerbated respiratory disease (AERD) NSAID hypersensitivity, a
 
 ### Oral Challenge
 
-+---------------+-------------------------+--------------------------+
-| NSAID         | Step 1 Dose             | Step 2 Dose              |
-|               |                         |                          |
-|               | (60 minute observation) | (120 minute observation) |
-+:=============:+:=======================:+:========================:+
-| Aspirin       | 40.5 mg                 | 325 mg                   |
-+---------------+-------------------------+--------------------------+
-| Ibuprofen     | 50 mg                   | 500 mg                   |
-+---------------+-------------------------+--------------------------+
-| Naproxen      | 60 mg                   | 600 mg                   |
-+---------------+-------------------------+--------------------------+
++----------------+-------------------------+--------------------------+
+| NSAID          | Step 1 Dose             | Step 2 Dose              |
+|                |                         |                          |
+|                | (60 minute observation) | (120 minute observation) |
++:==============:+:=======================:+:========================:+
+| Aspirin        | 40.5 mg                 | 325 mg                   |
++----------------+-------------------------+--------------------------+
+| Ibuprofen      | 50 mg                   | 500 mg                   |
++----------------+-------------------------+--------------------------+
+| Naproxen       | 60 mg                   | 600 mg                   |
++----------------+-------------------------+--------------------------+
 
 : Proposed two-step protocol for outpatient NSAID oral challenge in patients without AERD. Adapted from @li2022 {#tbl-nsaids}
 
