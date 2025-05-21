@@ -14,6 +14,10 @@ Concentrations typically employed for drug skin testing are 1:10, 1:100, and ful
 
 ![Intradermal testing](images/drug-allergy/fig-intradermal-testing.png){#fig-intradermal-testing fig-align="center" width="500px"}
 
+### Controls
+
+![Controls for immediate skin testing](images/drug-allergy/fig-immediate-skin-testing-controls.png){#fig-immediate-spt-controls fig-align="center"}
+
 ### Positive Skin Test
 
 ![Positive skin test](images/drug-allergy/fig-positive-skin-testing-criteria.png){#fig-positive-skin-testing-criteria fig-align="center" width="500px"}
@@ -74,8 +78,6 @@ Figure Generated from protocol comparison from [@lee2020]
 ![Tryptase Secretion](images/drug-allergy/fig-tryptase-3.png){#fig-tryptase-3 fig-align="center"}
 
 ![Acute and Baseline Tryptase](images/drug-allergy/fig-tryptase-4.png){#fig-tryptase-4 fig-align="center" width="400px"}
-
-
 
 Tryptase is a natural serine protease
 
