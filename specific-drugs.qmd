@@ -225,7 +225,17 @@ The NPV of penicillin skin testing is \> 95% when performed with only benzylpeni
 Selective IgE-mediated reactions to aminopenicillins are rare in North America (e.g. 3-5% in the United States) versus 25-50% of skin test positive patients in Europe.
 :::
 
-![Penicillin, ampicillin, and penicilloyl polylysine](images/specific-drugs/fig-penicillins.png){#fig-penicillins fig-align="center"}
+![Penicillin G, ampicillin, and penicilloyl polylysine](images/specific-drugs/fig-penicillins.png){#fig-penicillins fig-align="center"}
+
+The polylysine carrier has ~40 lysine repeats.
+
+Oral Penicillin = Penicillin VK
+IM/IV Penicillin = Penicillin G
+Amino group = -NH3
+
+Aminopenicillins = Amoxicillin, Ampicillin
+Aminocephalosporins = Cephalexin, Cefadroxil, Cefprozil and Cefaclor
+
 
 **References:**
 
