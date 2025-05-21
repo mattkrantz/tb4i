@@ -16,7 +16,10 @@ Concentrations typically employed for drug skin testing are 1:10, 1:100, and ful
 
 ### Controls
 
-![Controls for immediate skin testing](images/drug-allergy/fig-immediate-skin-testing-controls.png){#fig-immediate-spt-controls fig-align="center"}
+![Controls for immediate skin testing](images/drug-allergy/fig-immediate-skin-testing-controls.png){#fig-immediate-skin-testing-controls fig-align="center"}
+To increase the solubility of histamine in water, it is provided in its salt form, such as histamine dihydrochloride or histamine phosphate. In vivo, histamine dissociates into its biologically active form, called "histamine base."
+
+The histamine and normal saline controls used for skin testing usually also includes 0.4% phenol (also known as carbolic acid) in order to inhibit microbial growth and maintain sterility. Carbolic acid is what Joseph Lister discovered to be an effective antiseptic for surgery.
 
 ### Positive Skin Test
 
