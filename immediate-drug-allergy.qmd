@@ -26,6 +26,7 @@ The histamine and normal saline controls used for skin testing usually also incl
 ![Positive skin test](images/drug-allergy/fig-positive-skin-testing-criteria.png){#fig-positive-skin-testing-criteria fig-align="center" width="500px"}
 
 ![Immediate skin testing reading times](images/drug-allergy/fig-immediate-skin-test-reading-times.png){#fig-positive-skin-testing-criteria fig-align="center"}
+
 Immediate skin testing starts around 5 minutes and peaks at 15 minutes, resolving around 30 minutes.
 
 Late phase reaction--if occurs--start around 1-2 hours, peak at 6-12 hours, and resolve at 24-48 hours. Not actively/systematically recorded (instruct patients to notify if does occur); however, the exact clinical significance of late phase reactions is unknown.
