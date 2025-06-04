@@ -4,6 +4,12 @@
 
 ### Drug Reaction with Eosinophilia and Systemic Symptoms
 
+![Signs and symptoms of DRESS](images/drug-allergy/fig-dress.png){#fig-dress fig-align="center"}
+
+Nikolsky negative blistering on dependent surfaces due to significant underlying edema. Purpura is also found on dependent surfaces (lower extremities).
+
+Lymphadenopathy (cervical, axillary, epitrochlear, inguinal).
+
 RegiSCAR criteria
 
 <https://doi.org/10.1111/bjd.12501>
@@ -108,16 +114,13 @@ No delayed skin testing method has 100% negative predictive value.
 
 ![Patch testing](images/drug-allergy/fig-patch-testing.png){#fig-patch-testing fig-align="center"}
 
-
 ![Patch testing sites](images/drug-allergy/fig-patch-testing-sites.png){#fig-patch-testing-sites fig-align="center"}
 
 ![Patch testing placement for fixed drug eruption](images/drug-allergy/fig-patch-testing-fixed-drug-eruption.png){#fig-patch-test-placement-fde fig-align="center" width="400px"}
 
-
 ![Patch test reading times](images/drug-allergy/fig-patch-test-reading-times.png){#fig-patch-test-reading-times fig-align="center"}
 
 ![Patch test interpretation](images/drug-allergy/fig-patch-test-reading.png){#fig-patch-test-interpretation fig-align="center" width="500px"}
-
 
 +--------------------------------+-----------------------------------------------------------------------------------------------------------------+
 | Characteristic                 | Details                                                                                                         |
