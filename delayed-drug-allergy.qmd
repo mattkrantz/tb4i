@@ -10,6 +10,8 @@ Nikolsky negative blistering on dependent surfaces due to significant underlying
 
 Lymphadenopathy (cervical, axillary, epitrochlear, inguinal).
 
+![Most common rash morphologies associated with DRESS](images/drug-allergy/fig-dress-rash-morphology-most-common.png){#fig-dress-rash-morphology-most-common fig-align="center"}
+
 RegiSCAR criteria
 
 <https://doi.org/10.1111/bjd.12501>
